@@ -1,0 +1,69 @@
+{% if mastheadHeading %}
+  {% set documentTitle = site.name + " — " + site.tagline %}
+{% elif title == site.name %}
+  {% set documentTitle = site.name %}
+{% else %}
+  {% set documentTitle = title + " · " + site.name %}
+{% endif %}
+{% set socialImage = (image or site.defaultImage) | absUrl %}
+{% set socialAlt = imageAlt or site.defaultImageAlt %}
+{% set canonicalUrl = page.url | absUrl %}
+{% set cat = categories | categoryBySlug(category) %}
+<title>{{ documentTitle }}</title>
+<meta name="description" content="{{ description }}">
+<meta name="robots" content="{{ robots or 'index, follow, max-image-preview:large' }}">
+<meta name="referrer" content="strict-origin-when-cross-origin">
+<meta name="color-scheme" content="light">
+<meta name="theme-color" content="{{ site.themeColor }}">
+<link rel="canonical" href="{{ canonicalUrl }}">
+<link rel="alternate" type="application/rss+xml" title="{{ site.name }} RSS" href="/feed.xml">
+<link rel="alternate" type="application/atom+xml" title="{{ site.name }} Atom" href="/atom.xml">
+<link rel="sitemap" type="application/xml" title="Sitemap" href="/sitemap.xml">
+<link rel="author" href="/humans.txt" type="text/plain">
+<link rel="manifest" href="/site.webmanifest">
+<link rel="icon" href="/favicon.ico" sizes="any">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="/icons/icon-32.png" type="image/png" sizes="32x32">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<meta property="og:site_name" content="{{ site.name }}">
+<meta property="og:locale" content="{{ site.locale }}">
+<meta property="og:type" content="{{ 'article' if schemaKind == 'NewsArticle' else 'website' }}">
+<meta property="og:title" content="{{ documentTitle }}">
+<meta property="og:description" content="{{ description }}">
+<meta property="og:url" content="{{ canonicalUrl }}">
+<meta property="og:image" content="{{ socialImage }}">
+<meta property="og:image:alt" content="{{ socialAlt }}">
+{% if not image or image == site.defaultImage %}
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+{% endif %}
+{% if schemaKind == "NewsArticle" %}
+<meta property="article:published_time" content="{{ page.date | isoDate }}">
+<meta property="article:modified_time" content="{{ (updated or page.date) | isoDate }}">
+<meta property="article:section" content="{{ cat.title }}">
+{% for tag in tags %}
+  {% if tag != "post" and tag != "page" %}
+<meta property="article:tag" content="{{ tag | tagLabel }}">
+  {% endif %}
+{% endfor %}
+{% endif %}
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{{ documentTitle }}">
+<meta name="twitter:description" content="{{ description }}">
+<meta name="twitter:image" content="{{ socialImage }}">
+<meta name="twitter:image:alt" content="{{ socialAlt }}">
+<script type="application/ld+json">{{ schemaBuilder.script({
+  kind: schemaKind or "WebPage",
+  title: title,
+  description: description,
+  pageUrl: page.url,
+  datePublished: page.date,
+  dateModified: updated or page.date,
+  section: category,
+  tags: tags,
+  sources: sources,
+  breadcrumbs: breadcrumbs,
+  image: image or site.defaultImage,
+  imageAlt: socialAlt,
+  author: author or site.name
+}) | safe }}</script>

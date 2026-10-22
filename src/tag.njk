@@ -1,0 +1,26 @@
+---
+pagination:
+  data: collections.tagList
+  size: 1
+  alias: tag
+permalink: "/tag/{{ tag }}/"
+---
+{% set stories = collections.posts | byTag(tag) %}
+<div class="wrap page">
+  {% include "partials/breadcrumbs.njk" %}
+  <h1>Tagged {{ tag | tagLabel }}</h1>
+  <p class="deck">{{ stories.length }} {{ "story" if stories.length == 1 else "stories" }} on {{ site.name }} with this tag.</p>
+  {% if stories.length %}
+    <ul class="story-list">
+      {% for post in stories %}
+        <li>
+          {% set level = 2 %}
+          {% set showDeck = true %}
+          {% include "partials/story.njk" %}
+        </li>
+      {% endfor %}
+    </ul>
+  {% else %}
+    <p class="empty">No stories use this tag.</p>
+  {% endif %}
+</div>

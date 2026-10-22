@@ -1,0 +1,28 @@
+{
+  "name": "ai-headline-hub",
+  "private": true,
+  "type": "module",
+  "description": "AI Headline Hub, a static news site published by Joshua Israel Ventures LLC.",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "build": "eleventy",
+    "start": "eleventy --serve",
+    "dev": "eleventy --serve",
+    "icons": "node scripts/generate-icons.mjs",
+    "indexnow": "node scripts/indexnow.mjs",
+    "validate": "node scripts/validate.mjs",
+    "test": "npm run build && npm run validate"
+  },
+  "dependencies": {
+    "@11ty/eleventy": "^3.1.2",
+    "luxon": "^3.7.2",
+    "markdown-it": "^14.1.0"
+  },
+  "devDependencies": {
+    "fast-xml-parser": "^5.3.2",
+    "html-validate": "^10.3.0",
+    "sharp": "^0.34.4"
+  }
+}

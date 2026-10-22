@@ -1,0 +1,67 @@
+---
+layout: layouts/base.njk
+---
+{% set cat = categories | categoryBySlug(category) %}
+<article class="wrap article-page">
+  {% include "partials/breadcrumbs.njk" %}
+  <header>
+    <p class="kicker"><a href="/category/{{ cat.slug }}/">{{ cat.title }}</a></p>
+    <h1 class="article-title">{{ title }}</h1>
+    <p class="deck">{{ description }}</p>
+    <p class="byline">
+      By <a href="/about/">{{ author or site.name }}</a>
+      · <time datetime="{{ page.date | isoDate }}">{{ page.date | readableDateTime }}</time>
+      {% if updated and (updated | isoDate) != (page.date | isoDate) %}
+        · Updated <time datetime="{{ updated | isoDate }}">{{ updated | readableDateTime }}</time>
+      {% endif %}
+      · <a href="/editorial-policy/">Editorial policy</a>
+    </p>
+  </header>
+  {% if correction %}
+    <aside class="correction" role="note">
+      <p><strong>Correction.</strong> {{ correction }}</p>
+    </aside>
+  {% endif %}
+  <div class="prose">
+    {{ content | safe }}
+  </div>
+  {% if sources and sources.length %}
+    <section class="sources" aria-labelledby="sources-heading">
+      <h2 id="sources-heading">Primary sources</h2>
+      <ol>
+        {% for source in sources %}
+          <li>
+            <a href="{{ source.url }}">{{ source.title }}</a>
+            {% if source.publisher %}<span class="source-pub">{{ source.publisher }}</span>{% endif %}
+          </li>
+        {% endfor %}
+      </ol>
+    </section>
+  {% endif %}
+  {% set publicTags = [] %}
+  <section class="tags" aria-labelledby="tags-heading">
+    <h2 id="tags-heading">Tags</h2>
+    <ul class="tag-list">
+      {% for tag in tags %}
+        {% if tag != "post" and tag != "page" %}
+          <li><a href="/tag/{{ tag }}/">{{ tag | tagLabel }}</a></li>
+        {% endif %}
+      {% endfor %}
+    </ul>
+  </section>
+  {% set more = collections.posts | moreStories(page.url) %}
+  {% if more.length %}
+    <section class="related" aria-labelledby="more-heading">
+      <h2 id="more-heading">More stories</h2>
+      <ul class="story-list">
+        {% for post in more %}
+          <li>
+            {% set level = 3 %}
+            {% set showDeck = false %}
+            {% include "partials/story.njk" %}
+          </li>
+        {% endfor %}
+      </ul>
+    </section>
+  {% endif %}
+</article>

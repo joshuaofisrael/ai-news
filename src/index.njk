@@ -1,0 +1,51 @@
+<div class="wrap home">
+  {% if collections.posts.length %}
+    <div class="home-grid">
+      {% set post = collections.posts[0] %}
+      {% set level = 2 %}
+      {% set variant = "lead" %}
+      {% set showDeck = true %}
+      {% include "partials/story.njk" %}
+      <aside class="rail" aria-labelledby="also-filed">
+        <h2 id="also-filed">Also filed</h2>
+        {% if collections.posts.length > 1 %}
+          <ol class="latest-list">
+            {% for post in collections.posts | head(site.postsOnHome) %}
+              {% if not loop.first %}
+                {% set cat = categories | categoryBySlug(post.data.category) %}
+                <li>
+                  <p class="kicker"><a href="/category/{{ cat.slug }}/">{{ cat.title }}</a></p>
+                  <h3><a href="{{ post.url }}">{{ post.data.title }}</a></h3>
+                  <p class="byline"><time datetime="{{ post.date | isoDate }}">{{ post.date | readableDate }}</time></p>
+                </li>
+              {% endif %}
+            {% endfor %}
+          </ol>
+        {% else %}
+          <p class="empty">This is the only story on the desk so far.</p>
+        {% endif %}
+        <p class="note"><a href="/archive/">Read the archive</a></p>
+      </aside>
+    </div>
+  {% else %}
+    <p class="empty">No stories have been published yet. The first Markdown file in the content folder will appear here.</p>
+  {% endif %}
+
+  <section class="sections" aria-labelledby="sections-heading">
+    <h2 id="sections-heading" class="section-title">Sections</h2>
+    <div class="cat-grid">
+      {% for category in categories %}
+        {% set stories = collections.posts | byCategory(category.slug) %}
+        <article class="cat-card">
+          <h3><a href="/category/{{ category.slug }}/">{{ category.title }}</a></h3>
+          <p>{{ category.description }}</p>
+          {% if stories.length %}
+            <p class="cat-latest"><a href="{{ stories[0].url }}">{{ stories[0].data.title }}</a></p>
+          {% else %}
+            <p class="empty">No stories filed here yet.</p>
+          {% endif %}
+        </article>
+      {% endfor %}
+    </div>
+  </section>
+</div>

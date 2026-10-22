@@ -1,0 +1,31 @@
+import site from "../../_data/site.js";
+import categories from "../../_data/categories.js";
+import { articlePermalink } from "../../_lib/posts.js";
+
+export default {
+  layout: "layouts/article.njk",
+  tags: ["post"],
+  schemaKind: "NewsArticle",
+  image: site.defaultImage,
+  imageAlt: site.defaultImageAlt,
+  eleventyComputed: {
+    permalink(data) {
+      if (data.draft === true && process.env.ELEVENTY_RUN_MODE !== "serve") {
+        return false;
+      }
+      return articlePermalink(data);
+    },
+    breadcrumbs(data) {
+      const category = categories.find((item) => item.slug === data.category);
+      const self = articlePermalink(data);
+      return [
+        { name: "Home", url: "/" },
+        {
+          name: category ? category.title : "Archive",
+          url: category ? `/category/${category.slug}/` : "/archive/",
+        },
+        { name: data.title, url: self },
+      ];
+    },
+  },
+};

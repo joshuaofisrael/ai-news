@@ -1,0 +1,33 @@
+<footer class="site-footer">
+  <div class="wrap footer-grid">
+    <div>
+      <p class="footer-label">The desk</p>
+      <p>{{ site.name }} is published by {{ site.legalName }}. Stories link to primary sources. No analytics script is loaded.</p>
+      <p><a href="/editorial-policy/">How we report and correct</a></p>
+    </div>
+    <nav aria-label="Read">
+      <p class="footer-label">Read</p>
+      <ul class="footer-links">
+        <li><a href="/archive/">Archive</a></li>
+        <li><a href="/tags/">Tags</a></li>
+        <li><a href="/feed.xml">RSS</a></li>
+        <li><a href="/atom.xml">Atom</a></li>
+        <li><a href="/llms.txt">llms.txt</a></li>
+      </ul>
+    </nav>
+    <nav aria-label="Legal">
+      <p class="footer-label">Legal</p>
+      <ul class="footer-links">
+        <li><a href="/about/">About</a></li>
+        <li><a href="/contact/">Contact</a></li>
+        <li><a href="/editorial-policy/">Editorial policy</a></li>
+        <li><a href="/privacy/">Privacy</a></li>
+        <li><a href="/terms/">Terms</a></li>
+        <li><a href="/disclaimer/">Disclaimer</a></li>
+      </ul>
+    </nav>
+  </div>
+  <div class="wrap">
+    <p class="footer-meta">© {{ "" | thisYear }} {{ site.legalName }}. All rights reserved. {{ site.name }} is owned and operated by {{ site.legalName }}.</p>
+  </div>
+</footer>
