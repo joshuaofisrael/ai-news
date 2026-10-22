@@ -1,4 +1,3 @@
-import site from "../../_data/site.js";
 import categories from "../../_data/categories.js";
 import { articlePermalink } from "../../_lib/posts.js";
 
@@ -6,8 +5,6 @@ export default {
   layout: "layouts/article.njk",
   tags: ["post"],
   schemaKind: "NewsArticle",
-  image: site.defaultImage,
-  imageAlt: site.defaultImageAlt,
   eleventyComputed: {
     permalink(data) {
       if (data.draft === true && process.env.ELEVENTY_RUN_MODE !== "serve") {

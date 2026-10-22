@@ -8,6 +8,14 @@ tags:
   - anthropic
   - claude
   - agents
+image:
+  src: /images/stories/claude-duet.webp
+  alt: Abstract network of nodes with a pause mark, drawn for the Claude Duet report.
+  credit: Original illustration by AI Headline Hub
+  source_url: https://github.com/joshuaofisrael/ai-news/blob/main/src/assets/art/claude-duet.svg
+  licence: Original artwork, all rights reserved
+  width: 1200
+  height: 675
 sources:
   - title: Introducing Claude Duet
     url: https://claude.com/resources/articles/claude-duet

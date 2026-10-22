@@ -38,8 +38,14 @@ tags:
   - openai
   - agents
 author: AI Headline Hub
-image: /og.png
-imageAlt: Short description of the social image
+image:
+  src: /images/stories/example.webp
+  alt: Short description of what the picture shows
+  credit: Original illustration by AI Headline Hub
+  source_url: https://github.com/joshuaofisrael/ai-news/blob/main/src/assets/art/example.svg
+  licence: Original artwork, all rights reserved
+  width: 1200
+  height: 675
 correction: ""
 draft: false
 sources:
@@ -59,8 +65,7 @@ sources:
 | `tags` | yes | Lowercase slugs. Do not include `post`. |
 | `sources` | yes | At least one `https` URL. Rendered on the page and in JSON-LD `citation`. |
 | `author` | no | Defaults to the site name. |
-| `image` | no | Root-relative path or absolute URL. Defaults to `/og.png` (1200×630). |
-| `imageAlt` | no | Required in practice when `image` is not the default card. |
+| `image` | no | Object with `src`, `alt`, `credit`, `source_url`, `licence`, `width`, and `height`. `src` is a root-relative WebP path. The build also looks for a matching AVIF and a `-640` variant. Log every file in `images-licences.md`. Pages without an image use `/og.png`. |
 | `correction` | no | Shown in a note at the top of the story. Say what was wrong and what changed. |
 | `draft` | no | `true` keeps the file out of production builds. Drafts are visible in `npm start`. |
 
@@ -173,7 +178,7 @@ The footer on every page reads: “© YEAR Joshua Israel Ventures LLC. All right
 
 ## Analytics
 
-No analytics script is loaded. The placeholder is the HTML comment at the end of `src/_includes/layouts/base.njk`. When you choose a provider, replace that comment and update `src/privacy.njk` in the same change.
+Cloudflare Web Analytics loads from `cfBeaconToken` in [`src/_data/site.js`](src/_data/site.js). Every HTML page, including the 404 page, includes the beacon script immediately before `</body>`. `npm test` fails if that script is missing. The layout omits the script when the token is empty.
 
 ## Deploy
 
@@ -187,5 +192,5 @@ The first deployment needs **Settings → Pages → Source** set to **GitHub Act
 
 - Node.js 22
 - Eleventy 3
-- No client-side JavaScript and no web fonts
+- No web fonts. One small script reveals cards on scroll and turns itself off when reduced motion is requested
 - Articles in `src/content/posts/`

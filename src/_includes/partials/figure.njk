@@ -1,0 +1,30 @@
+{% set img = picture | storyImage %}
+<figure class="story-media{% if className %} {{ className }}{% endif %}">
+  <picture>
+    {% if img.srcsetAvif %}
+      <source type="image/avif" srcset="{{ img.srcsetAvif }}" sizes="{{ sizes or '(min-width: 64rem) 42rem, 100vw' }}">
+    {% endif %}
+    {% if img.srcsetWebp %}
+      <source type="image/webp" srcset="{{ img.srcsetWebp }}" sizes="{{ sizes or '(min-width: 64rem) 42rem, 100vw' }}">
+    {% endif %}
+    <img
+      src="{{ img.src }}"
+      alt="{{ img.alt }}"
+      width="{{ img.width }}"
+      height="{{ img.height }}"
+      loading="{{ loading or 'lazy' }}"
+      decoding="async"
+      {% if fetchpriority %}fetchpriority="{{ fetchpriority }}"{% endif %}
+    >
+  </picture>
+  {% if img.credit %}
+    <figcaption>
+      {{ img.credit }}
+      {% if img.source_url %}
+        · <a href="{{ img.source_url }}"{% if img.source_url.slice(0, 4) == "http" %} rel="noopener noreferrer"{% endif %}>{{ img.licence or "Source" }}</a>
+      {% elif img.licence %}
+        · {{ img.licence }}
+      {% endif %}
+    </figcaption>
+  {% endif %}
+</figure>

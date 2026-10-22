@@ -74,13 +74,27 @@ export function relativeUrl(fromPageUrl, toUrl) {
 }
 
 export function relativizeRootAttributes(html, pageUrl) {
-  return String(html || "").replace(
+  const attributes = String(html || "").replace(
     /(\s(?:href|src|action)=")(\/[^"]*)(")/g,
     (match, before, url, after) => {
       if (url.startsWith("//")) return match;
       return `${before}${relativeUrl(pageUrl, url)}${after}`;
     },
   );
+  return attributes.replace(/(\ssrcset=")([^"]*)(")/g, (match, before, value, after) => {
+    const rewritten = value
+      .split(",")
+      .map((part) => {
+        const trimmed = part.trim();
+        const space = trimmed.indexOf(" ");
+        const url = space === -1 ? trimmed : trimmed.slice(0, space);
+        const rest = space === -1 ? "" : trimmed.slice(space);
+        if (!url.startsWith("/") || url.startsWith("//")) return trimmed;
+        return `${relativeUrl(pageUrl, url)}${rest}`;
+      })
+      .join(", ");
+    return `${before}${rewritten}${after}`;
+  });
 }
 
 export function prefixRootAttributes(html, prefix) {

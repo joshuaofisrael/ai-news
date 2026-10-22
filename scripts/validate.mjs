@@ -184,6 +184,15 @@ for (const file of htmlFiles) {
     }
   }
 
+  const beacon =
+    `<script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "${site.cfBeaconToken}"}'></script>`;
+  if (!site.cfBeaconToken) fail("cfBeaconToken is empty");
+  const beaconAt = html.indexOf(beacon);
+  const bodyEnd = html.lastIndexOf("</body>");
+  if (beaconAt < 0 || beaconAt > bodyEnd) {
+    fail(`${rel} is missing the Cloudflare beacon before </body>`);
+  }
+
   const copyright = `© ${thisYear()} ${site.legalName}. All rights reserved. ${site.name} is owned and operated by ${site.legalName}.`;
   if (!html.includes(copyright)) fail(`${rel} is missing the required copyright line`);
   const pagePath = rel.split(path.sep).join("/");
@@ -210,7 +219,7 @@ for (const file of htmlFiles) {
     descriptions.set(description, rel);
   }
 
-  if (/(?:\shref|\ssrc|\saction)="\/(?!\/)/.test(html)) {
+  if (/(?:\shref|\ssrc|\saction|\ssrcset)="\/(?!\/)/.test(html)) {
     fail(`${rel} contains a root-absolute URL`);
   }
 

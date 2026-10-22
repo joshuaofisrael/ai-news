@@ -6,7 +6,7 @@ pagination:
 permalink: "/category/{{ category.slug }}/"
 ---
 {% set stories = collections.posts | byCategory(category.slug) %}
-<div class="wrap page">
+<div class="wrap page cat-{{ category.slug }}">
   {% include "partials/breadcrumbs.njk" %}
   <h1>{{ category.title }}</h1>
   <p class="deck">{{ category.description }}</p>
@@ -17,6 +17,9 @@ permalink: "/category/{{ category.slug }}/"
           {% set level = 2 %}
           {% set variant = "" %}
           {% set showDeck = true %}
+          {% set showImage = true %}
+          {% set loading = "lazy" %}
+          {% set fetchpriority = false %}
           {% include "partials/story.njk" %}
         </li>
       {% endfor %}

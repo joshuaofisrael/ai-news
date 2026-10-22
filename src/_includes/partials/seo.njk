@@ -5,8 +5,9 @@
 {% else %}
   {% set documentTitle = title + " · " + site.name %}
 {% endif %}
-{% set socialImage = (image or site.defaultImage) | absUrl %}
-{% set socialAlt = imageAlt or site.defaultImageAlt %}
+{% set img = (image if image else site.defaultImage) | storyImage %}
+{% set socialImage = img.src | absUrl %}
+{% set socialAlt = img.alt or imageAlt or site.defaultImageAlt %}
 {% set canonicalUrl = page.url | absUrl %}
 {% set cat = categories | categoryBySlug(category) %}
 <title>{{ documentTitle }}</title>
@@ -33,10 +34,8 @@
 <meta property="og:url" content="{{ canonicalUrl }}">
 <meta property="og:image" content="{{ socialImage }}">
 <meta property="og:image:alt" content="{{ socialAlt }}">
-{% if not image or image == site.defaultImage %}
-<meta property="og:image:width" content="1200">
-<meta property="og:image:height" content="630">
-{% endif %}
+<meta property="og:image:width" content="{{ img.width }}">
+<meta property="og:image:height" content="{{ img.height }}">
 {% if schemaKind == "NewsArticle" %}
 <meta property="article:published_time" content="{{ page.date | isoDate }}">
 <meta property="article:modified_time" content="{{ (updated or page.date) | isoDate }}">
@@ -63,7 +62,7 @@
   tags: tags,
   sources: sources,
   breadcrumbs: breadcrumbs,
-  image: image or site.defaultImage,
+  image: img.src,
   imageAlt: socialAlt,
   author: author or site.name
 }) | safe }}</script>
