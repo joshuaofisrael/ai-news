@@ -1,5 +1,6 @@
 import markdownIt from "markdown-it";
 import site from "./src/_data/site.js";
+import { storyImage } from "./src/_lib/images.js";
 import { tagLabel } from "./src/_lib/labels.js";
 import {
   absoluteUrl,
@@ -51,6 +52,7 @@ export default function (eleventyConfig) {
   eleventyConfig.setLibrary("md", markdown);
   eleventyConfig.addFilter("markdown", (value) => markdown.render(String(value || "")));
 
+  eleventyConfig.addFilter("storyImage", (value) => storyImage(value, site));
   eleventyConfig.addFilter("href", (value) => prefixPath(value, pathPrefix));
   eleventyConfig.addFilter("absUrl", (value) => absoluteUrl(value || "/", siteUrl));
   eleventyConfig.addFilter("isoDate", (value) => isoDate(value));

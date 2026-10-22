@@ -16,6 +16,9 @@ permalink: "/tag/{{ tag }}/"
         <li>
           {% set level = 2 %}
           {% set showDeck = true %}
+          {% set showImage = true %}
+          {% set loading = "lazy" %}
+          {% set fetchpriority = false %}
           {% include "partials/story.njk" %}
         </li>
       {% endfor %}

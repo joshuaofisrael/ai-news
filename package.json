@@ -11,6 +11,7 @@
     "start": "eleventy --serve",
     "dev": "eleventy --serve",
     "icons": "node scripts/generate-icons.mjs",
+    "art": "node scripts/generate-story-art.mjs",
     "indexnow": "node scripts/indexnow.mjs",
     "validate": "node scripts/validate.mjs",
     "test": "npm run build && npm run validate"

@@ -13,6 +13,9 @@
     {{ content | safe }}
   </main>
   {% include "partials/footer.njk" %}
-  <!-- Analytics placeholder: no tracking script is loaded. Replace this comment with a provider snippet and update the privacy policy in the same change. -->
+  <script src="/assets/js/motion.js" defer></script>
+  {% if site.cfBeaconToken %}
+  <script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "{{ site.cfBeaconToken }}"}'></script>
+  {% endif %}
 </body>
 </html>

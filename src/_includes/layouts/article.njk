@@ -17,6 +17,11 @@ layout: layouts/base.njk
       · <a href="/editorial-policy/">Editorial policy</a>
     </p>
   </header>
+  {% set picture = image %}
+  {% set loading = "eager" %}
+  {% set fetchpriority = "high" %}
+  {% set className = "article-hero" %}
+  {% include "partials/figure.njk" %}
   {% if correction %}
     <aside class="correction" role="note">
       <p><strong>Correction.</strong> {{ correction }}</p>
@@ -58,6 +63,9 @@ layout: layouts/base.njk
           <li>
             {% set level = 3 %}
             {% set showDeck = false %}
+            {% set showImage = true %}
+            {% set loading = "lazy" %}
+            {% set fetchpriority = false %}
             {% include "partials/story.njk" %}
           </li>
         {% endfor %}

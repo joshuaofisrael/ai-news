@@ -9,6 +9,14 @@ tags:
   - google-cloud
   - codex
   - enterprise
+image:
+  src: /images/stories/openai-google-cloud.webp
+  alt: Two clusters of nodes joined by a bridge, drawn for the OpenAI and Google Cloud report.
+  credit: Original illustration by AI Headline Hub
+  source_url: https://github.com/joshuaofisrael/ai-news/blob/main/src/assets/art/openai-google-cloud.svg
+  licence: Original artwork, all rights reserved
+  width: 1200
+  height: 675
 sources:
   - title: OpenAI models are coming to Google Cloud
     url: https://openai.com/index/openai-models-google-cloud

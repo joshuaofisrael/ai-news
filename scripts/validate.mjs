@@ -210,7 +210,7 @@ for (const file of htmlFiles) {
     descriptions.set(description, rel);
   }
 
-  if (/(?:\shref|\ssrc|\saction)="\/(?!\/)/.test(html)) {
+  if (/(?:\shref|\ssrc|\saction|\ssrcset)="\/(?!\/)/.test(html)) {
     fail(`${rel} contains a root-absolute URL`);
   }
 

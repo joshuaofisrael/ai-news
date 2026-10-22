@@ -49,7 +49,7 @@ await sharp(buffers.get(180)).toFile(path.join(publicDir, "apple-touch-icon.png"
 
 const maskMark = await sharp(favicon).resize(360, 360).png().toBuffer();
 await sharp({
-  create: { width: 512, height: 512, channels: 4, background: "#1c1915" },
+  create: { width: 512, height: 512, channels: 4, background: "#0d1218" },
 })
   .composite([{ input: maskMark, gravity: "centre" }])
   .png()
