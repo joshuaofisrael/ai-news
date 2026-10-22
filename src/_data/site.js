@@ -33,7 +33,7 @@ const site = {
   backgroundColor: "#eef3f4",
   defaultImage: "/og.png",
   defaultImageAlt: "AI Headline Hub network mark on a dark field",
-  cfBeaconToken: "",
+  cfBeaconToken: "1961dece0c3d4b0db32e71aeb218d55d",
   indexNowKey: "c7e4a91b6d2f48e0a3b7159c8d6e0f24",
   securityTxtMaxAgeDays: 180,
   newsSitemapHours: 48,

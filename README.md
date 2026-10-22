@@ -178,7 +178,7 @@ The footer on every page reads: “© YEAR Joshua Israel Ventures LLC. All right
 
 ## Analytics
 
-No analytics script is loaded while `cfBeaconToken` in [`src/_data/site.js`](src/_data/site.js) is empty. When that value is set, the base layout adds the Cloudflare Web Analytics beacon before `</body>`.
+Cloudflare Web Analytics loads from `cfBeaconToken` in [`src/_data/site.js`](src/_data/site.js). Every HTML page, including the 404 page, includes the beacon script immediately before `</body>`. `npm test` fails if that script is missing. The layout omits the script when the token is empty.
 
 ## Deploy
 
