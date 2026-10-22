@@ -1,0 +1,41 @@
+<header class="site-header">
+  <div class="wrap">
+    <div class="utility">
+      <p>{{ site.legalName }}</p>
+      <p>
+        <a href="/feed.xml">RSS</a>
+        <span aria-hidden="true"> · </span>
+        <a href="/about/">About</a>
+      </p>
+    </div>
+    <div class="masthead">
+      {% if mastheadHeading %}
+        <h1 class="masthead-title"><a href="/">{{ site.name }}</a></h1>
+      {% else %}
+        <p class="masthead-title"><a href="/">{{ site.name }}</a></p>
+      {% endif %}
+      <p class="tagline">{{ site.tagline }}</p>
+    </div>
+    <p class="edition">
+      {% if collections.posts.length %}
+        Latest story {{ collections.posts[0].date | readableDate }}
+      {% else %}
+        No stories published yet
+      {% endif %}
+    </p>
+    <hr class="rule-double">
+    <nav class="section-nav" aria-label="Sections">
+      <ul>
+        {% for category in categories %}
+          {% set catHref = "/category/" + category.slug + "/" %}
+          <li>
+            <a href="{{ catHref }}" {% if page.url == (catHref | href) %}aria-current="page"{% endif %}>{{ category.title }}</a>
+          </li>
+        {% endfor %}
+        <li><a href="/archive/" {% if page.url == ("/archive/" | href) %}aria-current="page"{% endif %}>Archive</a></li>
+        <li><a href="/about/" {% if page.url == ("/about/" | href) %}aria-current="page"{% endif %}>About</a></li>
+      </ul>
+    </nav>
+    <hr class="rule-single">
+  </div>
+</header>

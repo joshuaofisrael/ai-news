@@ -1,0 +1,34 @@
+---
+layout: layouts/page.njk
+title: Contact
+description: Send AI Headline Hub a correction, a security report, or a newsroom note. This static site does not store messages from a contact form.
+permalink: /contact/
+schemaKind: ContactPage
+tags:
+  - page
+updated: 2026-10-22
+dek: Corrections, security reports, and other notes for the desk.
+breadcrumbs:
+  - name: Home
+    url: /
+  - name: Contact
+    url: /contact/
+---
+<p>{{ site.name }} is owned and operated by {{ site.legalName }}. {{ site.legalName }} does not publish a street address. This page does not run a form and does not store messages on the server. Write to the desk in one of the channels below.</p>
+<h2>Newsroom</h2>
+<p><a href="{{ site.contactUrl }}">Open an issue on the project repository</a>. Use that for story tips, questions, and general mail.</p>
+{% if site.contactEmail %}
+  <p>Email: <a href="mailto:{{ site.contactEmail }}">{{ site.contactEmail }}</a></p>
+{% endif %}
+<h2>Corrections</h2>
+<p>If a story has a factual error, send the story URL, the sentence that is wrong, and the correction. A primary source helps. Read how fixes are shown on the <a href="/editorial-policy/">editorial policy</a> page.</p>
+{% if site.correctionsEmail %}
+  <p>Corrections email: <a href="mailto:{{ site.correctionsEmail }}">{{ site.correctionsEmail }}</a></p>
+{% else %}
+  <p>Until a corrections inbox is listed in the site config, use the repository issue link above and put “Correction” in the title.</p>
+{% endif %}
+<h2>Security</h2>
+<p>Report a vulnerability in this website through <a href="/.well-known/security.txt">security.txt</a>.</p>
+{% if site.securityEmail %}
+  <p>Security email: <a href="mailto:{{ site.securityEmail }}">{{ site.securityEmail }}</a></p>
+{% endif %}

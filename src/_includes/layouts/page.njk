@@ -1,0 +1,13 @@
+---
+layout: layouts/base.njk
+---
+<div class="wrap page">
+  {% include "partials/breadcrumbs.njk" %}
+  <h1>{{ title }}</h1>
+  {% if dek %}
+    <p class="deck">{{ dek }}</p>
+  {% endif %}
+  <div class="{{ "page-body" if wide else "prose" }}">
+    {{ content | safe }}
+  </div>
+</div>

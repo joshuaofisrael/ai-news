@@ -1,0 +1,27 @@
+---
+pagination:
+  data: categories
+  size: 1
+  alias: category
+permalink: "/category/{{ category.slug }}/"
+---
+{% set stories = collections.posts | byCategory(category.slug) %}
+<div class="wrap page">
+  {% include "partials/breadcrumbs.njk" %}
+  <h1>{{ category.title }}</h1>
+  <p class="deck">{{ category.description }}</p>
+  {% if stories.length %}
+    <ul class="story-list">
+      {% for post in stories %}
+        <li>
+          {% set level = 2 %}
+          {% set variant = "" %}
+          {% set showDeck = true %}
+          {% include "partials/story.njk" %}
+        </li>
+      {% endfor %}
+    </ul>
+  {% else %}
+    <p class="empty">No stories are filed under {{ category.title }} yet. A new article appears here when its category is <code>{{ category.slug }}</code>.</p>
+  {% endif %}
+</div>
