@@ -413,7 +413,7 @@ for (const name of postFiles) {
   if (urls.length < 1) fail(`${name} needs at least one https source URL`);
   const category = (matter.match(/^category:\s*(\S+)\s*$/m) || [])[1];
   if (category && !categorySlugs.has(category)) fail(`${name} uses unknown category ${category}`);
-  if (!matter.includes("credit: Image: AI Headline Hub")) {
+  if (!matter.includes("credit: \"Image: AI Headline Hub\"")) {
     fail(`${name} image credit must be "Image: AI Headline Hub"`);
   }
   if (!matter.includes("licence: AI Headline Hub")) {
