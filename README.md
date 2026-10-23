@@ -200,7 +200,7 @@ JSON-LD on every page includes `Organization` (Joshua Israel Ventures LLC) and `
 
 `robots.txt` allows every crawler and also names Googlebot, Bingbot, OAI-SearchBot, GPTBot, PerplexityBot, ClaudeBot, Google-Extended, Applebot-Extended, CCBot, and Bytespider. It links `sitemap.xml`, the IndexNow key file `c7e4a91b6d2f48e0a3b7159c8d6e0f24.txt`, and `llms.txt`.
 
-The footer on every page reads: “© YEAR Joshua Israel Ventures LLC. All rights reserved. AI Headline Hub is owned and operated by Joshua Israel Ventures LLC.” YEAR is the build year. Terms, privacy, and the disclaimer name the company and are governed by Florida law. The about page carries the same ownership line. The contact page has no street address and does not store form submissions. The favicon is an original mark. Story and hero photographs are AI-generated images, credited on the page and in `images-licences.md`. The social card is a crop of the homepage hero photograph.
+The footer on every page reads: “© YEAR Joshua Israel Ventures LLC. All rights reserved. AI Headline Hub is owned and operated by Joshua Israel Ventures LLC.” YEAR is the build year. Terms, privacy, and the disclaimer name the company and are governed by Florida law. The about page carries the same ownership line. The contact page has no street address. Its form sends a note through FormSubmit.co and this site does not keep its own copy. The favicon is an original mark. Story and hero photographs are AI-generated images, credited on the page and in `images-licences.md`. The social card is a crop of the homepage hero photograph.
 
 ## Analytics
 
