@@ -13,9 +13,9 @@ draft: false
 image:
   src: /images/stories/americans-ai-poll.webp
   alt: An empty suburban street at dusk with a low, windowless data-center building behind a chain-link fence and trees.
-  credit: AI-generated image, AI Headline Hub
+  credit: "Image: AI Headline Hub"
   source_url: https://github.com/joshuaofisrael/ai-news/blob/main/src/assets/photos/stories/americans-ai-poll.jpg
-  licence: Generated for AI Headline Hub
+  licence: AI Headline Hub
   width: 1280
   height: 720
 correction: ""

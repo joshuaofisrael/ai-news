@@ -13,9 +13,9 @@ draft: false
 image:
   src: /images/stories/ai-consciousness-comment.webp
   alt: An empty neuroscience lab bench with a model of a brain under a lamp, a closed laptop, and no people.
-  credit: AI-generated image, AI Headline Hub
+  credit: "Image: AI Headline Hub"
   source_url: https://github.com/joshuaofisrael/ai-news/blob/main/src/assets/photos/stories/ai-consciousness-comment.jpg
-  licence: Generated for AI Headline Hub
+  licence: AI Headline Hub
   width: 1280
   height: 720
 correction: ""

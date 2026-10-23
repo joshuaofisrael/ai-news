@@ -13,9 +13,9 @@ draft: false
 image:
   src: /images/stories/uber-chatgpt-work.webp
   alt: An empty open-plan office at night, with monitors showing blurred documents and a city visible through the windows.
-  credit: AI-generated image, AI Headline Hub
+  credit: "Image: AI Headline Hub"
   source_url: https://github.com/joshuaofisrael/ai-news/blob/main/src/assets/photos/stories/uber-chatgpt-work.jpg
-  licence: Generated for AI Headline Hub
+  licence: AI Headline Hub
   width: 1280
   height: 720
 correction: ""

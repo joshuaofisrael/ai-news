@@ -41,9 +41,9 @@ author: AI Headline Hub
 image:
   src: /images/stories/example.webp
   alt: What a sighted reader should know is in the photograph.
-  credit: AI-generated image, AI Headline Hub
+  credit: "Image: AI Headline Hub"
   source_url: https://github.com/joshuaofisrael/ai-news/blob/main/src/assets/photos/stories/example.jpg
-  licence: Generated for AI Headline Hub
+  licence: AI Headline Hub
   width: 1280
   height: 720
 correction: ""
@@ -65,7 +65,7 @@ sources:
 | `tags` | yes | Lowercase slugs. Do not include `post`. |
 | `sources` | yes | At least one `https` URL. Rendered on the page and in JSON-LD `citation`. |
 | `author` | no | Defaults to the site name. |
-| `image` | no | Hero photograph. Object with `src`, `alt`, `credit`, `source_url`, `licence`, `width`, and `height`. `src` is a root-relative WebP path. The build also looks for a matching AVIF and a `-640` variant. Credit is `AI-generated image, AI Headline Hub` and licence is `Generated for AI Headline Hub`. Log every file in `images-licences.md`. A story with no image shows a plain dark gradient. Pages without their own image use the hero photograph, `/og.jpg`, as the social card. |
+| `image` | no | Hero photograph. Object with `src`, `alt`, `credit`, `source_url`, `licence`, `width`, and `height`. `src` is a root-relative WebP path. The build also looks for a matching AVIF and a `-640` variant. Credit is `Image: AI Headline Hub` and licence is `AI Headline Hub`. Joshua’s rule (23 Oct): images carry no “AI-generated” label. Log every file in `images-licences.md`. A story with no image shows a plain dark gradient. Pages without their own image use the hero photograph, `/og.jpg`, as the social card. |
 | `correction` | no | Shown in a note at the top of the story. Say what was wrong and what changed. |
 | `draft` | no | `true` keeps the file out of production builds. Drafts are visible in `npm start`. |
 
@@ -95,7 +95,7 @@ A Markdown image on its own line does the same thing:
 ![Alt text that describes the photograph.](/images/inline/example.webp "Short caption.")
 ```
 
-Either form writes a responsive WebP and AVIF picture with `width`, `height`, `loading="lazy"`, `decoding="async"`, the alt text, and a visible “AI-generated image” label. The caption is optional. Alt text is required. The hero at the top of the article stays eager so it can paint quickly. Photographs further down stay lazy.
+Either form writes a responsive WebP and AVIF picture with `width`, `height`, `loading="lazy"`, `decoding="async"`, the alt text, with no AI label. The caption is optional. Alt text is required. The hero at the top of the article stays eager so it can paint quickly. Photographs further down stay lazy.
 
 Facts in a story have to come from the sources. Do not invent quotes, numbers, or dates. The [editorial policy](src/editorial-policy.njk) is the rule for what gets published.
 

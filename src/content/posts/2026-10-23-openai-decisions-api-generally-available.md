@@ -13,9 +13,9 @@ draft: false
 image:
   src: /images/stories/decisions-api.webp
   alt: A close view of a laptop screen showing a blurred decision tree of three unlabeled branches, on a dark desk.
-  credit: AI-generated image, AI Headline Hub
+  credit: "Image: AI Headline Hub"
   source_url: https://github.com/joshuaofisrael/ai-news/blob/main/src/assets/photos/stories/decisions-api.jpg
-  licence: Generated for AI Headline Hub
+  licence: AI Headline Hub
   width: 1280
   height: 720
 correction: ""

@@ -11,9 +11,9 @@ tags:
 image:
   src: /images/stories/partner-safeguards.webp
   alt: A processor chip glowing on a dark circuit board, with blurred server lights behind it.
-  credit: AI-generated image, AI Headline Hub
+  credit: "Image: AI Headline Hub"
   source_url: https://github.com/joshuaofisrael/ai-news/blob/main/src/assets/photos/stories/partner-safeguards.jpg
-  licence: Generated for AI Headline Hub
+  licence: AI Headline Hub
   width: 1280
   height: 720
 correction: An earlier version said partners have to meet one safety standard. OpenAI’s post says each partner’s safeguards should meet or exceed OpenAI’s and stay consistent across services.

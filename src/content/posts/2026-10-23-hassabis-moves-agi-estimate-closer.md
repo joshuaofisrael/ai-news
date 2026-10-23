@@ -13,9 +13,9 @@ draft: false
 image:
   src: /images/stories/hassabis-agi-timeline.webp
   alt: A dim study at night with an empty chair, a chessboard, and a notebook, lit by a single desk lamp.
-  credit: AI-generated image, AI Headline Hub
+  credit: "Image: AI Headline Hub"
   source_url: https://github.com/joshuaofisrael/ai-news/blob/main/src/assets/photos/stories/hassabis-agi-timeline.jpg
-  licence: Generated for AI Headline Hub
+  licence: AI Headline Hub
   width: 1280
   height: 720
 correction: ""

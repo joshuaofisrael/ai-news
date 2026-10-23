@@ -13,9 +13,9 @@ draft: false
 image:
   src: /images/stories/agent-compute-engine.webp
   alt: A rack of compact servers in a dim data hall, each with a small status light, and an empty aisle in front.
-  credit: AI-generated image, AI Headline Hub
+  credit: "Image: AI Headline Hub"
   source_url: https://github.com/joshuaofisrael/ai-news/blob/main/src/assets/photos/stories/agent-compute-engine.jpg
-  licence: Generated for AI Headline Hub
+  licence: AI Headline Hub
   width: 1280
   height: 720
 correction: ""
