@@ -11,11 +11,173 @@
     "srcsetWebp": "/images/hero/datacenter-640.webp 640w, /images/hero/datacenter.webp 1280w",
     "srcsetAvif": "/images/hero/datacenter-640.avif 640w, /images/hero/datacenter.avif 1280w"
   },
+  "/images/inline/agent-compute-engine-1.webp": {
+    "width": 1280,
+    "height": 720,
+    "srcsetWebp": "/images/inline/agent-compute-engine-1-640.webp 640w, /images/inline/agent-compute-engine-1.webp 1280w",
+    "srcsetAvif": "/images/inline/agent-compute-engine-1-640.avif 640w, /images/inline/agent-compute-engine-1.avif 1280w"
+  },
+  "/images/inline/agent-compute-engine-2.webp": {
+    "width": 1280,
+    "height": 720,
+    "srcsetWebp": "/images/inline/agent-compute-engine-2-640.webp 640w, /images/inline/agent-compute-engine-2.webp 1280w",
+    "srcsetAvif": "/images/inline/agent-compute-engine-2-640.avif 640w, /images/inline/agent-compute-engine-2.avif 1280w"
+  },
+  "/images/inline/ai-consciousness-comment-1.webp": {
+    "width": 1280,
+    "height": 720,
+    "srcsetWebp": "/images/inline/ai-consciousness-comment-1-640.webp 640w, /images/inline/ai-consciousness-comment-1.webp 1280w",
+    "srcsetAvif": "/images/inline/ai-consciousness-comment-1-640.avif 640w, /images/inline/ai-consciousness-comment-1.avif 1280w"
+  },
+  "/images/inline/ai-consciousness-comment-2.webp": {
+    "width": 1280,
+    "height": 720,
+    "srcsetWebp": "/images/inline/ai-consciousness-comment-2-640.webp 640w, /images/inline/ai-consciousness-comment-2.webp 1280w",
+    "srcsetAvif": "/images/inline/ai-consciousness-comment-2-640.avif 640w, /images/inline/ai-consciousness-comment-2.avif 1280w"
+  },
+  "/images/inline/americans-ai-poll-1.webp": {
+    "width": 1280,
+    "height": 720,
+    "srcsetWebp": "/images/inline/americans-ai-poll-1-640.webp 640w, /images/inline/americans-ai-poll-1.webp 1280w",
+    "srcsetAvif": "/images/inline/americans-ai-poll-1-640.avif 640w, /images/inline/americans-ai-poll-1.avif 1280w"
+  },
+  "/images/inline/americans-ai-poll-2.webp": {
+    "width": 1280,
+    "height": 720,
+    "srcsetWebp": "/images/inline/americans-ai-poll-2-640.webp 640w, /images/inline/americans-ai-poll-2.webp 1280w",
+    "srcsetAvif": "/images/inline/americans-ai-poll-2-640.avif 640w, /images/inline/americans-ai-poll-2.avif 1280w"
+  },
+  "/images/inline/claude-duet-1.webp": {
+    "width": 1280,
+    "height": 720,
+    "srcsetWebp": "/images/inline/claude-duet-1-640.webp 640w, /images/inline/claude-duet-1.webp 1280w",
+    "srcsetAvif": "/images/inline/claude-duet-1-640.avif 640w, /images/inline/claude-duet-1.avif 1280w"
+  },
+  "/images/inline/claude-duet-2.webp": {
+    "width": 1280,
+    "height": 720,
+    "srcsetWebp": "/images/inline/claude-duet-2-640.webp 640w, /images/inline/claude-duet-2.webp 1280w",
+    "srcsetAvif": "/images/inline/claude-duet-2-640.avif 640w, /images/inline/claude-duet-2.avif 1280w"
+  },
+  "/images/inline/decisions-api-1.webp": {
+    "width": 1280,
+    "height": 720,
+    "srcsetWebp": "/images/inline/decisions-api-1-640.webp 640w, /images/inline/decisions-api-1.webp 1280w",
+    "srcsetAvif": "/images/inline/decisions-api-1-640.avif 640w, /images/inline/decisions-api-1.avif 1280w"
+  },
+  "/images/inline/decisions-api-2.webp": {
+    "width": 1280,
+    "height": 720,
+    "srcsetWebp": "/images/inline/decisions-api-2-640.webp 640w, /images/inline/decisions-api-2.webp 1280w",
+    "srcsetAvif": "/images/inline/decisions-api-2-640.avif 640w, /images/inline/decisions-api-2.avif 1280w"
+  },
+  "/images/inline/hassabis-agi-timeline-1.webp": {
+    "width": 1280,
+    "height": 720,
+    "srcsetWebp": "/images/inline/hassabis-agi-timeline-1-640.webp 640w, /images/inline/hassabis-agi-timeline-1.webp 1280w",
+    "srcsetAvif": "/images/inline/hassabis-agi-timeline-1-640.avif 640w, /images/inline/hassabis-agi-timeline-1.avif 1280w"
+  },
+  "/images/inline/hassabis-agi-timeline-2.webp": {
+    "width": 1280,
+    "height": 720,
+    "srcsetWebp": "/images/inline/hassabis-agi-timeline-2-640.webp 640w, /images/inline/hassabis-agi-timeline-2.webp 1280w",
+    "srcsetAvif": "/images/inline/hassabis-agi-timeline-2-640.avif 640w, /images/inline/hassabis-agi-timeline-2.avif 1280w"
+  },
+  "/images/inline/linux-foundation-ai-survey-1.webp": {
+    "width": 1280,
+    "height": 720,
+    "srcsetWebp": "/images/inline/linux-foundation-ai-survey-1-640.webp 640w, /images/inline/linux-foundation-ai-survey-1.webp 1280w",
+    "srcsetAvif": "/images/inline/linux-foundation-ai-survey-1-640.avif 640w, /images/inline/linux-foundation-ai-survey-1.avif 1280w"
+  },
+  "/images/inline/linux-foundation-ai-survey-2.webp": {
+    "width": 1280,
+    "height": 720,
+    "srcsetWebp": "/images/inline/linux-foundation-ai-survey-2-640.webp 640w, /images/inline/linux-foundation-ai-survey-2.webp 1280w",
+    "srcsetAvif": "/images/inline/linux-foundation-ai-survey-2-640.avif 640w, /images/inline/linux-foundation-ai-survey-2.avif 1280w"
+  },
+  "/images/inline/opal-optimizer-1.webp": {
+    "width": 1280,
+    "height": 720,
+    "srcsetWebp": "/images/inline/opal-optimizer-1-640.webp 640w, /images/inline/opal-optimizer-1.webp 1280w",
+    "srcsetAvif": "/images/inline/opal-optimizer-1-640.avif 640w, /images/inline/opal-optimizer-1.avif 1280w"
+  },
+  "/images/inline/opal-optimizer-2.webp": {
+    "width": 1280,
+    "height": 720,
+    "srcsetWebp": "/images/inline/opal-optimizer-2-640.webp 640w, /images/inline/opal-optimizer-2.webp 1280w",
+    "srcsetAvif": "/images/inline/opal-optimizer-2-640.avif 640w, /images/inline/opal-optimizer-2.avif 1280w"
+  },
+  "/images/inline/openai-nask-1.webp": {
+    "width": 1280,
+    "height": 720,
+    "srcsetWebp": "/images/inline/openai-nask-1-640.webp 640w, /images/inline/openai-nask-1.webp 1280w",
+    "srcsetAvif": "/images/inline/openai-nask-1-640.avif 640w, /images/inline/openai-nask-1.avif 1280w"
+  },
+  "/images/inline/openai-nask-2.webp": {
+    "width": 1280,
+    "height": 720,
+    "srcsetWebp": "/images/inline/openai-nask-2-640.webp 640w, /images/inline/openai-nask-2.webp 1280w",
+    "srcsetAvif": "/images/inline/openai-nask-2-640.avif 640w, /images/inline/openai-nask-2.avif 1280w"
+  },
+  "/images/inline/uber-chatgpt-work-1.webp": {
+    "width": 1280,
+    "height": 720,
+    "srcsetWebp": "/images/inline/uber-chatgpt-work-1-640.webp 640w, /images/inline/uber-chatgpt-work-1.webp 1280w",
+    "srcsetAvif": "/images/inline/uber-chatgpt-work-1-640.avif 640w, /images/inline/uber-chatgpt-work-1.avif 1280w"
+  },
+  "/images/inline/uber-chatgpt-work-2.webp": {
+    "width": 1280,
+    "height": 720,
+    "srcsetWebp": "/images/inline/uber-chatgpt-work-2-640.webp 640w, /images/inline/uber-chatgpt-work-2.webp 1280w",
+    "srcsetAvif": "/images/inline/uber-chatgpt-work-2-640.avif 640w, /images/inline/uber-chatgpt-work-2.avif 1280w"
+  },
+  "/images/stories/agent-compute-engine.webp": {
+    "width": 1280,
+    "height": 720,
+    "srcsetWebp": "/images/stories/agent-compute-engine-640.webp 640w, /images/stories/agent-compute-engine.webp 1280w",
+    "srcsetAvif": "/images/stories/agent-compute-engine-640.avif 640w, /images/stories/agent-compute-engine.avif 1280w"
+  },
+  "/images/stories/ai-consciousness-comment.webp": {
+    "width": 1280,
+    "height": 720,
+    "srcsetWebp": "/images/stories/ai-consciousness-comment-640.webp 640w, /images/stories/ai-consciousness-comment.webp 1280w",
+    "srcsetAvif": "/images/stories/ai-consciousness-comment-640.avif 640w, /images/stories/ai-consciousness-comment.avif 1280w"
+  },
+  "/images/stories/americans-ai-poll.webp": {
+    "width": 1280,
+    "height": 720,
+    "srcsetWebp": "/images/stories/americans-ai-poll-640.webp 640w, /images/stories/americans-ai-poll.webp 1280w",
+    "srcsetAvif": "/images/stories/americans-ai-poll-640.avif 640w, /images/stories/americans-ai-poll.avif 1280w"
+  },
   "/images/stories/claude-duet.webp": {
     "width": 1280,
     "height": 720,
     "srcsetWebp": "/images/stories/claude-duet-640.webp 640w, /images/stories/claude-duet.webp 1280w",
     "srcsetAvif": "/images/stories/claude-duet-640.avif 640w, /images/stories/claude-duet.avif 1280w"
+  },
+  "/images/stories/decisions-api.webp": {
+    "width": 1280,
+    "height": 720,
+    "srcsetWebp": "/images/stories/decisions-api-640.webp 640w, /images/stories/decisions-api.webp 1280w",
+    "srcsetAvif": "/images/stories/decisions-api-640.avif 640w, /images/stories/decisions-api.avif 1280w"
+  },
+  "/images/stories/hassabis-agi-timeline.webp": {
+    "width": 1280,
+    "height": 720,
+    "srcsetWebp": "/images/stories/hassabis-agi-timeline-640.webp 640w, /images/stories/hassabis-agi-timeline.webp 1280w",
+    "srcsetAvif": "/images/stories/hassabis-agi-timeline-640.avif 640w, /images/stories/hassabis-agi-timeline.avif 1280w"
+  },
+  "/images/stories/linux-foundation-ai-survey.webp": {
+    "width": 1280,
+    "height": 720,
+    "srcsetWebp": "/images/stories/linux-foundation-ai-survey-640.webp 640w, /images/stories/linux-foundation-ai-survey.webp 1280w",
+    "srcsetAvif": "/images/stories/linux-foundation-ai-survey-640.avif 640w, /images/stories/linux-foundation-ai-survey.avif 1280w"
+  },
+  "/images/stories/opal-optimizer.webp": {
+    "width": 1280,
+    "height": 720,
+    "srcsetWebp": "/images/stories/opal-optimizer-640.webp 640w, /images/stories/opal-optimizer.webp 1280w",
+    "srcsetAvif": "/images/stories/opal-optimizer-640.avif 640w, /images/stories/opal-optimizer.avif 1280w"
   },
   "/images/stories/openai-google-cloud.webp": {
     "width": 1280,
@@ -23,10 +185,22 @@
     "srcsetWebp": "/images/stories/openai-google-cloud-640.webp 640w, /images/stories/openai-google-cloud.webp 1280w",
     "srcsetAvif": "/images/stories/openai-google-cloud-640.avif 640w, /images/stories/openai-google-cloud.avif 1280w"
   },
+  "/images/stories/openai-nask.webp": {
+    "width": 1280,
+    "height": 720,
+    "srcsetWebp": "/images/stories/openai-nask-640.webp 640w, /images/stories/openai-nask.webp 1280w",
+    "srcsetAvif": "/images/stories/openai-nask-640.avif 640w, /images/stories/openai-nask.avif 1280w"
+  },
   "/images/stories/partner-safeguards.webp": {
     "width": 1280,
     "height": 720,
     "srcsetWebp": "/images/stories/partner-safeguards-640.webp 640w, /images/stories/partner-safeguards.webp 1280w",
     "srcsetAvif": "/images/stories/partner-safeguards-640.avif 640w, /images/stories/partner-safeguards.avif 1280w"
+  },
+  "/images/stories/uber-chatgpt-work.webp": {
+    "width": 1280,
+    "height": 720,
+    "srcsetWebp": "/images/stories/uber-chatgpt-work-640.webp 640w, /images/stories/uber-chatgpt-work.webp 1280w",
+    "srcsetAvif": "/images/stories/uber-chatgpt-work-640.avif 640w, /images/stories/uber-chatgpt-work.avif 1280w"
   }
 }

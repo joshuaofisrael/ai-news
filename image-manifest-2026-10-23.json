@@ -1,0 +1,310 @@
+{
+  "date": "2026-10-23",
+  "aspect_ratio": "16:9",
+  "credit": "AI-generated image, AI Headline Hub",
+  "licence": "Generated for AI Headline Hub",
+  "notes": "Generate a JPEG master for every entry, 1280x720 or larger, 16:9, photorealistic, as if shot on a camera. No cartoons, illustrations, flat vector, or stylised art. No faces and no real identifiable people. No company logos, wordmarks, or readable brand names. Do not stage a press conference, signing, protest, or other news event. New-story posts are draft:true until these masters exist and npm run art has been run. src/_data/imageSizes.json contains temporary dimension stubs (pending:true) so Eleventy can render those drafts; npm run art rewrites that file from JPEGs on disk, so add every master before running art or the draft build will fail again. The two Claude Duet inline files are temporary copies of the story hero so the published page builds; replace those JPEGs with the photographs described here, then rerun npm run art. Their alt text describes the photographs to generate, not the temporary copies.",
+  "images": [
+    {
+      "article": "Most Americans in a new poll call AI bad for society and oppose more data centers",
+      "slug": "americans-say-ai-bad-for-society-oppose-data-centers",
+      "role": "hero",
+      "master_path": "src/assets/photos/stories/americans-ai-poll.jpg",
+      "public_path": "/images/stories/americans-ai-poll.webp",
+      "alt": "An empty suburban street at dusk with a low, windowless data-center building behind a chain-link fence and trees.",
+      "prompt": "Photorealistic 16:9 photograph, 35mm lens, dusk, an American suburban edge road with no people and no cars in the foreground. A low windowless industrial building sits behind a chain-link fence and young trees, with rooftop cooling fans and warm security lights. No logos, no readable signs, no faces. Natural color, slight atmospheric haze, documentary still."
+    },
+    {
+      "article": "Most Americans in a new poll call AI bad for society and oppose more data centers",
+      "slug": "americans-say-ai-bad-for-society-oppose-data-centers",
+      "role": "inline",
+      "master_path": "src/assets/photos/inline/americans-ai-poll-1.jpg",
+      "public_path": "/images/inline/americans-ai-poll-1.webp",
+      "alt": "A kitchen table with printed bar charts, a pencil, and a coffee mug, and no people in the frame.",
+      "prompt": "Photorealistic 16:9 overhead photograph of a kitchen table in morning light. Printed pages show simple unlabeled bar charts in black ink, a wooden pencil, and a ceramic coffee mug. No people, no hands, no logos, no readable headlines. Shallow depth of field, natural window light, documentary style."
+    },
+    {
+      "article": "Most Americans in a new poll call AI bad for society and oppose more data centers",
+      "slug": "americans-say-ai-bad-for-society-oppose-data-centers",
+      "role": "inline",
+      "master_path": "src/assets/photos/inline/americans-ai-poll-2.jpg",
+      "public_path": "/images/inline/americans-ai-poll-2.webp",
+      "alt": "A fenced industrial building with cooling units on the roof, photographed from a public road with no signage and no people.",
+      "prompt": "Photorealistic 16:9 photograph from across a two-lane road of a plain data-center building, beige metal panels, rooftop air handlers, a perimeter fence, gravel shoulder. Overcast daylight, no people, no vehicles close to camera, no logos or readable signs. 50mm lens, realistic textures."
+    },
+    {
+      "article": "Most Americans in a new poll call AI bad for society and oppose more data centers",
+      "slug": "americans-say-ai-bad-for-society-oppose-data-centers",
+      "role": "inline",
+      "master_path": "src/assets/photos/inline/americans-ai-poll-3.jpg",
+      "public_path": "/images/inline/americans-ai-poll-3.webp",
+      "alt": "Rows of empty hearing-room chairs and a blurred microphone on a wooden desk, with no identifiable person present.",
+      "prompt": "Photorealistic 16:9 photograph inside an empty hearing room. Rows of dark wooden chairs, a long desk, one gooseneck microphone out of focus in the foreground. No people, no flags, no seals, no readable nameplates. Soft overhead light, muted colors, photojournalistic."
+    },
+    {
+      "article": "OpenAI makes the Decisions API generally available for bounded, fast choices",
+      "slug": "openai-decisions-api-generally-available",
+      "role": "hero",
+      "master_path": "src/assets/photos/stories/decisions-api.jpg",
+      "public_path": "/images/stories/decisions-api.webp",
+      "alt": "A close view of a laptop screen showing a blurred decision tree of three unlabeled branches, on a dark desk.",
+      "prompt": "Photorealistic 16:9 close photograph of a laptop on a dark desk at night. The screen shows an abstract branching diagram of three unlabeled paths, deliberately out of focus so no words are readable. A glass of water and a notebook corner. No logos, no people, no faces. Cool screen light, 50mm, shallow depth of field."
+    },
+    {
+      "article": "OpenAI makes the Decisions API generally available for bounded, fast choices",
+      "slug": "openai-decisions-api-generally-available",
+      "role": "inline",
+      "master_path": "src/assets/photos/inline/decisions-api-1.jpg",
+      "public_path": "/images/inline/decisions-api-1.webp",
+      "alt": "A server room aisle with blue status lights and an empty rolling chair, shot with a wide lens.",
+      "prompt": "Photorealistic 16:9 wide photograph down a data-center aisle. Server racks with small blue status LEDs, an empty rolling chair at the side, raised floor. No people, no logos, no readable labels. Slight wide-angle perspective, realistic metal and cable textures."
+    },
+    {
+      "article": "OpenAI makes the Decisions API generally available for bounded, fast choices",
+      "slug": "openai-decisions-api-generally-available",
+      "role": "inline",
+      "master_path": "src/assets/photos/inline/decisions-api-2.jpg",
+      "public_path": "/images/inline/decisions-api-2.webp",
+      "alt": "A printed invoice and a calculator on a glass desk beside a dark monitor, with no readable company names.",
+      "prompt": "Photorealistic 16:9 photograph of a glass office desk. A printed invoice is angled so the text is illegible, a simple calculator, and the edge of a dark monitor. No logos, no people, no hands. Soft daylight from a window, realistic paper texture."
+    },
+    {
+      "article": "OpenAI makes the Decisions API generally available for bounded, fast choices",
+      "slug": "openai-decisions-api-generally-available",
+      "role": "inline",
+      "master_path": "src/assets/photos/inline/decisions-api-3.jpg",
+      "public_path": "/images/inline/decisions-api-3.webp",
+      "alt": "A headset resting on a keyboard in a dim call-center pod, with a blurred waveform on a monitor and no people visible.",
+      "prompt": "Photorealistic 16:9 photograph of an empty call-center pod. A black headset rests on a keyboard. A monitor shows a blurred audio waveform with no words. Dim warm practical light, no people, no logos, no readable UI. Documentary color."
+    },
+    {
+      "article": "Uber is giving ChatGPT Work to more than 30,000 employees",
+      "slug": "uber-rolls-chatgpt-work-out-companywide",
+      "role": "hero",
+      "master_path": "src/assets/photos/stories/uber-chatgpt-work.jpg",
+      "public_path": "/images/stories/uber-chatgpt-work.webp",
+      "alt": "An empty open-plan office at night, with monitors showing blurred documents and a city visible through the windows.",
+      "prompt": "Photorealistic 16:9 photograph of an empty open-plan office at night. Several monitors show blurred documents and spreadsheets with no readable text. City lights through floor-to-ceiling windows. No people, no logos, no brand colors that identify a company. 24mm, available light from screens and the city."
+    },
+    {
+      "article": "Uber is giving ChatGPT Work to more than 30,000 employees",
+      "slug": "uber-rolls-chatgpt-work-out-companywide",
+      "role": "inline",
+      "master_path": "src/assets/photos/inline/uber-chatgpt-work-1.jpg",
+      "public_path": "/images/inline/uber-chatgpt-work-1.webp",
+      "alt": "A conference table with laptops closed, notepads, and a wall screen showing a blurred calendar, and no people in the room.",
+      "prompt": "Photorealistic 16:9 photograph of an empty conference room. Closed laptops, paper notepads, water glasses. A wall display shows a blurred calendar grid with no readable names. No people, no logos. Neutral daylight, realistic wood and glass."
+    },
+    {
+      "article": "Uber is giving ChatGPT Work to more than 30,000 employees",
+      "slug": "uber-rolls-chatgpt-work-out-companywide",
+      "role": "inline",
+      "master_path": "src/assets/photos/inline/uber-chatgpt-work-2.jpg",
+      "public_path": "/images/inline/uber-chatgpt-work-2.webp",
+      "alt": "A training room with empty chairs facing a projector that shows an out-of-focus slide, shot from the back of the room.",
+      "prompt": "Photorealistic 16:9 photograph from the back of a small training room. Empty chairs in rows, a projector beam, a slide on the wall that is out of focus so no words or logos can be read. No people. Mixed projector light and dim room light."
+    },
+    {
+      "article": "OpenAI says it signed an AI safety research agreement with Poland’s NASK",
+      "slug": "openai-nask-ai-safety-agreement",
+      "role": "hero",
+      "master_path": "src/assets/photos/stories/openai-nask.jpg",
+      "public_path": "/images/stories/openai-nask.webp",
+      "alt": "A quiet research-library aisle with bound journals, a dark computer terminal, and no people.",
+      "prompt": "Photorealistic 16:9 photograph of a research-library aisle. Bound journals on metal shelves, a dark computer terminal on a side desk, warm library lamps. No people, no flags, no logos, no readable spines. 35mm, quiet documentary light."
+    },
+    {
+      "article": "OpenAI says it signed an AI safety research agreement with Poland’s NASK",
+      "slug": "openai-nask-ai-safety-agreement",
+      "role": "inline",
+      "master_path": "src/assets/photos/inline/openai-nask-1.jpg",
+      "public_path": "/images/inline/openai-nask-1.webp",
+      "alt": "A research lab bench with locked equipment racks and a blank whiteboard, photographed with no people and no logos.",
+      "prompt": "Photorealistic 16:9 photograph of an empty research lab. Locked equipment racks, a blank whiteboard, cable trays, a stool pushed in. No people, no logos, no readable labels. Cool fluorescent light mixed with daylight from a high window."
+    },
+    {
+      "article": "OpenAI says it signed an AI safety research agreement with Poland’s NASK",
+      "slug": "openai-nask-ai-safety-agreement",
+      "role": "inline",
+      "master_path": "src/assets/photos/inline/openai-nask-2.jpg",
+      "public_path": "/images/inline/openai-nask-2.webp",
+      "alt": "A network operations desk at night with several dark monitors and a headset on the table, and nobody seated.",
+      "prompt": "Photorealistic 16:9 photograph of an empty network-operations desk at night. Several monitors are dark or show blurred network maps with no words. A headset lies on the desk. No people, no logos, no flags. Low blue instrument light."
+    },
+    {
+      "article": "Google Cloud previews Agent Compute Engine, a microVM built for agents",
+      "slug": "google-cloud-agent-compute-engine",
+      "role": "hero",
+      "master_path": "src/assets/photos/stories/agent-compute-engine.jpg",
+      "public_path": "/images/stories/agent-compute-engine.webp",
+      "alt": "A rack of compact servers in a dim data hall, each with a small status light, and an empty aisle in front.",
+      "prompt": "Photorealistic 16:9 photograph of compact servers in a dim data hall, each sled with a tiny amber status light. Empty aisle, raised floor, no people, no logos, no readable asset tags. 35mm, realistic metal, slight depth."
+    },
+    {
+      "article": "Google Cloud previews Agent Compute Engine, a microVM built for agents",
+      "slug": "google-cloud-agent-compute-engine",
+      "role": "inline",
+      "master_path": "src/assets/photos/inline/agent-compute-engine-1.jpg",
+      "public_path": "/images/inline/agent-compute-engine-1.webp",
+      "alt": "A technician’s empty workbench with a single server tray pulled out, cables coiled, and no faces or badges visible.",
+      "prompt": "Photorealistic 16:9 photograph of an empty technician workbench. One server tray is pulled forward, coils of fiber and power cables, a screwdriver, no hands, no faces, no badges, no logos. Overhead workshop light, realistic dust and metal."
+    },
+    {
+      "article": "Google Cloud previews Agent Compute Engine, a microVM built for agents",
+      "slug": "google-cloud-agent-compute-engine",
+      "role": "inline",
+      "master_path": "src/assets/photos/inline/agent-compute-engine-2.jpg",
+      "public_path": "/images/inline/agent-compute-engine-2.webp",
+      "alt": "A Kubernetes-style cluster diagram drawn on a glass wall in a real office, photographed so the writing is out of focus.",
+      "prompt": "Photorealistic 16:9 photograph of a glass office wall with a hand-drawn cluster diagram in white marker, thrown out of focus so no words are readable. Reflections of ceiling lights. No people, no logos. Office interior, 50mm, shallow depth of field."
+    },
+    {
+      "article": "Google Cloud previews Agent Compute Engine, a microVM built for agents",
+      "slug": "google-cloud-agent-compute-engine",
+      "role": "inline",
+      "master_path": "src/assets/photos/inline/agent-compute-engine-3.jpg",
+      "public_path": "/images/inline/agent-compute-engine-3.webp",
+      "alt": "A badge reader and a closed server-cage door in a data-center lobby, with nobody walking through.",
+      "prompt": "Photorealistic 16:9 photograph of a data-center lobby. A closed mesh cage door, a generic badge reader with no logo, polished concrete, nobody in frame. Cool overhead light, security-camera realism, no readable signs."
+    },
+    {
+      "article": "Hassabis tells the Wall Street Journal he now puts AGI at two to three years",
+      "slug": "hassabis-moves-agi-estimate-closer",
+      "role": "hero",
+      "master_path": "src/assets/photos/stories/hassabis-agi-timeline.jpg",
+      "public_path": "/images/stories/hassabis-agi-timeline.webp",
+      "alt": "A dim study at night with an empty chair, a chessboard, and a notebook, lit by a single desk lamp.",
+      "prompt": "Photorealistic 16:9 photograph of a dim study at night. An empty leather chair, a wooden chessboard with pieces mid-game, a closed notebook, a single warm desk lamp. No people, no portraits, no logos, no readable writing. 35mm, rich shadows, natural lamp light."
+    },
+    {
+      "article": "Hassabis tells the Wall Street Journal he now puts AGI at two to three years",
+      "slug": "hassabis-moves-agi-estimate-closer",
+      "role": "inline",
+      "master_path": "src/assets/photos/inline/hassabis-agi-timeline-1.jpg",
+      "public_path": "/images/inline/hassabis-agi-timeline-1.webp",
+      "alt": "A wall calendar in an empty office with a few blank days circled in pencil, and no writing that names a person or company.",
+      "prompt": "Photorealistic 16:9 photograph of a paper wall calendar in an empty office. A few blank date boxes are circled in pencil. No names, no company marks, no faces. Soft side light, realistic paper, shallow depth of field."
+    },
+    {
+      "article": "Hassabis tells the Wall Street Journal he now puts AGI at two to three years",
+      "slug": "hassabis-moves-agi-estimate-closer",
+      "role": "inline",
+      "master_path": "src/assets/photos/inline/hassabis-agi-timeline-2.jpg",
+      "public_path": "/images/inline/hassabis-agi-timeline-2.webp",
+      "alt": "Laboratory glassware and a closed laptop on a bench in a quiet biology lab, with no people and no readable labels.",
+      "prompt": "Photorealistic 16:9 photograph of a quiet biology lab bench. Glass flasks, a closed laptop, pipette rack, no people, labels turned away or blank. Cool daylight, realistic glass reflections, no logos."
+    },
+    {
+      "article": "OPAL lets a coding agent rewrite the optimizer while a model trains",
+      "slug": "opal-agent-rewrites-optimizer-during-training",
+      "role": "hero",
+      "master_path": "src/assets/photos/stories/opal-optimizer.jpg",
+      "public_path": "/images/stories/opal-optimizer.webp",
+      "alt": "A GPU workstation on a lab bench with its side panel off, cables visible, and a dark monitor showing a loss curve too blurred to read.",
+      "prompt": "Photorealistic 16:9 photograph of a GPU workstation on a lab bench, side panel removed, graphics card and cables visible. A monitor shows a blurred downward loss curve with no axis labels or words. No people, no logos. Workshop lighting, realistic dust and metal."
+    },
+    {
+      "article": "OPAL lets a coding agent rewrite the optimizer while a model trains",
+      "slug": "opal-agent-rewrites-optimizer-during-training",
+      "role": "inline",
+      "master_path": "src/assets/photos/inline/opal-optimizer-1.jpg",
+      "public_path": "/images/inline/opal-optimizer-1.webp",
+      "alt": "A printed training log beside a keyboard, with a graph line trending down and no readable project name.",
+      "prompt": "Photorealistic 16:9 close photograph of a printed training log next to a keyboard. A simple line graph trends downward. Text is too small and soft to read. No logos, no hands. Desk lamp light, paper texture."
+    },
+    {
+      "article": "OPAL lets a coding agent rewrite the optimizer while a model trains",
+      "slug": "opal-agent-rewrites-optimizer-during-training",
+      "role": "inline",
+      "master_path": "src/assets/photos/inline/opal-optimizer-2.jpg",
+      "public_path": "/images/inline/opal-optimizer-2.webp",
+      "alt": "Two small code windows on a monitor, out of focus, above a GPU with its fans visible in a quiet lab.",
+      "prompt": "Photorealistic 16:9 photograph. A monitor with two code windows is out of focus so no characters are readable. Below it, a graphics card with visible fans sits in an open case in a quiet lab. No people, no logos. Mixed screen glow and room light."
+    },
+    {
+      "article": "OPAL lets a coding agent rewrite the optimizer while a model trains",
+      "slug": "opal-agent-rewrites-optimizer-during-training",
+      "role": "inline",
+      "master_path": "src/assets/photos/inline/opal-optimizer-3.jpg",
+      "public_path": "/images/inline/opal-optimizer-3.webp",
+      "alt": "A single graphics card on a lab bench next to a notebook with handwritten loss figures, and no people.",
+      "prompt": "Photorealistic 16:9 photograph of a single graphics card lying on an antistatic mat beside an open notebook. Handwritten numbers are present but not legible as words. No people, no logos, no brand marks in focus. Overhead lab light."
+    },
+    {
+      "article": "Linux Foundation survey says AI sped up coding and added low-quality pull requests",
+      "slug": "linux-foundation-ai-open-source-survey",
+      "role": "hero",
+      "master_path": "src/assets/photos/stories/linux-foundation-ai-survey.jpg",
+      "public_path": "/images/stories/linux-foundation-ai-survey.webp",
+      "alt": "A wooden desk with two monitors showing blurred code, a stack of sticky notes, and an empty chair.",
+      "prompt": "Photorealistic 16:9 photograph of a wooden developer desk. Two monitors show blurred code with no readable words. A stack of blank sticky notes, an empty chair, a mug. No people, no logos, no penguin or foundation marks. Afternoon window light."
+    },
+    {
+      "article": "Linux Foundation survey says AI sped up coding and added low-quality pull requests",
+      "slug": "linux-foundation-ai-open-source-survey",
+      "role": "inline",
+      "master_path": "src/assets/photos/inline/linux-foundation-ai-survey-1.jpg",
+      "public_path": "/images/inline/linux-foundation-ai-survey-1.webp",
+      "alt": "A conference badge and a closed laptop on a cafe table, with a blurred stage screen in the background and no readable names.",
+      "prompt": "Photorealistic 16:9 photograph on a cafe table at a technology conference. A blank lanyard badge with no name, a closed laptop, a paper cup. The stage screen behind is blurred with no words or logos. No people in focus. Natural indoor light."
+    },
+    {
+      "article": "Linux Foundation survey says AI sped up coding and added low-quality pull requests",
+      "slug": "linux-foundation-ai-open-source-survey",
+      "role": "inline",
+      "master_path": "src/assets/photos/inline/linux-foundation-ai-survey-2.jpg",
+      "public_path": "/images/inline/linux-foundation-ai-survey-2.webp",
+      "alt": "A maintainer’s desk with a pull-request list blurred on a screen, a red pen, and a mug, and no person in the frame.",
+      "prompt": "Photorealistic 16:9 photograph of a maintainer desk. A monitor shows a blurred list of rows that suggests pull requests, with no readable titles. A red pen and a mug. No person, no logos. Evening desk-lamp light."
+    },
+    {
+      "article": "Seth, Block, and Tononi argue in Nature that today’s AI is not conscious",
+      "slug": "nature-comment-ai-not-conscious",
+      "role": "hero",
+      "master_path": "src/assets/photos/stories/ai-consciousness-comment.jpg",
+      "public_path": "/images/stories/ai-consciousness-comment.webp",
+      "alt": "An empty neuroscience lab bench with a model of a brain under a lamp, a closed laptop, and no people.",
+      "prompt": "Photorealistic 16:9 photograph of an empty neuroscience lab bench. A plastic anatomical brain model under a small lamp, a closed laptop, notebooks stacked. No people, no logos, no readable journal titles. Cool lab light with a warm lamp pool."
+    },
+    {
+      "article": "Seth, Block, and Tononi argue in Nature that today’s AI is not conscious",
+      "slug": "nature-comment-ai-not-conscious",
+      "role": "inline",
+      "master_path": "src/assets/photos/inline/ai-consciousness-comment-1.jpg",
+      "public_path": "/images/inline/ai-consciousness-comment-1.webp",
+      "alt": "A reading room table with a printed journal, a pair of glasses, and a blank notebook, and no faces.",
+      "prompt": "Photorealistic 16:9 photograph of a university reading-room table. A thick printed journal lies closed so the cover text is not readable, eyeglasses, a blank notebook. No people, no logos. Soft north light, wood grain, documentary still."
+    },
+    {
+      "article": "Seth, Block, and Tononi argue in Nature that today’s AI is not conscious",
+      "slug": "nature-comment-ai-not-conscious",
+      "role": "inline",
+      "master_path": "src/assets/photos/inline/ai-consciousness-comment-2.jpg",
+      "public_path": "/images/inline/ai-consciousness-comment-2.webp",
+      "alt": "A silicon wafer in a clean-room case next to a glass model of a neuron, on a steel table with no logos.",
+      "prompt": "Photorealistic 16:9 photograph on a steel table. A silicon wafer in a clear case beside a small glass sculpture of a neuron. No people, no logos, no readable etching. Clean even light, realistic reflections, macro-adjacent 50mm."
+    },
+    {
+      "article": "Anthropic opens a US waitlist for Claude Duet, a proactive work agent",
+      "slug": "anthropic-opens-claude-duet-research-preview",
+      "role": "inline",
+      "catch_up": true,
+      "master_path": "src/assets/photos/inline/claude-duet-1.jpg",
+      "public_path": "/images/inline/claude-duet-1.webp",
+      "alt": "A glass-walled server room with a single empty desk and an open laptop in the foreground, and no people or logos.",
+      "prompt": "Photorealistic 16:9 photograph through glass into a small server room. In the foreground an empty desk holds an open laptop with a dark screen. Racks glow faintly behind the glass. No people, no logos, no readable UI. Reflections on the glass, 35mm, evening interior light.",
+      "temporary_on_disk": "Until this JPEG is supplied, the file may be a copy of the Claude Duet hero so the already published story still builds. Replace it and rerun npm run art."
+    },
+    {
+      "article": "Anthropic opens a US waitlist for Claude Duet, a proactive work agent",
+      "slug": "anthropic-opens-claude-duet-research-preview",
+      "role": "inline",
+      "catch_up": true,
+      "master_path": "src/assets/photos/inline/claude-duet-2.jpg",
+      "public_path": "/images/inline/claude-duet-2.webp",
+      "alt": "A close view of a laptop on a wooden desk showing a blurred approval dialog, with a phone face-down beside it and no readable brands.",
+      "prompt": "Photorealistic 16:9 close photograph of a laptop on a wooden desk. The screen shows a blurred dialog with two buttons, no readable words and no logos. A phone lies face-down beside the trackpad. No hands, no faces. Warm window light, shallow depth of field.",
+      "temporary_on_disk": "Until this JPEG is supplied, the file may be a copy of the Claude Duet hero so the already published story still builds. Replace it and rerun npm run art."
+    }
+  ]
+}

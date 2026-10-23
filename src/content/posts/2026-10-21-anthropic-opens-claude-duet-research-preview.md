@@ -35,6 +35,8 @@ Access also depends on the email address. The help center says the waitlist emai
 
 Anthropic said each morning Duet sends a short brief on the important items across connected apps, watches those apps through the day, and messages the user only when something needs them. People can type or send a voice message in one ongoing thread. The help center adds that separate channels can be opened for different topics and that they share memory.
 
+{% figure "/images/inline/claude-duet-1.webp", "A glass-walled server room with a single empty desk and an open laptop in the foreground, and no people or logos.", "Anthropic says Duet keeps working on a computer in the cloud after the app is closed." %}
+
 The work is not tied to an open laptop. Both documents say Duet has its own computer in the cloud, with a browser, so a task can continue after the app is closed. Larger jobs can come back as files to review, such as a research brief, a financial model, a slide deck, or a dashboard. The help center says finished work shows up in a Make tab, and that a Tasks tab shows work in progress. A person can be told a task looks finished, but only that person can mark it complete.
 
 The announcement says Duet was designed around Claude Opus 5.5. The help center is more specific about choice: during the preview, users cannot pick a model. Duet runs on Claude Opus 5.5 and decides how much effort a job needs.
@@ -56,6 +58,8 @@ The help center describes prompt injection directly: mail and web pages can cont
 The announcement says Duet can use the more than 6,000 connectors and plugins in the Claude Marketplace. The examples it lists include finding missed Gmail and Slack messages, checking Intuit QuickBooks or Stripe for unpaid invoices, preparing payroll in Gusto, posting a job to LinkedIn after the user edits and approves it, sending agreements through Docusign, drafting follow-ups from HubSpot, building a Canva campaign, and managing a Shopify store. A richer visual editor for Shopify is described as coming soon.
 
 The help center narrows some of that. Connectors the user has already set up in Claude can be reused, including Gmail, Google Calendar, Google Drive, Slack, QuickBooks, HubSpot, Docusign, and Calendly. The user starts each connection and can disconnect an app. Disconnecting stops further access, but memory of earlier conversations is kept. Slack works with limits, and Microsoft 365 is not available yet. For a site without a connector, Duet uses its cloud browser.
+
+{% figure "/images/inline/claude-duet-2.webp", "A close view of a laptop on a wooden desk showing a blurred approval dialog, with a phone face-down beside it and no readable brands.", "Anthropic says consequential actions, including a purchase, wait for the user to approve them." %}
 
 Purchases are a separate path. Anthropic said Duet can buy things for a business with Link, Stripe’s digital wallet: Duet confirms the item, Link asks the user to approve the spend, and payment uses a virtual card so the real card number is not shared. Shop Pay from Shopify can be used at online stores. The help center says each purchase uses a one-time card, that Duet is designed to ask before each purchase, and that Link and Shop Pay are connected inside Duet rather than in the usual connectors directory. The Stripe connector used for invoices is separate from Link. Signing in to sites with logins saved in 1Password is described as coming soon, and only with permission.
 
