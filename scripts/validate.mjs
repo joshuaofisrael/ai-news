@@ -129,6 +129,20 @@ function attr(html, pattern) {
   return match ? match[1] : "";
 }
 
+function linksToContact(fragment, file) {
+  const contactFile = path.resolve(root, "contact", "index.html");
+  const hrefs = [...fragment.matchAll(/\shref="([^"]+)"/g)].map((match) => match[1]);
+  return hrefs.some((link) => {
+    const pathname = link.split(/[?#]/)[0];
+    if (!pathname || /^(https?:|mailto:|#)/i.test(pathname) || pathname.startsWith("//")) return false;
+    const absolute = pathname.startsWith("/")
+      ? path.resolve(root, pathname.slice(1))
+      : path.resolve(path.dirname(file), pathname);
+    const candidate = !path.extname(absolute) || pathname.endsWith("/") ? path.join(absolute, "index.html") : absolute;
+    return path.resolve(candidate) === contactFile;
+  });
+}
+
 async function exists(file) {
   try {
     const info = await stat(file);
@@ -267,9 +281,37 @@ for (const file of htmlFiles) {
   if (pagePath === "about/index.html" && !html.includes('class="brand-line"')) {
     fail(`${rel} is missing the brand line`);
   }
-  if (pagePath === "contact/index.html" && !html.includes("does not publish a street address")) {
-    fail(`${rel} must say that no street address is published`);
+  if (pagePath === "contact/index.html") {
+    if (!html.includes("does not publish a street address")) {
+      fail(`${rel} must say that no street address is published`);
+    }
+    if (/joshuaofisrael@gmail\.com/i.test(html) || /@gmail\.com/i.test(html)) {
+      fail(`${rel} contains a literal gmail address`);
+    }
+    for (const needle of [
+      'id="contact-form"',
+      'name="name"',
+      'name="email"',
+      'name="message"',
+      'name="_honey"',
+      'tabindex="-1"',
+      'aria-hidden="true"',
+      'aria-live="polite"',
+      'name="_captcha" value="false"',
+      'name="_template" value="table"',
+      'name="_subject" value="AI Headline Hub contact"',
+      "assets/js/contact.js",
+      "FormSubmit.co",
+      "privacy/",
+    ]) {
+      if (!html.includes(needle)) fail(`${rel} is missing ${needle}`);
+    }
   }
+  if (pagePath === "privacy/index.html" && !/FormSubmit\.co is the processor/.test(html)) {
+    fail(`${rel} must name FormSubmit as the message processor`);
+  }
+  const footer = html.split('<footer class="site-footer">')[1]?.split("</footer>")[0] || "";
+  if (!linksToContact(footer, file)) fail(`${rel} footer does not link to the contact page`);
   if (pagePath === "index.html") {
     if (!html.includes("images/hero/datacenter")) fail(`${rel} is missing the hero photograph`);
     if (!html.includes('fetchpriority="high"')) fail(`${rel} hero is missing fetchpriority`);
@@ -427,6 +469,7 @@ const parser = new XMLParser({ ignoreAttributes: false, attributeNamePrefix: "@_
 const sitemap = parser.parse(await readText("sitemap.xml"));
 const sitemapLocs = listify(sitemap.urlset?.url).map((url) => url.loc);
 if (!sitemapLocs.includes(absoluteUrl("/", site.url))) fail("sitemap is missing the homepage");
+if (!sitemapLocs.includes(absoluteUrl("/contact/", site.url))) fail("sitemap is missing the contact page");
 for (const category of categories) {
   const loc = absoluteUrl(`/category/${category.slug}/`, site.url);
   if (!sitemapLocs.includes(loc)) fail(`sitemap is missing ${category.title}`);
@@ -568,6 +611,28 @@ for (const file of sourceFiles) {
   const text = await readFile(file, "utf8");
   for (const pattern of banned) {
     if (pattern.test(text)) fail(`source ${path.relative(sourceRoot, file)} still contains ${pattern}`);
+  }
+}
+
+const contactJs = await readText(path.join("assets", "js", "contact.js"));
+if (contactJs) {
+  if (/joshuaofisrael@gmail\.com/i.test(contactJs) || /@gmail\.com/i.test(contactJs)) {
+    fail("contact.js contains a literal gmail address");
+  }
+  const codes = (name) => {
+    const match = contactJs.match(new RegExp(`var ${name} = \\[([\\d,\\s]+)\\];`));
+    if (!match) {
+      fail(`contact.js is missing ${name}`);
+      return [];
+    }
+    return match[1].split(",").map((part) => Number(part.trim()));
+  };
+  const decode = (list) => String.fromCharCode(...list);
+  const built = `https://${decode(codes("gateCodes"))}/ajax/${decode(codes("localCodes"))}@${decode(codes("mailHostCodes"))}`;
+  const expected = `https://${["formsubmit", "co"].join(".")}/ajax/${"joshuaofisrael"}@${["gmail", "com"].join(".")}`;
+  if (built !== expected) fail("contact.js does not build the FormSubmit ajax endpoint");
+  for (const field of ["name", "email", "message", "_captcha", "_template", "_subject", "_honey"]) {
+    if (!contactJs.includes(field)) fail(`contact.js does not send ${field}`);
   }
 }
 
