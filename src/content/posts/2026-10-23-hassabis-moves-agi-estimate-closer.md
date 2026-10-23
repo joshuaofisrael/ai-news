@@ -9,7 +9,7 @@ tags:
   - agi
   - google
 author: AI Headline Hub
-draft: true
+draft: false
 image:
   src: /images/stories/hassabis-agi-timeline.webp
   alt: A dim study at night with an empty chair, a chessboard, and a notebook, lit by a single desk lamp.

@@ -9,7 +9,7 @@ tags:
   - data-centers
   - regulation
 author: AI Headline Hub
-draft: true
+draft: false
 image:
   src: /images/stories/americans-ai-poll.webp
   alt: An empty suburban street at dusk with a low, windowless data-center building behind a chain-link fence and trees.
@@ -66,6 +66,5 @@ A separate item asks whether people approve of the way Donald Trump is handling 
 
 Asked which party they trust more to handle AI, 26% said the Democrats, 19% said the Republicans, 6% said both equally, and 49% said neither. One percent skipped. The topline marks that item as part of a half-sample battery, so the plus or minus 2.8 point margin applies.
 
-{% figure "/images/inline/americans-ai-poll-3.webp", "Rows of empty hearing-room chairs and a blurred microphone on a wooden desk, with no identifiable person present.", "In the full sample, 67% said the federal government is not doing enough to regulate AI." %}
 
 ABC News published subgroup breaks by party, age, and community type in its October 21 story. This account sticks to the overall shares printed in the Ipsos topline.

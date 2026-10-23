@@ -9,7 +9,7 @@ tags:
   - training
   - agents
 author: AI Headline Hub
-draft: true
+draft: false
 image:
   src: /images/stories/opal-optimizer.webp
   alt: A GPU workstation on a lab bench with its side panel off, cables visible, and a dark monitor showing a loss curve too blurred to read.
@@ -59,7 +59,6 @@ On image generation, they say LightningDiT-XL/1 finished at an FID-50K of 1.83 w
 
 They also describe a ResNet-18 trained on CIFAR-10 with 10% of the training labels flipped. OPAL’s final weights, an average chosen on a development set, reached test loss 0.685 and accuracy 78.6%. The AdamW run they started from ended at loss 2.493 and accuracy 73.5%, and assigned the wrong training label to every mislabeled image. OPAL assigned that wrong label 3.7% of the time and the true label 77.5% of the time. That comparison is one setting, described in the post.
 
-{% figure "/images/inline/opal-optimizer-3.webp", "A single graphics card on a lab bench next to a notebook with handwritten loss figures, and no people.", "The authors say the token bill was small next to GPU time on the runs they priced, and impractical if counted in raw compute." %}
 
 The cost example they give is one LightningDiT run: about 100 decisions, $6.42 at Claude Opus 5.5 list price, on top of about 74 hours of H100 time, which they price at about $510 at AWS’s on-demand rate. They say that, counted in floating-point operations, a reactive optimizer is impractical because frontier agents are so large. Gains shrink, they write, when the run is short and the recipe is already heavily tuned. The README records a modded-nanogpt run on version 0.2.0 that finished at validation loss 3.2878, worse than the record it started near. Multi-node training, FSDP, and DeepSpeed are not supported. The package version in the README read for this story was 0.3.7.
 

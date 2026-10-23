@@ -9,7 +9,7 @@ tags:
   - survey
   - maintainers
 author: AI Headline Hub
-draft: true
+draft: false
 image:
   src: /images/stories/linux-foundation-ai-survey.webp
   alt: A wooden desk with two monitors showing blurred code, a stack of sticky notes, and an empty chair.

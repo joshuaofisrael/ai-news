@@ -9,7 +9,7 @@ tags:
   - consciousness
   - commentary
 author: AI Headline Hub
-draft: true
+draft: false
 image:
   src: /images/stories/ai-consciousness-comment.webp
   alt: An empty neuroscience lab bench with a model of a brain under a lamp, a closed laptop, and no people.

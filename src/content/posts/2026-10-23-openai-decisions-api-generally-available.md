@@ -9,7 +9,7 @@ tags:
   - apis
   - gpt
 author: AI Headline Hub
-draft: true
+draft: false
 image:
   src: /images/stories/decisions-api.webp
   alt: A close view of a laptop screen showing a blurred decision tree of three unlabeled branches, on a dark desk.
@@ -55,6 +55,5 @@ Box’s Biswaroop Palit, a vice president of product management, said that in an
 
 Inside OpenAI, the post says the dots team uses the API to shorten response times, a personal-finance team uses it to categorize transaction descriptions, and a communications team uses it to classify coverage. No metrics are attached to those internal examples.
 
-{% figure "/images/inline/decisions-api-3.webp", "A headset resting on a keyboard in a dim call-center pod, with a blurred waveform on a monitor and no people visible.", "OpenAI says the API can now be called from a live voice session." %}
 
 The voice path is the other product change. Decisions can be attached to a GPT-Live session so an application picks a next step while someone is speaking: a clarifying question, a route, or an escalation. OpenAI’s example has the session choose an avatar expression from the transcript. The post does not say that feature is a separate product or a separate price.

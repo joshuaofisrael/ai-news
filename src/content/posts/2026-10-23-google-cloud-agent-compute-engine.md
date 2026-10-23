@@ -9,7 +9,7 @@ tags:
   - agents
   - infrastructure
 author: AI Headline Hub
-draft: true
+draft: false
 image:
   src: /images/stories/agent-compute-engine.webp
   alt: A rack of compact servers in a dim data hall, each with a small status light, and an empty aisle in front.
@@ -55,7 +55,6 @@ Google says organizations moving agents into production have to control non-dete
 
 The new reach is the part that is not finished. Google says governance is extending across Agent Runtime, Cloud Run, Gemini sandboxes, GKE, and Agent Compute Engine. Cross-cloud enforcement, using Envoy proxies, is “in preview soon.” So is governance for local coding agents such as Claude Code and the Antigravity CLI on managed devices. Features due this quarter, also in preview, include token budgets, model-routing policies, and service-extension hooks. Delegated authorization is named for Ping Identity, SailPoint, and Saviynt.
 
-{% figure "/images/inline/agent-compute-engine-3.webp", "A badge reader and a closed server-cage door in a data-center lobby, with nobody walking through.", "Google says identity and policy are meant to follow an agent off a single cloud. Much of that reach is still a preview." %}
 
 Alexandre Frizzo, an AI lead engineer at L’Oréal, is quoted saying Google’s governance lets the company’s Beauty Tech Agentic Platform keep a common identity and policy across runtimes such as Cloud Run. As with the other quotations, that is the customer’s statement in Google’s blog, not a test this desk ran.
 

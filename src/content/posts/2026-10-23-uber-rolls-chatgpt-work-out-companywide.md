@@ -9,7 +9,7 @@ tags:
   - openai
   - enterprise
 author: AI Headline Hub
-draft: true
+draft: false
 image:
   src: /images/stories/uber-chatgpt-work.webp
   alt: An empty open-plan office at night, with monitors showing blurred documents and a city visible through the windows.
