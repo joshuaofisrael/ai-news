@@ -13,9 +13,9 @@ draft: false
 image:
   src: /images/stories/linux-foundation-ai-survey.webp
   alt: A wooden desk with two monitors showing blurred code, a stack of sticky notes, and an empty chair.
-  credit: AI-generated image, AI Headline Hub
+  credit: "Image: AI Headline Hub"
   source_url: https://github.com/joshuaofisrael/ai-news/blob/main/src/assets/photos/stories/linux-foundation-ai-survey.jpg
-  licence: Generated for AI Headline Hub
+  licence: AI Headline Hub
   width: 1280
   height: 720
 correction: ""

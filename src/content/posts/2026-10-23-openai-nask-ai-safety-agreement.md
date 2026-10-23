@@ -13,9 +13,9 @@ draft: false
 image:
   src: /images/stories/openai-nask.webp
   alt: A quiet research-library aisle with bound journals, a dark computer terminal, and no people.
-  credit: AI-generated image, AI Headline Hub
+  credit: "Image: AI Headline Hub"
   source_url: https://github.com/joshuaofisrael/ai-news/blob/main/src/assets/photos/stories/openai-nask.jpg
-  licence: Generated for AI Headline Hub
+  licence: AI Headline Hub
   width: 1280
   height: 720
 correction: ""

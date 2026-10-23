@@ -18,7 +18,7 @@ function withVariants(image, site) {
     avif,
     srcsetWebp: small ? `${small} 640w, ${src} ${width}w` : "",
     srcsetAvif: smallAvif && avif ? `${smallAvif} 640w, ${avif} ${width}w` : "",
-    aiGenerated: credit.startsWith("AI-generated"),
+    aiGenerated: false,
   };
 }
 

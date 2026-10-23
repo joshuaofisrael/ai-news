@@ -17,17 +17,11 @@
       {% if fetchpriority %}fetchpriority="{{ fetchpriority }}"{% endif %}
     >
   </picture>
-  {% if img.aiGenerated or img.credit %}
+  {% if img.credit %}
     <figcaption>
-      {% if img.aiGenerated %}<span class="ai-label">AI-generated image</span>{% endif %}
       {% if img.credit %}
       <span class="figure-credit">
         {{ img.credit }}
-        {% if img.source_url %}
-          · <a href="{{ img.source_url }}"{% if img.source_url.slice(0, 4) == "http" %} rel="noopener noreferrer"{% endif %}>{{ img.licence or "Source" }}</a>
-        {% elif img.licence %}
-          · {{ img.licence }}
-        {% endif %}
       </span>
       {% endif %}
     </figcaption>

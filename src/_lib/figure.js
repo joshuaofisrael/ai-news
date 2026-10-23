@@ -41,8 +41,8 @@ export function renderFigure({ src, alt, caption = "" }) {
   const webp = meta.srcsetWebp
     ? `<source type="image/webp" srcset="${escapeHtml(meta.srcsetWebp)}" sizes="(min-width: 64rem) 40rem, 100vw">`
     : "";
-  const captionHtml = captionText ? ` ${escapeHtml(captionText)}` : "";
-  return `<figure class="story-media inline-figure"><picture>${avif}${webp}<img src="${escapeHtml(source)}" alt="${escapeHtml(description)}" width="${meta.width}" height="${meta.height}" loading="lazy" decoding="async"></picture><figcaption><span class="ai-label">AI-generated image</span>${captionHtml}</figcaption></figure>`;
+  const captionHtml = captionText ? `<figcaption>${escapeHtml(captionText)}</figcaption>` : "";
+  return `<figure class="story-media inline-figure"><picture>${avif}${webp}<img src="${escapeHtml(source)}" alt="${escapeHtml(description)}" width="${meta.width}" height="${meta.height}" loading="lazy" decoding="async"></picture>${captionHtml}</figure>`;
 }
 
 export function figureShortcode(src, alt, caption = "") {

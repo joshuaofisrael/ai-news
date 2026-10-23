@@ -66,7 +66,8 @@ assert.match(
   figureHtml,
   /<img src="\/images\/hero\/datacenter\.webp" alt="Server racks glowing blue in a data-center corridor\." width="1280" height="720" loading="lazy" decoding="async">/,
 );
-assert.match(figureHtml, /<span class="ai-label">AI-generated image<\/span> A corridor of racks\./);
+assert.match(figureHtml, /<figcaption>A corridor of racks\.<\/figcaption>/);
+assert.doesNotMatch(figureHtml, /AI-generated image/);
 assert.doesNotMatch(figureHtml, /loading="eager"/);
 assert.doesNotMatch(figureHtml, /&lt;figure/);
 assert.match(figureHtml, /<p>The agent keeps working\.<\/p>/);
@@ -329,14 +330,11 @@ for (const file of htmlFiles) {
       fail(`${rel} needs a sources list with at least one link`);
     }
     const hasStoryImage = html.includes('class="story-media article-hero"') && !html.includes("/images/fallback/gradient");
-    if (hasStoryImage && !html.includes("AI-generated image")) {
-      fail(`${rel} image is missing the AI-generated caption`);
+    if (hasStoryImage && html.includes("AI-generated image")) {
+      fail(`${rel} must not carry an AI-generated image label (owner rule, 23 Oct)`);
     }
   }
   if (html.includes('class="story-media article-hero"')) {
-    if (!html.includes('<span class="ai-label">AI-generated image</span>') && !html.includes("/images/fallback/gradient")) {
-      fail(`${rel} article image is missing the AI-generated label`);
-    }
     if (!html.includes('width="1280"') || !html.includes('height="720"')) {
       fail(`${rel} article image is missing its dimensions`);
     }
@@ -415,11 +413,11 @@ for (const name of postFiles) {
   if (urls.length < 1) fail(`${name} needs at least one https source URL`);
   const category = (matter.match(/^category:\s*(\S+)\s*$/m) || [])[1];
   if (category && !categorySlugs.has(category)) fail(`${name} uses unknown category ${category}`);
-  if (!matter.includes("credit: AI-generated image, AI Headline Hub")) {
-    fail(`${name} image credit must be "AI-generated image, AI Headline Hub"`);
+  if (!matter.includes("credit: Image: AI Headline Hub")) {
+    fail(`${name} image credit must be "Image: AI Headline Hub"`);
   }
-  if (!matter.includes("licence: Generated for AI Headline Hub")) {
-    fail(`${name} image licence must be "Generated for AI Headline Hub"`);
+  if (!matter.includes("licence: AI Headline Hub")) {
+    fail(`${name} image licence must be "AI Headline Hub"`);
   }
   if (/\.svg\b/.test(matter) || matter.includes("Original illustration")) {
     fail(`${name} still uses illustration art`);

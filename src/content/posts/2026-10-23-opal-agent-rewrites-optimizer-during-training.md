@@ -13,9 +13,9 @@ draft: false
 image:
   src: /images/stories/opal-optimizer.webp
   alt: A GPU workstation on a lab bench with its side panel off, cables visible, and a dark monitor showing a loss curve too blurred to read.
-  credit: AI-generated image, AI Headline Hub
+  credit: "Image: AI Headline Hub"
   source_url: https://github.com/joshuaofisrael/ai-news/blob/main/src/assets/photos/stories/opal-optimizer.jpg
-  licence: Generated for AI Headline Hub
+  licence: AI Headline Hub
   width: 1280
   height: 720
 correction: ""

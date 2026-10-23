@@ -12,9 +12,9 @@ tags:
 image:
   src: /images/stories/openai-google-cloud.webp
   alt: Two rows of server racks in a glass room, connected by a band of blue light.
-  credit: AI-generated image, AI Headline Hub
+  credit: "Image: AI Headline Hub"
   source_url: https://github.com/joshuaofisrael/ai-news/blob/main/src/assets/photos/stories/openai-google-cloud.jpg
-  licence: Generated for AI Headline Hub
+  licence: AI Headline Hub
   width: 1280
   height: 720
 correction: An earlier version said customers will buy the models in Model Garden. OpenAI’s announcement says they will be able to purchase them there.

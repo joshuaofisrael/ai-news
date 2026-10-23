@@ -11,9 +11,9 @@ tags:
 image:
   src: /images/stories/claude-duet.webp
   alt: A laptop on a wooden desk displays a glowing node diagram, with a small blue robot figurine beside it.
-  credit: AI-generated image, AI Headline Hub
+  credit: "Image: AI Headline Hub"
   source_url: https://github.com/joshuaofisrael/ai-news/blob/main/src/assets/photos/stories/claude-duet.jpg
-  licence: Generated for AI Headline Hub
+  licence: AI Headline Hub
   width: 1280
   height: 720
 correction: An earlier version treated “take over the browser” as part of the announcement. That limit is in the help center. The announcement says Duet cannot yet show its browser.
