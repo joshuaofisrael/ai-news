@@ -1,5 +1,25 @@
+{% set hero = site.heroImage | storyImage %}
 <section class="hero">
-  <div class="hero-art">{% include "art/network.njk" %}</div>
+  <picture class="hero-picture">
+    {% if hero.srcsetAvif %}
+      <source type="image/avif" srcset="{{ hero.srcsetAvif }}" sizes="100vw">
+    {% endif %}
+    {% if hero.srcsetWebp %}
+      <source type="image/webp" srcset="{{ hero.srcsetWebp }}" sizes="100vw">
+    {% endif %}
+    <img
+      class="hero-photo"
+      src="{{ hero.src }}"
+      alt="{{ hero.alt }}"
+      width="{{ hero.width }}"
+      height="{{ hero.height }}"
+      loading="eager"
+      decoding="async"
+      fetchpriority="high"
+    >
+  </picture>
+  <div class="hero-scrim" aria-hidden="true"></div>
+  <p class="hero-ai-label"><span class="ai-label">AI-generated image</span></p>
   <div class="wrap hero-grid">
     {% if collections.posts.length %}
       {% set post = collections.posts[0] %}
@@ -7,8 +27,8 @@
       {% set variant = "lead" %}
       {% set showDeck = true %}
       {% set showImage = true %}
-      {% set loading = "eager" %}
-      {% set fetchpriority = "high" %}
+      {% set loading = "lazy" %}
+      {% set fetchpriority = false %}
       {% include "partials/story.njk" %}
       <aside class="rail" aria-labelledby="also-filed">
         <h2 id="also-filed">Also filed</h2>

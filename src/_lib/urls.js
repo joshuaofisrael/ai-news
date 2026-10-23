@@ -33,11 +33,28 @@ export function absolutizeHtml(html, siteUrl) {
   const origin = originFromUrl(siteUrl);
   const prefix = pathPrefixFromUrl(siteUrl);
   const marker = prefix === "/" ? "" : prefix.replace(/^\//, "").replace(/\/$/, "");
-  return String(html || "").replace(/(\s(?:href|src)=")\//g, (match, before, offset, source) => {
+  const withRoots = String(html || "").replace(/(\s(?:href|src)=")\//g, (match, before, offset, source) => {
     const rest = source.slice(offset + match.length);
     if (marker && rest.startsWith(marker)) return `${before}${origin}/`;
     if (prefix === "/") return `${before}${origin}/`;
     return `${before}${origin}${prefix}`;
+  });
+  const bare = prefix === "/" ? "" : prefix.replace(/\/$/, "");
+  return withRoots.replace(/(\s(?:srcset|imagesrcset)=")([^"]*)(")/g, (match, before, value, after) => {
+    const rewritten = value
+      .split(",")
+      .map((part) => {
+        const trimmed = part.trim();
+        const space = trimmed.indexOf(" ");
+        const url = space === -1 ? trimmed : trimmed.slice(0, space);
+        const descriptor = space === -1 ? "" : trimmed.slice(space);
+        if (!url.startsWith("/") || url.startsWith("//")) return trimmed;
+        if (marker && url.slice(1).startsWith(marker)) return `${origin}${url}${descriptor}`;
+        if (prefix === "/") return `${origin}${url}${descriptor}`;
+        return `${origin}${bare}${url}${descriptor}`;
+      })
+      .join(", ");
+    return `${before}${rewritten}${after}`;
   });
 }
 
@@ -81,7 +98,7 @@ export function relativizeRootAttributes(html, pageUrl) {
       return `${before}${relativeUrl(pageUrl, url)}${after}`;
     },
   );
-  return attributes.replace(/(\ssrcset=")([^"]*)(")/g, (match, before, value, after) => {
+  return attributes.replace(/(\s(?:srcset|imagesrcset)=")([^"]*)(")/g, (match, before, value, after) => {
     const rewritten = value
       .split(",")
       .map((part) => {
@@ -101,9 +118,24 @@ export function prefixRootAttributes(html, prefix) {
   if (!prefix || prefix === "/") return html;
   const bare = prefix.replace(/\/$/, "");
   const marker = bare.slice(1);
-  return html.replace(/(\s(?:href|src|action)=")\//g, (match, before, offset) => {
+  const prefixed = html.replace(/(\s(?:href|src|action)=")\//g, (match, before, offset) => {
     const rest = html.slice(offset + match.length);
     if (rest.startsWith(marker)) return match;
     return `${before}${bare}/`;
+  });
+  return prefixed.replace(/(\s(?:srcset|imagesrcset)=")([^"]*)(")/g, (match, before, value, after) => {
+    const rewritten = value
+      .split(",")
+      .map((part) => {
+        const trimmed = part.trim();
+        const space = trimmed.indexOf(" ");
+        const url = space === -1 ? trimmed : trimmed.slice(0, space);
+        const rest = space === -1 ? "" : trimmed.slice(space);
+        if (!url.startsWith("/") || url.startsWith("//")) return trimmed;
+        if (marker && url.slice(1).startsWith(marker)) return trimmed;
+        return `${bare}${url}${rest}`;
+      })
+      .join(", ");
+    return `${before}${rewritten}${after}`;
   });
 }

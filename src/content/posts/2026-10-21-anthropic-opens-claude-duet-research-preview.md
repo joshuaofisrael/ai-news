@@ -10,12 +10,12 @@ tags:
   - agents
 image:
   src: /images/stories/claude-duet.webp
-  alt: Abstract network of nodes with a pause mark, drawn for the Claude Duet report.
-  credit: Original illustration by AI Headline Hub
-  source_url: https://github.com/joshuaofisrael/ai-news/blob/main/src/assets/art/claude-duet.svg
-  licence: Original artwork, all rights reserved
-  width: 1200
-  height: 675
+  alt: A laptop on a wooden desk displays a glowing node diagram, with a small blue robot figurine beside it.
+  credit: AI-generated image, AI Headline Hub
+  source_url: https://github.com/joshuaofisrael/ai-news/blob/main/src/assets/photos/stories/claude-duet.jpg
+  licence: Generated for AI Headline Hub
+  width: 1280
+  height: 720
 sources:
   - title: Introducing Claude Duet
     url: https://claude.com/resources/articles/claude-duet

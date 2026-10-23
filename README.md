@@ -40,12 +40,12 @@ tags:
 author: AI Headline Hub
 image:
   src: /images/stories/example.webp
-  alt: Short description of what the picture shows
-  credit: Original illustration by AI Headline Hub
-  source_url: https://github.com/joshuaofisrael/ai-news/blob/main/src/assets/art/example.svg
-  licence: Original artwork, all rights reserved
-  width: 1200
-  height: 675
+  alt: What a sighted reader should know is in the photograph.
+  credit: AI-generated image, AI Headline Hub
+  source_url: https://github.com/joshuaofisrael/ai-news/blob/main/src/assets/photos/stories/example.jpg
+  licence: Generated for AI Headline Hub
+  width: 1280
+  height: 720
 correction: ""
 draft: false
 sources:
@@ -65,11 +65,37 @@ sources:
 | `tags` | yes | Lowercase slugs. Do not include `post`. |
 | `sources` | yes | At least one `https` URL. Rendered on the page and in JSON-LD `citation`. |
 | `author` | no | Defaults to the site name. |
-| `image` | no | Object with `src`, `alt`, `credit`, `source_url`, `licence`, `width`, and `height`. `src` is a root-relative WebP path. The build also looks for a matching AVIF and a `-640` variant. Log every file in `images-licences.md`. Pages without an image use `/og.png`. |
+| `image` | no | Hero photograph. Object with `src`, `alt`, `credit`, `source_url`, `licence`, `width`, and `height`. `src` is a root-relative WebP path. The build also looks for a matching AVIF and a `-640` variant. Credit is `AI-generated image, AI Headline Hub` and licence is `Generated for AI Headline Hub`. Log every file in `images-licences.md`. A story with no image shows a plain dark gradient. Pages without their own image use the hero photograph, `/og.jpg`, as the social card. |
 | `correction` | no | Shown in a note at the top of the story. Say what was wrong and what changed. |
 | `draft` | no | `true` keeps the file out of production builds. Drafts are visible in `npm start`. |
 
 The body is Markdown. Do not put an `h1` in the body; the template renders the title. Use `h2` for sections. Link primary sources in the copy as well as in `sources`. Write internal links as root-relative paths (`/archive/`, `/2026/10/21/some-slug/`). The build rewrites those to page-relative URLs, so they work on the apex host and under `/ai-news/` on GitHub Pages.
+
+### Photographs
+
+Every new article needs an AI-generated photorealistic hero image in the front matter `image` block, using the credit and licence above. It also needs another AI-generated photograph every few paragraphs. The picture has to be about that article’s subject. Use a scene a camera could have recorded. Do not use cartoons, illustrations, anime, flat vector art, or other stylised drawings. Do not depict real people. Do not stage a news event that did not happen.
+
+Put a hero JPEG in `src/assets/photos/stories/` and an in-body JPEG in `src/assets/photos/inline/`. Then compress them:
+
+```bash
+npm run art
+```
+
+Commit the JPEG masters and the generated WebP and AVIF files. The Pages build does not run the art script. `npm run art` also refreshes the homepage hero, the plain gradient placeholder, and `og.jpg`.
+
+In the Markdown body, put a photograph on its own lines with the `figure` shortcode:
+
+```liquid
+{% figure "/images/inline/example.webp", "Alt text that describes the photograph.", "Short caption." %}
+```
+
+A Markdown image on its own line does the same thing:
+
+```markdown
+![Alt text that describes the photograph.](/images/inline/example.webp "Short caption.")
+```
+
+Either form writes a responsive WebP and AVIF picture with `width`, `height`, `loading="lazy"`, `decoding="async"`, the alt text, and a visible “AI-generated image” label. The caption is optional. Alt text is required. The hero at the top of the article stays eager so it can paint quickly. Photographs further down stay lazy.
 
 Facts in a story have to come from the sources. Do not invent quotes, numbers, or dates. The [editorial policy](src/editorial-policy.njk) is the rule for what gets published.
 
@@ -91,13 +117,13 @@ npm test     # production build, then HTML, feed, and sitemap checks
 
 `npm test` fails if a page is missing a title, description, canonical URL, Open Graph tags, Twitter card, or JSON-LD, or if feeds and sitemaps do not parse. It also fails if a built page still uses a root-absolute link, or if the old site name is still in the source or the output.
 
-Regenerate the favicon, app icons, and social card after changing `src/public/favicon.svg` or `src/assets/og.svg`:
+Regenerate the favicon and app icons after changing `src/public/favicon.svg`:
 
 ```bash
 npm run icons
 ```
 
-Commit the generated files in `src/public/`. The Pages build does not run the icon script.
+Commit the generated files in `src/public/`. The Pages build does not run the icon script. The social card is `og.jpg`, a crop of the homepage hero, written by `npm run art`.
 
 ## Rename the desk
 
@@ -174,7 +200,7 @@ JSON-LD on every page includes `Organization` (Joshua Israel Ventures LLC) and `
 
 `robots.txt` allows every crawler and also names Googlebot, Bingbot, OAI-SearchBot, GPTBot, PerplexityBot, ClaudeBot, Google-Extended, Applebot-Extended, CCBot, and Bytespider. It links `sitemap.xml`, the IndexNow key file `c7e4a91b6d2f48e0a3b7159c8d6e0f24.txt`, and `llms.txt`.
 
-The footer on every page reads: “© YEAR Joshua Israel Ventures LLC. All rights reserved. AI Headline Hub is owned and operated by Joshua Israel Ventures LLC.” YEAR is the build year. Terms, privacy, and the disclaimer name the company and are governed by Florida law. The about page carries the same ownership line. The contact page has no street address and does not store form submissions. Icons and the social card are original artwork for this site.
+The footer on every page reads: “© YEAR Joshua Israel Ventures LLC. All rights reserved. AI Headline Hub is owned and operated by Joshua Israel Ventures LLC.” YEAR is the build year. Terms, privacy, and the disclaimer name the company and are governed by Florida law. The about page carries the same ownership line. The contact page has no street address and does not store form submissions. The favicon is an original mark. Story and hero photographs are AI-generated images, credited on the page and in `images-licences.md`. The social card is a crop of the homepage hero photograph.
 
 ## Analytics
 

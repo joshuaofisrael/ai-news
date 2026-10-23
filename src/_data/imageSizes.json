@@ -1,0 +1,32 @@
+{
+  "/images/fallback/gradient.webp": {
+    "width": 1280,
+    "height": 720,
+    "srcsetWebp": "/images/fallback/gradient-640.webp 640w, /images/fallback/gradient.webp 1280w",
+    "srcsetAvif": "/images/fallback/gradient-640.avif 640w, /images/fallback/gradient.avif 1280w"
+  },
+  "/images/hero/datacenter.webp": {
+    "width": 1280,
+    "height": 720,
+    "srcsetWebp": "/images/hero/datacenter-640.webp 640w, /images/hero/datacenter.webp 1280w",
+    "srcsetAvif": "/images/hero/datacenter-640.avif 640w, /images/hero/datacenter.avif 1280w"
+  },
+  "/images/stories/claude-duet.webp": {
+    "width": 1280,
+    "height": 720,
+    "srcsetWebp": "/images/stories/claude-duet-640.webp 640w, /images/stories/claude-duet.webp 1280w",
+    "srcsetAvif": "/images/stories/claude-duet-640.avif 640w, /images/stories/claude-duet.avif 1280w"
+  },
+  "/images/stories/openai-google-cloud.webp": {
+    "width": 1280,
+    "height": 720,
+    "srcsetWebp": "/images/stories/openai-google-cloud-640.webp 640w, /images/stories/openai-google-cloud.webp 1280w",
+    "srcsetAvif": "/images/stories/openai-google-cloud-640.avif 640w, /images/stories/openai-google-cloud.avif 1280w"
+  },
+  "/images/stories/partner-safeguards.webp": {
+    "width": 1280,
+    "height": 720,
+    "srcsetWebp": "/images/stories/partner-safeguards-640.webp 640w, /images/stories/partner-safeguards.webp 1280w",
+    "srcsetAvif": "/images/stories/partner-safeguards-640.avif 640w, /images/stories/partner-safeguards.avif 1280w"
+  }
+}

@@ -1,5 +1,6 @@
 import markdownIt from "markdown-it";
 import site from "./src/_data/site.js";
+import { figureShortcode, installFigures } from "./src/_lib/figure.js";
 import { storyImage } from "./src/_lib/images.js";
 import { tagLabel } from "./src/_lib/labels.js";
 import {
@@ -38,6 +39,7 @@ export default function (eleventyConfig) {
     function renderLink(tokens, idx, options, env, self) {
       return self.renderToken(tokens, idx, options, env, self);
     };
+  installFigures(markdown);
   markdown.renderer.rules.link_open = function linkOpen(tokens, idx, options, env, self) {
     const token = tokens[idx];
     const href = token.attrGet("href") || "";
@@ -53,6 +55,7 @@ export default function (eleventyConfig) {
   eleventyConfig.addFilter("markdown", (value) => markdown.render(String(value || "")));
 
   eleventyConfig.addFilter("storyImage", (value) => storyImage(value, site));
+  eleventyConfig.addShortcode("figure", (src, alt, caption) => figureShortcode(src, alt, caption));
   eleventyConfig.addFilter("href", (value) => prefixPath(value, pathPrefix));
   eleventyConfig.addFilter("absUrl", (value) => absoluteUrl(value || "/", siteUrl));
   eleventyConfig.addFilter("isoDate", (value) => isoDate(value));
@@ -174,7 +177,7 @@ export default function (eleventyConfig) {
 
   return {
     pathPrefix,
-    markdownTemplateEngine: false,
+    markdownTemplateEngine: "njk",
     htmlTemplateEngine: "njk",
     templateFormats: ["md", "njk", "html", "11ty.js"],
     dir: {

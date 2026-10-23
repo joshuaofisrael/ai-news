@@ -3,6 +3,10 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  {% if mastheadHeading %}
+    {% set hero = site.heroImage | storyImage %}
+    <link rel="preload" as="image" type="image/avif" imagesrcset="{{ hero.srcsetAvif }}" imagesizes="100vw" fetchpriority="high">
+  {% endif %}
   {% include "partials/seo.njk" %}
   <link rel="stylesheet" href="/assets/css/site.css">
 </head>

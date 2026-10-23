@@ -6,7 +6,10 @@ import { HtmlValidate } from "html-validate";
 import site from "../src/_data/site.js";
 import categories from "../src/_data/categories.js";
 import { thisYear, utcPathDate } from "../src/_lib/dates.js";
-import { absoluteUrl, pathPrefixFromUrl, prefixPath, relativeUrl } from "../src/_lib/urls.js";
+import markdownIt from "markdown-it";
+import { figureShortcode, installFigures } from "../src/_lib/figure.js";
+import { storyImage } from "../src/_lib/images.js";
+import { absoluteUrl, absolutizeHtml, pathPrefixFromUrl, prefixPath, prefixRootAttributes, relativeUrl, relativizeRootAttributes } from "../src/_lib/urls.js";
 
 assert.equal(pathPrefixFromUrl("https://joshuaofisrael.github.io/ai-news"), "/ai-news/");
 assert.equal(pathPrefixFromUrl("https://news.example.com"), "/");
@@ -28,6 +31,63 @@ assert.equal(relativeUrl("/category/funding/", "/assets/css/site.css"), "../../a
 assert.equal(relativeUrl("/404.html", "/assets/css/site.css"), "assets/css/site.css");
 assert.equal(relativeUrl("/about/", "/about/"), "./");
 assert.equal(relativeUrl("/about/", "/about/#top"), "./#top");
+assert.equal(
+  relativizeRootAttributes(
+    '<link rel="preload" imagesrcset="/images/hero/datacenter-640.avif 640w, /images/hero/datacenter.avif 1280w">',
+    "/",
+  ),
+  '<link rel="preload" imagesrcset="images/hero/datacenter-640.avif 640w, images/hero/datacenter.avif 1280w">',
+);
+assert.equal(
+  prefixRootAttributes('<img srcset="/images/a.webp 640w, /images/b.webp 1280w">', "/ai-news/"),
+  '<img srcset="/ai-news/images/a.webp 640w, /ai-news/images/b.webp 1280w">',
+);
+assert.equal(
+  absolutizeHtml(
+    '<img src="/images/hero/datacenter.webp" srcset="/images/hero/datacenter-640.webp 640w, /images/hero/datacenter.webp 1280w">',
+    "https://aiheadlinehub.com",
+  ),
+  '<img src="https://aiheadlinehub.com/images/hero/datacenter.webp" srcset="https://aiheadlinehub.com/images/hero/datacenter-640.webp 640w, https://aiheadlinehub.com/images/hero/datacenter.webp 1280w">',
+);
+
+const figureMarkdown = markdownIt({ html: false, linkify: true, typographer: false });
+installFigures(figureMarkdown);
+const figureHtml = figureMarkdown.render(
+  `The agent keeps working.\n\n${figureShortcode(
+    "/images/hero/datacenter.webp",
+    "Server racks glowing blue in a data-center corridor.",
+    "A corridor of racks.",
+  )}\n\nThe preview is limited to the United States.`,
+);
+assert.match(figureHtml, /<figure class="story-media inline-figure">/);
+assert.match(figureHtml, /<source type="image\/avif" srcset="[^"]*datacenter-640\.avif 640w, [^"]*datacenter\.avif 1280w"/);
+assert.match(figureHtml, /<source type="image\/webp" srcset="[^"]*datacenter-640\.webp 640w, [^"]*datacenter\.webp 1280w"/);
+assert.match(
+  figureHtml,
+  /<img src="\/images\/hero\/datacenter\.webp" alt="Server racks glowing blue in a data-center corridor\." width="1280" height="720" loading="lazy" decoding="async">/,
+);
+assert.match(figureHtml, /<span class="ai-label">AI-generated image<\/span> A corridor of racks\./);
+assert.doesNotMatch(figureHtml, /loading="eager"/);
+assert.doesNotMatch(figureHtml, /&lt;figure/);
+assert.match(figureHtml, /<p>The agent keeps working\.<\/p>/);
+assert.throws(
+  () => figureMarkdown.render("![](/images/hero/datacenter.webp)\n"),
+  /needs alt text/,
+);
+assert.throws(
+  () => figureMarkdown.render(figureShortcode("/images/inline/not-yet.webp", "A desk with a laptop.", "")),
+  /npm run art/,
+);
+const placeholder = storyImage(null, site);
+assert.equal(placeholder.src, site.fallbackImage);
+assert.equal(placeholder.aiGenerated, false);
+assert.equal(placeholder.width, 1280);
+assert.equal(placeholder.height, 720);
+const socialCard = storyImage(site.defaultImage, site);
+assert.equal(socialCard.src, "/og.jpg");
+assert.equal(socialCard.width, 1200);
+assert.equal(socialCard.height, 630);
+assert.match(storyImage(site.heroImage, site).srcsetAvif, /datacenter-640\.avif 640w/);
 
 const root = path.resolve("_site");
 const errors = [];
@@ -127,6 +187,9 @@ for (const file of htmlFiles) {
     if (html.toLowerCase().includes(needle)) fail(`${rel} contains a tracker marker: ${needle}`);
   }
   if (/<img\b(?![^>]*\balt=)/i.test(html)) fail(`${rel} has an image without alt`);
+  if (html.includes("Original illustration") || html.includes('class="network"') || html.includes("/assets/art/")) {
+    fail(`${rel} still contains illustration art`);
+  }
 
   const title = attr(html, /<title>([^<]*)<\/title>/);
   const description = attr(html, /<meta name="description" content="([^"]*)">/);
@@ -207,6 +270,27 @@ for (const file of htmlFiles) {
   if (pagePath === "contact/index.html" && !html.includes("does not publish a street address")) {
     fail(`${rel} must say that no street address is published`);
   }
+  if (pagePath === "index.html") {
+    if (!html.includes("images/hero/datacenter")) fail(`${rel} is missing the hero photograph`);
+    if (!html.includes('fetchpriority="high"')) fail(`${rel} hero is missing fetchpriority`);
+    if (!html.includes('class="hero-photo"') || !html.includes('loading="eager"')) {
+      fail(`${rel} hero photograph should load eagerly`);
+    }
+    if (!html.includes("hero-scrim")) fail(`${rel} is missing the hero scrim`);
+    if (!html.includes("/og.jpg")) fail(`${rel} social card should use the hero`);
+    if (/imagesrcset="\//.test(html)) fail(`${rel} preload imagesrcset is still root-absolute`);
+  }
+  if (html.includes('class="story-media article-hero"')) {
+    if (!html.includes('<span class="ai-label">AI-generated image</span>')) {
+      fail(`${rel} article image is missing the AI-generated label`);
+    }
+    if (!html.includes('width="1280"') || !html.includes('height="720"')) {
+      fail(`${rel} article image is missing its dimensions`);
+    }
+    if (html.includes("Original illustration") || html.includes("/assets/art/")) {
+      fail(`${rel} still embeds illustration art`);
+    }
+  }
 
   if (title) {
     if (titles.has(title)) fail(`Duplicate title "${title}" on ${rel} and ${titles.get(title)}`);
@@ -219,11 +303,20 @@ for (const file of htmlFiles) {
     descriptions.set(description, rel);
   }
 
-  if (/(?:\shref|\ssrc|\saction|\ssrcset)="\/(?!\/)/.test(html)) {
+  if (/(?:\shref|\ssrc|\saction|\ssrcset|\simagesrcset)="\/(?!\/)/.test(html)) {
     fail(`${rel} contains a root-absolute URL`);
   }
 
-  const links = [...html.matchAll(/\s(?:href|src)="([^"]+)"/g)].map((match) => match[1]);
+  const srcsetLinks = [...html.matchAll(/\s(?:srcset|imagesrcset)="([^"]+)"/g)].flatMap((match) =>
+    match[1]
+      .split(",")
+      .map((part) => part.trim().split(/\s+/)[0])
+      .filter(Boolean),
+  );
+  const links = [
+    ...[...html.matchAll(/\s(?:href|src)="([^"]+)"/g)].map((match) => match[1]),
+    ...srcsetLinks,
+  ];
   for (const link of links) {
     if (!link || /^(https?:|mailto:|#)/i.test(link) || link.startsWith("//")) continue;
     const pathname = link.split(/[?#]/)[0];
@@ -266,6 +359,15 @@ for (const name of postFiles) {
   if (urls.length < 1) fail(`${name} needs at least one https source URL`);
   const category = (matter.match(/^category:\s*(\S+)\s*$/m) || [])[1];
   if (category && !categorySlugs.has(category)) fail(`${name} uses unknown category ${category}`);
+  if (!matter.includes("credit: AI-generated image, AI Headline Hub")) {
+    fail(`${name} image credit must be "AI-generated image, AI Headline Hub"`);
+  }
+  if (!matter.includes("licence: Generated for AI Headline Hub")) {
+    fail(`${name} image licence must be "Generated for AI Headline Hub"`);
+  }
+  if (/\.svg\b/.test(matter) || matter.includes("Original illustration")) {
+    fail(`${name} still uses illustration art`);
+  }
   const dateValue = (matter.match(/^date:\s*["']?([^"'\n]+)["']?\s*$/m) || [])[1];
   const date = dateValue ? new Date(dateValue) : null;
   if (!date || Number.isNaN(date.getTime())) fail(`${name} has an unreadable date`);
@@ -457,7 +559,16 @@ for (const file of sourceFiles) {
   }
 }
 
-for (const asset of ["favicon.ico", "favicon.svg", "apple-touch-icon.png", "og.png", "assets/css/site.css"]) {
+for (const asset of [
+  "favicon.ico",
+  "favicon.svg",
+  "apple-touch-icon.png",
+  site.defaultImage.replace(/^\//, ""),
+  "images/hero/datacenter.webp",
+  "images/hero/datacenter.avif",
+  "images/fallback/gradient.webp",
+  "assets/css/site.css",
+]) {
   if (!(await exists(path.join(root, asset)))) fail(`Missing asset ${asset}`);
 }
 

@@ -10,12 +10,12 @@ tags:
   - safety
 image:
   src: /images/stories/partner-safeguards.webp
-  alt: A shield made of circuit traces, drawn for the OpenAI safeguards report.
-  credit: Original illustration by AI Headline Hub
-  source_url: https://github.com/joshuaofisrael/ai-news/blob/main/src/assets/art/partner-safeguards.svg
-  licence: Original artwork, all rights reserved
-  width: 1200
-  height: 675
+  alt: A processor chip glowing on a dark circuit board, with blurred server lights behind it.
+  credit: AI-generated image, AI Headline Hub
+  source_url: https://github.com/joshuaofisrael/ai-news/blob/main/src/assets/photos/stories/partner-safeguards.jpg
+  licence: Generated for AI Headline Hub
+  width: 1280
+  height: 720
 sources:
   - title: Broad access through consistent standards
     url: https://openai.com/index/broad-access-through-consistent-standards
