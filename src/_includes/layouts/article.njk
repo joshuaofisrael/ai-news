@@ -11,10 +11,8 @@ layout: layouts/base.njk
     <p class="byline">
       By <a href="/about/">{{ author or site.name }}</a>
       · <time datetime="{{ page.date | isoDate }}">{{ page.date | readableDateTime }}</time>
-      {% if updated and (updated | isoDate) != (page.date | isoDate) %}
-        · Updated <time datetime="{{ updated | isoDate }}">{{ updated | readableDateTime }}</time>
-      {% endif %}
-      · <a href="/editorial-policy/">Editorial policy</a>
+      · Updated <time datetime="{{ (updated or page.date) | isoDate }}">{{ (updated or page.date) | readableDateTime }}</time>
+      · <a href="/editorial-policy/">Sources and ethics</a>
     </p>
   </header>
   {% set picture = image %}
@@ -29,6 +27,7 @@ layout: layouts/base.njk
   {% endif %}
   <div class="prose">
     {{ content | safe }}
+    <p class="report-note">This report is not legal, financial, or health advice. See the <a href="/disclaimer/">disclaimer</a>.</p>
   </div>
   {% if sources and sources.length %}
     <section class="sources" aria-labelledby="sources-heading">

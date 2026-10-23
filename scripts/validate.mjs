@@ -280,8 +280,19 @@ for (const file of htmlFiles) {
     if (!html.includes("/og.jpg")) fail(`${rel} social card should use the hero`);
     if (/imagesrcset="\//.test(html)) fail(`${rel} preload imagesrcset is still root-absolute`);
   }
+  if (html.includes('class="wrap article-page"')) {
+    if (!html.includes("Updated <time")) fail(`${rel} is missing a visible updated date`);
+    const sourcesBlock = html.split('id="sources-heading"')[1]?.split("</section>")[0] || "";
+    if (!sourcesBlock || !/href="https?:\/\//.test(sourcesBlock)) {
+      fail(`${rel} needs a sources list with at least one link`);
+    }
+    const hasStoryImage = html.includes('class="story-media article-hero"') && !html.includes("/images/fallback/gradient");
+    if (hasStoryImage && !html.includes("AI-generated image")) {
+      fail(`${rel} image is missing the AI-generated caption`);
+    }
+  }
   if (html.includes('class="story-media article-hero"')) {
-    if (!html.includes('<span class="ai-label">AI-generated image</span>')) {
+    if (!html.includes('<span class="ai-label">AI-generated image</span>') && !html.includes("/images/fallback/gradient")) {
       fail(`${rel} article image is missing the AI-generated label`);
     }
     if (!html.includes('width="1280"') || !html.includes('height="720"')) {
@@ -357,6 +368,7 @@ for (const name of postFiles) {
   }
   if (!/^tags:\s*$/m.test(matter)) fail(`${name} is missing tags`);
   if (!/^sources:\s*$/m.test(matter)) fail(`${name} is missing sources`);
+  if (!/^updated:\s*\S/m.test(matter)) fail(`${name} is missing updated`);
   const urls = [...matter.matchAll(/^\s+url:\s+(https?:\/\/\S+)\s*$/gm)].map((match) => match[1]);
   if (urls.length < 1) fail(`${name} needs at least one https source URL`);
   const category = (matter.match(/^category:\s*(\S+)\s*$/m) || [])[1];
