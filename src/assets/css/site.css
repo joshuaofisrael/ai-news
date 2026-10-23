@@ -498,6 +498,90 @@ figcaption,
 
 .brand-line { font-weight: 700; }
 
+.contact-form {
+  display: grid;
+  gap: 0.9rem;
+  margin: 0 0 1rem;
+}
+
+.field {
+  display: grid;
+  gap: 0.3rem;
+}
+
+.field label { font-weight: 600; }
+
+.field-req {
+  font-weight: 400;
+  color: var(--muted);
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+  width: 100%;
+  min-height: 44px;
+  padding: 0.55rem 0.75rem;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--card);
+  color: var(--ink);
+  font: inherit;
+}
+
+.contact-form textarea {
+  min-height: 9rem;
+  resize: vertical;
+}
+
+.contact-form button {
+  justify-self: start;
+  min-height: 44px;
+  padding: 0.55rem 1.15rem;
+  border: 0;
+  border-radius: 999px;
+  background: var(--header);
+  color: var(--header-text);
+  font: inherit;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.contact-form button:disabled {
+  cursor: wait;
+  opacity: 0.72;
+}
+
+.hp {
+  position: absolute;
+  left: -10000px;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
+.contact-status {
+  margin: 0 0 1rem;
+  padding: 0.8rem 1rem;
+  border-left: 4px solid var(--link);
+  background: var(--card);
+}
+
+.contact-status:empty {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background: transparent;
+}
+
+.contact-status.is-error { border-left-color: #8a3d12; }
+
+.contact-privacy {
+  margin-top: 0.2rem;
+  color: var(--muted);
+  font-size: 0.95rem;
+}
+
 .site-footer {
   margin-top: 2rem;
   padding: 2rem 0 2.4rem;

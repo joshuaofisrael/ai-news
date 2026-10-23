@@ -18,6 +18,9 @@
   </main>
   {% include "partials/footer.njk" %}
   <script src="/assets/js/motion.js" defer></script>
+  {% for script in extraScripts or [] %}
+  <script src="{{ script }}" defer></script>
+  {% endfor %}
   {% if site.cfBeaconToken %}
   <script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "{{ site.cfBeaconToken }}"}'></script>
   {% endif %}
