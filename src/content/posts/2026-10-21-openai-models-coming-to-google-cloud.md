@@ -11,12 +11,12 @@ tags:
   - enterprise
 image:
   src: /images/stories/openai-google-cloud.webp
-  alt: Two clusters of nodes joined by a bridge, drawn for the OpenAI and Google Cloud report.
-  credit: Original illustration by AI Headline Hub
-  source_url: https://github.com/joshuaofisrael/ai-news/blob/main/src/assets/art/openai-google-cloud.svg
-  licence: Original artwork, all rights reserved
-  width: 1200
-  height: 675
+  alt: Two rows of server racks in a glass room, connected by a band of blue light.
+  credit: AI-generated image, AI Headline Hub
+  source_url: https://github.com/joshuaofisrael/ai-news/blob/main/src/assets/photos/stories/openai-google-cloud.jpg
+  licence: Generated for AI Headline Hub
+  width: 1280
+  height: 720
 sources:
   - title: OpenAI models are coming to Google Cloud
     url: https://openai.com/index/openai-models-google-cloud

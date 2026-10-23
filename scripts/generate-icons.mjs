@@ -28,7 +28,6 @@ function icoFromPngs(pngs) {
 }
 
 const favicon = await readFile(path.join(publicDir, "favicon.svg"));
-const card = await readFile(path.join(root, "src/assets/og.svg"));
 await mkdir(iconDir, { recursive: true });
 
 async function png(size) {
@@ -55,12 +54,10 @@ await sharp({
   .png()
   .toFile(path.join(iconDir, "icon-maskable-512.png"));
 
-await sharp(card).resize(1200, 630).png().toFile(path.join(publicDir, "og.png"));
-
 const ico = icoFromPngs([
   { size: 16, buffer: sixteen },
   { size: 32, buffer: buffers.get(32) },
 ]);
 await writeFile(path.join(publicDir, "favicon.ico"), ico);
 
-console.log("Wrote favicon, app icons, and the 1200×630 social card.");
+console.log("Wrote favicon and app icons.");
