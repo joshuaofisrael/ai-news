@@ -342,6 +342,8 @@ const postsDir = path.resolve("src/content/posts");
 const postFiles = (await readdir(postsDir)).filter((name) => name.endsWith(".md"));
 if (postFiles.length < 3) fail(`Expected at least 3 articles, found ${postFiles.length}`);
 const recentUrls = [];
+const publishedTitles = [];
+let publishedCount = 0;
 for (const name of postFiles) {
   const raw = await readFile(path.join(postsDir, name), "utf8");
   const front = raw.match(/^---\r?\n([\s\S]*?)\r?\n---/);
@@ -370,8 +372,14 @@ for (const name of postFiles) {
   }
   const dateValue = (matter.match(/^date:\s*["']?([^"'\n]+)["']?\s*$/m) || [])[1];
   const date = dateValue ? new Date(dateValue) : null;
+  const isDraft = /^draft:\s*true\s*$/m.test(matter);
+  if (!isDraft) {
+    publishedCount += 1;
+    const publishedTitle = (matter.match(/^title:\s*(.+)\s*$/m) || [])[1]?.replace(/^["']|["']$/g, "");
+    if (publishedTitle) publishedTitles.push(publishedTitle);
+  }
   if (!date || Number.isNaN(date.getTime())) fail(`${name} has an unreadable date`);
-  else if (Date.now() - date.getTime() <= site.newsSitemapHours * 60 * 60 * 1000) {
+  else if (!isDraft && Date.now() - date.getTime() <= site.newsSitemapHours * 60 * 60 * 1000) {
     const slug = name.replace(/\.md$/, "").replace(/^\d{4}-\d{2}-\d{2}-/, "");
     recentUrls.push(absoluteUrl(`/${utcPathDate(date)}/${slug}/`, site.url));
   }
@@ -446,7 +454,7 @@ for (const feedName of ["feed.xml", "atom.xml"]) {
     const channel = parsed.rss?.channel;
     if (!channel?.title || !channel.link || !channel.description) fail("RSS channel is missing required fields");
     const items = listify(channel?.item);
-    if (items.length < postFiles.length) fail(`RSS has ${items.length} items`);
+    if (items.length < publishedCount) fail(`RSS has ${items.length} items`);
     for (const item of items) {
       if (!item.title || !item.link || !item.pubDate || !item.guid) fail("RSS item is missing a required field");
       if (!String(item.link).startsWith(site.url)) fail(`RSS link is not absolute: ${item.link}`);
@@ -456,7 +464,7 @@ for (const feedName of ["feed.xml", "atom.xml"]) {
     const feed = parsed.feed;
     if (!feed?.title || !feed.id || !feed.updated) fail("Atom feed is missing required fields");
     const entries = listify(feed?.entry);
-    if (entries.length < postFiles.length) fail(`Atom has ${entries.length} entries`);
+    if (entries.length < publishedCount) fail(`Atom has ${entries.length} entries`);
     if (!xml.includes('rel="self"')) fail("Atom feed is missing a self link");
   }
 }
@@ -464,10 +472,8 @@ for (const feedName of ["feed.xml", "atom.xml"]) {
 const llms = await readText("llms.txt");
 if (llms && !llms.startsWith(`# ${site.name}`)) fail("llms.txt does not start with the site name");
 if (llms && !/GPTBot/.test(llms)) fail("llms.txt does not mention that AI crawlers are allowed");
-for (const name of postFiles) {
-  const raw = await readFile(path.join(postsDir, name), "utf8");
-  const title = (raw.match(/^title:\s*(.+)\s*$/m) || [])[1]?.replace(/^["']|["']$/g, "");
-  if (title && llms && !llms.includes(title)) fail(`llms.txt is missing ${title}`);
+for (const title of publishedTitles) {
+  if (llms && !llms.includes(title)) fail(`llms.txt is missing ${title}`);
 }
 
 const humans = await readText("humans.txt");
