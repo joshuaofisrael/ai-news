@@ -9,7 +9,7 @@ tags:
   - sagemaker
   - training
 author: AI Headline Hub
-draft: true
+draft: false
 image:
   src: /images/stories/sagemaker-training-sessions.webp
   alt: A developer desk with two monitors showing blurred code and a training curve, and no readable text or logos.
