@@ -3,6 +3,7 @@
   {% if showImage and post.data.image %}
     {% set picture = post.data.image %}
     {% set className = "" %}
+    {% set loading = "eager" if variant == "lead" else "lazy" %}
     {% include "partials/figure.njk" %}
   {% endif %}
   <div class="story-copy">
