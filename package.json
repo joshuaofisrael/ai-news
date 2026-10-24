@@ -2,7 +2,7 @@
   "name": "ai-headline-hub",
   "private": true,
   "type": "module",
-  "description": "AI Headline Hub, a static news site published by Joshua Israel Ventures LLC.",
+  "description": "AI Headline Hub, a static news site.",
   "engines": {
     "node": ">=20"
   },

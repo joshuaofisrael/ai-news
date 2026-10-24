@@ -49,7 +49,7 @@ ${extraTags}
   <link rel="alternate" type="text/html" href="${xmlEscape(home)}"/>
   <link rel="self" type="application/atom+xml" href="${xmlEscape(self)}"/>
   <author><name>${xmlEscape(site.name)}</name></author>
-  <rights>Copyright ${thisYear()} ${xmlEscape(site.legalName)}</rights>
+  <rights>Copyright ${thisYear()} ${xmlEscape(site.name)}</rights>
   <generator>Eleventy</generator>
 ${entryXml}
 </feed>

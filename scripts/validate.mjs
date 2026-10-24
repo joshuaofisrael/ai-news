@@ -245,15 +245,15 @@ for (const file of htmlFiles) {
     const website = graph.find((node) => node["@type"] === "WebSite");
     if (!types.has("Organization")) fail(`${rel} JSON-LD is missing Organization`);
     if (!types.has("WebSite")) fail(`${rel} JSON-LD is missing WebSite`);
-    if (organization && organization.name !== site.legalName) {
+    if (organization && organization.name !== site.name) {
       fail(`${rel} Organization name is "${organization.name}"`);
     }
     const articleNode = graph.find((node) => node["@type"] === "NewsArticle");
     if (articleNode && articleNode.publisher?.["@id"] !== organization?.["@id"]) {
-      fail(`${rel} NewsArticle publisher is not ${site.legalName}`);
+      fail(`${rel} NewsArticle publisher is not ${site.name}`);
     }
-    if (organization && organization.legalName !== site.legalName) {
-      fail(`${rel} Organization legalName is "${organization.legalName}"`);
+    if (organization && Object.prototype.hasOwnProperty.call(organization, "legalName")) {
+      fail(`${rel} Organization schema still includes legalName`);
     }
     if (website && website.name !== site.name) fail(`${rel} WebSite name is "${website.name}"`);
     if (html.includes('property="og:type" content="article"')) {
@@ -271,13 +271,23 @@ for (const file of htmlFiles) {
     fail(`${rel} is missing the Cloudflare beacon before </body>`);
   }
 
-  const copyright = `© ${thisYear()} ${site.legalName}. All rights reserved. ${site.name} is owned and operated by ${site.legalName}.`;
+  const copyright = `© ${thisYear()} ${site.name}`;
   if (!html.includes(copyright)) fail(`${rel} is missing the required copyright line`);
   const pagePath = rel.split(path.sep).join("/");
+  const legalPages = new Set([
+    "terms/index.html",
+    "privacy/index.html",
+    "disclaimer/index.html",
+    "editorial-policy/index.html",
+    "contact/index.html",
+  ]);
   if (["terms/index.html", "privacy/index.html", "disclaimer/index.html"].includes(pagePath)) {
     if (!html.includes(site.legalName) || !html.includes("State of Florida")) {
       fail(`${rel} must name ${site.legalName} and Florida law`);
     }
+  }
+  if (!legalPages.has(pagePath) && (html.includes(site.legalName) || html.includes("Joshua Israel"))) {
+    fail(`${rel} names the publisher’s legal entity outside a legal page`);
   }
   if (pagePath === "about/index.html" && !html.includes('class="brand-line"')) {
     fail(`${rel} is missing the brand line`);
@@ -530,7 +540,16 @@ for (const title of publishedTitles) {
 }
 
 const humans = await readText("humans.txt");
-if (humans && !humans.includes(site.legalName)) fail("humans.txt is missing the publisher");
+if (humans && !humans.includes(`Publisher: ${site.name}`)) fail("humans.txt is missing the publisher");
+if (humans && (humans.includes(site.legalName) || humans.includes("Joshua"))) {
+  fail("humans.txt names the publisher’s legal entity or personal name");
+}
+for (const discoveryName of ["llms.txt", "site.webmanifest", "feed.xml", "atom.xml"]) {
+  const discovery = await readText(discoveryName);
+  if (discovery && (discovery.includes(site.legalName) || discovery.includes("Joshua"))) {
+    fail(`${discoveryName} names the publisher’s legal entity or personal name`);
+  }
+}
 
 const security = await readText(path.join(".well-known", "security.txt"));
 for (const field of ["Contact:", "Expires:", "Preferred-Languages:", "Canonical:"]) {

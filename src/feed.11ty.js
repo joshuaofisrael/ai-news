@@ -46,7 +46,7 @@ ${extraTags}
     <language>en-us</language>
     <lastBuildDate>${xmlEscape(rfc822(posts[0]?.date || new Date()))}</lastBuildDate>
     <atom:link href="${xmlEscape(self)}" rel="self" type="application/rss+xml"/>
-    <copyright>Copyright ${thisYear()} ${xmlEscape(site.legalName)}</copyright>
+    <copyright>Copyright ${thisYear()} ${xmlEscape(site.name)}</copyright>
     <generator>Eleventy</generator>
 ${itemXml}
   </channel>

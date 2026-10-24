@@ -1,6 +1,6 @@
 # AI Headline Hub
 
-Static news site published by **Joshua Israel Ventures LLC**. Pages are built with [Eleventy](https://www.11ty.dev/) from Markdown files and deployed to GitHub Pages from `main`.
+Static news site. The public name is **AI Headline Hub**. Pages are built with [Eleventy](https://www.11ty.dev/) from Markdown files and deployed to GitHub Pages from `main`.
 
 The public name, short name, and canonical origin live in [`src/_data/site.js`](src/_data/site.js).
 
@@ -65,7 +65,7 @@ sources:
 | `tags` | yes | Lowercase slugs. Do not include `post`. |
 | `sources` | yes | At least one `https` URL. Rendered on the page and in JSON-LD `citation`. |
 | `author` | no | Defaults to the site name. |
-| `image` | no | Hero photograph. Object with `src`, `alt`, `credit`, `source_url`, `licence`, `width`, and `height`. `src` is a root-relative WebP path. The build also looks for a matching AVIF and a `-640` variant. Credit is `Image: AI Headline Hub` and licence is `AI Headline Hub`. Joshua’s rule (23 Oct): images carry no “AI-generated” label. Log every file in `images-licences.md`. A story with no image shows a plain dark gradient. Pages without their own image use the hero photograph, `/og.jpg`, as the social card. |
+| `image` | no | Hero photograph. Object with `src`, `alt`, `credit`, `source_url`, `licence`, `width`, and `height`. `src` is a root-relative WebP path. The build also looks for a matching AVIF and a `-640` variant. Credit is `Image: AI Headline Hub` and licence is `AI Headline Hub`. House rule (23 Oct): images carry no “AI-generated” label. Log every file in `images-licences.md`. A story with no image shows a plain dark gradient. Pages without their own image use the hero photograph, `/og.jpg`, as the social card. |
 | `correction` | no | Shown in a note at the top of the story. Say what was wrong and what changed. |
 | `draft` | no | `true` keeps the file out of production builds. Drafts are visible in `npm start`. |
 
@@ -127,7 +127,7 @@ Commit the generated files in `src/public/`. The Pages build does not run the ic
 
 ## Rename the desk
 
-In `src/_data/site.js`, change `name`, `shortName`, `tagline`, and `description`. `legalName` is the publisher, Joshua Israel Ventures LLC. The site name flows into the masthead, page titles, feeds, JSON-LD `WebSite`, the web manifest, `llms.txt`, and the Google News sitemap publication name. JSON-LD `Organization` uses `legalName` as both `name` and `legalName`, and lists the site name as `alternateName`.
+In `src/_data/site.js`, change `name`, `shortName`, `tagline`, and `description`. `legalName` is used only on legal pages (terms, privacy, disclaimer, editorial policy, and contact). It does not appear in the header, footer, about page, feeds, `llms.txt`, `humans.txt`, the web manifest, or JSON-LD. The site name flows into the masthead, page titles, feeds, JSON-LD `WebSite` and `Organization`, the web manifest, `llms.txt`, and the Google News sitemap publication name. JSON-LD `Organization` uses the site name and does not include `legalName`.
 
 Page copy that should track the name already uses the config. A story’s headline and body do not change when the site is renamed. A few legal-page meta descriptions name the desk directly; update those in the same change.
 
@@ -196,11 +196,11 @@ When `https://aiheadlinehub.com/` loads, run `npm run indexnow -- --all`. IndexN
 
 `robots.txt` allows `GPTBot`, `ClaudeBot`, `CCBot`, `Google-Extended`, `Bytespider`, `PerplexityBot`, and the other agents listed in `site.aiCrawlers`. Pages do not use `noai` or `noimageai`.
 
-JSON-LD on every page includes `Organization` (Joshua Israel Ventures LLC) and `WebSite` (AI Headline Hub). Stories add `NewsArticle`, with that organization as `publisher`, and `BreadcrumbList`. Section, tag, and archive pages add `BreadcrumbList` when they have a trail.
+JSON-LD on every page includes `Organization` and `WebSite`, both named AI Headline Hub. The organization object does not include a `legalName`. Stories add `NewsArticle`, with that organization as `publisher`, and `BreadcrumbList`. Section, tag, and archive pages add `BreadcrumbList` when they have a trail.
 
 `robots.txt` allows every crawler and also names Googlebot, Bingbot, OAI-SearchBot, GPTBot, PerplexityBot, ClaudeBot, Google-Extended, Applebot-Extended, CCBot, and Bytespider. It links `sitemap.xml`, the IndexNow key file `c7e4a91b6d2f48e0a3b7159c8d6e0f24.txt`, and `llms.txt`.
 
-The footer on every page reads: “© YEAR Joshua Israel Ventures LLC. All rights reserved. AI Headline Hub is owned and operated by Joshua Israel Ventures LLC.” YEAR is the build year. Terms, privacy, and the disclaimer name the company and are governed by Florida law. The about page carries the same ownership line. The contact page has no street address. Its form sends a note through FormSubmit.co and this site does not keep its own copy. The favicon is an original mark. Story and hero photographs are AI-generated images, credited on the page and in `images-licences.md`. The social card is a crop of the homepage hero photograph.
+The footer on every page reads: “© YEAR AI Headline Hub.” YEAR is the build year. It also links to Terms, Privacy, Disclaimer, Editorial policy, and Contact, and states that all images are AI-generated and illustrative. The legal entity name and the Florida governing-law sentence live on the terms page. Privacy and the disclaimer also name the legal entity and Florida law. The about page does not. The contact page names the legal entity because that is who receives a message, and it has no street address. Its form sends a note through FormSubmit.co and this site does not keep its own copy. The favicon is an original mark. Story and hero photographs are AI-generated images, credited on the page and in `images-licences.md`. The social card is a crop of the homepage hero photograph.
 
 ## Analytics
 

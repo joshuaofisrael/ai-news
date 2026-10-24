@@ -13,7 +13,7 @@ export function render(data) {
     "",
     `> ${site.description}`,
     "",
-    `${site.name} is published by ${site.legalName}. Search crawlers and AI crawlers are explicitly allowed in robots.txt, including GPTBot, ClaudeBot, CCBot, Google-Extended, Bytespider, and PerplexityBot. Pages do not use noai or noimageai tags. That access policy does not assign copyright.`,
+    `${site.name} publishes reported stories and links primary sources. Search crawlers and AI crawlers are explicitly allowed in robots.txt, including GPTBot, ClaudeBot, CCBot, Google-Extended, Bytespider, and PerplexityBot. Pages do not use noai or noimageai tags. That access policy does not assign copyright.`,
     "",
     "Full story text is on each article page and in the RSS and Atom feeds.",
     "",

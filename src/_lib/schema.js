@@ -19,9 +19,7 @@ export function buildSchema(input = {}) {
   const organization = {
     "@type": "Organization",
     "@id": orgId,
-    name: site.legalName,
-    legalName: site.legalName,
-    alternateName: site.name,
+    name: site.name,
     url: `${site.url}/`,
     logo: {
       "@type": "ImageObject",
@@ -29,16 +27,21 @@ export function buildSchema(input = {}) {
       width: 512,
       height: 512,
     },
-    sameAs: site.sameAs,
     publishingPrinciples: absoluteUrl("/editorial-policy/", site.url),
   };
 
-  if (site.contactUrl || site.contactEmail) {
+  if (site.contactEmail) {
     organization.contactPoint = {
       "@type": "ContactPoint",
       contactType: "editorial",
-      url: site.contactUrl || undefined,
-      email: site.contactEmail || undefined,
+      url: absoluteUrl("/contact/", site.url),
+      email: site.contactEmail,
+    };
+  } else {
+    organization.contactPoint = {
+      "@type": "ContactPoint",
+      contactType: "editorial",
+      url: absoluteUrl("/contact/", site.url),
     };
   }
 
