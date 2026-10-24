@@ -9,7 +9,7 @@ tags:
   - peer-review
   - harvard
 author: AI Headline Hub
-draft: true
+draft: false
 image:
   src: /images/stories/harvard-ai-peer-review.webp
   alt: An empty library carrel with a printed manuscript, a closed laptop, and a pencil, and no people in the frame.

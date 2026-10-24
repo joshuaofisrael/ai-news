@@ -9,7 +9,7 @@ tags:
   - agents
   - safety
 author: AI Headline Hub
-draft: true
+draft: false
 image:
   src: /images/stories/openai-monitoring-report.webp
   alt: An empty security-operations desk with dark monitors and a single amber indicator, and no people or readable screens.
