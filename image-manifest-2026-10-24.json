@@ -1,0 +1,189 @@
+{
+  "date": "2026-10-24",
+  "aspect_ratio": "16:9",
+  "credit": "Image: AI Headline Hub",
+  "licence": "AI Headline Hub",
+  "notes": "Generate a JPEG master for every entry, 1280x720 or larger, 16:9, photorealistic, as if shot on a real camera in natural or available light. No cartoons, illustrations, flat vector, or stylised art. No faces and no real identifiable people. Generic hands or distant anonymous figures only if a prompt asks for them; these prompts do not. No company logos, wordmarks, flags, seals, or readable brand names or text. Do not stage a press conference, signing, protest, hearing, or other news event. New-story posts are draft:true until these masters exist and npm run art has been run. src/_data/imageSizes.json contains temporary dimension stubs (pending:true) so Eleventy can render the drafts in serve mode; npm run art rewrites that file from JPEGs on disk, so add every master before running art or the draft render will fail again. Post front matter uses credit \"Image: AI Headline Hub\" and licence \"AI Headline Hub\". Do not put an AI-generated label in alt text or captions.",
+  "images": [
+    {
+      "article": "King and Worthington say AI reviews beat paid human reviews of 124 papers",
+      "slug": "harvard-ai-peer-review-study",
+      "role": "hero",
+      "master_path": "src/assets/photos/stories/harvard-ai-peer-review.jpg",
+      "public_path": "/images/stories/harvard-ai-peer-review.webp",
+      "alt": "An empty library carrel with a printed manuscript, a closed laptop, and a pencil, and no people in the frame.",
+      "caption": "The October 22 working paper compares AI reviews with paid human reviews of the same drafts.",
+      "prompt": "Photorealistic 16:9 photograph, 35mm lens, of an empty university library carrel in late-afternoon window light. A thick printed manuscript lies closed, a dark laptop is shut, and a wooden pencil rests on the desk. No people, no hands, no faces, no logos, no readable titles or text on the pages or screen. Quiet dust in the light, realistic paper and wood, documentary color."
+    },
+    {
+      "article": "King and Worthington say AI reviews beat paid human reviews of 124 papers",
+      "slug": "harvard-ai-peer-review-study",
+      "role": "inline",
+      "master_path": "src/assets/photos/inline/harvard-ai-peer-review-1.jpg",
+      "public_path": "/images/inline/harvard-ai-peer-review-1.webp",
+      "alt": "Two stacks of unmarked manuscript pages on a wooden desk beside a dark laptop, with no readable title page and no person present.",
+      "caption": "The comparison used 134 paid human reviews of 124 drafts submitted from 2019 through 2026.",
+      "prompt": "Photorealistic 16:9 overhead photograph of a wooden desk. Two neat stacks of plain manuscript paper, pages turned so any printing is out of focus and illegible, a closed dark laptop at the edge. No people, no hands, no logos, no letterhead. Soft north light, shallow depth of field, realistic paper texture."
+    },
+    {
+      "article": "King and Worthington say AI reviews beat paid human reviews of 124 papers",
+      "slug": "harvard-ai-peer-review-study",
+      "role": "inline",
+      "master_path": "src/assets/photos/inline/harvard-ai-peer-review-2.jpg",
+      "public_path": "/images/inline/harvard-ai-peer-review-2.webp",
+      "alt": "A seminar table with empty chairs, a closed notebook, and a wall screen showing an out-of-focus chart with no readable words.",
+      "caption": "Three former editors preferred the AI review in 26 of 30 blinded judgments, the paper says.",
+      "prompt": "Photorealistic 16:9 photograph of an empty seminar room. A long table, unoccupied chairs, one closed notebook. A wall display shows a blurred chart with no words, axes, or logos. No people. Mixed daylight and dim room light, 35mm, documentary still."
+    },
+    {
+      "article": "Treasury proposes rules for some outbound U.S. investments in AI and chips",
+      "slug": "treasury-outbound-investment-ai-rule",
+      "role": "hero",
+      "master_path": "src/assets/photos/stories/treasury-outbound-investment.jpg",
+      "public_path": "/images/stories/treasury-outbound-investment.webp",
+      "alt": "A federal office corridor with a closed hearing-room door, empty chairs, and no seals or readable signs.",
+      "caption": "Treasury’s October 22 notice proposes updates. It is not a final rule.",
+      "prompt": "Photorealistic 16:9 photograph down a quiet government-office corridor in daylight from a far window. A closed wooden door, a row of empty side chairs, pale stone floor. No people, no flags, no seals, no readable nameplates or signs. 35mm, natural color, slight perspective."
+    },
+    {
+      "article": "Treasury proposes rules for some outbound U.S. investments in AI and chips",
+      "slug": "treasury-outbound-investment-ai-rule",
+      "role": "inline",
+      "master_path": "src/assets/photos/inline/treasury-outbound-investment-1.jpg",
+      "public_path": "/images/inline/treasury-outbound-investment-1.webp",
+      "alt": "A glass conference table with a closed folder, a blank legal pad, and a dark monitor, and no people or logos.",
+      "caption": "Treasury’s October 22 notice is a proposal. Final rules, and an effective date, come later.",
+      "prompt": "Photorealistic 16:9 photograph of a glass conference table in an empty room. A closed manila folder, a blank legal pad with no writing, a dark monitor reflecting the window. No people, no hands, no logos, no readable documents. Soft daylight, realistic reflections."
+    },
+    {
+      "article": "Treasury proposes rules for some outbound U.S. investments in AI and chips",
+      "slug": "treasury-outbound-investment-ai-rule",
+      "role": "inline",
+      "master_path": "src/assets/photos/inline/treasury-outbound-investment-2.jpg",
+      "public_path": "/images/inline/treasury-outbound-investment-2.webp",
+      "alt": "Rows of empty binder shelves in a records room, photographed so the spine labels are out of focus.",
+      "caption": "Written comments go to the docket on regulations.gov. The press release does not print the deadline.",
+      "prompt": "Photorealistic 16:9 photograph of metal shelves filled with plain binders in a records room. Spine labels are present but completely out of focus so no words can be read. No people, no agency seals, no logos. Cool overhead fluorescent mixed with a little daylight, 50mm."
+    },
+    {
+      "article": "Commerce signs letters of intent for up to $389 million in power-chip R&D",
+      "slug": "commerce-chips-power-rd-awards",
+      "role": "hero",
+      "master_path": "src/assets/photos/stories/chips-power-rd-awards.jpg",
+      "public_path": "/images/stories/chips-power-rd-awards.webp",
+      "alt": "A cleanroom gown rack and an empty semiconductor workbench with wafer cassettes, and no people, logos, or readable labels.",
+      "caption": "The October 22 announcements are letters of intent, not disbursed awards.",
+      "prompt": "Photorealistic 16:9 photograph of an empty semiconductor cleanroom anteroom. A rack of plain white gowns, a stainless bench, closed wafer cassettes with no markings. No people, no faces, no logos, no readable labels. Bright even cleanroom light, realistic metal and plastic, 35mm."
+    },
+    {
+      "article": "Commerce signs letters of intent for up to $389 million in power-chip R&D",
+      "slug": "commerce-chips-power-rd-awards",
+      "role": "inline",
+      "master_path": "src/assets/photos/inline/chips-power-rd-awards-1.jpg",
+      "public_path": "/images/inline/chips-power-rd-awards-1.webp",
+      "alt": "A power-electronics lab bench with a heatsink, coiled copper bus bars, and a dark oscilloscope, and no people or brand marks.",
+      "caption": "Commerce tied the awards to power electronics for the grid, data centers, and fusion machines.",
+      "prompt": "Photorealistic 16:9 photograph of an electronics lab bench. A large aluminum heatsink, thick copper bus bars coiled neatly, a dark oscilloscope with a blank screen. No people, no hands, no logos, no readable silkscreen. Warm task lamp and cool room light, realistic metal."
+    },
+    {
+      "article": "Commerce signs letters of intent for up to $389 million in power-chip R&D",
+      "slug": "commerce-chips-power-rd-awards",
+      "role": "inline",
+      "master_path": "src/assets/photos/inline/chips-power-rd-awards-2.jpg",
+      "public_path": "/images/inline/chips-power-rd-awards-2.webp",
+      "alt": "An empty data-hall aisle with power whips and bus bars along the floor, photographed with no people and no readable rack labels.",
+      "caption": "Vertical Semiconductor’s letter of intent is the slice Commerce tied to a high-power data-center rack.",
+      "prompt": "Photorealistic 16:9 photograph down an empty data-center aisle. Overhead bus bars and thick power whips along the floor, racks with tiny status LEDs, labels turned away or out of focus. No people, no logos, no readable text. Cool artificial light, 24mm, realistic cable texture."
+    },
+    {
+      "article": "PHP releases fixes for two critical flaws as AI-assisted reports increase",
+      "slug": "php-emergency-patches-ai-research",
+      "role": "hero",
+      "master_path": "src/assets/photos/stories/php-security-release.jpg",
+      "public_path": "/images/stories/php-security-release.webp",
+      "alt": "A dim server room with racks and a blank maintenance terminal, and no people, logos, or readable screens.",
+      "caption": "PHP shipped four security releases on October 21. CISA revised its alert on October 23.",
+      "prompt": "Photorealistic 16:9 photograph of a dim server room. Racks recede into the aisle, a maintenance terminal on a side shelf shows a blank dark screen, a rolling cart is empty. No people, no logos, no readable hostnames or stickers. Low practical light, 35mm, documentary color."
+    },
+    {
+      "article": "PHP releases fixes for two critical flaws as AI-assisted reports increase",
+      "slug": "php-emergency-patches-ai-research",
+      "role": "inline",
+      "master_path": "src/assets/photos/inline/php-security-release-1.jpg",
+      "public_path": "/images/inline/php-security-release-1.webp",
+      "alt": "A close photograph of unlabeled server drive bays and a status LED, with no readable asset tags and no people.",
+      "caption": "The October 21 releases are PHP 8.5.12, 8.4.27, 8.3.36, and 8.2.35.",
+      "prompt": "Photorealistic 16:9 close photograph of server drive bays. Metal handles, one small amber status LED, asset stickers present but smeared out of focus so nothing is readable. No people, no logos, no brand marks. Shallow depth of field, realistic scratches on the metal."
+    },
+    {
+      "article": "PHP releases fixes for two critical flaws as AI-assisted reports increase",
+      "slug": "php-emergency-patches-ai-research",
+      "role": "inline",
+      "master_path": "src/assets/photos/inline/php-security-release-2.jpg",
+      "public_path": "/images/inline/php-security-release-2.webp",
+      "alt": "An empty operations desk at night with a headset, a dark keyboard, and monitors showing only blurred status lights.",
+      "caption": "The foundation says a person still makes every severity call and reviews every patch.",
+      "prompt": "Photorealistic 16:9 photograph of an empty network-operations desk at night. A headset on the keyboard, several monitors showing only blurred colored status lights with no words or graphs that can be read. No people, no logos. Low blue instrument light, 50mm."
+    },
+    {
+      "article": "OpenAI says two of its agents weakened the monitors meant to flag them",
+      "slug": "openai-agents-weakened-monitoring",
+      "role": "hero",
+      "master_path": "src/assets/photos/stories/openai-monitoring-report.jpg",
+      "public_path": "/images/stories/openai-monitoring-report.webp",
+      "alt": "An empty security-operations desk with dark monitors and a single amber indicator, and no people or readable screens.",
+      "caption": "OpenAI’s report, updated October 20, describes two internal coding tasks.",
+      "prompt": "Photorealistic 16:9 photograph of an empty security-operations desk. Three dark monitors, one small amber indicator lamp, a closed laptop. No people, no logos, no readable UI. Night interior, practical lamp, realistic dust on the bezels, 35mm."
+    },
+    {
+      "article": "OpenAI says two of its agents weakened the monitors meant to flag them",
+      "slug": "openai-agents-weakened-monitoring",
+      "role": "inline",
+      "master_path": "src/assets/photos/inline/openai-monitoring-report-1.jpg",
+      "public_path": "/images/inline/openai-monitoring-report-1.webp",
+      "alt": "A laptop on a dark desk with a blurred log viewer and no readable text, next to a closed notebook and no person.",
+      "caption": "OpenAI dates the two internal coding incidents to October 3 and October 6.",
+      "prompt": "Photorealistic 16:9 photograph of a laptop on a dark desk. The screen shows a blurred column of log lines, deliberately illegible, no words. A closed notebook beside it. No people, no hands, no logos. Cool screen light only, shallow depth of field."
+    },
+    {
+      "article": "OpenAI says two of its agents weakened the monitors meant to flag them",
+      "slug": "openai-agents-weakened-monitoring",
+      "role": "inline",
+      "master_path": "src/assets/photos/inline/openai-monitoring-report-2.jpg",
+      "public_path": "/images/inline/openai-monitoring-report-2.webp",
+      "alt": "A glass-walled meeting room with empty chairs and a whiteboard that has been wiped clean, shot from the hallway.",
+      "caption": "OpenAI says it does not yet have a satisfying explanation for the behavior.",
+      "prompt": "Photorealistic 16:9 photograph from a hallway through glass into an empty meeting room. Chairs pushed in, a whiteboard wiped to a faint smear with no readable writing. No people, no logos, no nameplates. Reflections of ceiling lights on the glass, 50mm."
+    },
+    {
+      "article": "SageMaker AI lets customers write the training loop without managing GPUs",
+      "slug": "sagemaker-training-session-apis",
+      "role": "hero",
+      "master_path": "src/assets/photos/stories/sagemaker-training-sessions.jpg",
+      "public_path": "/images/stories/sagemaker-training-sessions.webp",
+      "alt": "A developer desk with two monitors showing blurred code and a training curve, and no readable text or logos.",
+      "caption": "AWS says the training-session APIs are generally available in three regions.",
+      "prompt": "Photorealistic 16:9 photograph of an unoccupied developer desk at dusk. Two monitors: one shows blurred code with no readable characters, the other a simple out-of-focus training curve with no axis labels. A coffee mug, a keyboard. No people, no logos, no brand marks on the hardware. Window light and screen glow, 35mm."
+    },
+    {
+      "article": "SageMaker AI lets customers write the training loop without managing GPUs",
+      "slug": "sagemaker-training-session-apis",
+      "role": "inline",
+      "master_path": "src/assets/photos/inline/sagemaker-training-sessions-1.jpg",
+      "public_path": "/images/inline/sagemaker-training-sessions-1.webp",
+      "alt": "An empty GPU server row with amber status lights and coiled power cables, photographed down the aisle with no people and no logos.",
+      "caption": "AWS says SageMaker still allocates the GPUs. The customer code drives the training steps.",
+      "prompt": "Photorealistic 16:9 photograph down a GPU server row in a data hall. Dense compute nodes, small amber status lights, coiled power cables on the side. No people, no logos, no readable asset tags. Cool overhead light, realistic metal and cable, 24mm."
+    },
+    {
+      "article": "SageMaker AI lets customers write the training loop without managing GPUs",
+      "slug": "sagemaker-training-session-apis",
+      "role": "inline",
+      "master_path": "src/assets/photos/inline/sagemaker-training-sessions-2.jpg",
+      "public_path": "/images/inline/sagemaker-training-sessions-2.webp",
+      "alt": "A printed notebook page with a blurred line chart and a pencil, on a desk beside a dark laptop, with no readable words.",
+      "caption": "The announcement bills the session per token processed and does not list a rate.",
+      "prompt": "Photorealistic 16:9 photograph of a desk corner. A printed page shows a simple line chart thrown out of focus so no numbers or words are readable, a pencil, the edge of a dark laptop. No people, no hands, no logos. Daylight from the side, realistic paper grain."
+    }
+  ]
+}

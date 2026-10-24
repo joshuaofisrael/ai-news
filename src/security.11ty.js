@@ -9,7 +9,7 @@ export const data = {
 export function render(data) {
   const site = data.site;
   const canonical = absoluteUrl("/.well-known/security.txt", site.url);
-  const lines = [`Contact: ${site.contactUrl}`];
+  const lines = [`Contact: ${absoluteUrl("/contact/", site.url)}`];
   if (site.securityEmail) lines.push(`Contact: mailto:${site.securityEmail}`);
   lines.push(
     `Expires: ${plusDaysIso(site.securityTxtMaxAgeDays)}`,

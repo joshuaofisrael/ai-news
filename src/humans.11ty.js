@@ -9,9 +9,9 @@ export function render(data) {
   const site = data.site;
   const latest = data.collections.posts?.[0];
   return `/* TEAM */
-Publisher: ${site.legalName}
+Publisher: ${site.name}
 Site: ${site.name}
-Contact: ${site.contactUrl}
+Contact: ${site.url}/contact/
 ${site.contactEmail ? `Email: ${site.contactEmail}\n` : ""}
 /* SITE */
 Standards: HTML, CSS, RSS, Atom, XML sitemaps, JSON-LD

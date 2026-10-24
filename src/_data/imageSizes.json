@@ -47,6 +47,20 @@
     "srcsetWebp": "/images/inline/americans-ai-poll-2-640.webp 640w, /images/inline/americans-ai-poll-2.webp 1280w",
     "srcsetAvif": "/images/inline/americans-ai-poll-2-640.avif 640w, /images/inline/americans-ai-poll-2.avif 1280w"
   },
+  "/images/inline/chips-power-rd-awards-1.webp": {
+    "width": 1280,
+    "height": 720,
+    "pending": true,
+    "srcsetWebp": "/images/inline/chips-power-rd-awards-1-640.webp 640w, /images/inline/chips-power-rd-awards-1.webp 1280w",
+    "srcsetAvif": "/images/inline/chips-power-rd-awards-1-640.avif 640w, /images/inline/chips-power-rd-awards-1.avif 1280w"
+  },
+  "/images/inline/chips-power-rd-awards-2.webp": {
+    "width": 1280,
+    "height": 720,
+    "pending": true,
+    "srcsetWebp": "/images/inline/chips-power-rd-awards-2-640.webp 640w, /images/inline/chips-power-rd-awards-2.webp 1280w",
+    "srcsetAvif": "/images/inline/chips-power-rd-awards-2-640.avif 640w, /images/inline/chips-power-rd-awards-2.avif 1280w"
+  },
   "/images/inline/claude-duet-1.webp": {
     "width": 1280,
     "height": 720,
@@ -70,6 +84,20 @@
     "height": 720,
     "srcsetWebp": "/images/inline/decisions-api-2-640.webp 640w, /images/inline/decisions-api-2.webp 1280w",
     "srcsetAvif": "/images/inline/decisions-api-2-640.avif 640w, /images/inline/decisions-api-2.avif 1280w"
+  },
+  "/images/inline/harvard-ai-peer-review-1.webp": {
+    "width": 1280,
+    "height": 720,
+    "pending": true,
+    "srcsetWebp": "/images/inline/harvard-ai-peer-review-1-640.webp 640w, /images/inline/harvard-ai-peer-review-1.webp 1280w",
+    "srcsetAvif": "/images/inline/harvard-ai-peer-review-1-640.avif 640w, /images/inline/harvard-ai-peer-review-1.avif 1280w"
+  },
+  "/images/inline/harvard-ai-peer-review-2.webp": {
+    "width": 1280,
+    "height": 720,
+    "pending": true,
+    "srcsetWebp": "/images/inline/harvard-ai-peer-review-2-640.webp 640w, /images/inline/harvard-ai-peer-review-2.webp 1280w",
+    "srcsetAvif": "/images/inline/harvard-ai-peer-review-2-640.avif 640w, /images/inline/harvard-ai-peer-review-2.avif 1280w"
   },
   "/images/inline/hassabis-agi-timeline-1.webp": {
     "width": 1280,
@@ -107,6 +135,20 @@
     "srcsetWebp": "/images/inline/opal-optimizer-2-640.webp 640w, /images/inline/opal-optimizer-2.webp 1280w",
     "srcsetAvif": "/images/inline/opal-optimizer-2-640.avif 640w, /images/inline/opal-optimizer-2.avif 1280w"
   },
+  "/images/inline/openai-monitoring-report-1.webp": {
+    "width": 1280,
+    "height": 720,
+    "pending": true,
+    "srcsetWebp": "/images/inline/openai-monitoring-report-1-640.webp 640w, /images/inline/openai-monitoring-report-1.webp 1280w",
+    "srcsetAvif": "/images/inline/openai-monitoring-report-1-640.avif 640w, /images/inline/openai-monitoring-report-1.avif 1280w"
+  },
+  "/images/inline/openai-monitoring-report-2.webp": {
+    "width": 1280,
+    "height": 720,
+    "pending": true,
+    "srcsetWebp": "/images/inline/openai-monitoring-report-2-640.webp 640w, /images/inline/openai-monitoring-report-2.webp 1280w",
+    "srcsetAvif": "/images/inline/openai-monitoring-report-2-640.avif 640w, /images/inline/openai-monitoring-report-2.avif 1280w"
+  },
   "/images/inline/openai-nask-1.webp": {
     "width": 1280,
     "height": 720,
@@ -118,6 +160,48 @@
     "height": 720,
     "srcsetWebp": "/images/inline/openai-nask-2-640.webp 640w, /images/inline/openai-nask-2.webp 1280w",
     "srcsetAvif": "/images/inline/openai-nask-2-640.avif 640w, /images/inline/openai-nask-2.avif 1280w"
+  },
+  "/images/inline/php-security-release-1.webp": {
+    "width": 1280,
+    "height": 720,
+    "pending": true,
+    "srcsetWebp": "/images/inline/php-security-release-1-640.webp 640w, /images/inline/php-security-release-1.webp 1280w",
+    "srcsetAvif": "/images/inline/php-security-release-1-640.avif 640w, /images/inline/php-security-release-1.avif 1280w"
+  },
+  "/images/inline/php-security-release-2.webp": {
+    "width": 1280,
+    "height": 720,
+    "pending": true,
+    "srcsetWebp": "/images/inline/php-security-release-2-640.webp 640w, /images/inline/php-security-release-2.webp 1280w",
+    "srcsetAvif": "/images/inline/php-security-release-2-640.avif 640w, /images/inline/php-security-release-2.avif 1280w"
+  },
+  "/images/inline/sagemaker-training-sessions-1.webp": {
+    "width": 1280,
+    "height": 720,
+    "pending": true,
+    "srcsetWebp": "/images/inline/sagemaker-training-sessions-1-640.webp 640w, /images/inline/sagemaker-training-sessions-1.webp 1280w",
+    "srcsetAvif": "/images/inline/sagemaker-training-sessions-1-640.avif 640w, /images/inline/sagemaker-training-sessions-1.avif 1280w"
+  },
+  "/images/inline/sagemaker-training-sessions-2.webp": {
+    "width": 1280,
+    "height": 720,
+    "pending": true,
+    "srcsetWebp": "/images/inline/sagemaker-training-sessions-2-640.webp 640w, /images/inline/sagemaker-training-sessions-2.webp 1280w",
+    "srcsetAvif": "/images/inline/sagemaker-training-sessions-2-640.avif 640w, /images/inline/sagemaker-training-sessions-2.avif 1280w"
+  },
+  "/images/inline/treasury-outbound-investment-1.webp": {
+    "width": 1280,
+    "height": 720,
+    "pending": true,
+    "srcsetWebp": "/images/inline/treasury-outbound-investment-1-640.webp 640w, /images/inline/treasury-outbound-investment-1.webp 1280w",
+    "srcsetAvif": "/images/inline/treasury-outbound-investment-1-640.avif 640w, /images/inline/treasury-outbound-investment-1.avif 1280w"
+  },
+  "/images/inline/treasury-outbound-investment-2.webp": {
+    "width": 1280,
+    "height": 720,
+    "pending": true,
+    "srcsetWebp": "/images/inline/treasury-outbound-investment-2-640.webp 640w, /images/inline/treasury-outbound-investment-2.webp 1280w",
+    "srcsetAvif": "/images/inline/treasury-outbound-investment-2-640.avif 640w, /images/inline/treasury-outbound-investment-2.avif 1280w"
   },
   "/images/inline/uber-chatgpt-work-1.webp": {
     "width": 1280,
@@ -149,6 +233,13 @@
     "srcsetWebp": "/images/stories/americans-ai-poll-640.webp 640w, /images/stories/americans-ai-poll.webp 1280w",
     "srcsetAvif": "/images/stories/americans-ai-poll-640.avif 640w, /images/stories/americans-ai-poll.avif 1280w"
   },
+  "/images/stories/chips-power-rd-awards.webp": {
+    "width": 1280,
+    "height": 720,
+    "pending": true,
+    "srcsetWebp": "/images/stories/chips-power-rd-awards-640.webp 640w, /images/stories/chips-power-rd-awards.webp 1280w",
+    "srcsetAvif": "/images/stories/chips-power-rd-awards-640.avif 640w, /images/stories/chips-power-rd-awards.avif 1280w"
+  },
   "/images/stories/claude-duet.webp": {
     "width": 1280,
     "height": 720,
@@ -160,6 +251,13 @@
     "height": 720,
     "srcsetWebp": "/images/stories/decisions-api-640.webp 640w, /images/stories/decisions-api.webp 1280w",
     "srcsetAvif": "/images/stories/decisions-api-640.avif 640w, /images/stories/decisions-api.avif 1280w"
+  },
+  "/images/stories/harvard-ai-peer-review.webp": {
+    "width": 1280,
+    "height": 720,
+    "pending": true,
+    "srcsetWebp": "/images/stories/harvard-ai-peer-review-640.webp 640w, /images/stories/harvard-ai-peer-review.webp 1280w",
+    "srcsetAvif": "/images/stories/harvard-ai-peer-review-640.avif 640w, /images/stories/harvard-ai-peer-review.avif 1280w"
   },
   "/images/stories/hassabis-agi-timeline.webp": {
     "width": 1280,
@@ -185,6 +283,13 @@
     "srcsetWebp": "/images/stories/openai-google-cloud-640.webp 640w, /images/stories/openai-google-cloud.webp 1280w",
     "srcsetAvif": "/images/stories/openai-google-cloud-640.avif 640w, /images/stories/openai-google-cloud.avif 1280w"
   },
+  "/images/stories/openai-monitoring-report.webp": {
+    "width": 1280,
+    "height": 720,
+    "pending": true,
+    "srcsetWebp": "/images/stories/openai-monitoring-report-640.webp 640w, /images/stories/openai-monitoring-report.webp 1280w",
+    "srcsetAvif": "/images/stories/openai-monitoring-report-640.avif 640w, /images/stories/openai-monitoring-report.avif 1280w"
+  },
   "/images/stories/openai-nask.webp": {
     "width": 1280,
     "height": 720,
@@ -196,6 +301,27 @@
     "height": 720,
     "srcsetWebp": "/images/stories/partner-safeguards-640.webp 640w, /images/stories/partner-safeguards.webp 1280w",
     "srcsetAvif": "/images/stories/partner-safeguards-640.avif 640w, /images/stories/partner-safeguards.avif 1280w"
+  },
+  "/images/stories/php-security-release.webp": {
+    "width": 1280,
+    "height": 720,
+    "pending": true,
+    "srcsetWebp": "/images/stories/php-security-release-640.webp 640w, /images/stories/php-security-release.webp 1280w",
+    "srcsetAvif": "/images/stories/php-security-release-640.avif 640w, /images/stories/php-security-release.avif 1280w"
+  },
+  "/images/stories/sagemaker-training-sessions.webp": {
+    "width": 1280,
+    "height": 720,
+    "pending": true,
+    "srcsetWebp": "/images/stories/sagemaker-training-sessions-640.webp 640w, /images/stories/sagemaker-training-sessions.webp 1280w",
+    "srcsetAvif": "/images/stories/sagemaker-training-sessions-640.avif 640w, /images/stories/sagemaker-training-sessions.avif 1280w"
+  },
+  "/images/stories/treasury-outbound-investment.webp": {
+    "width": 1280,
+    "height": 720,
+    "pending": true,
+    "srcsetWebp": "/images/stories/treasury-outbound-investment-640.webp 640w, /images/stories/treasury-outbound-investment.webp 1280w",
+    "srcsetAvif": "/images/stories/treasury-outbound-investment-640.avif 640w, /images/stories/treasury-outbound-investment.avif 1280w"
   },
   "/images/stories/uber-chatgpt-work.webp": {
     "width": 1280,
