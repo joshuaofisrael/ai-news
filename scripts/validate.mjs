@@ -271,9 +271,13 @@ for (const file of htmlFiles) {
     fail(`${rel} is missing the Cloudflare beacon before </body>`);
   }
 
-  const copyright = `© ${thisYear()} ${site.name}`;
-  if (!html.includes(copyright)) fail(`${rel} is missing the required copyright line`);
   const pagePath = rel.split(path.sep).join("/");
+  const legalCopyright = "© 2026 Joshua Israel Ventures LLC. All rights reserved.";
+  if (["terms/index.html", "privacy/index.html", "disclaimer/index.html"].includes(pagePath)) {
+    if (!html.includes(legalCopyright)) fail(`${rel} is missing the legal copyright line`);
+  } else if (html.includes("All rights reserved")) {
+    fail(`${rel} carries a copyright line outside a legal page`);
+  }
   const legalPages = new Set([
     "terms/index.html",
     "privacy/index.html",
