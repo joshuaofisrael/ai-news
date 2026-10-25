@@ -229,7 +229,18 @@ for (const file of htmlFiles) {
   if (rel === "404.html" && !robots.includes("noindex")) fail("404.html must be noindex");
   if (rel !== "404.html" && robots.includes("noindex")) fail(`${rel} is unexpectedly noindex`);
 
-  const blocks = [...html.matchAll(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/g)];
+  const allBlocks = [...html.matchAll(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/g)];
+  const faqBlocks = allBlocks.filter((b) => /"@type":"FAQPage"/.test(b[1]));
+  if (faqBlocks.length > 1 || (faqBlocks.length && rel !== "index.html")) fail(`${rel} has unexpected FAQPage JSON-LD`);
+  for (const b of faqBlocks) {
+    try {
+      const faq = JSON.parse(b[1]);
+      for (const q of faq.mainEntity || []) {
+        if (!html.includes(`<summary>${q.name.replace(/&/g, "&amp;")}</summary>`)) fail(`${rel} FAQ question not visible: ${q.name}`);
+      }
+    } catch (error) { fail(`${rel} has invalid FAQ JSON-LD: ${error.message}`); }
+  }
+  const blocks = allBlocks.filter((b) => !faqBlocks.includes(b));
   if (blocks.length !== 1) fail(`${rel} should have one JSON-LD block, found ${blocks.length}`);
   for (const block of blocks) {
     let json;

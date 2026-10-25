@@ -367,6 +367,11 @@ figcaption,
 .prose .inline-figure { margin: 1.25rem 0 1.4rem; }
 
 .sections { padding-bottom: 1rem; }
+.faq { padding-bottom: 1.5rem; }
+.faq-item { border-top: 1px solid var(--line); padding: 0.6rem 0; }
+.faq-item:last-child { border-bottom: 1px solid var(--line); }
+.faq-item summary { cursor: pointer; font-weight: 600; }
+.faq-item p { margin: 0.4rem 0 0; color: var(--muted); }
 
 .section-title,
 .page h1,
