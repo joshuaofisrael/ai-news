@@ -57,6 +57,7 @@ export default function (eleventyConfig) {
   eleventyConfig.addFilter("storyImage", (value) => storyImage(value, site));
   eleventyConfig.addShortcode("figure", (src, alt, caption) => figureShortcode(src, alt, caption));
   eleventyConfig.addFilter("href", (value) => prefixPath(value, pathPrefix));
+  eleventyConfig.addFilter("faqSchema", (items) => JSON.stringify({ "@context": "https://schema.org", "@type": "FAQPage", mainEntity: (items || []).map((i) => ({ "@type": "Question", name: i.q, acceptedAnswer: { "@type": "Answer", text: i.a } })) }).replace(/</g, "\\u003c"));
   eleventyConfig.addFilter("absUrl", (value) => absoluteUrl(value || "/", siteUrl));
   eleventyConfig.addFilter("isoDate", (value) => isoDate(value));
   eleventyConfig.addFilter("readableDate", (value) => readableDate(value, false));

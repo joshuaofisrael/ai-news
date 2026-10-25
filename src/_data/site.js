@@ -27,7 +27,7 @@ const site = {
   contactEmail: "",
   correctionsEmail: "",
   securityEmail: "",
-  sameAs: ["https://github.com/joshuaofisrael/ai-news"],
+  sameAs: ["https://x.com/TheCharismaCat1", "https://github.com/joshuaofisrael/ai-news"],
   repository: "https://github.com/joshuaofisrael/ai-news",
   themeColor: "#0d1218",
   backgroundColor: "#eef3f4",

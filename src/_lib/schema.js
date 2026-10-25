@@ -29,6 +29,7 @@ export function buildSchema(input = {}) {
     },
     publishingPrinciples: absoluteUrl("/editorial-policy/", site.url),
   };
+  if (Array.isArray(site.sameAs) && site.sameAs.length) organization.sameAs = site.sameAs;
 
   if (site.contactEmail) {
     organization.contactPoint = {

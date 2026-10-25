@@ -73,4 +73,14 @@
       {% endfor %}
     </div>
   </section>
+  <section class="faq" aria-labelledby="faq-heading">
+    <h2 id="faq-heading" class="section-title">Frequently asked questions</h2>
+    {% for item in faq %}
+      <details class="faq-item">
+        <summary>{{ item.q }}</summary>
+        <p>{{ item.a }}</p>
+      </details>
+    {% endfor %}
+  </section>
+  <script type="application/ld+json">{{ faq | faqSchema | safe }}</script>
 </div>
