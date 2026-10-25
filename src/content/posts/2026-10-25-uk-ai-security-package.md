@@ -9,7 +9,7 @@ tags:
   - security
   - funding
 author: AI Headline Hub
-draft: true
+draft: false
 image:
   src: /images/stories/uk-ai-security-package.webp
   alt: An empty laboratory with closed incubators, a stainless bench, and no people, flags, or readable labels.

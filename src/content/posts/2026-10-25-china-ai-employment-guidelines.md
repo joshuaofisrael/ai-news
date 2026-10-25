@@ -9,7 +9,7 @@ tags:
   - employment
   - policy
 author: AI Headline Hub
-draft: true
+draft: false
 image:
   src: /images/stories/china-ai-employment.webp
   alt: An empty vocational classroom with dark monitors, headsets on a table, and no people, signs, or flags.

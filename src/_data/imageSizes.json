@@ -39,15 +39,13 @@
     "width": 1280,
     "height": 720,
     "srcsetWebp": "/images/inline/aisi-cyber-test-1-640.webp 640w, /images/inline/aisi-cyber-test-1.webp 1280w",
-    "srcsetAvif": "/images/inline/aisi-cyber-test-1-640.avif 640w, /images/inline/aisi-cyber-test-1.avif 1280w",
-    "pending": true
+    "srcsetAvif": "/images/inline/aisi-cyber-test-1-640.avif 640w, /images/inline/aisi-cyber-test-1.avif 1280w"
   },
   "/images/inline/aisi-cyber-test-2.webp": {
     "width": 1280,
     "height": 720,
     "srcsetWebp": "/images/inline/aisi-cyber-test-2-640.webp 640w, /images/inline/aisi-cyber-test-2.webp 1280w",
-    "srcsetAvif": "/images/inline/aisi-cyber-test-2-640.avif 640w, /images/inline/aisi-cyber-test-2.avif 1280w",
-    "pending": true
+    "srcsetAvif": "/images/inline/aisi-cyber-test-2-640.avif 640w, /images/inline/aisi-cyber-test-2.avif 1280w"
   },
   "/images/inline/americans-ai-poll-1.webp": {
     "width": 1280,
@@ -65,15 +63,13 @@
     "width": 1280,
     "height": 720,
     "srcsetWebp": "/images/inline/china-ai-employment-1-640.webp 640w, /images/inline/china-ai-employment-1.webp 1280w",
-    "srcsetAvif": "/images/inline/china-ai-employment-1-640.avif 640w, /images/inline/china-ai-employment-1.avif 1280w",
-    "pending": true
+    "srcsetAvif": "/images/inline/china-ai-employment-1-640.avif 640w, /images/inline/china-ai-employment-1.avif 1280w"
   },
   "/images/inline/china-ai-employment-2.webp": {
     "width": 1280,
     "height": 720,
     "srcsetWebp": "/images/inline/china-ai-employment-2-640.webp 640w, /images/inline/china-ai-employment-2.webp 1280w",
-    "srcsetAvif": "/images/inline/china-ai-employment-2-640.avif 640w, /images/inline/china-ai-employment-2.avif 1280w",
-    "pending": true
+    "srcsetAvif": "/images/inline/china-ai-employment-2-640.avif 640w, /images/inline/china-ai-employment-2.avif 1280w"
   },
   "/images/inline/chips-power-rd-awards-1.webp": {
     "width": 1280,
@@ -187,15 +183,13 @@
     "width": 1280,
     "height": 720,
     "srcsetWebp": "/images/inline/openai-training-offline-1-640.webp 640w, /images/inline/openai-training-offline-1.webp 1280w",
-    "srcsetAvif": "/images/inline/openai-training-offline-1-640.avif 640w, /images/inline/openai-training-offline-1.avif 1280w",
-    "pending": true
+    "srcsetAvif": "/images/inline/openai-training-offline-1-640.avif 640w, /images/inline/openai-training-offline-1.avif 1280w"
   },
   "/images/inline/openai-training-offline-2.webp": {
     "width": 1280,
     "height": 720,
     "srcsetWebp": "/images/inline/openai-training-offline-2-640.webp 640w, /images/inline/openai-training-offline-2.webp 1280w",
-    "srcsetAvif": "/images/inline/openai-training-offline-2-640.avif 640w, /images/inline/openai-training-offline-2.avif 1280w",
-    "pending": true
+    "srcsetAvif": "/images/inline/openai-training-offline-2-640.avif 640w, /images/inline/openai-training-offline-2.avif 1280w"
   },
   "/images/inline/php-security-release-1.webp": {
     "width": 1280,
@@ -225,15 +219,13 @@
     "width": 1280,
     "height": 720,
     "srcsetWebp": "/images/inline/slok-ai-payoff-1-640.webp 640w, /images/inline/slok-ai-payoff-1.webp 1280w",
-    "srcsetAvif": "/images/inline/slok-ai-payoff-1-640.avif 640w, /images/inline/slok-ai-payoff-1.avif 1280w",
-    "pending": true
+    "srcsetAvif": "/images/inline/slok-ai-payoff-1-640.avif 640w, /images/inline/slok-ai-payoff-1.avif 1280w"
   },
   "/images/inline/slok-ai-payoff-2.webp": {
     "width": 1280,
     "height": 720,
     "srcsetWebp": "/images/inline/slok-ai-payoff-2-640.webp 640w, /images/inline/slok-ai-payoff-2.webp 1280w",
-    "srcsetAvif": "/images/inline/slok-ai-payoff-2-640.avif 640w, /images/inline/slok-ai-payoff-2.avif 1280w",
-    "pending": true
+    "srcsetAvif": "/images/inline/slok-ai-payoff-2-640.avif 640w, /images/inline/slok-ai-payoff-2.avif 1280w"
   },
   "/images/inline/treasury-outbound-investment-1.webp": {
     "width": 1280,
@@ -263,15 +255,13 @@
     "width": 1280,
     "height": 720,
     "srcsetWebp": "/images/inline/uk-ai-security-package-1-640.webp 640w, /images/inline/uk-ai-security-package-1.webp 1280w",
-    "srcsetAvif": "/images/inline/uk-ai-security-package-1-640.avif 640w, /images/inline/uk-ai-security-package-1.avif 1280w",
-    "pending": true
+    "srcsetAvif": "/images/inline/uk-ai-security-package-1-640.avif 640w, /images/inline/uk-ai-security-package-1.avif 1280w"
   },
   "/images/inline/uk-ai-security-package-2.webp": {
     "width": 1280,
     "height": 720,
     "srcsetWebp": "/images/inline/uk-ai-security-package-2-640.webp 640w, /images/inline/uk-ai-security-package-2.webp 1280w",
-    "srcsetAvif": "/images/inline/uk-ai-security-package-2-640.avif 640w, /images/inline/uk-ai-security-package-2.avif 1280w",
-    "pending": true
+    "srcsetAvif": "/images/inline/uk-ai-security-package-2-640.avif 640w, /images/inline/uk-ai-security-package-2.avif 1280w"
   },
   "/images/stories/agent-compute-engine.webp": {
     "width": 1280,
@@ -289,8 +279,7 @@
     "width": 1280,
     "height": 720,
     "srcsetWebp": "/images/stories/aisi-cyber-test-640.webp 640w, /images/stories/aisi-cyber-test.webp 1280w",
-    "srcsetAvif": "/images/stories/aisi-cyber-test-640.avif 640w, /images/stories/aisi-cyber-test.avif 1280w",
-    "pending": true
+    "srcsetAvif": "/images/stories/aisi-cyber-test-640.avif 640w, /images/stories/aisi-cyber-test.avif 1280w"
   },
   "/images/stories/americans-ai-poll.webp": {
     "width": 1280,
@@ -302,8 +291,7 @@
     "width": 1280,
     "height": 720,
     "srcsetWebp": "/images/stories/china-ai-employment-640.webp 640w, /images/stories/china-ai-employment.webp 1280w",
-    "srcsetAvif": "/images/stories/china-ai-employment-640.avif 640w, /images/stories/china-ai-employment.avif 1280w",
-    "pending": true
+    "srcsetAvif": "/images/stories/china-ai-employment-640.avif 640w, /images/stories/china-ai-employment.avif 1280w"
   },
   "/images/stories/chips-power-rd-awards.webp": {
     "width": 1280,
@@ -369,8 +357,7 @@
     "width": 1280,
     "height": 720,
     "srcsetWebp": "/images/stories/openai-training-offline-640.webp 640w, /images/stories/openai-training-offline.webp 1280w",
-    "srcsetAvif": "/images/stories/openai-training-offline-640.avif 640w, /images/stories/openai-training-offline.avif 1280w",
-    "pending": true
+    "srcsetAvif": "/images/stories/openai-training-offline-640.avif 640w, /images/stories/openai-training-offline.avif 1280w"
   },
   "/images/stories/partner-safeguards.webp": {
     "width": 1280,
@@ -394,8 +381,7 @@
     "width": 1280,
     "height": 720,
     "srcsetWebp": "/images/stories/slok-ai-payoff-640.webp 640w, /images/stories/slok-ai-payoff.webp 1280w",
-    "srcsetAvif": "/images/stories/slok-ai-payoff-640.avif 640w, /images/stories/slok-ai-payoff.avif 1280w",
-    "pending": true
+    "srcsetAvif": "/images/stories/slok-ai-payoff-640.avif 640w, /images/stories/slok-ai-payoff.avif 1280w"
   },
   "/images/stories/treasury-outbound-investment.webp": {
     "width": 1280,
@@ -413,7 +399,6 @@
     "width": 1280,
     "height": 720,
     "srcsetWebp": "/images/stories/uk-ai-security-package-640.webp 640w, /images/stories/uk-ai-security-package.webp 1280w",
-    "srcsetAvif": "/images/stories/uk-ai-security-package-640.avif 640w, /images/stories/uk-ai-security-package.avif 1280w",
-    "pending": true
+    "srcsetAvif": "/images/stories/uk-ai-security-package-640.avif 640w, /images/stories/uk-ai-security-package.avif 1280w"
   }
 }
