@@ -1,8 +1,8 @@
 ---
-title: Seth, Block, and Tononi argue in Nature that today’s AI is not conscious
-description: A Nature comment by Anil Seth, Ned Block, and Giulio Tononi says current AI is not conscious. It is an argument, not a new experiment.
+title: "Seth, Block, and Tononi: today's AI is not conscious"
+description: "A Nature comment by Anil Seth, Ned Block, and Giulio Tononi says current AI is not conscious. The comment is their argument, not an experiment they ran."
 date: 2026-10-23T11:20:00.000Z
-updated: 2026-10-23T11:20:00.000Z
+updated: "2026-10-25T20:30:00.000Z"
 category: models-research
 tags:
   - research
@@ -52,3 +52,5 @@ The second reason, as far as the open page goes, rejects computational functiona
 Nature’s competing-interests note says Seth is an adviser to Conscium Ltd and AllJoined Inc, a co-founder and paid adviser of a stealth-mode AI company, and is contracted to write lectures for Wondrium. Block is supported by the Templeton World Charity Foundation and the Longview Foundation. Tononi is supported by that Templeton foundation and by Tiny Blue Dot, and is a board member with a financial interest in Intrinsic Powers Inc. Those are disclosures, not findings about the argument.
 
 The comment is one position in a live scientific argument. Readers who want the full three reasons need the complete Nature text. What the open page supports is the authors’ conclusion and the distinction they draw between performing a task and having an experience.
+
+AGI is a different term. [Hassabis’s two-to-three-year forecast](/2026/10/23/hassabis-moves-agi-estimate-closer/) is his estimate, and [What does AGI mean?](/explainers/what-agi-means/) lines up the published definitions.

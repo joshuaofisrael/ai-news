@@ -1,0 +1,32 @@
+---
+layout: layouts/page.njk
+title: AI topic hubs
+description: Topic hubs on AI Headline Hub for OpenAI, agents, safety, policy, work, and infrastructure. Each hub links the related stories and the sources they cite.
+permalink: /topics/
+schemaKind: CollectionPage
+tags:
+  - page
+updated: 2026-10-25T20:30:00.000Z
+dek: Six hubs that group the desk’s AI reporting and link the source on each story.
+breadcrumbs:
+  - name: Home
+    url: /
+  - name: Topics
+    url: /topics/
+---
+<p>These pages group stories that share a company or a theme. They are indexes. The reporting, and the primary source for each claim, lives on the story.</p>
+<ul class="story-list">
+  {% for hub in topicHubs %}
+    {% set stories = collections.posts | byAnyTag(hub.matchTags, hub.extraSlugs) %}
+    <li>
+      <article class="story">
+        <div class="story-copy">
+          <p class="kicker">{{ stories.length }} {{ "story" if stories.length == 1 else "stories" }}</p>
+          <h2 class="story-title"><a href="/topics/{{ hub.slug }}/">{{ hub.title }}</a></h2>
+          <p class="deck">{{ hub.description }}</p>
+        </div>
+      </article>
+    </li>
+  {% endfor %}
+</ul>
+<p><a href="/explainers/">Read the explainers</a> for what this desk means by an AI agent and by AGI.</p>

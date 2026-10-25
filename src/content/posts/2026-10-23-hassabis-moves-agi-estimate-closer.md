@@ -1,8 +1,8 @@
 ---
-title: Hassabis tells the Wall Street Journal he now puts AGI at two to three years
-description: In a WSJ profile, Demis Hassabis says he expects AGI in two to three years, nearer than the three-to-five-year view he held earlier in 2026.
+title: "Hassabis tells WSJ he now puts AGI at two to three years"
+description: "In a Wall Street Journal profile, Demis Hassabis says he expects AGI in two to three years, nearer than the three-to-five-year view he held earlier in 2026."
 date: 2026-10-23T11:40:00.000Z
-updated: 2026-10-23T11:40:00.000Z
+updated: "2026-10-25T20:30:00.000Z"
 category: models-research
 tags:
   - deepmind
@@ -53,3 +53,5 @@ Hassabis is quoted arguing against writing detailed rules for systems that are n
 Cohen writes that Hassabis wants to use a future AGI system, together with human scientists, to work on “the next level of physics.” He quotes Hassabis on medicine as well: asked whether AI-designed drugs face an insurmountable obstacle, Hassabis said, “I don’t see any insurmountable obstacles currently. I see hard things, but not impossible things.”
 
 Readers should treat every year-count in the profile as one person’s judgment, offered in an interview. The piece does not present a benchmark result, a model card, or a date on a roadmap.
+
+Consciousness is a different question, taken up in [a Nature comment by Seth, Block, and Tononi](/2026/10/23/nature-comment-ai-not-conscious/). The word AGI is compared on [What does AGI mean?](/explainers/what-agi-means/).

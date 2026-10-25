@@ -1,8 +1,8 @@
 ---
-title: Google Cloud previews Agent Compute Engine, a microVM built for agents
+title: "Google Cloud previews a microVM built for agents"
 description: Google Cloud says Agent Compute Engine will give agents hardware-isolated microVMs. The service is a preview planned for the coming months, not a launch today.
 date: 2026-10-23T10:40:00.000Z
-updated: 2026-10-23T10:40:00.000Z
+updated: "2026-10-25T20:30:00.000Z"
 category: tools-products
 tags:
   - google-cloud
@@ -59,3 +59,5 @@ The new reach is the part that is not finished. Google says governance is extend
 Alexandre Frizzo, an AI lead engineer at L’Oréal, is quoted saying Google’s governance lets the company’s Beauty Tech Agentic Platform keep a common identity and policy across runtimes such as Cloud Run. As with the other quotations, that is the customer’s statement in Google’s blog, not a test this desk ran.
 
 The practical line for a buyer: Agent Compute Engine is a preview scheduled for the coming months, Agent Substrate is the piece Google says can be tried on GKE now, and several governance extensions are explicitly not available yet.
+
+Related reporting: [Anthropic’s Claude Duet preview](/2026/10/21/anthropic-opens-claude-duet-research-preview/) and [SageMaker AI training sessions](/2026/10/24/sagemaker-training-session-apis/).

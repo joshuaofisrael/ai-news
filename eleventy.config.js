@@ -105,6 +105,30 @@ export default function (eleventyConfig) {
   eleventyConfig.addFilter("byTag", (posts, tag) =>
     (posts || []).filter((post) => (post.data.tags || []).includes(tag)),
   );
+  eleventyConfig.addFilter("byAnyTag", (posts, tags, extraSlugs) => {
+    const wanted = new Set(tags || []);
+    const slugs = extraSlugs || [];
+    return (posts || []).filter((post) => {
+      if ((post.data.tags || []).some((tag) => wanted.has(tag))) return true;
+      return slugs.some((slug) => String(post.url || "").endsWith(`/${slug}/`));
+    });
+  });
+  eleventyConfig.addFilter("whereSlug", (list, slugs) => {
+    const wanted = new Set(slugs || []);
+    return (list || []).filter((item) => wanted.has(item.slug));
+  });
+  eleventyConfig.addFilter("hubsFor", (list, tags, url) => {
+    const have = new Set(tags || []);
+    const path = String(url || "");
+    return (list || []).filter((topic) => {
+      if ((topic.matchTags || []).some((tag) => have.has(tag))) return true;
+      return (topic.extraSlugs || []).some((slug) => path.endsWith(`/${slug}/`));
+    });
+  });
+  eleventyConfig.addFilter("explainersFor", (list, tags) => {
+    const have = new Set(tags || []);
+    return (list || []).filter((item) => (item.matchTags || []).some((tag) => have.has(tag)));
+  });
   eleventyConfig.addFilter("related", (posts, current) => {
     const tags = new Set((current.data.tags || []).filter((tag) => tag !== "post"));
     return (posts || [])

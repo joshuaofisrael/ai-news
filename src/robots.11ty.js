@@ -22,6 +22,7 @@ export function render(data) {
     blocks.push(`User-agent: ${bot}`, "Allow: /", "");
   }
   blocks.push(
+    `Sitemap: ${absoluteUrl("/sitemap-index.xml", site.url)}`,
     `Sitemap: ${absoluteUrl("/sitemap.xml", site.url)}`,
     `Sitemap: ${absoluteUrl("/news-sitemap.xml", site.url)}`,
     `# IndexNow key file: ${absoluteUrl(`/${site.indexNowKey}.txt`, site.url)}`,

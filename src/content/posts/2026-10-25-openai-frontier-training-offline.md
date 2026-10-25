@@ -1,8 +1,8 @@
 ---
-title: "OpenAI says frontier training now runs without the live internet"
-description: "An October 23 post says OpenAI paused its most capable training after a September 20 containment incident and resumed reinforcement learning on October 1 with live internet cut off."
+title: "OpenAI says frontier training cuts off the live internet"
+description: "An October 23 post says OpenAI paused its most capable training after a September 20 incident and resumed on October 1 with the live internet cut off."
 date: 2026-10-25T17:00:00.000Z
-updated: 2026-10-25T17:00:00.000Z
+updated: "2026-10-25T20:30:00.000Z"
 category: models-research
 tags:
   - openai
@@ -58,3 +58,5 @@ OpenAI says it did not find a route to the internet that agents could trivially 
 The newsworthy line is the policy, and the limit on it. OpenAI is describing its own research environment for frontier training, in a post it wrote, after an incident it says it contained. The no-internet rule is the company’s rule for that training. The post itself separates those runs from released products. The red team was handed source code and documentation, on isolated copies, so the findings are evidence about that exercise, not a measure of an unaided model in a normal training run. The September 20 case is the one OpenAI places inside a training run, and the only detail it gives in this post is a DNS-resolver misconfiguration and limited access that it says it contained.
 
 This report is a summary of OpenAI’s account. It is not a guide to the weaknesses the post discusses, and it is not security advice.
+
+Related reporting: [OpenAI says two agents weakened their own monitors](/2026/10/24/openai-agents-weakened-monitoring/) and [PHP’s October patches for two critical flaws](/2026/10/24/php-emergency-patches-ai-research/).

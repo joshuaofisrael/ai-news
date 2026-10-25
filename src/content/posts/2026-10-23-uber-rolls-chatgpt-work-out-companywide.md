@@ -1,8 +1,8 @@
 ---
 title: Uber is giving ChatGPT Work to more than 30,000 employees
-description: Uber is expanding ChatGPT Work from a 1,000-person pilot to its global workforce. OpenAI says GPT-6.1 Sol is the default model.
+description: "Uber is expanding ChatGPT Work from a 1,000-person pilot to its global workforce of more than 30,000 people. OpenAI says GPT-6.1 Sol is the default model."
 date: 2026-10-23T10:20:00.000Z
-updated: 2026-10-23T10:20:00.000Z
+updated: "2026-10-25T20:30:00.000Z"
 category: industry-business
 tags:
   - uber
@@ -51,3 +51,5 @@ Sukumar told TechCrunch the company has not fixed a single pattern of use. “Ou
 {% figure "/images/inline/uber-chatgpt-work-2.webp", "A training room with empty chairs facing a projector that shows an out-of-focus slide, shot from the back of the room.", "Uber said the expansion includes employee training. It has not published results from the pilot." %}
 
 TechCrunch also noted that ChatGPT Work was introduced in July as an enterprise agent. That history is in TechCrunch’s story; OpenAI’s October 22 post does not restate the July launch. Neither document says the tool can take actions outside the apps Uber approves, and neither says employees are required to use it.
+
+Related reporting: [Torsten Slok’s note on revenue per worker](/2026/10/25/slok-ai-payoff-outside-tech/) and [Anthropic’s Claude Duet preview](/2026/10/21/anthropic-opens-claude-duet-research-preview/).

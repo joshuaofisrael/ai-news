@@ -1,8 +1,8 @@
 ---
-title: "King and Worthington say AI reviews beat paid human reviews of 124 papers"
+title: "King and Worthington: AI reviews beat paid human reviews"
 description: "A Harvard working paper dated October 22 says Claude reviews outranked paid human reviews of 124 rapidPeer drafts, including in a small test by former editors."
 date: 2026-10-24T09:00:00.000Z
-updated: 2026-10-24T09:00:00.000Z
+updated: "2026-10-25T20:30:00.000Z"
 category: models-research
 tags:
   - research
@@ -61,3 +61,5 @@ The authors say they did not measure whether later revisions made the paper bett
 The useful line in the paper is the limit the authors put on it. A model preferred one review over another, and three former editors, on 30 judgments, mostly agreed. That is evidence about review text. It is not a trial of whether the science got better, and it is not a journal’s decision to drop human reviewers. The paper is also new: it is a working paper dated the day it was posted, not a replicated study in a journal. Anyone using it to set a review policy is going past what the authors say they measured.
 
 This report is not advice to an editor, a university, or an author on how to run peer review.
+
+Related reporting: [the Linux Foundation survey of open-source developers using AI](/2026/10/23/linux-foundation-ai-open-source-survey/).

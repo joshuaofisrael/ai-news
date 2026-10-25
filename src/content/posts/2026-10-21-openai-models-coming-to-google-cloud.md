@@ -1,8 +1,8 @@
 ---
-title: OpenAI will offer frontier models and Codex through Google Cloud
-description: OpenAI and Google Cloud will put frontier models and Codex in Model Garden, sold on the Google Cloud Marketplace. Microsoft remains OpenAI’s primary cloud partner.
+title: "OpenAI frontier models and Codex come to Google Cloud"
+description: "OpenAI and Google Cloud will put frontier models and Codex in Model Garden, sold on the Marketplace. Microsoft remains OpenAI’s primary cloud partner."
 date: 2026-10-21T12:00:00.000Z
-updated: 2026-10-23T16:00:00.000Z
+updated: "2026-10-25T20:30:00.000Z"
 category: industry-business
 tags:
   - openai
@@ -42,3 +42,5 @@ Greg Brockman, OpenAI’s president and co-founder, says in the announcement tha
 The same post draws a boundary around the deal. Microsoft remains OpenAI’s primary cloud partner.
 
 The same day, OpenAI published a separate note on [partner safeguards and updated usage policies](/2026/10/21/openai-partner-safeguards-and-usage-policies/). That note is about how safety rules travel when other companies host or resell the models. Neither that note nor the Google Cloud posts list Model Garden prices or the model names that will be sold there.
+
+Related reporting: [OpenAI’s Decisions API, now generally available](/2026/10/23/openai-decisions-api-generally-available/). The safeguards note published the same day is linked above.

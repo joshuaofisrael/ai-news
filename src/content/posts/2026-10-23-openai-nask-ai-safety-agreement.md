@@ -1,8 +1,8 @@
 ---
-title: OpenAI says it signed an AI safety research agreement with Poland’s NASK
-description: OpenAI says it has signed an agreement with Poland’s NASK to study AI safety, security, and how to evaluate more capable systems.
+title: "OpenAI says it signed a safety agreement with NASK"
+description: "OpenAI says it signed an agreement with Poland’s NASK to study AI safety, security, and how to evaluate more capable systems. The post is OpenAI’s account."
 date: 2026-10-23T10:00:00.000Z
-updated: 2026-10-23T10:00:00.000Z
+updated: "2026-10-25T20:30:00.000Z"
 category: policy-regulation
 tags:
   - openai
@@ -46,3 +46,5 @@ OpenAI places the deal next to work it says it already does with the US Center f
 The new agreement, OpenAI says, follows access that CERT Polska, which operates inside NASK, received in July through a program OpenAI calls Daybreak. OpenAI says the team used its models to help find six vulnerabilities in MikroTik RouterOS, including flaws that could be combined to take control of affected devices without authentication. OpenAI says the vendor shipped fixes and CERT Polska confirmed those fixes blocked the attacks it had observed.
 
 This article is not a vulnerability write-up. OpenAI’s post does not name the flaw identifiers, the versions, or the exploit steps, and those details are not repeated here. The safety agreement announced on October 23 is a research collaboration, as OpenAI describes it, not a claim that either organization has certified any model as safe.
+
+Related reporting: [OpenAI’s rule that model hosts match its safeguards](/2026/10/21/openai-partner-safeguards-and-usage-policies/) and [HM Treasury’s AI security funding note](/2026/10/25/uk-ai-security-package/).

@@ -1,8 +1,8 @@
 ---
-title: Anthropic opens a US waitlist for Claude Duet, a proactive work agent
-description: Anthropic is previewing Claude Duet for US Pro and Max subscribers. The agent sends a morning brief, works in the background, and asks before it sends, pays, signs, or deletes.
+title: "Anthropic opens a US waitlist for Claude Duet"
+description: "Anthropic is previewing Claude Duet for US Pro and Max subscribers. It sends a morning brief, keeps working, and asks before it sends, pays, signs, or deletes."
 date: 2026-10-21T22:00:00.000Z
-updated: 2026-10-23T16:00:00.000Z
+updated: "2026-10-25T20:30:00.000Z"
 category: tools-products
 tags:
   - anthropic
@@ -67,3 +67,5 @@ On purchases, the announcement says Duet can buy things for a business with Link
 The announcement calls this an early version that might “misread a thread or miscalibrate what’s urgent.” It says the core is work tasks, and that personal errands such as booking tickets are not as strong. It says users cannot yet see Duet’s browser, and that the app is separate from the main Claude app. The help center adds that users cannot watch that browser or take it over, that Duet cannot see every project or the files on a person’s computer, that it can read work in Claude but cannot change it, and that something urgent can arrive between scheduled checks. It says drafts and approval requests should be reviewed before they are confirmed.
 
 Neither post gives a date for general availability, a price after the preview, or a date for Team and Enterprise access. The announcement also prints comments from people Anthropic says had early access, including named customers. This desk did not interview them, and those comments are not repeated here.
+
+Related reporting: [Google Cloud’s preview of a microVM built for agents](/2026/10/23/google-cloud-agent-compute-engine/) and [OPAL, which lets an agent edit optimizer code during training](/2026/10/23/opal-agent-rewrites-optimizer-during-training/).

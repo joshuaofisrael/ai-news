@@ -73,6 +73,18 @@
       {% endfor %}
     </div>
   </section>
+  <section class="sections" aria-labelledby="topics-heading">
+    <h2 id="topics-heading" class="section-title">Topics</h2>
+    <div class="cat-grid">
+      {% for hub in topicHubs %}
+        <article class="cat-card reveal">
+          <h3><a href="/topics/{{ hub.slug }}/"><span>{{ hub.title }}</span></a></h3>
+          <p>{{ hub.description }}</p>
+        </article>
+      {% endfor %}
+    </div>
+    <p class="note"><a href="/topics/">All topic hubs</a> · <a href="/explainers/">Explainers</a></p>
+  </section>
   <section class="faq" aria-labelledby="faq-heading">
     <h2 id="faq-heading" class="section-title">Frequently asked questions</h2>
     {% for item in faq %}

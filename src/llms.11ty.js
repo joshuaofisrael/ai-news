@@ -30,6 +30,18 @@ export function render(data) {
     lines.push("");
   }
 
+  lines.push("## Topics", "");
+  lines.push(`- [Topic hubs](${absoluteUrl("/topics/", site.url)}): Indexes for OpenAI, agents, safety, policy, work, and infrastructure.`);
+  for (const topic of data.topicHubs || []) {
+    lines.push(`- [${topic.title}](${absoluteUrl(`/topics/${topic.slug}/`, site.url)}): ${topic.description}`);
+  }
+  lines.push("");
+  lines.push("## Explainers", "");
+  lines.push(`- [Explainers](${absoluteUrl("/explainers/", site.url)}): Evergreen definitions with named sources.`);
+  for (const guide of data.explainerPages || []) {
+    lines.push(`- [${guide.title}](${absoluteUrl(guide.href, site.url)}): ${guide.description}`);
+  }
+  lines.push("");
   lines.push("## Sections", "");
   for (const category of data.categories) {
     lines.push(

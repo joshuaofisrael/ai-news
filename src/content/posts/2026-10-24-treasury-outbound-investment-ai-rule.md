@@ -1,8 +1,8 @@
 ---
-title: "Treasury proposes rules for some outbound U.S. investments in AI and chips"
-description: "On October 22 the U.S. Treasury proposed updates that would require notice of, or bar, some U.S. investments in AI, semiconductors, and other listed technologies."
+title: "Treasury proposes rules for some outbound AI investments"
+description: "On October 22 the U.S. Treasury proposed rules that would require notice of, or bar, some U.S. investments in AI, semiconductors, and other listed technologies."
 date: 2026-10-24T10:00:00.000Z
-updated: 2026-10-24T10:00:00.000Z
+updated: "2026-10-25T20:30:00.000Z"
 category: policy-regulation
 tags:
   - regulation
@@ -54,3 +54,5 @@ The release also says the department will consider the comments before it issues
 For anyone placing capital into AI or chip companies abroad, the operative fact is the status of the document. Treasury has said which technology families the statute covers, that biotechnology is an added category in the proposal, and that notice and prohibition are the two tools. It has not, in this press release, published the technical thresholds that would tell a reader which AI system is notifiable and which deal is banned. Those lines, if they are in the notice, have to be read there. Treating the press release as a compliance checklist would go past what it says.
 
 This report is not legal, tax, or investment advice.
+
+Related reporting: [China’s 18-task opinion on employment-friendly AI](/2026/10/25/china-ai-employment-guidelines/) and [Commerce’s letters of intent for power-chip research](/2026/10/24/commerce-chips-power-rd-awards/).

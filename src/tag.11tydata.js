@@ -9,7 +9,10 @@ export default {
       return `Tagged ${tagLabel(data.tag)}`;
     },
     description(data) {
-      return `Stories filed under the ${tagLabel(data.tag)} tag on ${site.name}, with the reporting and the primary sources for each one.`;
+      const label = tagLabel(data.tag);
+      const count = (data.collections.posts || []).filter((post) => (post.data.tags || []).includes(data.tag)).length;
+      const noun = count === 1 ? "story" : "stories";
+      return `${count} ${noun} tagged ${label} on ${site.name}, each linking a primary source. Open a story for the reporting and its sources, or use the archive for every section.`;
     },
     breadcrumbs(data) {
       return [

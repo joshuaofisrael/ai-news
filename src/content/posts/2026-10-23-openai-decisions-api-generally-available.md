@@ -1,8 +1,8 @@
 ---
-title: OpenAI makes the Decisions API generally available for bounded, fast choices
-description: OpenAI’s Decisions API is generally available with GPT-6 Luna. The company prices it at $0.10 per million input tokens and charges no output tokens.
+title: "OpenAI makes the Decisions API generally available"
+description: "OpenAI’s Decisions API is generally available with GPT-6 Luna for fast, bounded choices. It is priced at $0.10 per million input tokens, with no output tokens."
 date: 2026-10-23T11:00:00.000Z
-updated: 2026-10-23T11:00:00.000Z
+updated: "2026-10-25T20:30:00.000Z"
 category: tools-products
 tags:
   - openai
@@ -57,3 +57,5 @@ Inside OpenAI, the post says the dots team uses the API to shorten response time
 
 
 The voice path is the other product change. Decisions can be attached to a GPT-Live session so an application picks a next step while someone is speaking: a clarifying question, a route, or an escalation. OpenAI’s example has the session choose an avatar expression from the transcript. The post does not say that feature is a separate product or a separate price.
+
+Related reporting: [OpenAI frontier models and Codex coming to Google Cloud](/2026/10/21/openai-models-coming-to-google-cloud/).

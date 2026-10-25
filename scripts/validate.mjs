@@ -5,6 +5,8 @@ import { XMLParser } from "fast-xml-parser";
 import { HtmlValidate } from "html-validate";
 import site from "../src/_data/site.js";
 import categories from "../src/_data/categories.js";
+import topicHubs from "../src/_data/topicHubs.js";
+import explainerPages from "../src/_data/explainerPages.js";
 import { thisYear, utcPathDate } from "../src/_lib/dates.js";
 import markdownIt from "markdown-it";
 import { figureShortcode, installFigures } from "../src/_lib/figure.js";
@@ -268,7 +270,9 @@ for (const file of htmlFiles) {
     }
     if (website && website.name !== site.name) fail(`${rel} WebSite name is "${website.name}"`);
     if (html.includes('property="og:type" content="article"')) {
-      if (!types.has("NewsArticle")) fail(`${rel} is missing NewsArticle JSON-LD`);
+      if (!types.has("NewsArticle") && !types.has("Article")) {
+        fail(`${rel} is missing NewsArticle or Article JSON-LD`);
+      }
       if (!types.has("BreadcrumbList")) fail(`${rel} is missing BreadcrumbList JSON-LD`);
     }
   }
@@ -506,6 +510,21 @@ for (const category of categories) {
   if (!sitemapLocs.includes(loc)) fail(`sitemap is missing ${category.title}`);
 }
 if (new Set(sitemapLocs).size !== sitemapLocs.length) fail("sitemap contains duplicate URLs");
+const hubLocs = [
+  absoluteUrl("/topics/", site.url),
+  absoluteUrl("/explainers/", site.url),
+  ...topicHubs.map((topic) => absoluteUrl(`/topics/${topic.slug}/`, site.url)),
+  ...explainerPages.map((guide) => absoluteUrl(guide.href, site.url)),
+];
+for (const loc of hubLocs) {
+  if (!sitemapLocs.includes(loc)) fail(`sitemap is missing ${loc}`);
+}
+if (!sitemapLocs.includes(absoluteUrl("/news-sitemap.xml", site.url))) {
+  fail("sitemap does not cross-link the news sitemap");
+}
+if (!sitemapLocs.includes(absoluteUrl("/sitemap-index.xml", site.url))) {
+  fail("sitemap does not cross-link the sitemap index");
+}
 
 const news = parser.parse(await readText("news-sitemap.xml"));
 const newsUrls = listify(news.urlset?.url);
@@ -522,6 +541,15 @@ for (const entry of newsUrls) {
 }
 if (newsLocs.length !== recentUrls.length) {
   fail(`Google News sitemap has ${newsLocs.length} URLs; ${recentUrls.length} articles are inside the window`);
+}
+for (const loc of hubLocs) {
+  if (newsLocs.includes(loc)) fail(`Google News sitemap should not list non-news page ${loc}`);
+}
+const sitemapIndex = parser.parse(await readText("sitemap-index.xml"));
+const indexLocs = listify(sitemapIndex.sitemapindex?.sitemap).map((entry) => entry.loc);
+for (const path of ["/sitemap.xml", "/news-sitemap.xml"]) {
+  const loc = absoluteUrl(path, site.url);
+  if (!indexLocs.includes(loc)) fail(`sitemap index is missing ${loc}`);
 }
 
 for (const feedName of ["feed.xml", "atom.xml"]) {

@@ -1,0 +1,58 @@
+---
+pagination:
+  data: topicHubs
+  size: 1
+  alias: topic
+permalink: "/topics/{{ topic.slug }}/"
+---
+{% set stories = collections.posts | byAnyTag(topic.matchTags, topic.extraSlugs) %}
+{% set guides = explainerPages | whereSlug(topic.explainers) %}
+<div class="wrap page">
+  {% include "partials/breadcrumbs.njk" %}
+  <h1>{{ topic.title }}</h1>
+  <p class="deck">{{ topic.description }}</p>
+  <div class="prose">
+    {{ topic.intro | markdown | safe }}
+  </div>
+  {% if stories.length %}
+    <h2 class="section-title">Stories</h2>
+    <ul class="story-list">
+      {% for post in stories %}
+        <li>
+          {% set level = 3 %}
+          {% set showDeck = true %}
+          {% set showImage = true %}
+          {% set loading = "lazy" %}
+          {% set fetchpriority = false %}
+          {% include "partials/story.njk" %}
+        </li>
+      {% endfor %}
+    </ul>
+  {% endif %}
+  {% if guides.length %}
+    <h2 class="section-title">Explainers</h2>
+    <ul class="story-list">
+      {% for guide in guides %}
+        <li>
+          <article class="story">
+            <div class="story-copy">
+              <p class="kicker">Explainer</p>
+              <h3 class="story-title"><a href="{{ guide.href }}">{{ guide.title }}</a></h3>
+              <p class="deck">{{ guide.description }}</p>
+            </div>
+          </article>
+        </li>
+      {% endfor %}
+    </ul>
+  {% endif %}
+  <h2 class="section-title">Other topics</h2>
+  <ul class="tag-list">
+    {% for hub in topicHubs %}
+      {% if hub.slug != topic.slug %}
+        <li><a href="/topics/{{ hub.slug }}/">{{ hub.title }}</a></li>
+      {% endif %}
+    {% endfor %}
+    <li><a href="/explainers/">All explainers</a></li>
+    <li><a href="/archive/">Archive</a></li>
+  </ul>
+</div>

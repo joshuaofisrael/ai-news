@@ -1,8 +1,8 @@
 ---
-title: OPAL lets a coding agent rewrite the optimizer while a model trains
+title: "OPAL lets an agent rewrite the optimizer mid-training"
 description: A new PyTorch package, OPAL, lets Claude Code edit optimizer code during a training run. The authors’ blog says most of the reported runs were done once.
 date: 2026-10-23T09:40:00.000Z
-updated: 2026-10-23T09:40:00.000Z
+updated: "2026-10-25T20:30:00.000Z"
 category: models-research
 tags:
   - research
@@ -63,3 +63,5 @@ They also describe a ResNet-18 trained on CIFAR-10 with 10% of the training labe
 The cost example they give is one LightningDiT run: about 100 decisions, $6.42 at Claude Opus 5.5 list price, on top of about 74 hours of H100 time, which they price at about $510 at AWS’s on-demand rate. They say that, counted in floating-point operations, a reactive optimizer is impractical because frontier agents are so large. Gains shrink, they write, when the run is short and the recipe is already heavily tuned. The README records a modded-nanogpt run on version 0.2.0 that finished at validation loss 3.2878, worse than the record it started near. Multi-node training, FSDP, and DeepSpeed are not supported. The package version in the README read for this story was 0.3.7.
 
 The useful reading is the one the authors put on the page: OPAL is a bet that an agent can spend tokens in place of a hyperparameter sweep, on tasks where no sweep exists yet. The evidence they published is mostly a single pass through each task.
+
+Related reporting: [Google Cloud’s microVM preview for agents](/2026/10/23/google-cloud-agent-compute-engine/) and [OpenAI’s account of frontier training without the live internet](/2026/10/25/openai-frontier-training-offline/).

@@ -124,6 +124,18 @@ export function buildSchema(input = {}) {
     if (crumbs.length > 1) page.breadcrumb = { "@id": `${pageUrl}#breadcrumb` };
     const modified = toDate(input.dateModified);
     if (modified) page.dateModified = isoDate(modified);
+    if (kind === "Article") {
+      const published = toDate(input.datePublished);
+      if (published) page.datePublished = isoDate(published);
+      if (Array.isArray(input.sources) && input.sources.length) {
+        page.citation = input.sources.map((source) => ({
+          "@type": "CreativeWork",
+          name: source.title,
+          url: source.url,
+          publisher: source.publisher ? { "@type": "Organization", name: source.publisher } : undefined,
+        }));
+      }
+    }
     graph.push(page);
   }
 

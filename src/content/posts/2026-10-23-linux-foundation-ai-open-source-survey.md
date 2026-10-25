@@ -1,8 +1,8 @@
 ---
-title: Linux Foundation survey says AI sped up coding and added low-quality pull requests
-description: LF Research’s survey of 234 open-source developers, released October 20, says code writing got faster while maintainers flag many weak pull requests.
+title: "Survey: AI sped coding and added low-quality pull requests"
+description: "LF Research’s survey of 234 open-source developers, released October 20, 2026, says code writing got faster while maintainers flag many weak pull requests."
 date: 2026-10-23T09:20:00.000Z
-updated: 2026-10-23T09:20:00.000Z
+updated: "2026-10-25T20:30:00.000Z"
 category: industry-business
 tags:
   - open-source
@@ -53,3 +53,5 @@ Only 35% of projects have a formal policy that permits generative AI. Thirty-two
 Hilary Carter, the foundation’s senior vice president of research, said projects should “design for a growing AI-generated contributor base, not simply react to it,” and put testing and disclosure on the contributor. The report’s own recommendations match that: a written policy, required testing, and a standard way to attribute AI help, with the Linux kernel’s “Assisted-by” commit trailer offered as one format.
 
 The foundation also discloses that its research team uses generative AI for tasks such as gathering sources, drafting, copyediting, and translation, and that people review that output. The survey findings are the respondents’ estimates, with the limits of a 234-person opt-in sample.
+
+Related reporting: [a Harvard working paper comparing AI reviews with paid human reviews](/2026/10/24/harvard-ai-peer-review-study/) and [Torsten Slok’s note on revenue per worker](/2026/10/25/slok-ai-payoff-outside-tech/).

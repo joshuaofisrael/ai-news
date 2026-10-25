@@ -1,8 +1,8 @@
 ---
-title: "State Council office sets 18 tasks for employment-friendly AI"
+title: "State Council sets 18 tasks for employment-friendly AI"
 description: "A General Office opinion published October 23 sets 18 tasks on AI jobs, skills training, new occupations, and employment-risk checks before some rollouts."
 date: 2026-10-25T09:00:00.000Z
-updated: 2026-10-25T09:00:00.000Z
+updated: "2026-10-25T20:30:00.000Z"
 category: policy-regulation
 tags:
   - china
@@ -73,3 +73,5 @@ The English release adds context that is not in the opinion’s articles. It say
 The useful line is what kind of document this is. It is a State Council General Office opinion, agreed by the State Council, that tells the bureaucracy to weigh jobs while AI spreads. The employment-risk assessment is attached to review of a defined class of projects. The buffer period is something firms are encouraged to explore. Neither line, in the text published on October 23, sets a threshold, a penalty, or a date by which a firm must comply. Anyone reading the 18 tasks as a spending bill, or as a count of jobs to be created, is past what the opinion says.
 
 This report is not legal, tax, or employment advice.
+
+Related reporting: [Torsten Slok’s note on revenue per worker outside big tech](/2026/10/25/slok-ai-payoff-outside-tech/) and [the Treasury proposal on some outbound AI investment](/2026/10/24/treasury-outbound-investment-ai-rule/).

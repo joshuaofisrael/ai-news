@@ -1,0 +1,31 @@
+---
+layout: layouts/page.njk
+title: AI explainers
+description: Evergreen explainers on AI Headline Hub. Each page defines a widely searched AI term in original wording and links every named source the page relies on.
+permalink: /explainers/
+schemaKind: CollectionPage
+tags:
+  - page
+updated: 2026-10-25T20:30:00.000Z
+dek: Definitions written for this desk, with a named source linked for each factual claim.
+breadcrumbs:
+  - name: Home
+    url: /
+  - name: Explainers
+    url: /explainers/
+---
+<p>Explainers stay up after the news moves on. They are not news stories. Opinion on these pages is labeled. Images elsewhere on the site are illustrative; these pages describe terms, and they link the documents they use.</p>
+<ul class="story-list">
+  {% for guide in explainerPages %}
+    <li>
+      <article class="story">
+        <div class="story-copy">
+          <p class="kicker">Explainer</p>
+          <h2 class="story-title"><a href="{{ guide.href }}">{{ guide.title }}</a></h2>
+          <p class="deck">{{ guide.description }}</p>
+        </div>
+      </article>
+    </li>
+  {% endfor %}
+</ul>
+<p>For the news that uses these terms, open the <a href="/topics/">topic hubs</a> or the <a href="/archive/">archive</a>.</p>

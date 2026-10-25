@@ -32,6 +32,20 @@ export function render(data) {
     entries.push(urlEntry(absoluteUrl(post.url, site.url), isoDate(post.data.updated || post.date)));
   }
 
+  for (const topic of data.topicHubs || []) {
+    const stories = posts.filter((post) => {
+      const tags = post.data.tags || [];
+      if ((topic.matchTags || []).some((tag) => tags.includes(tag))) return true;
+      return (topic.extraSlugs || []).some((slug) => String(post.url || "").endsWith(`/${slug}/`));
+    });
+    entries.push(
+      urlEntry(
+        absoluteUrl(`/topics/${topic.slug}/`, site.url),
+        stories[0] ? isoDate(stories[0].data.updated || stories[0].date) : "",
+      ),
+    );
+  }
+
   for (const category of data.categories) {
     const stories = posts.filter((post) => post.data.category === category.slug);
     entries.push(
@@ -49,8 +63,12 @@ export function render(data) {
     );
   }
 
+  entries.push(urlEntry(absoluteUrl("/news-sitemap.xml", site.url), ""));
+  entries.push(urlEntry(absoluteUrl("/sitemap-index.xml", site.url), ""));
+
   return `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <!-- News sitemap: ${absoluteUrl("/news-sitemap.xml", site.url)} -->
 ${entries.join("\n")}
 </urlset>
 `;

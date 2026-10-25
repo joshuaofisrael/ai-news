@@ -53,6 +53,21 @@ layout: layouts/base.njk
       {% endfor %}
     </ul>
   </section>
+  {% set hubs = topicHubs | hubsFor(tags, page.url) %}
+  {% set guides = explainerPages | explainersFor(tags) %}
+  {% if hubs.length or guides.length %}
+    <section class="related" aria-labelledby="topic-pages-heading">
+      <h2 id="topic-pages-heading">Topics and explainers</h2>
+      <ul class="tag-list">
+        {% for hub in hubs %}
+          <li><a href="/topics/{{ hub.slug }}/">{{ hub.title }}</a></li>
+        {% endfor %}
+        {% for guide in guides %}
+          <li><a href="{{ guide.href }}">{{ guide.title }}</a></li>
+        {% endfor %}
+      </ul>
+    </section>
+  {% endif %}
   {% set more = collections.posts | moreStories(page.url) %}
   {% if more.length %}
     <section class="related" aria-labelledby="more-heading">

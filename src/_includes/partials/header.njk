@@ -35,6 +35,8 @@
           </li>
         {% endfor %}
         <li><a href="/archive/" {% if page.url == ("/archive/" | href) %}aria-current="page"{% endif %}>Archive</a></li>
+        <li><a href="/topics/" {% if "/topics/" in page.url %}aria-current="page"{% endif %}>Topics</a></li>
+        <li><a href="/explainers/" {% if "/explainers/" in page.url %}aria-current="page"{% endif %}>Explainers</a></li>
         <li><a href="/about/" {% if page.url == ("/about/" | href) %}aria-current="page"{% endif %}>About</a></li>
         <li><a href="/contact/" {% if page.url == ("/contact/" | href) %}aria-current="page"{% endif %}>Contact</a></li>
       </ul>

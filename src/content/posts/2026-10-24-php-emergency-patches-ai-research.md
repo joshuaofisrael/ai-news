@@ -1,8 +1,8 @@
 ---
-title: "PHP releases fixes for two critical flaws as AI-assisted reports increase"
-description: "PHP shipped patches on October 21 for two critical remote-code flaws. CISA, updating its alert on October 23, said it had not seen successful attacks in the wild."
+title: "PHP patches two critical flaws as AI-assisted reports rise"
+description: "PHP shipped patches on October 21 for two critical remote-code flaws. CISA said on October 23 it had not seen successful attacks on those flaws in the wild."
 date: 2026-10-24T12:00:00.000Z
-updated: 2026-10-24T12:00:00.000Z
+updated: "2026-10-25T20:30:00.000Z"
 category: policy-regulation
 tags:
   - security
@@ -67,3 +67,5 @@ PHP 8.1 and older no longer receive updates from the PHP project, the project’
 Two claims are easy to mash together, and the sources do not. The patches are real, the versions are named, and a U.S. cyber agency said on October 23 that it had not seen successful exploitation in the wild. The discovery story is messier: the foundation traces the underlying out-of-memory problem to 2024 work by its own developer, and OpenAI credits a 2026 AI-assisted report from Calif, plus an independent report from Wiz, with finding the flaws before attackers did. The volume point that is actually quantified is the foundation’s own: 15 published CVEs since July 1, and more than 100 reports that did not hold up. That is not a global count of every CVE in every product.
 
 This report is not security advice and not a guide to testing the flaws. Patch decisions belong with the operator and the official notices linked above.
+
+Related reporting: [OpenAI’s account of frontier training](/2026/10/25/openai-frontier-training-offline/), which describes a disclosure effort the company calls Patch the Planet.

@@ -1,8 +1,8 @@
 ---
-title: "Commerce signs letters of intent for up to $389 million in power-chip R&D"
-description: "Commerce said on October 22 it signed letters of intent for up to $389 million in CHIPS research awards, including power chips aimed at data centers. The awards are not final."
+title: "Commerce signs intent letters for up to $389 million"
+description: "Commerce said on October 22 it signed letters of intent for up to $389 million in CHIPS research, including power chips for data centers. Awards are not final."
 date: 2026-10-24T11:00:00.000Z
-updated: 2026-10-24T11:00:00.000Z
+updated: "2026-10-25T20:30:00.000Z"
 category: funding
 tags:
   - chips
@@ -51,3 +51,5 @@ The release does not say the funds have been disbursed. It does not give a const
 The AI-relevant line is narrower than the headline total. Most of the $389 million, on the figures Commerce published, is for fusion power electronics and for quartz purification. The computing piece is Vertical Semiconductor’s award of up to $73 million, and even that is a letter of intent for research and a demonstration rack, not a shipment of chips into data centers. Readers looking at the companies as investments are looking at a proposed federal R&D deal with a government equity condition attached, not at revenue.
 
 This report is not investment, tax, or legal advice, and it is not a statement that any award will close.
+
+Related reporting: [a poll in which most US adults opposed building more data centers](/2026/10/23/americans-say-ai-bad-for-society-oppose-data-centers/) and [the Treasury proposal on some outbound AI investment](/2026/10/24/treasury-outbound-investment-ai-rule/).

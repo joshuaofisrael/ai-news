@@ -1,8 +1,8 @@
 ---
-title: "Healey lists AI security funding ahead of the Budget, including a £100 million lab"
-description: "HM Treasury said on October 24 that Chancellor John Healey has set out AI security and industry funding ahead of the Budget, including £120 million more for the AI Security Institute."
+title: "Healey lists AI security funds, including a £100m lab"
+description: "HM Treasury said on October 24 that John Healey has set out AI security funding ahead of the Budget, including £120 million more for the AI Security Institute."
 date: 2026-10-25T11:00:00.000Z
-updated: 2026-10-25T11:00:00.000Z
+updated: "2026-10-25T20:30:00.000Z"
 category: policy-regulation
 tags:
   - uk
@@ -75,3 +75,5 @@ The release also describes AI already in use, which it does not present as a res
 The page is a pre-Budget announcement from the Treasury and the Cabinet Office. The largest new institution in the security block, on the figures they published, is the biosecurity initiative at £165 million of government money, with a further company commitment of up to £200 million in credits and access that the Cabinet Office itemises as OpenAI and Anthropic. The AI Security Institute line is an addition of £120 million, not a statement of the Institute’s whole budget. Nothing on either page says Parliament has voted the sums, or that the lab is open.
 
 This report is not tax, investment, or legal advice, and it is not a statement that any of the sums will be appropriated as announced.
+
+Related reporting: [Anthropic and the UK AI Security Institute on a July cyber test](/2026/10/25/aisi-mythos-cyber-test/) and [the safety agreement OpenAI says it signed with Poland’s NASK](/2026/10/23/openai-nask-ai-safety-agreement/).

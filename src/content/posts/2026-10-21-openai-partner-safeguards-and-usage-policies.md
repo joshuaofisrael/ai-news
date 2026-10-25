@@ -1,8 +1,8 @@
 ---
-title: OpenAI tells model hosts to match its safeguards and sets a November policy date
-description: OpenAI says companies that host or resell its models must match its safeguards. Updated usage policies take effect November 20, 2026, and model gateways need approval.
+title: "OpenAI tells model hosts to match its safeguards"
+description: "OpenAI says hosts and resellers of its models must match its safeguards. Updated usage policies take effect November 20, 2026, and gateways need approval."
 date: 2026-10-21T21:00:00.000Z
-updated: 2026-10-23T16:00:00.000Z
+updated: "2026-10-25T20:30:00.000Z"
 category: policy-regulation
 tags:
   - openai
@@ -50,3 +50,5 @@ On enforcement, OpenAI says decisions are based on documented conduct and risk, 
 This desk reads the document as a company policy statement, not as a statute or a regulator’s order. The post does not include the full text of the November 20 usage policies. It does not name which partners are already covered, and it does not describe an enforcement action taken under the new partner standard.
 
 The same day, OpenAI said its frontier models and Codex workflows are [coming to Google Cloud](/2026/10/21/openai-models-coming-to-google-cloud/). That announcement is a distribution deal. This post is the rule OpenAI says should travel with the models when another company hosts them.
+
+Related reporting: [the safety agreement OpenAI says it signed with Poland’s NASK](/2026/10/23/openai-nask-ai-safety-agreement/) and [OpenAI’s account of frontier training without the live internet](/2026/10/25/openai-frontier-training-offline/).

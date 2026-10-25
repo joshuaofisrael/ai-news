@@ -1,9 +1,10 @@
 {% if mastheadHeading %}
-  {% set documentTitle = site.name + " — " + site.tagline %}
+  {% set documentTitle = "AI Headline Hub — AI news with sources" %}
 {% elif title == site.name %}
   {% set documentTitle = site.name %}
 {% else %}
-  {% set documentTitle = title + " · " + site.name %}
+  {% set brandedTitle = title + " · " + site.name %}
+  {% set documentTitle = brandedTitle if (brandedTitle | length) <= 60 else title %}
 {% endif %}
 {% set img = (image if image else site.defaultImage) | storyImage %}
 {% set socialImage = img.src | absUrl %}
@@ -20,6 +21,7 @@
 <link rel="alternate" type="application/rss+xml" title="{{ site.name }} RSS" href="/feed.xml">
 <link rel="alternate" type="application/atom+xml" title="{{ site.name }} Atom" href="/atom.xml">
 <link rel="sitemap" type="application/xml" title="Sitemap" href="/sitemap.xml">
+<link rel="sitemap" type="application/xml" title="News sitemap" href="/news-sitemap.xml">
 <link rel="author" href="/humans.txt" type="text/plain">
 <link rel="manifest" href="/site.webmanifest">
 <link rel="icon" href="/favicon.ico" sizes="any">
@@ -28,7 +30,7 @@
 <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <meta property="og:site_name" content="{{ site.name }}">
 <meta property="og:locale" content="{{ site.locale }}">
-<meta property="og:type" content="{{ 'article' if schemaKind == 'NewsArticle' else 'website' }}">
+<meta property="og:type" content="{{ 'article' if schemaKind == 'NewsArticle' or schemaKind == 'Article' else 'website' }}">
 <meta property="og:title" content="{{ documentTitle }}">
 <meta property="og:description" content="{{ description }}">
 <meta property="og:url" content="{{ canonicalUrl }}">

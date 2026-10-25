@@ -1,8 +1,8 @@
 ---
-title: "SageMaker AI lets customers write the training loop without managing GPUs"
+title: "SageMaker AI: write a training loop without managing GPUs"
 description: "AWS said on October 22 that SageMaker AI training-session APIs are generally available in three regions for custom post-training, billed per token processed."
 date: 2026-10-24T14:00:00.000Z
-updated: 2026-10-24T14:00:00.000Z
+updated: "2026-10-25T20:30:00.000Z"
 category: tools-products
 tags:
   - aws
@@ -46,3 +46,5 @@ To start, AWS says, install the SageMaker Python SDK and clone the cookbook, or 
 The product claim is a split of labor, not a benchmark. AWS is saying the research team can own the training step while the cloud service still owns the machines, the adapters, the checkpoints, and the recovery. That is useful to a lab that already knows which loss it wants and does not want a cluster to administer. It is not, on this page, evidence that a custom loop trains a better model than the managed SFT or DPO jobs sitting next to it. The page also leaves the price as a unit, tokens processed, without a number.
 
 This report is not purchasing advice and not a guide to choosing a training method.
+
+Related reporting: [OPAL, which lets an agent edit optimizer code during training](/2026/10/23/opal-agent-rewrites-optimizer-during-training/) and [Google Cloud’s agent microVM preview](/2026/10/23/google-cloud-agent-compute-engine/).

@@ -30,6 +30,7 @@ export function render(data) {
 
   return `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
+  <!-- Full sitemap: ${absoluteUrl("/sitemap.xml", site.url)}. Hubs and explainers are listed there, not here, so this file stays a news sitemap. -->
 ${entries}
 </urlset>
 `;

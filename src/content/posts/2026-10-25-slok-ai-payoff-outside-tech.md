@@ -1,8 +1,8 @@
 ---
-title: "Slok says big-tech revenue per worker is rising, and flat for the other 493"
-description: "Apollo chief economist Torsten Slok wrote on October 24 that revenue per worker and margins are rising for the group he calls the Mag 7 and flat for the other 493 S&P 500 firms."
+title: "Slok: Mag 7 revenue per worker rising, other 493 flat"
+description: "Torsten Slok wrote on October 24 that revenue per worker and margins are rising for the group he calls the Mag 7 and flat for the other 493 S&P 500 firms."
 date: 2026-10-25T15:00:00.000Z
-updated: 2026-10-25T15:00:00.000Z
+updated: "2026-10-25T20:30:00.000Z"
 category: industry-business
 tags:
   - economy
@@ -50,3 +50,5 @@ Slok is comparing two aggregates over time and reading the gap as the AI story. 
 The note is useful as a clear statement of one economist’s charts on October 24. It is not a measure of any single company’s return on an AI project, and it is not a prediction this desk is adopting.
 
 This report is not investment, tax, or financial advice. Nothing here is a recommendation to buy, sell, or hold any security.
+
+Related reporting: [China’s 18 tasks on employment-friendly AI](/2026/10/25/china-ai-employment-guidelines/) and [Uber’s rollout of ChatGPT Work](/2026/10/23/uber-rolls-chatgpt-work-out-companywide/). Slok’s note is his analysis, not a finding by this desk.
