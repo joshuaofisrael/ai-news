@@ -1,0 +1,159 @@
+{
+  "date": "2026-10-25",
+  "aspect_ratio": "16:9",
+  "credit": "Image: AI Headline Hub",
+  "licence": "AI Headline Hub",
+  "notes": "Generate a JPEG master for every entry, 1280x720 or larger, 16:9, photorealistic, as if shot on a real camera in natural or available light. No cartoons, illustrations, flat vector, or stylised art. No faces and no real identifiable people. Generic hands or distant anonymous figures only if a prompt asks for them; these prompts do not. No company logos, wordmarks, flags, seals, or readable brand names or text. Do not stage a press conference, signing, protest, hearing, or other news event. New-story posts are draft:true until these masters exist and npm run art has been run. src/_data/imageSizes.json contains temporary dimension stubs (pending:true) so Eleventy can render the drafts in serve mode; npm run art rewrites that file from JPEGs on disk, so add every master before running art or the draft render will fail again. Post front matter uses credit \"Image: AI Headline Hub\" and licence \"AI Headline Hub\". Do not put an AI-generated label in alt text or captions.",
+  "images": [
+    {
+      "article": "State Council office sets 18 tasks for employment-friendly AI",
+      "slug": "china-ai-employment-guidelines",
+      "role": "hero",
+      "master_path": "src/assets/photos/stories/china-ai-employment.jpg",
+      "public_path": "/images/stories/china-ai-employment.webp",
+      "alt": "An empty vocational classroom with dark monitors, headsets on a table, and no people, signs, or flags.",
+      "caption": "The opinion was published on October 23. The text itself is dated October 16.",
+      "prompt": "Photorealistic 16:9 photograph of an empty vocational classroom in late daylight. Rows of dark monitors, a few plain headsets resting on a laminate table, chairs pushed in. No people, no hands, no faces, no flags, no seals, no logos, no readable signs or screen text. Soft window light, 35mm, documentary color, realistic dust on the bezels."
+    },
+    {
+      "article": "State Council office sets 18 tasks for employment-friendly AI",
+      "slug": "china-ai-employment-guidelines",
+      "role": "inline",
+      "master_path": "src/assets/photos/inline/china-ai-employment-1.jpg",
+      "public_path": "/images/inline/china-ai-employment-1.webp",
+      "alt": "An empty factory aisle with a stationary robotic arm, a workbench, and no people, logos, or readable labels.",
+      "caption": "The opinion tells officials to favor human-machine work where labor is short or the job is hazardous.",
+      "prompt": "Photorealistic 16:9 photograph down an empty factory aisle. A stationary industrial robot arm parked over a plain steel workbench, concrete floor, high windows. No people, no hands, no faces, no logos, no flags, no readable labels or safety posters. Cool daylight mixed with overhead shop light, 35mm, realistic metal and oil stains."
+    },
+    {
+      "article": "State Council office sets 18 tasks for employment-friendly AI",
+      "slug": "china-ai-employment-guidelines",
+      "role": "inline",
+      "master_path": "src/assets/photos/inline/china-ai-employment-2.jpg",
+      "public_path": "/images/inline/china-ai-employment-2.webp",
+      "alt": "A public training room with empty chairs, closed notebooks, and monitors that are off, and no readable screens or people.",
+      "caption": "Training lines in the opinion point at graduates, migrant workers, and unemployed people.",
+      "prompt": "Photorealistic 16:9 photograph of an empty public training room. Plastic chairs, closed blank notebooks, monitors switched off so the screens are black. No people, no hands, no logos, no flags, no readable writing or wall text. Fluorescent light and a little daylight from a side window, 35mm."
+    },
+    {
+      "article": "Healey lists AI security funding ahead of the Budget, including a £100 million lab",
+      "slug": "uk-ai-security-package",
+      "role": "hero",
+      "master_path": "src/assets/photos/stories/uk-ai-security-package.jpg",
+      "public_path": "/images/stories/uk-ai-security-package.webp",
+      "alt": "An empty laboratory with closed incubators, a stainless bench, and no people, flags, or readable labels.",
+      "caption": "The Treasury release is dated October 24 and points ahead to the Budget.",
+      "prompt": "Photorealistic 16:9 photograph of an empty biology laboratory. Closed glass incubators, a stainless bench, coiled clear tubing, no samples in view. No people, no hands, no faces, no logos, no flags, no seals, no readable labels or screens. Bright even lab light, 35mm, realistic reflections on steel."
+    },
+    {
+      "article": "Healey lists AI security funding ahead of the Budget, including a £100 million lab",
+      "slug": "uk-ai-security-package",
+      "role": "inline",
+      "master_path": "src/assets/photos/inline/uk-ai-security-package-1.jpg",
+      "public_path": "/images/inline/uk-ai-security-package-1.webp",
+      "alt": "A closed laboratory door with a frosted pane, an empty bench, and no seals, flags, or readable signs.",
+      "caption": "The Cabinet Office describes the biosecurity lab as an independent non-profit. It does not give an opening date.",
+      "prompt": "Photorealistic 16:9 photograph of a closed laboratory door with a frosted glass pane, seen from an empty corridor. A side bench is bare. No people, no flags, no seals, no logos, no readable nameplates or warning signs. Daylight from a far window, 50mm, quiet institutional color."
+    },
+    {
+      "article": "Healey lists AI security funding ahead of the Budget, including a £100 million lab",
+      "slug": "uk-ai-security-package",
+      "role": "inline",
+      "master_path": "src/assets/photos/inline/uk-ai-security-package-2.jpg",
+      "public_path": "/images/inline/uk-ai-security-package-2.webp",
+      "alt": "An empty office aisle with a locked equipment cage, coiled cable, and no people, logos, or readable rack labels.",
+      "caption": "The cyber lines include £60 million for a National Cyber Shield and £70 million for a vulnerability centre.",
+      "prompt": "Photorealistic 16:9 photograph of an empty office technical aisle. A locked wire equipment cage, coiled grey cable on a hook, a dark rack with labels turned away. No people, no logos, no flags, no readable text. Cool overhead light, 35mm, documentary still."
+    },
+    {
+      "article": "Anthropic and AISI say a tested model tried to submit malicious code to a real repository",
+      "slug": "aisi-mythos-cyber-test",
+      "role": "hero",
+      "master_path": "src/assets/photos/stories/aisi-cyber-test.jpg",
+      "public_path": "/images/stories/aisi-cyber-test.webp",
+      "alt": "An empty network-test bench with a dark laptop, a small switch, and patch cables, and no people or readable screens.",
+      "caption": "Anthropic and the AI Security Institute published their assessments on October 23.",
+      "prompt": "Photorealistic 16:9 photograph of an empty network-test bench in a lab. A closed dark laptop, a small unlabeled ethernet switch, a neat bundle of patch cables. No people, no hands, no faces, no logos, no readable screens or port labels. Task lamp and dim room light, 35mm, realistic plastic and dust."
+    },
+    {
+      "article": "Anthropic and AISI say a tested model tried to submit malicious code to a real repository",
+      "slug": "aisi-mythos-cyber-test",
+      "role": "inline",
+      "master_path": "src/assets/photos/inline/aisi-cyber-test-1.jpg",
+      "public_path": "/images/inline/aisi-cyber-test-1.webp",
+      "alt": "A closed laptop and a powered-down network switch on a wooden bench, with cables coiled and no readable labels or people.",
+      "caption": "AISI says internet access was turned on for the test, and that this is no longer its practice for these exercises.",
+      "prompt": "Photorealistic 16:9 photograph of a wooden bench. A closed laptop, a powered-down network switch with dark ports, cables coiled beside it. No people, no hands, no logos, no readable labels or stickers. North light from a window, shallow depth of field, realistic wood grain."
+    },
+    {
+      "article": "Anthropic and AISI say a tested model tried to submit malicious code to a real repository",
+      "slug": "aisi-mythos-cyber-test",
+      "role": "inline",
+      "master_path": "src/assets/photos/inline/aisi-cyber-test-2.jpg",
+      "public_path": "/images/inline/aisi-cyber-test-2.webp",
+      "alt": "An empty glass-walled lab office with chairs pushed in and a monitor that is off, photographed from the corridor with no people or logos.",
+      "caption": "The October 23 posts are assessments of a July test. They are not a report of a customer incident.",
+      "prompt": "Photorealistic 16:9 photograph from a corridor through glass into an empty lab office. Chairs pushed in, one monitor off, a blank notebook. No people, no logos, no flags, no readable writing on the glass or screen. Reflections of ceiling lights, 50mm, documentary color."
+    },
+    {
+      "article": "Slok says big-tech revenue per worker is rising, and flat for the other 493",
+      "slug": "slok-ai-payoff-outside-tech",
+      "role": "hero",
+      "master_path": "src/assets/photos/stories/slok-ai-payoff.jpg",
+      "public_path": "/images/stories/slok-ai-payoff.webp",
+      "alt": "An empty analyst desk with two monitors showing blurred charts, a closed notebook, and no readable figures or people.",
+      "caption": "Slok’s note is dated October 24 and compares two groups of S&P 500 companies.",
+      "prompt": "Photorealistic 16:9 photograph of an unoccupied analyst desk at dusk. Two monitors show blurred line charts with no readable numbers, words, or logos. A closed notebook and a pen. No people, no hands, no brand marks. Window light and screen glow, 35mm, realistic desk clutter kept minimal."
+    },
+    {
+      "article": "Slok says big-tech revenue per worker is rising, and flat for the other 493",
+      "slug": "slok-ai-payoff-outside-tech",
+      "role": "inline",
+      "master_path": "src/assets/photos/inline/slok-ai-payoff-1.jpg",
+      "public_path": "/images/inline/slok-ai-payoff-1.webp",
+      "alt": "A printed page with a line chart thrown out of focus so no numbers or words can be read, beside a pencil and a dark laptop.",
+      "caption": "Slok’s revenue-per-worker chart is inflation-adjusted to the fourth quarter of 2019. The note does not print a percentage change.",
+      "prompt": "Photorealistic 16:9 photograph of a desk corner. A printed page shows a simple line chart thrown far out of focus so no numbers, axis labels, or words are readable. A pencil and the edge of a dark laptop. No people, no hands, no logos. Side daylight, realistic paper grain, shallow depth of field."
+    },
+    {
+      "article": "Slok says big-tech revenue per worker is rising, and flat for the other 493",
+      "slug": "slok-ai-payoff-outside-tech",
+      "role": "inline",
+      "master_path": "src/assets/photos/inline/slok-ai-payoff-2.jpg",
+      "public_path": "/images/inline/slok-ai-payoff-2.webp",
+      "alt": "Two stacks of plain printed reports on a glass table, pages out of focus, with an empty chair and no logos or people.",
+      "caption": "The note compares two groups of companies. It does not isolate AI as the cause of the gap.",
+      "prompt": "Photorealistic 16:9 photograph of a glass conference table. Two stacks of plain printed reports, pages out of focus so no words can be read, one empty chair. No people, no hands, no logos, no letterhead. Soft daylight, realistic reflections on the glass, 50mm."
+    },
+    {
+      "article": "OpenAI says frontier training now runs without the live internet",
+      "slug": "openai-frontier-training-offline",
+      "role": "hero",
+      "master_path": "src/assets/photos/stories/openai-training-offline.jpg",
+      "public_path": "/images/stories/openai-training-offline.webp",
+      "alt": "An empty compute aisle with dense servers, dark status lamps, and no people, logos, or readable asset tags.",
+      "caption": "OpenAI’s post, dated October 23, describes its own research environment for frontier training.",
+      "prompt": "Photorealistic 16:9 photograph down an empty compute aisle in a data hall. Dense servers, a few dark status lamps, cables dressed along the side. No people, no logos, no flags, no readable asset tags or hostnames. Cool overhead light, 24mm, realistic metal and slight haze."
+    },
+    {
+      "article": "OpenAI says frontier training now runs without the live internet",
+      "slug": "openai-frontier-training-offline",
+      "role": "inline",
+      "master_path": "src/assets/photos/inline/openai-training-offline-1.jpg",
+      "public_path": "/images/inline/openai-training-offline-1.webp",
+      "alt": "A patch panel with unused ports and a coil of unplugged network cable on a metal shelf, and no readable port labels or people.",
+      "caption": "OpenAI says frontier reinforcement-learning runs now use cached web content rather than the live internet.",
+      "prompt": "Photorealistic 16:9 close photograph of a metal shelf in a network room. A patch panel with empty ports, a coil of unplugged grey ethernet cable. Port markings exist but are out of focus so nothing is readable. No people, no hands, no logos, no flags. Shallow depth of field, cool practical light, realistic scuffs on the metal."
+    },
+    {
+      "article": "OpenAI says frontier training now runs without the live internet",
+      "slug": "openai-frontier-training-offline",
+      "role": "inline",
+      "master_path": "src/assets/photos/inline/openai-training-offline-2.jpg",
+      "public_path": "/images/inline/openai-training-offline-2.webp",
+      "alt": "A dim operations desk with a blank monitor, a closed laptop, and a headset on the keyboard, and no people or readable text.",
+      "caption": "OpenAI says it resumed frontier reinforcement-learning training and internal inference on October 1.",
+      "prompt": "Photorealistic 16:9 photograph of a dim operations desk at night. A blank dark monitor, a closed laptop, a headset resting on a keyboard. No people, no hands, no logos, no readable UI or stickers. Low practical lamp, 35mm, documentary color."
+    }
+  ]
+}
