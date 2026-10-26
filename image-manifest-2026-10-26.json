@@ -1,0 +1,159 @@
+{
+  "date": "2026-10-26",
+  "aspect_ratio": "16:9",
+  "credit": "Image: AI Headline Hub",
+  "licence": "AI Headline Hub",
+  "notes": "Generate a JPEG master for every entry, 1280x720 or larger, 16:9, photorealistic, as if shot on a real camera in natural or available light. No cartoons, illustrations, flat vector, or stylised art. No faces and no real identifiable people. Generic hands or distant anonymous figures only if a prompt asks for them; these prompts do not. No company logos, wordmarks, flags, seals, or readable brand names or text. Do not stage a press conference, signing, protest, hearing, or other news event. New-story posts are draft:true until these masters exist and npm run art has been run. src/_data/imageSizes.json contains temporary dimension stubs (pending:true) so Eleventy can render the drafts in serve mode; npm run art rewrites that file from JPEGs on disk, so add every master before running art or the draft render will fail again. Post front matter uses credit \"Image: AI Headline Hub\" and licence \"AI Headline Hub\". Do not put an AI-generated label in alt text or captions.",
+  "images": [
+    {
+      "article": "Lula pledges a Brazilian AI, data centers, and more math",
+      "slug": "lula-brazil-ai-data-centers",
+      "role": "hero",
+      "master_path": "src/assets/photos/stories/lula-brazil-ai-data-centers.jpg",
+      "public_path": "/images/stories/lula-brazil-ai-data-centers.webp",
+      "alt": "An empty data-hall aisle with dark racks, a side window, and no people, flags, logos, or readable labels.",
+      "caption": "Agência Brasil and G1 reported the speech from São Paulo on October 25.",
+      "prompt": "Photorealistic 16:9 photograph down an empty data-hall aisle. Dark server racks, a tall side window with daylight, a plain concrete floor. No people, no hands, no faces, no logos, no flags, no seals, no readable asset tags or screen text. Cool daylight mixed with dim overhead light, 24mm, documentary color, slight haze."
+    },
+    {
+      "article": "Lula pledges a Brazilian AI, data centers, and more math",
+      "slug": "lula-brazil-ai-data-centers",
+      "role": "inline",
+      "master_path": "src/assets/photos/inline/lula-brazil-ai-data-centers-1.jpg",
+      "public_path": "/images/inline/lula-brazil-ai-data-centers-1.webp",
+      "alt": "An empty classroom with a clean chalkboard, closed notebooks, and no people, flags, or readable writing.",
+      "caption": "Both reports pair the AI pledge with more mathematics and engineering in school.",
+      "prompt": "Photorealistic 16:9 photograph of an empty classroom in late afternoon. A clean dark chalkboard with no writing, closed blank notebooks on desks, chairs pushed in. No people, no hands, no faces, no flags, no logos, no readable posters or chalk marks. Window light from the left, 35mm, realistic dust in the air."
+    },
+    {
+      "article": "Lula pledges a Brazilian AI, data centers, and more math",
+      "slug": "lula-brazil-ai-data-centers",
+      "role": "inline",
+      "master_path": "src/assets/photos/inline/lula-brazil-ai-data-centers-2.jpg",
+      "public_path": "/images/inline/lula-brazil-ai-data-centers-2.webp",
+      "alt": "A row of unmarked solar panels beside an empty access road, in late daylight, with no logos, flags, or readable signs.",
+      "caption": "Agência Brasil says Lula tied data centers to the country’s renewable-energy potential.",
+      "prompt": "Photorealistic 16:9 photograph of a ground-mounted solar array beside an empty gravel access road. Unmarked panel frames, no manufacturer marks, late daylight, long shadows. No people, no hands, no vehicles, no flags, no logos, no readable signs or fence text. 35mm, natural color, realistic dust on the glass."
+    },
+    {
+      "article": "Anthropic says Claude queried fee-gated Georgia vote counts",
+      "slug": "anthropic-georgia-vote-counts",
+      "role": "hero",
+      "master_path": "src/assets/photos/stories/anthropic-georgia-vote-counts.jpg",
+      "public_path": "/images/stories/anthropic-georgia-vote-counts.webp",
+      "alt": "An empty records room with closed file drawers, a dark monitor, and no people, seals, flags, or readable labels.",
+      "caption": "Axios and Reuters published Anthropic’s account on October 25.",
+      "prompt": "Photorealistic 16:9 photograph of an empty records room. Closed metal file drawers, one dark monitor on a side desk, a plain chair. No people, no hands, no faces, no seals, no flags, no logos, no readable drawer labels or screen text. Fluorescent light and a little daylight from a high window, 35mm, institutional color."
+    },
+    {
+      "article": "Anthropic says Claude queried fee-gated Georgia vote counts",
+      "slug": "anthropic-georgia-vote-counts",
+      "role": "inline",
+      "master_path": "src/assets/photos/inline/anthropic-georgia-vote-counts-1.jpg",
+      "public_path": "/images/inline/anthropic-georgia-vote-counts-1.webp",
+      "alt": "A closed laptop and a blank paper log on a metal table, with no readable writing, seals, or people.",
+      "caption": "Axios quotes Anthropic saying the model was on an internal statistics project and was not asked to request the token.",
+      "prompt": "Photorealistic 16:9 photograph of a metal table. A closed laptop, a blank paper log with no writing, a pen beside it. No people, no hands, no logos, no seals, no flags, no readable stickers. North light from a window, shallow depth of field, realistic metal scratches."
+    },
+    {
+      "article": "Anthropic says Claude queried fee-gated Georgia vote counts",
+      "slug": "anthropic-georgia-vote-counts",
+      "role": "inline",
+      "master_path": "src/assets/photos/inline/anthropic-georgia-vote-counts-2.jpg",
+      "public_path": "/images/inline/anthropic-georgia-vote-counts-2.webp",
+      "alt": "An empty office corridor with a glass door, a dark terminal, and no people, seals, flags, or readable signs.",
+      "caption": "Anthropic’s October 9 post says the organizations in its examples were left unnamed at their request.",
+      "prompt": "Photorealistic 16:9 photograph of an empty office corridor ending at a glass door. A dark terminal on a stand, the screen off. No people, no seals, no flags, no logos, no readable nameplates or warning text. Overhead fluorescent light, reflections on the glass, 50mm."
+    },
+    {
+      "article": "Musk says SpaceX closed $40 billion in debt for GPUs",
+      "slug": "spacex-gpu-debt",
+      "role": "hero",
+      "master_path": "src/assets/photos/stories/spacex-gpu-debt.jpg",
+      "public_path": "/images/stories/spacex-gpu-debt.webp",
+      "alt": "An empty desk with two monitors showing blurred charts, a closed notebook, and no readable figures, logos, or people.",
+      "caption": "Reuters reported Musk’s post on October 25 and said the pricing was not clear from it.",
+      "prompt": "Photorealistic 16:9 photograph of an unoccupied desk at dusk. Two monitors show line charts thrown far out of focus so no numbers, words, or logos can be read. A closed notebook. No people, no hands, no brand marks. Window light and screen glow, 35mm, realistic desk surface."
+    },
+    {
+      "article": "Musk says SpaceX closed $40 billion in debt for GPUs",
+      "slug": "spacex-gpu-debt",
+      "role": "inline",
+      "master_path": "src/assets/photos/inline/spacex-gpu-debt-1.jpg",
+      "public_path": "/images/inline/spacex-gpu-debt-1.webp",
+      "alt": "A tray of unmarked processor packages on an antistatic mat, labels turned away, with no logos or readable part numbers.",
+      "caption": "Musk, as quoted by Reuters, said the debt is mainly for GPU purchases arriving in the first and second quarters.",
+      "prompt": "Photorealistic 16:9 close photograph of a tray of plain processor packages on a grey antistatic mat. Markings exist but are turned away and out of focus so nothing is readable. No logos, no hands, no people, no brand names. Task lamp, shallow depth of field, realistic plastic and metal."
+    },
+    {
+      "article": "Musk says SpaceX closed $40 billion in debt for GPUs",
+      "slug": "spacex-gpu-debt",
+      "role": "inline",
+      "master_path": "src/assets/photos/inline/spacex-gpu-debt-2.jpg",
+      "public_path": "/images/inline/spacex-gpu-debt-2.webp",
+      "alt": "Two stacks of plain printed documents on a glass table, pages out of focus, with an empty chair and no logos or people.",
+      "caption": "Reuters said Musk’s post did not make clear whether investors had agreed to a price for the debt.",
+      "prompt": "Photorealistic 16:9 photograph of a glass conference table. Two stacks of plain printed documents, pages out of focus so no words or figures can be read, one empty chair. No people, no hands, no logos, no letterhead. Soft daylight, realistic reflections on the glass, 50mm."
+    },
+    {
+      "article": "Block says Dessa learned conversation from speech alone",
+      "slug": "block-dessa-speech",
+      "role": "hero",
+      "master_path": "src/assets/photos/stories/block-dessa-speech.jpg",
+      "public_path": "/images/stories/block-dessa-speech.webp",
+      "alt": "A wooden desk with a microphone, closed headphones, and a shut laptop, and no people, logos, or readable screens.",
+      "caption": "TechCrunch reported Block’s Dessa page on October 24. The page itself prints no date.",
+      "prompt": "Photorealistic 16:9 photograph of a wooden desk in daylight. A plain dynamic microphone, closed over-ear headphones with no logo, a shut laptop. No people, no hands, no faces, no brand marks, no readable screens or stickers. Side window light, 35mm, realistic wood grain."
+    },
+    {
+      "article": "Block says Dessa learned conversation from speech alone",
+      "slug": "block-dessa-speech",
+      "role": "inline",
+      "master_path": "src/assets/photos/inline/block-dessa-speech-1.jpg",
+      "public_path": "/images/inline/block-dessa-speech-1.webp",
+      "alt": "A coil of microphone cable and a closed pair of headphones on a bare table, with no logos, labels, or people.",
+      "caption": "Block says Dessa takes audio in and sends audio out, and that the training used no text.",
+      "prompt": "Photorealistic 16:9 photograph of a bare table. A coil of black microphone cable and a closed pair of plain headphones, no logos. No people, no hands, no readable labels. Soft daylight, shallow depth of field, realistic rubber and foam texture."
+    },
+    {
+      "article": "Block says Dessa learned conversation from speech alone",
+      "slug": "block-dessa-speech",
+      "role": "inline",
+      "master_path": "src/assets/photos/inline/block-dessa-speech-2.jpg",
+      "public_path": "/images/inline/block-dessa-speech-2.webp",
+      "alt": "An empty equipment bench with a powered-off audio interface, coiled cable, and no readable display or logos.",
+      "caption": "The page asks safety researchers to request early access. TechCrunch says there is no public download.",
+      "prompt": "Photorealistic 16:9 photograph of an empty equipment bench. A small audio interface powered off, ports dark, a coil of cable, no brand marks. Knobs and tiny markings are out of focus so nothing is readable. No people, no hands, no logos. Cool practical light, 50mm, realistic metal."
+    },
+    {
+      "article": "Protein language models estimate native pKa within about 0.5",
+      "slug": "kaml-protein-electrostatics",
+      "role": "hero",
+      "master_path": "src/assets/photos/stories/kaml-protein-electrostatics.jpg",
+      "public_path": "/images/stories/kaml-protein-electrostatics.webp",
+      "alt": "An empty biochemistry bench with glassware, a closed notebook, and no people, labels, or readable screens.",
+      "caption": "The Nature Communications paper was published on October 24.",
+      "prompt": "Photorealistic 16:9 photograph of an empty biochemistry bench. Clear glassware, a closed blank notebook, a pipette stand with no markings visible. No people, no hands, no faces, no logos, no readable labels or screens. Bright even lab light, 35mm, realistic glass reflections."
+    },
+    {
+      "article": "Protein language models estimate native pKa within about 0.5",
+      "slug": "kaml-protein-electrostatics",
+      "role": "inline",
+      "master_path": "src/assets/photos/inline/kaml-protein-electrostatics-1.jpg",
+      "public_path": "/images/inline/kaml-protein-electrostatics-1.webp",
+      "alt": "A rack of unlabeled sample vials beside a closed laptop on a lab bench, with no readable markings or people.",
+      "caption": "The abstract’s error figure is about 0.5 pKa units for six residue types in native proteins.",
+      "prompt": "Photorealistic 16:9 photograph of a lab bench. A rack of small glass vials with blank caps, a closed laptop beside it. Any printed marks are out of focus so nothing is readable. No people, no hands, no logos. Daylight from a lab window, 50mm, realistic glass."
+    },
+    {
+      "article": "Protein language models estimate native pKa within about 0.5",
+      "slug": "kaml-protein-electrostatics",
+      "role": "inline",
+      "master_path": "src/assets/photos/inline/kaml-protein-electrostatics-2.jpg",
+      "public_path": "/images/inline/kaml-protein-electrostatics-2.webp",
+      "alt": "An empty computer desk in a lab office, the monitor dark, a notebook shut, and no people or readable screens.",
+      "caption": "The abstract says accuracy falls on 89 buried engineered mutations that lack evolutionary support.",
+      "prompt": "Photorealistic 16:9 photograph of an empty lab office desk. A monitor switched off, a notebook shut, a chair pushed in. No people, no hands, no logos, no readable UI or wall text. Mixed daylight and a dim task lamp, 35mm, documentary color."
+    }
+  ]
+}
