@@ -59,6 +59,30 @@
     "srcsetWebp": "/images/inline/americans-ai-poll-2-640.webp 640w, /images/inline/americans-ai-poll-2.webp 1280w",
     "srcsetAvif": "/images/inline/americans-ai-poll-2-640.avif 640w, /images/inline/americans-ai-poll-2.avif 1280w"
   },
+  "/images/inline/anthropic-georgia-vote-counts-1.webp": {
+    "width": 1280,
+    "height": 720,
+    "srcsetWebp": "/images/inline/anthropic-georgia-vote-counts-1-640.webp 640w, /images/inline/anthropic-georgia-vote-counts-1.webp 1280w",
+    "srcsetAvif": "/images/inline/anthropic-georgia-vote-counts-1-640.avif 640w, /images/inline/anthropic-georgia-vote-counts-1.avif 1280w"
+  },
+  "/images/inline/anthropic-georgia-vote-counts-2.webp": {
+    "width": 1280,
+    "height": 720,
+    "srcsetWebp": "/images/inline/anthropic-georgia-vote-counts-2-640.webp 640w, /images/inline/anthropic-georgia-vote-counts-2.webp 1280w",
+    "srcsetAvif": "/images/inline/anthropic-georgia-vote-counts-2-640.avif 640w, /images/inline/anthropic-georgia-vote-counts-2.avif 1280w"
+  },
+  "/images/inline/block-dessa-speech-1.webp": {
+    "width": 1280,
+    "height": 720,
+    "srcsetWebp": "/images/inline/block-dessa-speech-1-640.webp 640w, /images/inline/block-dessa-speech-1.webp 1280w",
+    "srcsetAvif": "/images/inline/block-dessa-speech-1-640.avif 640w, /images/inline/block-dessa-speech-1.avif 1280w"
+  },
+  "/images/inline/block-dessa-speech-2.webp": {
+    "width": 1280,
+    "height": 720,
+    "srcsetWebp": "/images/inline/block-dessa-speech-2-640.webp 640w, /images/inline/block-dessa-speech-2.webp 1280w",
+    "srcsetAvif": "/images/inline/block-dessa-speech-2-640.avif 640w, /images/inline/block-dessa-speech-2.avif 1280w"
+  },
   "/images/inline/china-ai-employment-1.webp": {
     "width": 1280,
     "height": 720,
@@ -131,6 +155,18 @@
     "srcsetWebp": "/images/inline/hassabis-agi-timeline-2-640.webp 640w, /images/inline/hassabis-agi-timeline-2.webp 1280w",
     "srcsetAvif": "/images/inline/hassabis-agi-timeline-2-640.avif 640w, /images/inline/hassabis-agi-timeline-2.avif 1280w"
   },
+  "/images/inline/kaml-protein-electrostatics-1.webp": {
+    "width": 1280,
+    "height": 720,
+    "srcsetWebp": "/images/inline/kaml-protein-electrostatics-1-640.webp 640w, /images/inline/kaml-protein-electrostatics-1.webp 1280w",
+    "srcsetAvif": "/images/inline/kaml-protein-electrostatics-1-640.avif 640w, /images/inline/kaml-protein-electrostatics-1.avif 1280w"
+  },
+  "/images/inline/kaml-protein-electrostatics-2.webp": {
+    "width": 1280,
+    "height": 720,
+    "srcsetWebp": "/images/inline/kaml-protein-electrostatics-2-640.webp 640w, /images/inline/kaml-protein-electrostatics-2.webp 1280w",
+    "srcsetAvif": "/images/inline/kaml-protein-electrostatics-2-640.avif 640w, /images/inline/kaml-protein-electrostatics-2.avif 1280w"
+  },
   "/images/inline/linux-foundation-ai-survey-1.webp": {
     "width": 1280,
     "height": 720,
@@ -142,6 +178,18 @@
     "height": 720,
     "srcsetWebp": "/images/inline/linux-foundation-ai-survey-2-640.webp 640w, /images/inline/linux-foundation-ai-survey-2.webp 1280w",
     "srcsetAvif": "/images/inline/linux-foundation-ai-survey-2-640.avif 640w, /images/inline/linux-foundation-ai-survey-2.avif 1280w"
+  },
+  "/images/inline/lula-brazil-ai-data-centers-1.webp": {
+    "width": 1280,
+    "height": 720,
+    "srcsetWebp": "/images/inline/lula-brazil-ai-data-centers-1-640.webp 640w, /images/inline/lula-brazil-ai-data-centers-1.webp 1280w",
+    "srcsetAvif": "/images/inline/lula-brazil-ai-data-centers-1-640.avif 640w, /images/inline/lula-brazil-ai-data-centers-1.avif 1280w"
+  },
+  "/images/inline/lula-brazil-ai-data-centers-2.webp": {
+    "width": 1280,
+    "height": 720,
+    "srcsetWebp": "/images/inline/lula-brazil-ai-data-centers-2-640.webp 640w, /images/inline/lula-brazil-ai-data-centers-2.webp 1280w",
+    "srcsetAvif": "/images/inline/lula-brazil-ai-data-centers-2-640.avif 640w, /images/inline/lula-brazil-ai-data-centers-2.avif 1280w"
   },
   "/images/inline/opal-optimizer-1.webp": {
     "width": 1280,
@@ -227,6 +275,18 @@
     "srcsetWebp": "/images/inline/slok-ai-payoff-2-640.webp 640w, /images/inline/slok-ai-payoff-2.webp 1280w",
     "srcsetAvif": "/images/inline/slok-ai-payoff-2-640.avif 640w, /images/inline/slok-ai-payoff-2.avif 1280w"
   },
+  "/images/inline/spacex-gpu-debt-1.webp": {
+    "width": 1280,
+    "height": 720,
+    "srcsetWebp": "/images/inline/spacex-gpu-debt-1-640.webp 640w, /images/inline/spacex-gpu-debt-1.webp 1280w",
+    "srcsetAvif": "/images/inline/spacex-gpu-debt-1-640.avif 640w, /images/inline/spacex-gpu-debt-1.avif 1280w"
+  },
+  "/images/inline/spacex-gpu-debt-2.webp": {
+    "width": 1280,
+    "height": 720,
+    "srcsetWebp": "/images/inline/spacex-gpu-debt-2-640.webp 640w, /images/inline/spacex-gpu-debt-2.webp 1280w",
+    "srcsetAvif": "/images/inline/spacex-gpu-debt-2-640.avif 640w, /images/inline/spacex-gpu-debt-2.avif 1280w"
+  },
   "/images/inline/treasury-outbound-investment-1.webp": {
     "width": 1280,
     "height": 720,
@@ -287,6 +347,18 @@
     "srcsetWebp": "/images/stories/americans-ai-poll-640.webp 640w, /images/stories/americans-ai-poll.webp 1280w",
     "srcsetAvif": "/images/stories/americans-ai-poll-640.avif 640w, /images/stories/americans-ai-poll.avif 1280w"
   },
+  "/images/stories/anthropic-georgia-vote-counts.webp": {
+    "width": 1280,
+    "height": 720,
+    "srcsetWebp": "/images/stories/anthropic-georgia-vote-counts-640.webp 640w, /images/stories/anthropic-georgia-vote-counts.webp 1280w",
+    "srcsetAvif": "/images/stories/anthropic-georgia-vote-counts-640.avif 640w, /images/stories/anthropic-georgia-vote-counts.avif 1280w"
+  },
+  "/images/stories/block-dessa-speech.webp": {
+    "width": 1280,
+    "height": 720,
+    "srcsetWebp": "/images/stories/block-dessa-speech-640.webp 640w, /images/stories/block-dessa-speech.webp 1280w",
+    "srcsetAvif": "/images/stories/block-dessa-speech-640.avif 640w, /images/stories/block-dessa-speech.avif 1280w"
+  },
   "/images/stories/china-ai-employment.webp": {
     "width": 1280,
     "height": 720,
@@ -323,11 +395,23 @@
     "srcsetWebp": "/images/stories/hassabis-agi-timeline-640.webp 640w, /images/stories/hassabis-agi-timeline.webp 1280w",
     "srcsetAvif": "/images/stories/hassabis-agi-timeline-640.avif 640w, /images/stories/hassabis-agi-timeline.avif 1280w"
   },
+  "/images/stories/kaml-protein-electrostatics.webp": {
+    "width": 1280,
+    "height": 720,
+    "srcsetWebp": "/images/stories/kaml-protein-electrostatics-640.webp 640w, /images/stories/kaml-protein-electrostatics.webp 1280w",
+    "srcsetAvif": "/images/stories/kaml-protein-electrostatics-640.avif 640w, /images/stories/kaml-protein-electrostatics.avif 1280w"
+  },
   "/images/stories/linux-foundation-ai-survey.webp": {
     "width": 1280,
     "height": 720,
     "srcsetWebp": "/images/stories/linux-foundation-ai-survey-640.webp 640w, /images/stories/linux-foundation-ai-survey.webp 1280w",
     "srcsetAvif": "/images/stories/linux-foundation-ai-survey-640.avif 640w, /images/stories/linux-foundation-ai-survey.avif 1280w"
+  },
+  "/images/stories/lula-brazil-ai-data-centers.webp": {
+    "width": 1280,
+    "height": 720,
+    "srcsetWebp": "/images/stories/lula-brazil-ai-data-centers-640.webp 640w, /images/stories/lula-brazil-ai-data-centers.webp 1280w",
+    "srcsetAvif": "/images/stories/lula-brazil-ai-data-centers-640.avif 640w, /images/stories/lula-brazil-ai-data-centers.avif 1280w"
   },
   "/images/stories/opal-optimizer.webp": {
     "width": 1280,
@@ -382,6 +466,12 @@
     "height": 720,
     "srcsetWebp": "/images/stories/slok-ai-payoff-640.webp 640w, /images/stories/slok-ai-payoff.webp 1280w",
     "srcsetAvif": "/images/stories/slok-ai-payoff-640.avif 640w, /images/stories/slok-ai-payoff.avif 1280w"
+  },
+  "/images/stories/spacex-gpu-debt.webp": {
+    "width": 1280,
+    "height": 720,
+    "srcsetWebp": "/images/stories/spacex-gpu-debt-640.webp 640w, /images/stories/spacex-gpu-debt.webp 1280w",
+    "srcsetAvif": "/images/stories/spacex-gpu-debt-640.avif 640w, /images/stories/spacex-gpu-debt.avif 1280w"
   },
   "/images/stories/treasury-outbound-investment.webp": {
     "width": 1280,
