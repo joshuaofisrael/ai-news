@@ -63,29 +63,25 @@
     "width": 1280,
     "height": 720,
     "srcsetWebp": "/images/inline/anthropic-georgia-vote-counts-1-640.webp 640w, /images/inline/anthropic-georgia-vote-counts-1.webp 1280w",
-    "srcsetAvif": "/images/inline/anthropic-georgia-vote-counts-1-640.avif 640w, /images/inline/anthropic-georgia-vote-counts-1.avif 1280w",
-    "pending": true
+    "srcsetAvif": "/images/inline/anthropic-georgia-vote-counts-1-640.avif 640w, /images/inline/anthropic-georgia-vote-counts-1.avif 1280w"
   },
   "/images/inline/anthropic-georgia-vote-counts-2.webp": {
     "width": 1280,
     "height": 720,
     "srcsetWebp": "/images/inline/anthropic-georgia-vote-counts-2-640.webp 640w, /images/inline/anthropic-georgia-vote-counts-2.webp 1280w",
-    "srcsetAvif": "/images/inline/anthropic-georgia-vote-counts-2-640.avif 640w, /images/inline/anthropic-georgia-vote-counts-2.avif 1280w",
-    "pending": true
+    "srcsetAvif": "/images/inline/anthropic-georgia-vote-counts-2-640.avif 640w, /images/inline/anthropic-georgia-vote-counts-2.avif 1280w"
   },
   "/images/inline/block-dessa-speech-1.webp": {
     "width": 1280,
     "height": 720,
     "srcsetWebp": "/images/inline/block-dessa-speech-1-640.webp 640w, /images/inline/block-dessa-speech-1.webp 1280w",
-    "srcsetAvif": "/images/inline/block-dessa-speech-1-640.avif 640w, /images/inline/block-dessa-speech-1.avif 1280w",
-    "pending": true
+    "srcsetAvif": "/images/inline/block-dessa-speech-1-640.avif 640w, /images/inline/block-dessa-speech-1.avif 1280w"
   },
   "/images/inline/block-dessa-speech-2.webp": {
     "width": 1280,
     "height": 720,
     "srcsetWebp": "/images/inline/block-dessa-speech-2-640.webp 640w, /images/inline/block-dessa-speech-2.webp 1280w",
-    "srcsetAvif": "/images/inline/block-dessa-speech-2-640.avif 640w, /images/inline/block-dessa-speech-2.avif 1280w",
-    "pending": true
+    "srcsetAvif": "/images/inline/block-dessa-speech-2-640.avif 640w, /images/inline/block-dessa-speech-2.avif 1280w"
   },
   "/images/inline/china-ai-employment-1.webp": {
     "width": 1280,
@@ -163,15 +159,13 @@
     "width": 1280,
     "height": 720,
     "srcsetWebp": "/images/inline/kaml-protein-electrostatics-1-640.webp 640w, /images/inline/kaml-protein-electrostatics-1.webp 1280w",
-    "srcsetAvif": "/images/inline/kaml-protein-electrostatics-1-640.avif 640w, /images/inline/kaml-protein-electrostatics-1.avif 1280w",
-    "pending": true
+    "srcsetAvif": "/images/inline/kaml-protein-electrostatics-1-640.avif 640w, /images/inline/kaml-protein-electrostatics-1.avif 1280w"
   },
   "/images/inline/kaml-protein-electrostatics-2.webp": {
     "width": 1280,
     "height": 720,
     "srcsetWebp": "/images/inline/kaml-protein-electrostatics-2-640.webp 640w, /images/inline/kaml-protein-electrostatics-2.webp 1280w",
-    "srcsetAvif": "/images/inline/kaml-protein-electrostatics-2-640.avif 640w, /images/inline/kaml-protein-electrostatics-2.avif 1280w",
-    "pending": true
+    "srcsetAvif": "/images/inline/kaml-protein-electrostatics-2-640.avif 640w, /images/inline/kaml-protein-electrostatics-2.avif 1280w"
   },
   "/images/inline/linux-foundation-ai-survey-1.webp": {
     "width": 1280,
@@ -189,15 +183,13 @@
     "width": 1280,
     "height": 720,
     "srcsetWebp": "/images/inline/lula-brazil-ai-data-centers-1-640.webp 640w, /images/inline/lula-brazil-ai-data-centers-1.webp 1280w",
-    "srcsetAvif": "/images/inline/lula-brazil-ai-data-centers-1-640.avif 640w, /images/inline/lula-brazil-ai-data-centers-1.avif 1280w",
-    "pending": true
+    "srcsetAvif": "/images/inline/lula-brazil-ai-data-centers-1-640.avif 640w, /images/inline/lula-brazil-ai-data-centers-1.avif 1280w"
   },
   "/images/inline/lula-brazil-ai-data-centers-2.webp": {
     "width": 1280,
     "height": 720,
     "srcsetWebp": "/images/inline/lula-brazil-ai-data-centers-2-640.webp 640w, /images/inline/lula-brazil-ai-data-centers-2.webp 1280w",
-    "srcsetAvif": "/images/inline/lula-brazil-ai-data-centers-2-640.avif 640w, /images/inline/lula-brazil-ai-data-centers-2.avif 1280w",
-    "pending": true
+    "srcsetAvif": "/images/inline/lula-brazil-ai-data-centers-2-640.avif 640w, /images/inline/lula-brazil-ai-data-centers-2.avif 1280w"
   },
   "/images/inline/opal-optimizer-1.webp": {
     "width": 1280,
@@ -287,15 +279,13 @@
     "width": 1280,
     "height": 720,
     "srcsetWebp": "/images/inline/spacex-gpu-debt-1-640.webp 640w, /images/inline/spacex-gpu-debt-1.webp 1280w",
-    "srcsetAvif": "/images/inline/spacex-gpu-debt-1-640.avif 640w, /images/inline/spacex-gpu-debt-1.avif 1280w",
-    "pending": true
+    "srcsetAvif": "/images/inline/spacex-gpu-debt-1-640.avif 640w, /images/inline/spacex-gpu-debt-1.avif 1280w"
   },
   "/images/inline/spacex-gpu-debt-2.webp": {
     "width": 1280,
     "height": 720,
     "srcsetWebp": "/images/inline/spacex-gpu-debt-2-640.webp 640w, /images/inline/spacex-gpu-debt-2.webp 1280w",
-    "srcsetAvif": "/images/inline/spacex-gpu-debt-2-640.avif 640w, /images/inline/spacex-gpu-debt-2.avif 1280w",
-    "pending": true
+    "srcsetAvif": "/images/inline/spacex-gpu-debt-2-640.avif 640w, /images/inline/spacex-gpu-debt-2.avif 1280w"
   },
   "/images/inline/treasury-outbound-investment-1.webp": {
     "width": 1280,
@@ -361,15 +351,13 @@
     "width": 1280,
     "height": 720,
     "srcsetWebp": "/images/stories/anthropic-georgia-vote-counts-640.webp 640w, /images/stories/anthropic-georgia-vote-counts.webp 1280w",
-    "srcsetAvif": "/images/stories/anthropic-georgia-vote-counts-640.avif 640w, /images/stories/anthropic-georgia-vote-counts.avif 1280w",
-    "pending": true
+    "srcsetAvif": "/images/stories/anthropic-georgia-vote-counts-640.avif 640w, /images/stories/anthropic-georgia-vote-counts.avif 1280w"
   },
   "/images/stories/block-dessa-speech.webp": {
     "width": 1280,
     "height": 720,
     "srcsetWebp": "/images/stories/block-dessa-speech-640.webp 640w, /images/stories/block-dessa-speech.webp 1280w",
-    "srcsetAvif": "/images/stories/block-dessa-speech-640.avif 640w, /images/stories/block-dessa-speech.avif 1280w",
-    "pending": true
+    "srcsetAvif": "/images/stories/block-dessa-speech-640.avif 640w, /images/stories/block-dessa-speech.avif 1280w"
   },
   "/images/stories/china-ai-employment.webp": {
     "width": 1280,
@@ -411,8 +399,7 @@
     "width": 1280,
     "height": 720,
     "srcsetWebp": "/images/stories/kaml-protein-electrostatics-640.webp 640w, /images/stories/kaml-protein-electrostatics.webp 1280w",
-    "srcsetAvif": "/images/stories/kaml-protein-electrostatics-640.avif 640w, /images/stories/kaml-protein-electrostatics.avif 1280w",
-    "pending": true
+    "srcsetAvif": "/images/stories/kaml-protein-electrostatics-640.avif 640w, /images/stories/kaml-protein-electrostatics.avif 1280w"
   },
   "/images/stories/linux-foundation-ai-survey.webp": {
     "width": 1280,
@@ -424,8 +411,7 @@
     "width": 1280,
     "height": 720,
     "srcsetWebp": "/images/stories/lula-brazil-ai-data-centers-640.webp 640w, /images/stories/lula-brazil-ai-data-centers.webp 1280w",
-    "srcsetAvif": "/images/stories/lula-brazil-ai-data-centers-640.avif 640w, /images/stories/lula-brazil-ai-data-centers.avif 1280w",
-    "pending": true
+    "srcsetAvif": "/images/stories/lula-brazil-ai-data-centers-640.avif 640w, /images/stories/lula-brazil-ai-data-centers.avif 1280w"
   },
   "/images/stories/opal-optimizer.webp": {
     "width": 1280,
@@ -485,8 +471,7 @@
     "width": 1280,
     "height": 720,
     "srcsetWebp": "/images/stories/spacex-gpu-debt-640.webp 640w, /images/stories/spacex-gpu-debt.webp 1280w",
-    "srcsetAvif": "/images/stories/spacex-gpu-debt-640.avif 640w, /images/stories/spacex-gpu-debt.avif 1280w",
-    "pending": true
+    "srcsetAvif": "/images/stories/spacex-gpu-debt-640.avif 640w, /images/stories/spacex-gpu-debt.avif 1280w"
   },
   "/images/stories/treasury-outbound-investment.webp": {
     "width": 1280,

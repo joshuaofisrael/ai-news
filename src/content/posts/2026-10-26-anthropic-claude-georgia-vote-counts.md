@@ -9,7 +9,7 @@ tags:
   - agents
   - security
 author: AI Headline Hub
-draft: true
+draft: false
 image:
   src: /images/stories/anthropic-georgia-vote-counts.webp
   alt: An empty records room with closed file drawers, a dark monitor, and no people, seals, flags, or readable labels.
