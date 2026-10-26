@@ -59,6 +59,18 @@
     "srcsetWebp": "/images/inline/americans-ai-poll-2-640.webp 640w, /images/inline/americans-ai-poll-2.webp 1280w",
     "srcsetAvif": "/images/inline/americans-ai-poll-2-640.avif 640w, /images/inline/americans-ai-poll-2.avif 1280w"
   },
+  "/images/inline/anthropic-files-s1-ipo-1.webp": {
+    "width": 1280,
+    "height": 720,
+    "srcsetWebp": "/images/inline/anthropic-files-s1-ipo-1-640.webp 640w, /images/inline/anthropic-files-s1-ipo-1.webp 1280w",
+    "srcsetAvif": "/images/inline/anthropic-files-s1-ipo-1-640.avif 640w, /images/inline/anthropic-files-s1-ipo-1.avif 1280w"
+  },
+  "/images/inline/anthropic-files-s1-ipo-2.webp": {
+    "width": 1280,
+    "height": 720,
+    "srcsetWebp": "/images/inline/anthropic-files-s1-ipo-2-640.webp 640w, /images/inline/anthropic-files-s1-ipo-2.webp 1280w",
+    "srcsetAvif": "/images/inline/anthropic-files-s1-ipo-2-640.avif 640w, /images/inline/anthropic-files-s1-ipo-2.avif 1280w"
+  },
   "/images/inline/anthropic-georgia-vote-counts-1.webp": {
     "width": 1280,
     "height": 720,
@@ -82,6 +94,18 @@
     "height": 720,
     "srcsetWebp": "/images/inline/block-dessa-speech-2-640.webp 640w, /images/inline/block-dessa-speech-2.webp 1280w",
     "srcsetAvif": "/images/inline/block-dessa-speech-2-640.avif 640w, /images/inline/block-dessa-speech-2.avif 1280w"
+  },
+  "/images/inline/cadence-nvidia-maestro-chip-models-1.webp": {
+    "width": 1280,
+    "height": 720,
+    "srcsetWebp": "/images/inline/cadence-nvidia-maestro-chip-models-1-640.webp 640w, /images/inline/cadence-nvidia-maestro-chip-models-1.webp 1280w",
+    "srcsetAvif": "/images/inline/cadence-nvidia-maestro-chip-models-1-640.avif 640w, /images/inline/cadence-nvidia-maestro-chip-models-1.avif 1280w"
+  },
+  "/images/inline/cadence-nvidia-maestro-chip-models-2.webp": {
+    "width": 1280,
+    "height": 720,
+    "srcsetWebp": "/images/inline/cadence-nvidia-maestro-chip-models-2-640.webp 640w, /images/inline/cadence-nvidia-maestro-chip-models-2.webp 1280w",
+    "srcsetAvif": "/images/inline/cadence-nvidia-maestro-chip-models-2-640.avif 640w, /images/inline/cadence-nvidia-maestro-chip-models-2.avif 1280w"
   },
   "/images/inline/china-ai-employment-1.webp": {
     "width": 1280,
@@ -191,6 +215,18 @@
     "srcsetWebp": "/images/inline/lula-brazil-ai-data-centers-2-640.webp 640w, /images/inline/lula-brazil-ai-data-centers-2.webp 1280w",
     "srcsetAvif": "/images/inline/lula-brazil-ai-data-centers-2-640.avif 640w, /images/inline/lula-brazil-ai-data-centers-2.avif 1280w"
   },
+  "/images/inline/meta-95-billion-equity-plan-1.webp": {
+    "width": 1280,
+    "height": 720,
+    "srcsetWebp": "/images/inline/meta-95-billion-equity-plan-1-640.webp 640w, /images/inline/meta-95-billion-equity-plan-1.webp 1280w",
+    "srcsetAvif": "/images/inline/meta-95-billion-equity-plan-1-640.avif 640w, /images/inline/meta-95-billion-equity-plan-1.avif 1280w"
+  },
+  "/images/inline/meta-95-billion-equity-plan-2.webp": {
+    "width": 1280,
+    "height": 720,
+    "srcsetWebp": "/images/inline/meta-95-billion-equity-plan-2-640.webp 640w, /images/inline/meta-95-billion-equity-plan-2.webp 1280w",
+    "srcsetAvif": "/images/inline/meta-95-billion-equity-plan-2-640.avif 640w, /images/inline/meta-95-billion-equity-plan-2.avif 1280w"
+  },
   "/images/inline/opal-optimizer-1.webp": {
     "width": 1280,
     "height": 720,
@@ -239,6 +275,18 @@
     "srcsetWebp": "/images/inline/openai-training-offline-2-640.webp 640w, /images/inline/openai-training-offline-2.webp 1280w",
     "srcsetAvif": "/images/inline/openai-training-offline-2-640.avif 640w, /images/inline/openai-training-offline-2.avif 1280w"
   },
+  "/images/inline/oracle-deep-trust-ai-architecture-1.webp": {
+    "width": 1280,
+    "height": 720,
+    "srcsetWebp": "/images/inline/oracle-deep-trust-ai-architecture-1-640.webp 640w, /images/inline/oracle-deep-trust-ai-architecture-1.webp 1280w",
+    "srcsetAvif": "/images/inline/oracle-deep-trust-ai-architecture-1-640.avif 640w, /images/inline/oracle-deep-trust-ai-architecture-1.avif 1280w"
+  },
+  "/images/inline/oracle-deep-trust-ai-architecture-2.webp": {
+    "width": 1280,
+    "height": 720,
+    "srcsetWebp": "/images/inline/oracle-deep-trust-ai-architecture-2-640.webp 640w, /images/inline/oracle-deep-trust-ai-architecture-2.webp 1280w",
+    "srcsetAvif": "/images/inline/oracle-deep-trust-ai-architecture-2-640.avif 640w, /images/inline/oracle-deep-trust-ai-architecture-2.avif 1280w"
+  },
   "/images/inline/php-security-release-1.webp": {
     "width": 1280,
     "height": 720,
@@ -274,6 +322,18 @@
     "height": 720,
     "srcsetWebp": "/images/inline/slok-ai-payoff-2-640.webp 640w, /images/inline/slok-ai-payoff-2.webp 1280w",
     "srcsetAvif": "/images/inline/slok-ai-payoff-2-640.avif 640w, /images/inline/slok-ai-payoff-2.avif 1280w"
+  },
+  "/images/inline/softbank-malaysia-ai-investment-1.webp": {
+    "width": 1280,
+    "height": 720,
+    "srcsetWebp": "/images/inline/softbank-malaysia-ai-investment-1-640.webp 640w, /images/inline/softbank-malaysia-ai-investment-1.webp 1280w",
+    "srcsetAvif": "/images/inline/softbank-malaysia-ai-investment-1-640.avif 640w, /images/inline/softbank-malaysia-ai-investment-1.avif 1280w"
+  },
+  "/images/inline/softbank-malaysia-ai-investment-2.webp": {
+    "width": 1280,
+    "height": 720,
+    "srcsetWebp": "/images/inline/softbank-malaysia-ai-investment-2-640.webp 640w, /images/inline/softbank-malaysia-ai-investment-2.webp 1280w",
+    "srcsetAvif": "/images/inline/softbank-malaysia-ai-investment-2-640.avif 640w, /images/inline/softbank-malaysia-ai-investment-2.avif 1280w"
   },
   "/images/inline/spacex-gpu-debt-1.webp": {
     "width": 1280,
@@ -347,6 +407,12 @@
     "srcsetWebp": "/images/stories/americans-ai-poll-640.webp 640w, /images/stories/americans-ai-poll.webp 1280w",
     "srcsetAvif": "/images/stories/americans-ai-poll-640.avif 640w, /images/stories/americans-ai-poll.avif 1280w"
   },
+  "/images/stories/anthropic-files-s1-ipo.webp": {
+    "width": 1280,
+    "height": 720,
+    "srcsetWebp": "/images/stories/anthropic-files-s1-ipo-640.webp 640w, /images/stories/anthropic-files-s1-ipo.webp 1280w",
+    "srcsetAvif": "/images/stories/anthropic-files-s1-ipo-640.avif 640w, /images/stories/anthropic-files-s1-ipo.avif 1280w"
+  },
   "/images/stories/anthropic-georgia-vote-counts.webp": {
     "width": 1280,
     "height": 720,
@@ -358,6 +424,12 @@
     "height": 720,
     "srcsetWebp": "/images/stories/block-dessa-speech-640.webp 640w, /images/stories/block-dessa-speech.webp 1280w",
     "srcsetAvif": "/images/stories/block-dessa-speech-640.avif 640w, /images/stories/block-dessa-speech.avif 1280w"
+  },
+  "/images/stories/cadence-nvidia-maestro-chip-models.webp": {
+    "width": 1280,
+    "height": 720,
+    "srcsetWebp": "/images/stories/cadence-nvidia-maestro-chip-models-640.webp 640w, /images/stories/cadence-nvidia-maestro-chip-models.webp 1280w",
+    "srcsetAvif": "/images/stories/cadence-nvidia-maestro-chip-models-640.avif 640w, /images/stories/cadence-nvidia-maestro-chip-models.avif 1280w"
   },
   "/images/stories/china-ai-employment.webp": {
     "width": 1280,
@@ -413,6 +485,12 @@
     "srcsetWebp": "/images/stories/lula-brazil-ai-data-centers-640.webp 640w, /images/stories/lula-brazil-ai-data-centers.webp 1280w",
     "srcsetAvif": "/images/stories/lula-brazil-ai-data-centers-640.avif 640w, /images/stories/lula-brazil-ai-data-centers.avif 1280w"
   },
+  "/images/stories/meta-95-billion-equity-plan.webp": {
+    "width": 1280,
+    "height": 720,
+    "srcsetWebp": "/images/stories/meta-95-billion-equity-plan-640.webp 640w, /images/stories/meta-95-billion-equity-plan.webp 1280w",
+    "srcsetAvif": "/images/stories/meta-95-billion-equity-plan-640.avif 640w, /images/stories/meta-95-billion-equity-plan.avif 1280w"
+  },
   "/images/stories/opal-optimizer.webp": {
     "width": 1280,
     "height": 720,
@@ -443,6 +521,12 @@
     "srcsetWebp": "/images/stories/openai-training-offline-640.webp 640w, /images/stories/openai-training-offline.webp 1280w",
     "srcsetAvif": "/images/stories/openai-training-offline-640.avif 640w, /images/stories/openai-training-offline.avif 1280w"
   },
+  "/images/stories/oracle-deep-trust-ai-architecture.webp": {
+    "width": 1280,
+    "height": 720,
+    "srcsetWebp": "/images/stories/oracle-deep-trust-ai-architecture-640.webp 640w, /images/stories/oracle-deep-trust-ai-architecture.webp 1280w",
+    "srcsetAvif": "/images/stories/oracle-deep-trust-ai-architecture-640.avif 640w, /images/stories/oracle-deep-trust-ai-architecture.avif 1280w"
+  },
   "/images/stories/partner-safeguards.webp": {
     "width": 1280,
     "height": 720,
@@ -466,6 +550,12 @@
     "height": 720,
     "srcsetWebp": "/images/stories/slok-ai-payoff-640.webp 640w, /images/stories/slok-ai-payoff.webp 1280w",
     "srcsetAvif": "/images/stories/slok-ai-payoff-640.avif 640w, /images/stories/slok-ai-payoff.avif 1280w"
+  },
+  "/images/stories/softbank-malaysia-ai-investment.webp": {
+    "width": 1280,
+    "height": 720,
+    "srcsetWebp": "/images/stories/softbank-malaysia-ai-investment-640.webp 640w, /images/stories/softbank-malaysia-ai-investment.webp 1280w",
+    "srcsetAvif": "/images/stories/softbank-malaysia-ai-investment-640.avif 640w, /images/stories/softbank-malaysia-ai-investment.avif 1280w"
   },
   "/images/stories/spacex-gpu-debt.webp": {
     "width": 1280,
