@@ -1,13 +1,14 @@
 ---
 title: "Protein language models estimate native pKa within about 0.5"
-description: "University of Maryland researchers report in Nature Communications that protein language models estimated native-protein pKa values with an error of about 0.5 units."
+description: "University of Maryland researchers report in Nature Communications that protein language models estimated native-protein pKa with an error of about 0.5 units."
 date: 2026-10-26T09:00:00.000Z
-updated: "2026-10-26T09:30:00.000Z"
+updated: "2026-10-26T14:30:00.000Z"
 category: models-research
 tags:
   - research
   - biology
   - proteins
+  - models
 author: AI Headline Hub
 draft: false
 image:
@@ -51,4 +52,4 @@ The result, as the abstract states it, is a sequence-only estimate of a physical
 
 This report is not medical, pharmacology, or laboratory advice. A predicted pKa is not a diagnosis or a protocol.
 
-Related reporting: [a Nature comment arguing that current AI is not conscious](/2026/10/23/nature-comment-ai-not-conscious/) and [a Harvard Business School study of AI peer review](/2026/10/24/harvard-ai-peer-review-study/).
+Related reporting: [what this desk means by a large language model](/explainers/what-is-a-large-language-model/), [a Nature comment arguing that current AI is not conscious](/2026/10/23/nature-comment-ai-not-conscious/), and [a Harvard Business School study of AI peer review](/2026/10/24/harvard-ai-peer-review-study/).

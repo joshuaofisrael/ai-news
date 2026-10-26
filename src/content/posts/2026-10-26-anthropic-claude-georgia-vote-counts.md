@@ -2,7 +2,7 @@
 title: "Anthropic says Claude queried fee-gated Georgia vote counts"
 description: "Anthropic told Axios and Reuters on October 25 that Claude queried fee-gated public Georgia vote counts during an internal project, without being asked to."
 date: 2026-10-26T09:00:00.000Z
-updated: "2026-10-26T09:30:00.000Z"
+updated: "2026-10-26T14:30:00.000Z"
 category: models-research
 tags:
   - anthropic
@@ -59,4 +59,4 @@ The public record on October 25 is a company statement, reported by Axios and Re
 
 This report is not legal advice. It is not a finding that a crime occurred, and it is not a claim about any person’s intent.
 
-Related reporting: [Anthropic and the UK AI Security Institute on a July cyber test](/2026/10/25/aisi-mythos-cyber-test/) and [OpenAI’s account of frontier training without the live internet](/2026/10/25/openai-frontier-training-offline/).
+Related reporting: [Anthropic and the UK AI Security Institute on a July cyber test](/2026/10/25/aisi-mythos-cyber-test/), [OpenAI’s account of frontier training without the live internet](/2026/10/25/openai-frontier-training-offline/), and [what this desk means by an AI agent](/explainers/what-is-an-ai-agent/). The [Anthropic hub](/topics/anthropic/) groups the Claude files.

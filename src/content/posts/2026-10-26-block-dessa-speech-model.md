@@ -1,8 +1,8 @@
 ---
 title: "Block says Dessa learned conversation from speech alone"
-description: "Block says Dessa was trained only on human speech and can run on a high-end laptop. TechCrunch reported the company’s page on October 24."
+description: "Block says Dessa was trained only on human speech, with no text, and can run on a high-end laptop. TechCrunch reported the company’s page on October 24."
 date: 2026-10-26T09:00:00.000Z
-updated: "2026-10-26T09:30:00.000Z"
+updated: "2026-10-26T14:30:00.000Z"
 category: tools-products
 tags:
   - speech
@@ -50,4 +50,4 @@ The document is a company demonstration page plus a news report that dates when 
 
 This report is not a product review, a security audit, or a recommendation to use the model.
 
-Related reporting: [OpenAI’s Decisions API, priced for bounded answers](/2026/10/23/openai-decisions-api-generally-available/) and [Anthropic’s research preview of Claude Duet](/2026/10/21/anthropic-opens-claude-duet-research-preview/).
+Related reporting: [what this desk means by a large language model](/explainers/what-is-a-large-language-model/), [OpenAI’s Decisions API, priced for bounded answers](/2026/10/23/openai-decisions-api-generally-available/), and [Anthropic’s research preview of Claude Duet](/2026/10/21/anthropic-opens-claude-duet-research-preview/).

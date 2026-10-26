@@ -1,8 +1,8 @@
 ---
-title: "Survey: AI sped coding and added low-quality pull requests"
+title: "Linux Foundation: AI sped coding, added weak pull requests"
 description: "LF Research’s survey of 234 open-source developers, released October 20, 2026, says code writing got faster while maintainers flag many weak pull requests."
 date: 2026-10-23T09:20:00.000Z
-updated: "2026-10-25T20:30:00.000Z"
+updated: "2026-10-26T14:30:00.000Z"
 category: industry-business
 tags:
   - open-source

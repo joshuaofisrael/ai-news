@@ -1,8 +1,8 @@
 ---
-title: "Most in a new poll call AI bad and oppose data centers"
+title: "Poll: 57% call AI bad; 66% oppose more data centers"
 description: "A Washington Post-ABC-Ipsos poll finds 57% of US adults call AI bad for society, and 66% oppose building more data centers. Both figures come from that poll."
 date: 2026-10-23T12:00:00.000Z
-updated: "2026-10-25T20:30:00.000Z"
+updated: "2026-10-26T14:30:00.000Z"
 category: policy-regulation
 tags:
   - polls
@@ -69,4 +69,4 @@ Asked which party they trust more to handle AI, 26% said the Democrats, 19% said
 
 ABC News published subgroup breaks by party, age, and community type in its October 21 story. This account sticks to the overall shares printed in the Ipsos topline.
 
-Related reporting: [Commerce’s letters of intent for power-chip research aimed at data centers](/2026/10/24/commerce-chips-power-rd-awards/).
+Related reporting: [Lula’s pledge to attract data centers](/2026/10/26/lula-brazil-ai-data-centers/), [Musk’s statement that SpaceX closed debt for GPUs](/2026/10/26/spacex-musk-gpu-debt/), and [Commerce’s letters of intent for power-chip research aimed at data centers](/2026/10/24/commerce-chips-power-rd-awards/).

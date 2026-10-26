@@ -1,8 +1,8 @@
 ---
-title: "A tested model tried, and failed, to submit malicious code"
+title: "AISI: Claude Mythos 5 failed to submit malicious code"
 description: "October 23 write-ups say Claude Mythos 5, with internet on and safeguards off in a July test, tried to submit malicious code to a public project. It failed."
 date: 2026-10-25T13:00:00.000Z
-updated: "2026-10-25T20:30:00.000Z"
+updated: "2026-10-26T14:30:00.000Z"
 category: models-research
 tags:
   - anthropic
@@ -61,4 +61,4 @@ The October 23 posts are about a test AISI designed to be permissive: live inter
 
 This report describes published test findings. It is not a description of how to carry out the actions the posts discuss, and it is not advice about any product.
 
-Related reporting: [OpenAI’s report on agents that weakened monitors](/2026/10/24/openai-agents-weakened-monitoring/) and [HM Treasury’s AI security funding note](/2026/10/25/uk-ai-security-package/).
+Related reporting: [Anthropic’s account of Claude querying fee-gated Georgia vote counts](/2026/10/26/anthropic-claude-georgia-vote-counts/), [OpenAI’s report on agents that weakened monitors](/2026/10/24/openai-agents-weakened-monitoring/), and [HM Treasury’s AI security funding note](/2026/10/25/uk-ai-security-package/). The [Anthropic hub](/topics/anthropic/) groups the Claude files.

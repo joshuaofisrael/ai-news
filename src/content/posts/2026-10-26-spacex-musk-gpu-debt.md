@@ -2,7 +2,7 @@
 title: "Musk says SpaceX closed $40 billion in debt for GPUs"
 description: "Reuters reported that Elon Musk said SpaceX had closed $40 billion in debt for GPUs, and that his post did not show whether investors had priced the debt."
 date: 2026-10-26T09:00:00.000Z
-updated: "2026-10-26T09:30:00.000Z"
+updated: "2026-10-26T14:30:00.000Z"
 category: industry-business
 tags:
   - chips
@@ -47,4 +47,4 @@ The new fact on October 25 is a chief executive’s post saying a $40 billion de
 
 This report is not investment, credit, or tax advice. Nothing here is a recommendation to buy, sell, or hold any security.
 
-Related reporting: [Torsten Slok on revenue per worker inside and outside large technology firms](/2026/10/25/slok-ai-payoff-outside-tech/).
+Related reporting: [a poll in which most US adults opposed more data centers](/2026/10/23/americans-say-ai-bad-for-society-oppose-data-centers/), [Lula’s pledge to attract data centers to Brazil](/2026/10/26/lula-brazil-ai-data-centers/), [Commerce’s letters of intent for power-chip research](/2026/10/24/commerce-chips-power-rd-awards/), and [Torsten Slok on revenue per worker](/2026/10/25/slok-ai-payoff-outside-tech/). The [AI infrastructure hub](/topics/ai-infrastructure/) groups these files.

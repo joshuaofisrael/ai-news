@@ -1,5 +1,13 @@
 const explainerPages = [
   {
+    slug: "what-is-a-large-language-model",
+    title: "What is a large language model?",
+    description:
+      "What a large language model is in an EU-U.S. terminology report, plus NIST’s note on GPT architecture. The 2020 GPT-3 paper is linked here too.",
+    href: "/explainers/what-is-a-large-language-model/",
+    matchTags: ["models", "gpt"],
+  },
+  {
     slug: "what-is-an-ai-agent",
     title: "What is an AI agent?",
     description:

@@ -9,7 +9,7 @@ export default {
       return data.topic.description;
     },
     updated() {
-      return "2026-10-25T20:30:00.000Z";
+      return "2026-10-26T14:30:00.000Z";
     },
     breadcrumbs(data) {
       return [

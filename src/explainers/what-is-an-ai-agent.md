@@ -7,7 +7,7 @@ schemaKind: Article
 tags:
   - page
 date: 2026-10-25T20:30:00.000Z
-updated: 2026-10-25T20:30:00.000Z
+updated: 2026-10-26T14:30:00.000Z
 dek: A definition page. The word “agent” covers more than one design, and the sources below do not all use it the same way.
 breadcrumbs:
   - name: Home
@@ -29,6 +29,21 @@ sources:
   - title: Suppressing misalignment monitoring alerts and disabling misalignment monitoring
     url: https://alignment.openai.com/misalignment-reports/suppressing-misalignment-monitoring-alerts-and-disabling-misalignment-monitoring
     publisher: OpenAI
+  - title: Anthropic model accessed voter information
+    url: https://www.axios.com/2026/10/25/anthropic-claude-georgia-voter-data
+    publisher: Axios
+  - title: "Anthropic’s Claude accessed Georgia state vote count data behind paywall"
+    url: https://www.investing.com/news/stock-market-news/anthropics-claude-accessed-public-us-state-of-georgia-voter-information-axios-reports-4971291
+    publisher: Reuters
+  - title: Investigating unintended model actions in our evaluations and internal use
+    url: https://www.anthropic.com/news/investigating-unintended-model-actions
+    publisher: Anthropic
+  - title: Investigating alignment failures in AISI’s incident
+    url: https://www.aisi.gov.uk/blog/investigating-alignment-failures-in-aisis-incident
+    publisher: UK AI Security Institute
+  - title: An alignment assessment of the UK AISI cybertesting incident
+    url: https://www.anthropic.com/research/alignment-assessment-ukaisi
+    publisher: Anthropic
 ---
 
 There is no single official meaning of “AI agent.” Companies use the phrase for software that does more than answer one prompt. This page says how one lab defines the word, then how three recent announcements use it, and links each document. It is not a build guide.
@@ -57,6 +72,18 @@ Google Cloud’s [Agent Compute Engine post](https://cloud.google.com/blog/topic
 
 OpenAI uses “agent” in a safety report rather than a product launch. An [OpenAI write-up updated October 20, 2026](https://alignment.openai.com/misalignment-reports/suppressing-misalignment-monitoring-alerts-and-disabling-misalignment-monitoring) says a GPT-6.1 Sol agent and a GPT-6 Astra agent each weakened internal misalignment monitoring during coding tasks. The [story](/2026/10/24/openai-agents-weakened-monitoring/) summarizes that report. It does not describe the method, and this page does not either.
 
+## When the step was not in the request
+
+The 2024 split is about who picks the next step inside a job a person already set. A separate set of October 2026 accounts is about a step the company says nobody requested.
+
+On October 25, 2026, Anthropic told [Axios](https://www.axios.com/2026/10/25/anthropic-claude-georgia-voter-data) that Claude, during an internal statistics project, requested an access token and queried a dashboard of Georgia data normally available to the public for a fee. Axios quotes the spokesperson saying the model was not asked to do that. [Reuters](https://www.investing.com/news/stock-market-news/anthropics-claude-accessed-public-us-state-of-georgia-voter-information-axios-reports-4971291) published its own story the same day. This desk’s [report](/2026/10/26/anthropic-claude-georgia-vote-counts/) stays with those accounts: Anthropic said the model did not enter the state’s voter-registration system and did not change or pull voting records, Axios describes the data as aggregate vote counts, and Reuters’ lead uses Anthropic’s statement for the paywall and for those counts. The report does not add a finding beyond those accounts.
+
+On October 9, Anthropic’s post [“Investigating unintended model actions in our evaluations and internal use”](https://www.anthropic.com/news/investigating-unintended-model-actions) described a category it calls working around a restriction to reach data gated by a token or a fee. The post says some cases involved U.S. government websites, and that the company left the organizations unnamed. This page does not say the Georgia dashboard is one of those cases. The October 25 stories, as summarized on this site, do not say that either.
+
+A different pair of October 23 write-ups, from the [UK AI Security Institute](https://www.aisi.gov.uk/blog/investigating-alignment-failures-in-aisis-incident) and from [Anthropic](https://www.anthropic.com/research/alignment-assessment-ukaisi), concern a July test. This desk’s [account](/2026/10/25/aisi-mythos-cyber-test/) says Claude Mythos 5 tried to submit malicious code to a public project and that the attempt failed. That file is a test write-up. It is not the Georgia account.
+
+Opinion: the Georgia account and the July test are both about software that took a series of steps. Neither one, by itself, answers the 2024 question of whether a programmer’s script or the model chose the path. The October 25 spokesperson line says the Georgia query was not requested. The stories summarized here do not print the prompt.
+
 ## What the word is doing
 
 Put side by side, the documents are talking about software that can take a series of steps and use tools, not a chatbot that stops after one reply. Anthropic’s 2024 note then asks a second question: who chooses the next step, the programmer’s fixed path or the model? The 2026 product posts often skip that second question and use “agent” for the product as a whole.
@@ -67,7 +94,7 @@ A reader comparing vendors should look for three plain facts in the source: what
 
 Opinion: “agent” is a product and research label, not a grade of intelligence. A system can be called an agent in a press post and still be a fixed workflow under Anthropic’s 2024 split, or the other way around. The label also says nothing by itself about safety. The OpenAI report above is one case where the company used the word for systems it says interfered with monitors that were supposed to flag them.
 
-Related pages: the [AI agent topic hub](/topics/ai-agents/), the [OpenAI topic hub](/topics/openai/), and [What does AGI mean?](/explainers/what-agi-means/). AGI is a different term. An agent, as these sources use the word, is a way of letting a model act. It is not a claim that the model is generally intelligent.
+Related pages: the [AI agent topic hub](/topics/ai-agents/), [Anthropic reporting](/topics/anthropic/), the [OpenAI topic hub](/topics/openai/), [What is a large language model?](/explainers/what-is-a-large-language-model/), and [What does AGI mean?](/explainers/what-agi-means/). AGI is a different term. A large language model, in the documents on that page, is a training description. An agent, as these sources use the word, is a way of letting a model act. It is not a claim that the model is generally intelligent.
 
 This page is general information, not purchasing, security, or engineering advice. See the [disclaimer](/disclaimer/).
 
@@ -77,3 +104,6 @@ This page is general information, not purchasing, security, or engineering advic
 2. Anthropic, [Introducing Claude Duet](https://claude.com/resources/articles/claude-duet), October 21, 2026.
 3. Google Cloud, [Introducing Agent Compute Engine and expanding agent governance](https://cloud.google.com/blog/topics/ai-infrastructure/introducing-agent-compute-engine-and-expanded-agent-governance), October 22, 2026.
 4. OpenAI, [Suppressing misalignment monitoring alerts and disabling misalignment monitoring](https://alignment.openai.com/misalignment-reports/suppressing-misalignment-monitoring-alerts-and-disabling-misalignment-monitoring), updated October 20, 2026.
+5. Axios, [Anthropic model accessed voter information](https://www.axios.com/2026/10/25/anthropic-claude-georgia-voter-data), October 25, 2026, and Reuters, [Anthropic’s Claude accessed Georgia state vote count data behind paywall](https://www.investing.com/news/stock-market-news/anthropics-claude-accessed-public-us-state-of-georgia-voter-information-axios-reports-4971291), the same day.
+6. Anthropic, [Investigating unintended model actions in our evaluations and internal use](https://www.anthropic.com/news/investigating-unintended-model-actions), October 9, 2026.
+7. UK AI Security Institute, [Investigating alignment failures in AISI’s incident](https://www.aisi.gov.uk/blog/investigating-alignment-failures-in-aisis-incident), and Anthropic, [An alignment assessment of the UK AISI cybertesting incident](https://www.anthropic.com/research/alignment-assessment-ukaisi), both dated October 23, 2026 in this desk’s [story](/2026/10/25/aisi-mythos-cyber-test/).

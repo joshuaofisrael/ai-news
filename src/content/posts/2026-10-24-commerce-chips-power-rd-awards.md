@@ -1,8 +1,8 @@
 ---
-title: "Commerce signs intent letters for up to $389 million"
+title: "Commerce: chip intent letters for up to $389 million"
 description: "Commerce said on October 22 it signed letters of intent for up to $389 million in CHIPS research, including power chips for data centers. Awards are not final."
 date: 2026-10-24T11:00:00.000Z
-updated: "2026-10-25T20:30:00.000Z"
+updated: "2026-10-26T14:30:00.000Z"
 category: funding
 tags:
   - chips
@@ -52,4 +52,4 @@ The AI-relevant line is narrower than the headline total. Most of the $389 milli
 
 This report is not investment, tax, or legal advice, and it is not a statement that any award will close.
 
-Related reporting: [a poll in which most US adults opposed building more data centers](/2026/10/23/americans-say-ai-bad-for-society-oppose-data-centers/) and [the Treasury proposal on some outbound AI investment](/2026/10/24/treasury-outbound-investment-ai-rule/).
+Related reporting: [Musk’s statement that SpaceX closed $40 billion in debt for GPUs](/2026/10/26/spacex-musk-gpu-debt/), [a poll in which most US adults opposed building more data centers](/2026/10/23/americans-say-ai-bad-for-society-oppose-data-centers/), and [the Treasury proposal on some outbound AI investment](/2026/10/24/treasury-outbound-investment-ai-rule/).

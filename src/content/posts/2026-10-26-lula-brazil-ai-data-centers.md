@@ -2,12 +2,13 @@
 title: "Lula pledges a Brazilian AI, data centers, and more math"
 description: "Agência Brasil and G1 reported that Lula, in his first speech after re-election, pledged a Brazilian AI system, data centers, and more math and engineering."
 date: 2026-10-26T09:00:00.000Z
-updated: "2026-10-26T09:30:00.000Z"
+updated: "2026-10-26T14:30:00.000Z"
 category: policy-regulation
 tags:
   - brazil
   - policy
   - education
+  - data-centers
 author: AI Headline Hub
 draft: false
 image:
@@ -64,4 +65,4 @@ The speech is a set of intentions from a president who has just been re-elected,
 
 This report is not legal, tax, or investment advice, and it is not a forecast that the pledges will be enacted as described.
 
-Related reporting: [China’s 18 tasks on employment-friendly AI](/2026/10/25/china-ai-employment-guidelines/) and [the UK package that lists AI security funding ahead of the Budget](/2026/10/25/uk-ai-security-package/).
+Related reporting: [a poll in which most US adults opposed more data centers](/2026/10/23/americans-say-ai-bad-for-society-oppose-data-centers/), [Musk’s statement that SpaceX closed debt for GPUs](/2026/10/26/spacex-musk-gpu-debt/), and [China’s 18 tasks on employment-friendly AI](/2026/10/25/china-ai-employment-guidelines/). The [AI policy hub](/topics/ai-policy/) and the [AI infrastructure hub](/topics/ai-infrastructure/) list the neighboring files.
