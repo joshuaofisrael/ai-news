@@ -58,6 +58,7 @@ export function render(data) {
 
   for (const tag of data.collections.tagList || []) {
     const stories = posts.filter((post) => (post.data.tags || []).includes(tag));
+    if (stories.length < 3) continue; // thin pages are noindex
     entries.push(
       urlEntry(absoluteUrl(`/tag/${tag}/`, site.url), stories[0] ? isoDate(stories[0].date) : ""),
     );

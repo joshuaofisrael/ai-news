@@ -14,6 +14,10 @@ export default {
       const noun = count === 1 ? "story" : "stories";
       return `${count} ${noun} tagged ${label} on ${site.name}, each linking a primary source. Open a story for the reporting and its sources, or use the archive for every section.`;
     },
+    robots(data) {
+      const count = (data.collections.posts || []).filter((post) => (post.data.tags || []).includes(data.tag)).length;
+      return count < 3 ? "noindex, follow" : undefined;
+    },
     breadcrumbs(data) {
       return [
         { name: "Home", url: "/" },

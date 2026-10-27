@@ -171,10 +171,8 @@ const htmlvalidate = new HtmlValidate({
 
 const descriptions = new Map();
 const titles = new Map();
+const noindexPages = [];
 const trackerNeedles = [
-  "googletagmanager",
-  "google-analytics",
-  "gtag(",
   "facebook.net/en_US/fbevents",
   "plausible.io",
   "umami",
@@ -229,7 +227,19 @@ for (const file of htmlFiles) {
   if (canonical && canonical !== expected) fail(`${rel} canonical is ${canonical}, expected ${expected}`);
   if (ogUrl && canonical && ogUrl !== canonical) fail(`${rel} og:url does not match canonical`);
   if (rel === "404.html" && !robots.includes("noindex")) fail("404.html must be noindex");
-  if (rel !== "404.html" && robots.includes("noindex")) fail(`${rel} is unexpectedly noindex`);
+  const thinAllowed = /^tag\//.test(rel);
+  if (rel !== "404.html" && !thinAllowed && robots.includes("noindex")) fail(`${rel} is unexpectedly noindex`);
+  if (thinAllowed) {
+    const n = (html.match(/<li>\s*<article/g) || []).length;
+    if (robots.includes("noindex") && n >= 3) fail(`${rel} has ${n} stories but is noindex`);
+    if (!robots.includes("noindex") && n < 3) fail(`${rel} has ${n} stories and should be noindex`);
+  }
+  if (robots.includes("noindex")) noindexPages.push(canonical);
+  // GA4 must only load through the consent script, with Consent Mode v2 defaulting to denied.
+  if (/<script[^>]+googletagmanager\.com/i.test(html)) fail(`${rel} loads gtag.js directly instead of after consent`);
+  if (!/gtag\('consent','default',\{ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied',analytics_storage:'denied'/.test(html)) fail(`${rel} is missing Consent Mode v2 default-denied`);
+  if (!html.includes('consent.js" data-ga="G-V3LFT40PLN"')) fail(`${rel} is missing the GA4 consent loader`);
+  if (!html.includes("adsbygoogle.js?client=ca-pub-5681559774142917")) fail(`${rel} lost the AdSense tag`);
 
   const allBlocks = [...html.matchAll(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/g)];
   const faqBlocks = allBlocks.filter((b) => /"@type":"FAQPage"/.test(b[1]));
@@ -519,6 +529,7 @@ const hubLocs = [
 for (const loc of hubLocs) {
   if (!sitemapLocs.includes(loc)) fail(`sitemap is missing ${loc}`);
 }
+for (const u of noindexPages) if (sitemapLocs.includes(u)) fail(`sitemap lists noindex page ${u}`);
 if (!sitemapLocs.includes(absoluteUrl("/news-sitemap.xml", site.url))) {
   fail("sitemap does not cross-link the news sitemap");
 }

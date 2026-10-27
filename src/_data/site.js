@@ -27,6 +27,7 @@ const site = {
   contactEmail: "",
   correctionsEmail: "",
   securityEmail: "",
+  ga4Id: "G-V3LFT40PLN",
   sameAs: ["https://x.com/TheCharismaCat1", "https://github.com/joshuaofisrael/ai-news"],
   repository: "https://github.com/joshuaofisrael/ai-news",
   themeColor: "#0d1218",
