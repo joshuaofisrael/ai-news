@@ -1,5 +1,5 @@
 (function () {
-  var KEY = "ahh-analytics-consent";
+  var KEY = "mtm-analytics-consent";
   var me = document.currentScript;
   var id = me && me.getAttribute("data-ga");
   var loaded = false;
@@ -17,18 +17,26 @@
     gtag("js", new Date());
     gtag("config", id, { anonymize_ip: true });
   }
-  function close() { var b = document.getElementById("ahh-consent"); if (b) b.remove(); }
+  function close() { var b = document.getElementById("mtm-consent"); if (b) b.remove(); }
   function choose(v) {
     set(v);
     var g = v === "granted" ? "granted" : "denied";
     gtag("consent", "update", { ad_storage: g, ad_user_data: g, ad_personalization: g, analytics_storage: g });
     close();
     if (v === "granted") load();
+    else document.cookie.split(";").forEach(function (c) {
+      var n = c.split("=")[0].trim();
+      if (n.indexOf("_ga") === 0) {
+        var h = location.hostname.replace(/^www\./, "");
+        document.cookie = n + "=; Max-Age=0; path=/";
+        document.cookie = n + "=; Max-Age=0; path=/; domain=." + h;
+      }
+    });
   }
   function show() {
-    if (document.getElementById("ahh-consent")) return;
+    if (document.getElementById("mtm-consent")) return;
     var b = document.createElement("div");
-    b.id = "ahh-consent";
+    b.id = "mtm-consent";
     b.setAttribute("role", "dialog");
     b.setAttribute("aria-label", "Cookie consent");
     b.innerHTML = '<p>We use Google Analytics cookies to count visits, only if you agree. <a href="/privacy/">Privacy</a></p>' +
