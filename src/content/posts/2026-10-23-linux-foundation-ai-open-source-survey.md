@@ -2,7 +2,7 @@
 title: "Linux Foundation: AI sped coding, added weak pull requests"
 description: "LF Research’s survey of 234 open-source developers, released October 20, 2026, says code writing got faster while maintainers flag many weak pull requests."
 date: 2026-10-23T09:20:00.000Z
-updated: "2026-10-26T14:30:00.000Z"
+updated: "2026-10-27T14:15:00.000Z"
 category: industry-business
 tags:
   - open-source
@@ -54,4 +54,4 @@ Hilary Carter, the foundation’s senior vice president of research, said projec
 
 The foundation also discloses that its research team uses generative AI for tasks such as gathering sources, drafting, copyediting, and translation, and that people review that output. The survey findings are the respondents’ estimates, with the limits of a 234-person opt-in sample.
 
-Related reporting: [a Harvard working paper comparing AI reviews with paid human reviews](/2026/10/24/harvard-ai-peer-review-study/) and [Torsten Slok’s note on revenue per worker](/2026/10/25/slok-ai-payoff-outside-tech/).
+Related reporting: [what this desk means by an open-weight model](/explainers/what-is-an-open-weight-model/), [Cohere’s note on a Qwen model it calls open-weight](/2026/10/27/cohere-qwen-sandbox-report/), the [open-weight and open-source hub](/topics/open-models/), [a Harvard working paper comparing AI reviews with paid human reviews](/2026/10/24/harvard-ai-peer-review-study/), and [Torsten Slok’s note on revenue per worker](/2026/10/25/slok-ai-payoff-outside-tech/).

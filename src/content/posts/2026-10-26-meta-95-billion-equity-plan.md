@@ -1,8 +1,8 @@
 ---
-title: "Meta launches a $35bn stock sale and plans $60bn more to fund AI"
-description: "Meta is selling about $35bn of common and mandatory convertible preferred stock and plans a $60bn at-the-market programme as AI capex climbs to $135–145bn this year."
+title: "Meta launches a $35bn stock sale and plans $60bn more"
+description: "Meta is selling about $35bn of stock and plans a further $60bn at-the-market programme. It puts this year’s AI capital spending at $135–145bn."
 date: 2026-10-26T18:00:00.000Z
-updated: "2026-10-26T18:00:00.000Z"
+updated: "2026-10-27T14:15:00.000Z"
 category: industry-business
 tags:
   - infrastructure

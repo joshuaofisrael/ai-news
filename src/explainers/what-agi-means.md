@@ -7,7 +7,7 @@ schemaKind: Article
 tags:
   - page
 date: 2026-10-25T20:30:00.000Z
-updated: 2026-10-26T14:30:00.000Z
+updated: 2026-10-27T14:15:00.000Z
 dek: Three published meanings of AGI. They are not interchangeable, and none of them is a statute.
 breadcrumbs:
   - name: Home
@@ -68,7 +68,7 @@ A [Nature comment](https://www.nature.com/articles/d41586-026-03313-7) by Anil S
 
 Opinion: the three meanings above ask different questions. OpenAI’s charter asks whether a highly autonomous system beats humans at most valuable work. The DeepMind paper asks where a system sits on a grid of skill and breadth, and it refused a single finish line. Hassabis, in one interview, is offering a brain-wide cognitive bar, a personal test, and a shortened forecast. A headline that says AGI is “two to three years away” is reporting his forecast. It is not reporting that the charter’s bar has been met, and it is not a result from the 2024 paper.
 
-Related pages: [OpenAI reporting](/topics/openai/), [What is a large language model?](/explainers/what-is-a-large-language-model/), [What is an AI agent?](/explainers/what-is-an-ai-agent/), and the [Hassabis story](/2026/10/23/hassabis-moves-agi-estimate-closer/). A large language model, on that page, is a training description. An agent, in the product posts on this site, is a way of letting a model take steps. Neither is the same claim as AGI.
+Related pages: [OpenAI reporting](/topics/openai/), [Google and DeepMind reporting](/topics/google-deepmind/), [What is a large language model?](/explainers/what-is-a-large-language-model/), [What is an AI agent?](/explainers/what-is-an-ai-agent/), and the [Hassabis story](/2026/10/23/hassabis-moves-agi-estimate-closer/). A large language model, on that page, is a training description. An agent, in the product posts on this site, is a way of letting a model take steps. Neither is the same claim as AGI.
 
 This page is general information, not a forecast and not investment or research advice. See the [disclaimer](/disclaimer/).
 

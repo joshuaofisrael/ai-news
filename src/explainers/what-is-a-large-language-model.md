@@ -7,7 +7,7 @@ schemaKind: Article
 tags:
   - page
 date: 2026-10-26T14:30:00.000Z
-updated: 2026-10-26T14:30:00.000Z
+updated: 2026-10-27T14:15:00.000Z
 dek: A definition page. The documents below do not share one sentence, and a product name is not the definition.
 breadcrumbs:
   - name: Home
@@ -35,6 +35,12 @@ sources:
   - title: Predicting protein electrostatics with protein language models
     url: https://www.nature.com/articles/s41467-026-78406-y
     publisher: Nature Communications
+  - title: "Dual-Use Foundation Models with Widely Available Model Weights Report"
+    url: https://www.ntia.gov/programs-and-initiatives/artificial-intelligence/open-model-weights-report
+    publisher: National Telecommunications and Information Administration
+  - title: The Open Source AI Definition 1.0
+    url: https://opensource.org/ai/open-source-ai-definition
+    publisher: Open Source Initiative
 ---
 
 “Large language model” is a label for a way of training a model on text, not a product grade and not a legal category. The documents below do not use one sentence. This page lines up a joint terminology entry, a NIST security report, and a 2020 research paper, then shows two 2026 uses of the nearby words. It does not rank labs.
@@ -73,11 +79,15 @@ Block’s [Dessa page](https://block.xyz/dessa) uses “LLMs” as a comparison.
 
 A [Nature Communications paper](https://www.nature.com/articles/s41467-026-78406-y) by Mingzhe Shen, Guy W. Dayhoff II, Daniel Kortzak, and Jana Shen, published October 24, 2026, uses “protein language models” for sequence models that estimate a chemical property of amino acids. The [story](/2026/10/26/kaml-protein-electrostatics/) reports the abstract. The EU-U.S. entry on this page is about text. The protein paper does not claim to be an example of that entry, and this page does not treat it as one.
 
+## Whether anyone can download the parameters
+
+The documents above describe training and a design. They do not say whether the parameters are public. On July 30, 2024, the U.S. National Telecommunications and Information Administration published a [report on widely available model weights](https://www.ntia.gov/programs-and-initiatives/artificial-intelligence/open-model-weights-report). Its glossary uses “open foundation model” for a dual-use foundation model whose weights the developer has released to the public. The Open Source Initiative’s [Open Source AI Definition, version 1.0](https://opensource.org/ai/open-source-ai-definition), says that weights presented as open source still have to come with the data information and the code used to derive them. [What is an open-weight model?](/explainers/what-is-an-open-weight-model/) puts those two documents side by side. This page does not apply either checklist to a product.
+
 ## This desk’s reading
 
 Opinion: the label, in the documents above, describes training on a very large amount of text and, in the NIST glossary sentence, a transformer design that learns from unlabeled text. It does not say the system chooses its own steps, and it does not say the system meets a published test for AGI. [What is an AI agent?](/explainers/what-is-an-ai-agent/) is about who picks the next step. [What does AGI mean?](/explainers/what-agi-means/) lines up three definitions of general intelligence. A product name can sit on top of a language model and still leave both questions open.
 
-Related pages: [OpenAI reporting](/topics/openai/), [Anthropic reporting](/topics/anthropic/), the [Dessa story](/2026/10/26/block-dessa-speech-model/), and the [protein-model story](/2026/10/26/kaml-protein-electrostatics/).
+Related pages: [OpenAI reporting](/topics/openai/), [Anthropic reporting](/topics/anthropic/), [What is an open-weight model?](/explainers/what-is-an-open-weight-model/), the [Dessa story](/2026/10/26/block-dessa-speech-model/), and the [protein-model story](/2026/10/26/kaml-protein-electrostatics/).
 
 This page is general information, not engineering, purchasing, or research advice. See the [disclaimer](/disclaimer/).
 
@@ -88,3 +98,5 @@ This page is general information, not engineering, purchasing, or research advic
 3. Tom B. Brown and colleagues, [Language Models are Few-Shot Learners](https://arxiv.org/abs/2005.14165), arXiv, 2020.
 4. Block, [Dessa](https://block.xyz/dessa).
 5. Mingzhe Shen, Guy W. Dayhoff II, Daniel Kortzak, and Jana Shen, [Predicting protein electrostatics with protein language models](https://www.nature.com/articles/s41467-026-78406-y), Nature Communications, October 24, 2026.
+6. National Telecommunications and Information Administration, [Dual-Use Foundation Models with Widely Available Model Weights](https://www.ntia.gov/programs-and-initiatives/artificial-intelligence/open-model-weights-report), July 30, 2024.
+7. Open Source Initiative, [The Open Source AI Definition 1.0](https://opensource.org/ai/open-source-ai-definition).

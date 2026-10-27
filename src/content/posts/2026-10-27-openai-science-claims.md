@@ -1,8 +1,8 @@
 ---
-title: "OpenAI posts three claimed proofs and asks outsiders to check them"
-description: "On October 26 OpenAI said internal models produced results in mathematics, complexity, and physics. It calls the manuscripts raw research data. Two are on GitHub."
+title: "OpenAI posts three claimed proofs for outsiders to check"
+description: "On October 26 OpenAI said internal models produced results in math, complexity, and physics. It calls the manuscripts raw research data. Two are on GitHub."
 date: 2026-10-27T08:30:00.000Z
-updated: "2026-10-27T08:30:00.000Z"
+updated: "2026-10-27T14:15:00.000Z"
 category: models-research
 tags:
   - openai
@@ -70,4 +70,4 @@ OpenAI also says the collaborations sit alongside a recently announced $5 millio
 
 The release rules are part of the story. OpenAI is trying a different path for each claim, and it says choosing the first shepherds creates an asymmetry of information. Until the named groups, or other specialists working from the public files, publish their own conclusions, the accurate description is the one OpenAI uses for the files: raw output, with outside examination still to come. Readers following [OpenAI](/topics/openai/) can set this beside the company’s [account of frontier training without a live internet connection](/2026/10/25/openai-frontier-training-offline/).
 
-Related reporting: [GPT-6.1 Terra](/2026/10/27/gpt-6-1-terra/)
+Related reporting: [GPT-6.1 Terra](/2026/10/27/gpt-6-1-terra/) and [what this desk means by a large language model](/explainers/what-is-a-large-language-model/).

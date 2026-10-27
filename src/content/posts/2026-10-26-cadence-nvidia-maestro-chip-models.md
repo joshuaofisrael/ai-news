@@ -1,8 +1,8 @@
 ---
-title: "Cadence and Nvidia launch Maestro models to run chip-design agents"
-description: "Cadence's Maestro AI model portfolio, built on Nvidia Nemotron, is aimed at chip-design agents. Cadence claims up to 30% better results and up to 5x token efficiency."
+title: "Cadence and Nvidia launch Maestro models for chip design"
+description: "Cadence's Maestro models, built on Nvidia Nemotron, are for chip-design agents. Cadence claims up to 30% better results and up to 5x token efficiency."
 date: 2026-10-26T18:00:00.000Z
-updated: "2026-10-26T18:00:00.000Z"
+updated: "2026-10-27T14:15:00.000Z"
 category: tools-products
 tags:
   - chips
@@ -49,4 +49,4 @@ Paul Cunningham of Cadence told [The Next Platform](https://www.nextplatform.com
 
 Chip design is skilled, slow work, and design tools are a bottleneck for the [AI infrastructure](/topics/ai-infrastructure/) boom. Specialised models that understand EDA tasks could cut costs if the claims hold up. They also tie Nvidia's model stack into the tools used to design rival chips. This connects to broader questions about [AI and work](/topics/ai-and-work/), since vendors are pitching agents as productivity multipliers for engineers.
 
-Related reporting: [Commerce awards for chips, power and R&D](/2026/10/24/commerce-chips-power-rd-awards/) · [Meta's $35bn stock sale for AI](/2026/10/26/meta-95-billion-equity-plan/)
+Related reporting: [Commerce awards for chips, power and R&D](/2026/10/24/commerce-chips-power-rd-awards/) · [Musk’s statement that SpaceX closed debt for GPUs](/2026/10/26/spacex-musk-gpu-debt/) · [what this desk means by an AI agent](/explainers/what-is-an-ai-agent/) · [Meta's $35bn stock sale for AI](/2026/10/26/meta-95-billion-equity-plan/)

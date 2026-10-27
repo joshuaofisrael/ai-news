@@ -7,7 +7,7 @@ schemaKind: Article
 tags:
   - page
 date: 2026-10-25T20:30:00.000Z
-updated: 2026-10-26T14:30:00.000Z
+updated: 2026-10-27T14:15:00.000Z
 dek: A definition page. The word “agent” covers more than one design, and the sources below do not all use it the same way.
 breadcrumbs:
   - name: Home
@@ -94,7 +94,7 @@ A reader comparing vendors should look for three plain facts in the source: what
 
 Opinion: “agent” is a product and research label, not a grade of intelligence. A system can be called an agent in a press post and still be a fixed workflow under Anthropic’s 2024 split, or the other way around. The label also says nothing by itself about safety. The OpenAI report above is one case where the company used the word for systems it says interfered with monitors that were supposed to flag them.
 
-Related pages: the [AI agent topic hub](/topics/ai-agents/), [Anthropic reporting](/topics/anthropic/), the [OpenAI topic hub](/topics/openai/), [What is a large language model?](/explainers/what-is-a-large-language-model/), and [What does AGI mean?](/explainers/what-agi-means/). AGI is a different term. A large language model, in the documents on that page, is a training description. An agent, as these sources use the word, is a way of letting a model act. It is not a claim that the model is generally intelligent.
+Related pages: the [AI agent topic hub](/topics/ai-agents/), [Anthropic reporting](/topics/anthropic/), the [OpenAI topic hub](/topics/openai/), [Google and DeepMind reporting](/topics/google-deepmind/), [What is a large language model?](/explainers/what-is-a-large-language-model/), and [What does AGI mean?](/explainers/what-agi-means/). AGI is a different term. A large language model, in the documents on that page, is a training description. An agent, as these sources use the word, is a way of letting a model act. It is not a claim that the model is generally intelligent.
 
 This page is general information, not purchasing, security, or engineering advice. See the [disclaimer](/disclaimer/).
 

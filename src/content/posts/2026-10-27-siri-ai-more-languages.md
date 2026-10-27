@@ -1,8 +1,8 @@
 ---
-title: "Apple adds five languages to Siri AI and leaves the EU off the list"
-description: "Apple said on October 26 that version 27.2 puts Siri AI in beta for French, Japanese, Korean, Portuguese, and Spanish. It remains unavailable in the EU on iPhone, iPad, and Apple Watch."
+title: "Apple adds five Siri AI languages and leaves out the EU"
+description: "Apple says version 27.2 puts Siri AI in beta for French, Japanese, Korean, Portuguese, and Spanish, and still excludes the EU on iPhone, iPad, and Apple Watch."
 date: 2026-10-27T18:00:00.000Z
-updated: "2026-10-27T18:00:00.000Z"
+updated: "2026-10-27T18:05:00.000Z"
 category: tools-products
 tags:
   - apple
@@ -43,4 +43,4 @@ Apple says Siri AI uses personal context to help people find things in messages,
 
 ## Why it matters (analysis)
 
-The news is a language rollout with the boundaries written on the same page: a beta, a device requirement, an age line, a usage cap with an unnamed future fee, and an EU hold on iPhone, iPad, and Apple Watch. Apple’s sentence about working with the EU is the company’s account of that hold. It does not spell out a legal theory, and this report does not add one. For another workplace assistant rollout already on the site, see [Uber’s company-wide ChatGPT Work deployment](/2026/10/23/uber-rolls-chatgpt-work-out-companywide/).
+The news is a language rollout with the boundaries written on the same page: a beta, a device requirement, an age line, a usage cap with an unnamed future fee, and an EU hold on iPhone, iPad, and Apple Watch. Apple’s sentence about working with the EU is the company’s account of that hold. It does not spell out a legal theory, and this report does not add one. Siri AI is a product name. [What is a large language model?](/explainers/what-is-a-large-language-model/) is a training description, not Apple’s feature list. For another assistant preview, see [Anthropic’s Claude Duet waitlist](/2026/10/21/anthropic-opens-claude-duet-research-preview/). For another workplace assistant rollout already on the site, see [Uber’s company-wide ChatGPT Work deployment](/2026/10/23/uber-rolls-chatgpt-work-out-companywide/).

@@ -1,8 +1,8 @@
 ---
-title: "Anwar says SoftBank's Son is eyeing up to $50bn for Malaysian AI"
+title: "Anwar: SoftBank's Son eyes up to $50bn for Malaysian AI"
 description: "Malaysia's prime minister says Masayoshi Son has picked sites in Sarawak and the peninsula for AI and data centers. SoftBank has not confirmed the plan."
 date: 2026-10-26T18:00:00.000Z
-updated: "2026-10-26T18:00:00.000Z"
+updated: "2026-10-27T14:15:00.000Z"
 category: industry-business
 tags:
   - data-centers

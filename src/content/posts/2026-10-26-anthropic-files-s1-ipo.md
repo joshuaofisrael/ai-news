@@ -1,8 +1,8 @@
 ---
 title: "Anthropic files to list on Nasdaq and opens its books"
-description: "Anthropic's S-1 shows revenue of $16.3bn in the first half of 2026, an operating loss of $693m, and a governance setup that keeps its Long-Term Benefit Trust in control of the board."
+description: "Anthropic's S-1 reports $16.3bn of revenue and a $693m operating loss for the first half of 2026. The Long-Term Benefit Trust still controls the board."
 date: 2026-10-26T18:00:00.000Z
-updated: "2026-10-26T18:00:00.000Z"
+updated: "2026-10-27T14:15:00.000Z"
 category: funding
 tags:
   - anthropic

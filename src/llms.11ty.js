@@ -31,7 +31,7 @@ export function render(data) {
   }
 
   lines.push("## Topics", "");
-  lines.push(`- [Topic hubs](${absoluteUrl("/topics/", site.url)}): Indexes for OpenAI, Anthropic, agents, safety, policy, work, and infrastructure.`);
+  lines.push(`- [Topic hubs](${absoluteUrl("/topics/", site.url)}): Indexes for OpenAI, Anthropic, Google and DeepMind, agents, safety, policy, work, infrastructure, and open-weight models.`);
   for (const topic of data.topicHubs || []) {
     lines.push(`- [${topic.title}](${absoluteUrl(`/topics/${topic.slug}/`, site.url)}): ${topic.description}`);
   }

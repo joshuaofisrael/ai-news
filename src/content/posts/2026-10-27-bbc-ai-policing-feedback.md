@@ -1,8 +1,8 @@
 ---
-title: "BBC essay says AI policing can feed biased records back as predictions"
-description: "BBC News published an award essay on October 25 on AI hotspot tools and biased police data. The piece relies on a 2017 sociology study and a 2019 NYU review of 13 jurisdictions."
+title: "BBC essay: AI policing can feed biased records back"
+description: "A BBC News essay on October 25 says AI hotspot tools can feed biased police data back as predictions. It cites a 2017 study and a 2019 NYU review."
 date: 2026-10-27T13:30:00.000Z
-updated: "2026-10-27T13:30:00.000Z"
+updated: "2026-10-27T14:15:00.000Z"
 category: policy-regulation
 tags:
   - policy

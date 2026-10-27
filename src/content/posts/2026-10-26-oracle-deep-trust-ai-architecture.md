@@ -1,8 +1,8 @@
 ---
-title: "Oracle pitches a 'Deep Trust' security stack for database AI agents"
-description: "At Oracle AI World, Oracle unveiled a four-layer Deep Trust AI Architecture meant to stop AI agents from seeing data they should not, with some tools free or discounted until February 2027."
+title: "Oracle pitches Deep Trust security for database AI agents"
+description: "Oracle unveiled a four-layer Deep Trust stack to stop AI agents seeing data they should not. Some tools are free or discounted until February 2027."
 date: 2026-10-26T18:00:00.000Z
-updated: "2026-10-26T18:00:00.000Z"
+updated: "2026-10-27T14:15:00.000Z"
 category: tools-products
 tags:
   - enterprise

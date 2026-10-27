@@ -23,6 +23,14 @@ const explainerPages = [
     href: "/explainers/what-agi-means/",
     matchTags: ["agi", "deepmind", "consciousness"],
   },
+  {
+    slug: "what-is-an-open-weight-model",
+    title: "What is an open-weight model?",
+    description:
+      "What open-weight means in a 2024 NTIA report, and why the Open Source Initiative says weights alone are not open-source AI. Both documents are linked.",
+    href: "/explainers/what-is-an-open-weight-model/",
+    matchTags: ["open-weight", "open-source"],
+  },
 ];
 
 export default explainerPages;
