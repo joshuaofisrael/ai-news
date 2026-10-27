@@ -83,6 +83,20 @@
     "srcsetWebp": "/images/inline/anthropic-georgia-vote-counts-2-640.webp 640w, /images/inline/anthropic-georgia-vote-counts-2.webp 1280w",
     "srcsetAvif": "/images/inline/anthropic-georgia-vote-counts-2-640.avif 640w, /images/inline/anthropic-georgia-vote-counts-2.avif 1280w"
   },
+  "/images/inline/bbc-ai-policing-feedback-1.webp": {
+    "width": 1280,
+    "height": 720,
+    "pending": true,
+    "srcsetWebp": "/images/inline/bbc-ai-policing-feedback-1-640.webp 640w, /images/inline/bbc-ai-policing-feedback-1.webp 1280w",
+    "srcsetAvif": "/images/inline/bbc-ai-policing-feedback-1-640.avif 640w, /images/inline/bbc-ai-policing-feedback-1.avif 1280w"
+  },
+  "/images/inline/bbc-ai-policing-feedback-2.webp": {
+    "width": 1280,
+    "height": 720,
+    "pending": true,
+    "srcsetWebp": "/images/inline/bbc-ai-policing-feedback-2-640.webp 640w, /images/inline/bbc-ai-policing-feedback-2.webp 1280w",
+    "srcsetAvif": "/images/inline/bbc-ai-policing-feedback-2-640.avif 640w, /images/inline/bbc-ai-policing-feedback-2.avif 1280w"
+  },
   "/images/inline/block-dessa-speech-1.webp": {
     "width": 1280,
     "height": 720,
@@ -143,6 +157,20 @@
     "srcsetWebp": "/images/inline/claude-duet-2-640.webp 640w, /images/inline/claude-duet-2.webp 1280w",
     "srcsetAvif": "/images/inline/claude-duet-2-640.avif 640w, /images/inline/claude-duet-2.avif 1280w"
   },
+  "/images/inline/cohere-qwen-sandbox-report-1.webp": {
+    "width": 1280,
+    "height": 720,
+    "pending": true,
+    "srcsetWebp": "/images/inline/cohere-qwen-sandbox-report-1-640.webp 640w, /images/inline/cohere-qwen-sandbox-report-1.webp 1280w",
+    "srcsetAvif": "/images/inline/cohere-qwen-sandbox-report-1-640.avif 640w, /images/inline/cohere-qwen-sandbox-report-1.avif 1280w"
+  },
+  "/images/inline/cohere-qwen-sandbox-report-2.webp": {
+    "width": 1280,
+    "height": 720,
+    "pending": true,
+    "srcsetWebp": "/images/inline/cohere-qwen-sandbox-report-2-640.webp 640w, /images/inline/cohere-qwen-sandbox-report-2.webp 1280w",
+    "srcsetAvif": "/images/inline/cohere-qwen-sandbox-report-2-640.avif 640w, /images/inline/cohere-qwen-sandbox-report-2.avif 1280w"
+  },
   "/images/inline/decisions-api-1.webp": {
     "width": 1280,
     "height": 720,
@@ -154,6 +182,20 @@
     "height": 720,
     "srcsetWebp": "/images/inline/decisions-api-2-640.webp 640w, /images/inline/decisions-api-2.webp 1280w",
     "srcsetAvif": "/images/inline/decisions-api-2-640.avif 640w, /images/inline/decisions-api-2.avif 1280w"
+  },
+  "/images/inline/gpt-6-1-terra-1.webp": {
+    "width": 1280,
+    "height": 720,
+    "pending": true,
+    "srcsetWebp": "/images/inline/gpt-6-1-terra-1-640.webp 640w, /images/inline/gpt-6-1-terra-1.webp 1280w",
+    "srcsetAvif": "/images/inline/gpt-6-1-terra-1-640.avif 640w, /images/inline/gpt-6-1-terra-1.avif 1280w"
+  },
+  "/images/inline/gpt-6-1-terra-2.webp": {
+    "width": 1280,
+    "height": 720,
+    "pending": true,
+    "srcsetWebp": "/images/inline/gpt-6-1-terra-2-640.webp 640w, /images/inline/gpt-6-1-terra-2.webp 1280w",
+    "srcsetAvif": "/images/inline/gpt-6-1-terra-2-640.avif 640w, /images/inline/gpt-6-1-terra-2.avif 1280w"
   },
   "/images/inline/harvard-ai-peer-review-1.webp": {
     "width": 1280,
@@ -263,6 +305,20 @@
     "srcsetWebp": "/images/inline/openai-nask-2-640.webp 640w, /images/inline/openai-nask-2.webp 1280w",
     "srcsetAvif": "/images/inline/openai-nask-2-640.avif 640w, /images/inline/openai-nask-2.avif 1280w"
   },
+  "/images/inline/openai-science-claims-1.webp": {
+    "width": 1280,
+    "height": 720,
+    "pending": true,
+    "srcsetWebp": "/images/inline/openai-science-claims-1-640.webp 640w, /images/inline/openai-science-claims-1.webp 1280w",
+    "srcsetAvif": "/images/inline/openai-science-claims-1-640.avif 640w, /images/inline/openai-science-claims-1.avif 1280w"
+  },
+  "/images/inline/openai-science-claims-2.webp": {
+    "width": 1280,
+    "height": 720,
+    "pending": true,
+    "srcsetWebp": "/images/inline/openai-science-claims-2-640.webp 640w, /images/inline/openai-science-claims-2.webp 1280w",
+    "srcsetAvif": "/images/inline/openai-science-claims-2-640.avif 640w, /images/inline/openai-science-claims-2.avif 1280w"
+  },
   "/images/inline/openai-training-offline-1.webp": {
     "width": 1280,
     "height": 720,
@@ -310,6 +366,20 @@
     "height": 720,
     "srcsetWebp": "/images/inline/sagemaker-training-sessions-2-640.webp 640w, /images/inline/sagemaker-training-sessions-2.webp 1280w",
     "srcsetAvif": "/images/inline/sagemaker-training-sessions-2-640.avif 640w, /images/inline/sagemaker-training-sessions-2.avif 1280w"
+  },
+  "/images/inline/siri-ai-more-languages-1.webp": {
+    "width": 1280,
+    "height": 720,
+    "pending": true,
+    "srcsetWebp": "/images/inline/siri-ai-more-languages-1-640.webp 640w, /images/inline/siri-ai-more-languages-1.webp 1280w",
+    "srcsetAvif": "/images/inline/siri-ai-more-languages-1-640.avif 640w, /images/inline/siri-ai-more-languages-1.avif 1280w"
+  },
+  "/images/inline/siri-ai-more-languages-2.webp": {
+    "width": 1280,
+    "height": 720,
+    "pending": true,
+    "srcsetWebp": "/images/inline/siri-ai-more-languages-2-640.webp 640w, /images/inline/siri-ai-more-languages-2.webp 1280w",
+    "srcsetAvif": "/images/inline/siri-ai-more-languages-2-640.avif 640w, /images/inline/siri-ai-more-languages-2.avif 1280w"
   },
   "/images/inline/slok-ai-payoff-1.webp": {
     "width": 1280,
@@ -419,6 +489,13 @@
     "srcsetWebp": "/images/stories/anthropic-georgia-vote-counts-640.webp 640w, /images/stories/anthropic-georgia-vote-counts.webp 1280w",
     "srcsetAvif": "/images/stories/anthropic-georgia-vote-counts-640.avif 640w, /images/stories/anthropic-georgia-vote-counts.avif 1280w"
   },
+  "/images/stories/bbc-ai-policing-feedback.webp": {
+    "width": 1280,
+    "height": 720,
+    "pending": true,
+    "srcsetWebp": "/images/stories/bbc-ai-policing-feedback-640.webp 640w, /images/stories/bbc-ai-policing-feedback.webp 1280w",
+    "srcsetAvif": "/images/stories/bbc-ai-policing-feedback-640.avif 640w, /images/stories/bbc-ai-policing-feedback.avif 1280w"
+  },
   "/images/stories/block-dessa-speech.webp": {
     "width": 1280,
     "height": 720,
@@ -449,11 +526,25 @@
     "srcsetWebp": "/images/stories/claude-duet-640.webp 640w, /images/stories/claude-duet.webp 1280w",
     "srcsetAvif": "/images/stories/claude-duet-640.avif 640w, /images/stories/claude-duet.avif 1280w"
   },
+  "/images/stories/cohere-qwen-sandbox-report.webp": {
+    "width": 1280,
+    "height": 720,
+    "pending": true,
+    "srcsetWebp": "/images/stories/cohere-qwen-sandbox-report-640.webp 640w, /images/stories/cohere-qwen-sandbox-report.webp 1280w",
+    "srcsetAvif": "/images/stories/cohere-qwen-sandbox-report-640.avif 640w, /images/stories/cohere-qwen-sandbox-report.avif 1280w"
+  },
   "/images/stories/decisions-api.webp": {
     "width": 1280,
     "height": 720,
     "srcsetWebp": "/images/stories/decisions-api-640.webp 640w, /images/stories/decisions-api.webp 1280w",
     "srcsetAvif": "/images/stories/decisions-api-640.avif 640w, /images/stories/decisions-api.avif 1280w"
+  },
+  "/images/stories/gpt-6-1-terra.webp": {
+    "width": 1280,
+    "height": 720,
+    "pending": true,
+    "srcsetWebp": "/images/stories/gpt-6-1-terra-640.webp 640w, /images/stories/gpt-6-1-terra.webp 1280w",
+    "srcsetAvif": "/images/stories/gpt-6-1-terra-640.avif 640w, /images/stories/gpt-6-1-terra.avif 1280w"
   },
   "/images/stories/harvard-ai-peer-review.webp": {
     "width": 1280,
@@ -515,6 +606,13 @@
     "srcsetWebp": "/images/stories/openai-nask-640.webp 640w, /images/stories/openai-nask.webp 1280w",
     "srcsetAvif": "/images/stories/openai-nask-640.avif 640w, /images/stories/openai-nask.avif 1280w"
   },
+  "/images/stories/openai-science-claims.webp": {
+    "width": 1280,
+    "height": 720,
+    "pending": true,
+    "srcsetWebp": "/images/stories/openai-science-claims-640.webp 640w, /images/stories/openai-science-claims.webp 1280w",
+    "srcsetAvif": "/images/stories/openai-science-claims-640.avif 640w, /images/stories/openai-science-claims.avif 1280w"
+  },
   "/images/stories/openai-training-offline.webp": {
     "width": 1280,
     "height": 720,
@@ -544,6 +642,13 @@
     "height": 720,
     "srcsetWebp": "/images/stories/sagemaker-training-sessions-640.webp 640w, /images/stories/sagemaker-training-sessions.webp 1280w",
     "srcsetAvif": "/images/stories/sagemaker-training-sessions-640.avif 640w, /images/stories/sagemaker-training-sessions.avif 1280w"
+  },
+  "/images/stories/siri-ai-more-languages.webp": {
+    "width": 1280,
+    "height": 720,
+    "pending": true,
+    "srcsetWebp": "/images/stories/siri-ai-more-languages-640.webp 640w, /images/stories/siri-ai-more-languages.webp 1280w",
+    "srcsetAvif": "/images/stories/siri-ai-more-languages-640.avif 640w, /images/stories/siri-ai-more-languages.avif 1280w"
   },
   "/images/stories/slok-ai-payoff.webp": {
     "width": 1280,

@@ -1,0 +1,159 @@
+{
+  "date": "2026-10-27",
+  "aspect_ratio": "16:9",
+  "credit": "Image: AI Headline Hub",
+  "licence": "AI Headline Hub",
+  "notes": "Generate a JPEG master for every entry, 1280x720 or larger, 16:9, photorealistic, as if shot on a real camera in natural or available light. No cartoons, illustrations, flat vector, or stylised art. No faces and no real identifiable people. Generic hands or distant anonymous figures only if a prompt asks for them; these prompts do not. No company logos, wordmarks, flags, seals, or readable brand names or text. Do not stage a press conference, signing, protest, hearing, or other news event. New-story posts are draft:true until these masters exist and npm run art has been run. src/_data/imageSizes.json contains temporary dimension stubs (pending:true) so Eleventy can render the drafts in serve mode; npm run art rewrites that file from JPEGs on disk, so add every master before running art or the draft render will fail again. Post front matter uses credit \"Image: AI Headline Hub\" and licence \"AI Headline Hub\". Do not put an AI-generated label in alt text or captions.",
+  "images": [
+    {
+      "article": "OpenAI posts three claimed proofs and asks outsiders to check them",
+      "slug": "openai-science-claims",
+      "role": "hero",
+      "master_path": "src/assets/photos/stories/openai-science-claims.jpg",
+      "public_path": "/images/stories/openai-science-claims.webp",
+      "alt": "An empty chalkboard in a quiet office, the board wiped clean, with a closed notebook on the ledge and no people or writing.",
+      "caption": "OpenAI’s October 26 post calls the three manuscripts raw research data.",
+      "prompt": "Photorealistic 16:9 photograph of an empty office with a large green chalkboard wiped clean, no chalk marks. A closed blank notebook rests on the wooden ledge. No people, no hands, no faces, no logos, no readable writing. Afternoon window light, dust in the air, 35mm, documentary color."
+    },
+    {
+      "article": "OpenAI posts three claimed proofs and asks outsiders to check them",
+      "slug": "openai-science-claims",
+      "role": "inline",
+      "master_path": "src/assets/photos/inline/openai-science-claims-1.jpg",
+      "public_path": "/images/inline/openai-science-claims-1.webp",
+      "alt": "A closed laptop and a blank notepad on a library table, with shelves soft in the background and no readable titles or people.",
+      "caption": "OpenAI says the mathematics and complexity manuscripts are public. The physics materials are not.",
+      "prompt": "Photorealistic 16:9 photograph of a wooden library table. A closed laptop, a blank notepad with no writing, a pencil. Bookshelves behind are out of focus so no titles can be read. No people, no hands, no logos. Warm lamp light, 50mm, shallow depth of field."
+    },
+    {
+      "article": "OpenAI posts three claimed proofs and asks outsiders to check them",
+      "slug": "openai-science-claims",
+      "role": "inline",
+      "master_path": "src/assets/photos/inline/openai-science-claims-2.jpg",
+      "public_path": "/images/inline/openai-science-claims-2.webp",
+      "alt": "An empty seminar room with a blank projector screen and chairs in rows, and no people, logos, or readable slides.",
+      "caption": "OpenAI says the physics group will write its own account before the model output is released.",
+      "prompt": "Photorealistic 16:9 photograph of an empty seminar room. Rows of plain chairs, a blank white projector screen, the projector off. No people, no hands, no logos, no slides, no readable wall text. Cool overhead light, 24mm, realistic carpet and plastic."
+    },
+    {
+      "article": "OpenAI releases GPT-6.1 Terra and lists a lower API price",
+      "slug": "gpt-6-1-terra",
+      "role": "hero",
+      "master_path": "src/assets/photos/stories/gpt-6-1-terra.jpg",
+      "public_path": "/images/stories/gpt-6-1-terra.webp",
+      "alt": "An empty office desk with a dark monitor, a keyboard, and a closed notebook, and no people, logos, or readable screens.",
+      "caption": "OpenAI’s system-card addendum is dated October 26.",
+      "prompt": "Photorealistic 16:9 photograph of an unoccupied office desk at dusk. A dark monitor with the screen off, a plain keyboard, a closed notebook. No people, no hands, no logos, no stickers, no readable text. Window light and a little lamp glow, 35mm, realistic wood grain."
+    },
+    {
+      "article": "OpenAI releases GPT-6.1 Terra and lists a lower API price",
+      "slug": "gpt-6-1-terra",
+      "role": "inline",
+      "master_path": "src/assets/photos/inline/gpt-6-1-terra-1.jpg",
+      "public_path": "/images/inline/gpt-6-1-terra-1.webp",
+      "alt": "A dark monitor and a closed laptop on a standing desk, cables unplugged, with no people, logos, or readable screens.",
+      "caption": "OpenAI’s help center says ChatGPT access is Work and Codex, not the main Chat product.",
+      "prompt": "Photorealistic 16:9 photograph of a standing desk. A monitor switched off, a closed laptop, unplugged black cables coiled beside them. No people, no hands, no brand marks, no readable ports or stickers. Daylight from a side window, 35mm, documentary color."
+    },
+    {
+      "article": "OpenAI releases GPT-6.1 Terra and lists a lower API price",
+      "slug": "gpt-6-1-terra",
+      "role": "inline",
+      "master_path": "src/assets/photos/inline/gpt-6-1-terra-2.jpg",
+      "public_path": "/images/inline/gpt-6-1-terra-2.webp",
+      "alt": "A printed checklist face-down on a steel table beside a powered-off phone, with no readable text, logos, or people.",
+      "caption": "The scores in the product post are OpenAI’s. The system-card addendum says its evaluations may differ from production ChatGPT.",
+      "prompt": "Photorealistic 16:9 photograph of a steel table. A stack of printed pages face-down so no words show, a phone powered off with a blank dark screen and no logo. No people, no hands. Soft overhead light, 50mm, realistic metal scratches."
+    },
+    {
+      "article": "BBC essay says AI policing can feed biased records back as predictions",
+      "slug": "bbc-ai-policing-feedback",
+      "role": "hero",
+      "master_path": "src/assets/photos/stories/bbc-ai-policing-feedback.jpg",
+      "public_path": "/images/stories/bbc-ai-policing-feedback.webp",
+      "alt": "An empty briefing room with a blank wall map, a dark monitor, and chairs, and no people, seals, flags, or readable labels.",
+      "caption": "BBC News published the essay on October 25.",
+      "prompt": "Photorealistic 16:9 photograph of an empty briefing room. A large wall map with no readable place names, the print too soft to read, a dark monitor, a few plain chairs. No people, no hands, no flags, no seals, no logos, no readable captions. Fluorescent light, 35mm, institutional color."
+    },
+    {
+      "article": "BBC essay says AI policing can feed biased records back as predictions",
+      "slug": "bbc-ai-policing-feedback",
+      "role": "inline",
+      "master_path": "src/assets/photos/inline/bbc-ai-policing-feedback-1.jpg",
+      "public_path": "/images/inline/bbc-ai-policing-feedback-1.webp",
+      "alt": "A blank paper map on a metal table with a closed folder and a pencil, and no writing, seals, people, or logos.",
+      "caption": "Brayne’s 2017 paper says recorded crime is a biased sample, and that predictions built on it can look impartial.",
+      "prompt": "Photorealistic 16:9 photograph of a metal table. An unfolded paper map with no readable streets or names, the ink a soft blur, a closed manila folder, a pencil. No people, no hands, no seals, no logos. North light, 50mm, shallow depth of field."
+    },
+    {
+      "article": "BBC essay says AI policing can feed biased records back as predictions",
+      "slug": "bbc-ai-policing-feedback",
+      "role": "inline",
+      "master_path": "src/assets/photos/inline/bbc-ai-policing-feedback-2.jpg",
+      "public_path": "/images/inline/bbc-ai-policing-feedback-2.webp",
+      "alt": "Stacks of closed file boxes in an empty records aisle, labels turned away, with no people, seals, or readable text.",
+      "caption": "Richardson, Schultz, and Crawford say nine of thirteen jurisdictions had tainted-period data available to the tools.",
+      "prompt": "Photorealistic 16:9 photograph down an empty records aisle. Stacks of plain cardboard file boxes, any labels turned away or out of focus so nothing is readable. No people, no hands, no seals, no logos. Overhead fluorescent light, 35mm, realistic cardboard texture."
+    },
+    {
+      "article": "Cohere says a Qwen model tried a blocked upload during a sandbox test",
+      "slug": "cohere-qwen-sandbox-report",
+      "role": "hero",
+      "master_path": "src/assets/photos/stories/cohere-qwen-sandbox-report.jpg",
+      "public_path": "/images/stories/cohere-qwen-sandbox-report.webp",
+      "alt": "An empty lab bench with a closed laptop, a dark network switch, and coiled cable, and no people, logos, or readable screens.",
+      "caption": "Cohere published the sandbox account on October 26.",
+      "prompt": "Photorealistic 16:9 photograph of an empty electronics bench. A closed laptop, a small unmarked network switch with dark ports, a coil of grey cable. No people, no hands, no logos, no readable port labels or screens. Cool task lighting, 35mm, realistic metal and plastic."
+    },
+    {
+      "article": "Cohere says a Qwen model tried a blocked upload during a sandbox test",
+      "slug": "cohere-qwen-sandbox-report",
+      "role": "inline",
+      "master_path": "src/assets/photos/inline/cohere-qwen-sandbox-report-1.jpg",
+      "public_path": "/images/inline/cohere-qwen-sandbox-report-1.webp",
+      "alt": "A powered-off workstation in a glass-walled lab, the screen black, with no people, logos, or readable labels.",
+      "caption": "Cohere says the sandbox blocked the upload and that a rerun of the same prompt wrote a normal detection rule.",
+      "prompt": "Photorealistic 16:9 photograph of a glass-walled lab. One workstation powered off, the screen black, a chair empty. Reflections on the glass, no readable signs. No people, no hands, no logos. Mixed daylight and lab light, 35mm."
+    },
+    {
+      "article": "Cohere says a Qwen model tried a blocked upload during a sandbox test",
+      "slug": "cohere-qwen-sandbox-report",
+      "role": "inline",
+      "master_path": "src/assets/photos/inline/cohere-qwen-sandbox-report-2.jpg",
+      "public_path": "/images/inline/cohere-qwen-sandbox-report-2.webp",
+      "alt": "A row of unlabeled server disks on an open shelf, status lights dark, with no people, logos, or readable asset tags.",
+      "caption": "Cohere says the behavior showed up in fewer than one evaluation call in 100,000.",
+      "prompt": "Photorealistic 16:9 photograph of an open metal shelf holding plain server disks. Status lights off. Any stickers are blank or turned away so nothing is readable. No people, no hands, no logos. Dim aisle light, 50mm, realistic dust."
+    },
+    {
+      "article": "Apple adds five languages to Siri AI and leaves the EU off the list",
+      "slug": "siri-ai-more-languages",
+      "role": "hero",
+      "master_path": "src/assets/photos/stories/siri-ai-more-languages.jpg",
+      "public_path": "/images/stories/siri-ai-more-languages.webp",
+      "alt": "A phone and a tablet face-down on a wooden table beside earbuds, screens off, with no people, logos, or readable text.",
+      "caption": "Apple’s newsroom note is dated October 26.",
+      "prompt": "Photorealistic 16:9 photograph of a wooden table. A phone and a tablet lying face-down, screens hidden, plain unmarked backs, a pair of earbuds with no logo. No people, no hands, no readable text. Soft morning window light, 35mm, realistic wood grain."
+    },
+    {
+      "article": "Apple adds five languages to Siri AI and leaves the EU off the list",
+      "slug": "siri-ai-more-languages",
+      "role": "inline",
+      "master_path": "src/assets/photos/inline/siri-ai-more-languages-1.jpg",
+      "public_path": "/images/inline/siri-ai-more-languages-1.webp",
+      "alt": "A row of phones face-down on a linen cloth, screens dark, with no logos, people, or readable cases.",
+      "caption": "Apple’s list for this release is English plus French, Japanese, Korean, Portuguese, and Spanish.",
+      "prompt": "Photorealistic 16:9 photograph of five plain phones lying face-down in a row on a linen cloth. Dark glass, unmarked cases, no logos, no text. No people, no hands. Soft daylight, 50mm, shallow depth of field, realistic fabric."
+    },
+    {
+      "article": "Apple adds five languages to Siri AI and leaves the EU off the list",
+      "slug": "siri-ai-more-languages",
+      "role": "inline",
+      "master_path": "src/assets/photos/inline/siri-ai-more-languages-2.jpg",
+      "public_path": "/images/inline/siri-ai-more-languages-2.webp",
+      "alt": "An empty kitchen counter at morning with a tablet lying screen-down and a closed notebook, and no people, logos, or readable covers.",
+      "caption": "Apple says daily limits apply to server-side features, including Siri AI, and that a paid expansion is planned.",
+      "prompt": "Photorealistic 16:9 photograph of an empty kitchen counter in morning light. A tablet lying screen-down with a plain back, a closed blank notebook. No people, no hands, no logos, no readable covers or appliance brands. 35mm, natural color, a little steam from a kettle out of focus."
+    }
+  ]
+}
