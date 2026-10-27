@@ -9,6 +9,7 @@ import topicHubs from "../src/_data/topicHubs.js";
 import explainerPages from "../src/_data/explainerPages.js";
 import { thisYear, utcPathDate } from "../src/_lib/dates.js";
 import markdownIt from "markdown-it";
+import { runGate, checkPost, isHeld } from "./legal-hold.mjs";
 import { figureShortcode, installFigures } from "../src/_lib/figure.js";
 import { storyImage } from "../src/_lib/images.js";
 import { absoluteUrl, absolutizeHtml, pathPrefixFromUrl, prefixPath, prefixRootAttributes, relativeUrl, relativizeRootAttributes } from "../src/_lib/urls.js";
@@ -463,7 +464,7 @@ for (const name of postFiles) {
   }
   const dateValue = (matter.match(/^date:\s*["']?([^"'\n]+)["']?\s*$/m) || [])[1];
   const date = dateValue ? new Date(dateValue) : null;
-  const isDraft = /^draft:\s*true\s*$/m.test(matter);
+  const isDraft = /^draft:\s*true\s*$/m.test(matter) || /^status:\s*["']?HOLD_REVIEW/m.test(matter);
   if (!isDraft) {
     publishedCount += 1;
     const publishedTitle = (matter.match(/^title:\s*(.+)\s*$/m) || [])[1]?.replace(/^["']|["']$/g, "");
@@ -724,6 +725,31 @@ for (const asset of [
   "assets/css/site.css",
 ]) {
   if (!(await exists(path.join(root, asset)))) fail(`Missing asset ${asset}`);
+}
+
+// ---- Legal-hold gate (rule of 27 Oct 2026) ----
+{
+  const fx = async (n) => readFile(path.resolve("tests/fixtures", n), "utf8");
+  const heldFx = await fx("legal-hold-should-hold.md");
+  const passFx = await fx("legal-hold-should-pass.md");
+  if (checkPost("hold", heldFx).length === 0) fail("legal-hold fixture that should be held passed the checks");
+  if (checkPost("pass", passFx).length !== 0) fail("legal-hold fixture that should pass was flagged: " + JSON.stringify(checkPost("pass", passFx)));
+  const gate = await runGate(path.resolve("src/content/posts"));
+  for (const f of gate.failures) for (const i of f.issues) fail(`LEGAL HOLD rule ${i.rule}: ${f.name}: ${i.why}: "${i.flagged}" (set status: HOLD_REVIEW)`);
+  const built = await readFile(path.join(root, "sitemap.xml"), "utf8").catch(() => "");
+  const feeds = ["feed.xml", "atom.xml", "news-sitemap.xml", "llms.txt"];
+  for (const name of gate.held) {
+    const slug = name.replace(/\.md$/, "").replace(/^\d{4}-\d{2}-\d{2}-/, "");
+    const raw = await readFile(path.resolve("src/content/posts", name), "utf8");
+    const d = new Date((raw.match(/^date:\s*["']?([^"'\n]+)/m) || [])[1]);
+    if (await exists(path.join(root, utcPathDate(d), slug, "index.html"))) fail(`HOLD_REVIEW post ${name} was built`);
+    if (built.includes(`/${slug}/`)) fail(`HOLD_REVIEW post ${name} is in sitemap.xml`);
+    for (const f of feeds) {
+      const t = await readFile(path.join(root, f), "utf8").catch(() => "");
+      if (t.includes(`/${slug}/`)) fail(`HOLD_REVIEW post ${name} is in ${f}`);
+    }
+  }
+  console.log(`Legal-hold gate: ${gate.held.length} held, ${gate.failures.length} failing.`);
 }
 
 if (errors.length) {

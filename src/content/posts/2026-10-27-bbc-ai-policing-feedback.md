@@ -10,6 +10,7 @@ tags:
   - policing
 author: AI Headline Hub
 draft: false
+status: HOLD_REVIEW
 image:
   src: /images/stories/bbc-ai-policing-feedback.webp
   alt: An empty briefing room with a blank wall map, a dark monitor, and chairs, and no people, seals, flags, or readable labels.

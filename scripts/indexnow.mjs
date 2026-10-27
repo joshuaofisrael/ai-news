@@ -24,7 +24,7 @@ async function articleRecords() {
   const records = [];
   for (const name of files) {
     const raw = await readFile(path.join(dir, name), "utf8");
-    if (/^draft:\s*true\s*$/m.test(raw)) continue;
+    if (/^draft:\s*true\s*$/m.test(raw) || /^status:\s*["']?HOLD_REVIEW/m.test(raw)) continue;
     const dateMatch = raw.match(/^date:\s*["']?([^"'\n]+)["']?\s*$/m);
     if (!dateMatch) continue;
     const date = new Date(dateMatch[1]);

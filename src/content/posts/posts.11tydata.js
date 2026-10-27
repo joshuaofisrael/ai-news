@@ -7,6 +7,7 @@ export default {
   schemaKind: "NewsArticle",
   eleventyComputed: {
     permalink(data) {
+      if (data.status === "HOLD_REVIEW") return false;
       if (data.draft === true && process.env.ELEVENTY_RUN_MODE !== "serve") {
         return false;
       }
