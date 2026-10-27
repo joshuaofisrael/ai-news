@@ -9,7 +9,7 @@ tags:
   - research
   - mathematics
 author: AI Headline Hub
-draft: true
+draft: false
 image:
   src: /images/stories/openai-science-claims.webp
   alt: An empty chalkboard in a quiet office, the board wiped clean, with a closed notebook on the ledge and no people or writing.

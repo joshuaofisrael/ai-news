@@ -86,14 +86,12 @@
   "/images/inline/bbc-ai-policing-feedback-1.webp": {
     "width": 1280,
     "height": 720,
-    "pending": true,
     "srcsetWebp": "/images/inline/bbc-ai-policing-feedback-1-640.webp 640w, /images/inline/bbc-ai-policing-feedback-1.webp 1280w",
     "srcsetAvif": "/images/inline/bbc-ai-policing-feedback-1-640.avif 640w, /images/inline/bbc-ai-policing-feedback-1.avif 1280w"
   },
   "/images/inline/bbc-ai-policing-feedback-2.webp": {
     "width": 1280,
     "height": 720,
-    "pending": true,
     "srcsetWebp": "/images/inline/bbc-ai-policing-feedback-2-640.webp 640w, /images/inline/bbc-ai-policing-feedback-2.webp 1280w",
     "srcsetAvif": "/images/inline/bbc-ai-policing-feedback-2-640.avif 640w, /images/inline/bbc-ai-policing-feedback-2.avif 1280w"
   },
@@ -160,14 +158,12 @@
   "/images/inline/cohere-qwen-sandbox-report-1.webp": {
     "width": 1280,
     "height": 720,
-    "pending": true,
     "srcsetWebp": "/images/inline/cohere-qwen-sandbox-report-1-640.webp 640w, /images/inline/cohere-qwen-sandbox-report-1.webp 1280w",
     "srcsetAvif": "/images/inline/cohere-qwen-sandbox-report-1-640.avif 640w, /images/inline/cohere-qwen-sandbox-report-1.avif 1280w"
   },
   "/images/inline/cohere-qwen-sandbox-report-2.webp": {
     "width": 1280,
     "height": 720,
-    "pending": true,
     "srcsetWebp": "/images/inline/cohere-qwen-sandbox-report-2-640.webp 640w, /images/inline/cohere-qwen-sandbox-report-2.webp 1280w",
     "srcsetAvif": "/images/inline/cohere-qwen-sandbox-report-2-640.avif 640w, /images/inline/cohere-qwen-sandbox-report-2.avif 1280w"
   },
@@ -186,14 +182,12 @@
   "/images/inline/gpt-6-1-terra-1.webp": {
     "width": 1280,
     "height": 720,
-    "pending": true,
     "srcsetWebp": "/images/inline/gpt-6-1-terra-1-640.webp 640w, /images/inline/gpt-6-1-terra-1.webp 1280w",
     "srcsetAvif": "/images/inline/gpt-6-1-terra-1-640.avif 640w, /images/inline/gpt-6-1-terra-1.avif 1280w"
   },
   "/images/inline/gpt-6-1-terra-2.webp": {
     "width": 1280,
     "height": 720,
-    "pending": true,
     "srcsetWebp": "/images/inline/gpt-6-1-terra-2-640.webp 640w, /images/inline/gpt-6-1-terra-2.webp 1280w",
     "srcsetAvif": "/images/inline/gpt-6-1-terra-2-640.avif 640w, /images/inline/gpt-6-1-terra-2.avif 1280w"
   },
@@ -308,14 +302,12 @@
   "/images/inline/openai-science-claims-1.webp": {
     "width": 1280,
     "height": 720,
-    "pending": true,
     "srcsetWebp": "/images/inline/openai-science-claims-1-640.webp 640w, /images/inline/openai-science-claims-1.webp 1280w",
     "srcsetAvif": "/images/inline/openai-science-claims-1-640.avif 640w, /images/inline/openai-science-claims-1.avif 1280w"
   },
   "/images/inline/openai-science-claims-2.webp": {
     "width": 1280,
     "height": 720,
-    "pending": true,
     "srcsetWebp": "/images/inline/openai-science-claims-2-640.webp 640w, /images/inline/openai-science-claims-2.webp 1280w",
     "srcsetAvif": "/images/inline/openai-science-claims-2-640.avif 640w, /images/inline/openai-science-claims-2.avif 1280w"
   },
@@ -370,14 +362,12 @@
   "/images/inline/siri-ai-more-languages-1.webp": {
     "width": 1280,
     "height": 720,
-    "pending": true,
     "srcsetWebp": "/images/inline/siri-ai-more-languages-1-640.webp 640w, /images/inline/siri-ai-more-languages-1.webp 1280w",
     "srcsetAvif": "/images/inline/siri-ai-more-languages-1-640.avif 640w, /images/inline/siri-ai-more-languages-1.avif 1280w"
   },
   "/images/inline/siri-ai-more-languages-2.webp": {
     "width": 1280,
     "height": 720,
-    "pending": true,
     "srcsetWebp": "/images/inline/siri-ai-more-languages-2-640.webp 640w, /images/inline/siri-ai-more-languages-2.webp 1280w",
     "srcsetAvif": "/images/inline/siri-ai-more-languages-2-640.avif 640w, /images/inline/siri-ai-more-languages-2.avif 1280w"
   },
@@ -492,7 +482,6 @@
   "/images/stories/bbc-ai-policing-feedback.webp": {
     "width": 1280,
     "height": 720,
-    "pending": true,
     "srcsetWebp": "/images/stories/bbc-ai-policing-feedback-640.webp 640w, /images/stories/bbc-ai-policing-feedback.webp 1280w",
     "srcsetAvif": "/images/stories/bbc-ai-policing-feedback-640.avif 640w, /images/stories/bbc-ai-policing-feedback.avif 1280w"
   },
@@ -529,7 +518,6 @@
   "/images/stories/cohere-qwen-sandbox-report.webp": {
     "width": 1280,
     "height": 720,
-    "pending": true,
     "srcsetWebp": "/images/stories/cohere-qwen-sandbox-report-640.webp 640w, /images/stories/cohere-qwen-sandbox-report.webp 1280w",
     "srcsetAvif": "/images/stories/cohere-qwen-sandbox-report-640.avif 640w, /images/stories/cohere-qwen-sandbox-report.avif 1280w"
   },
@@ -542,7 +530,6 @@
   "/images/stories/gpt-6-1-terra.webp": {
     "width": 1280,
     "height": 720,
-    "pending": true,
     "srcsetWebp": "/images/stories/gpt-6-1-terra-640.webp 640w, /images/stories/gpt-6-1-terra.webp 1280w",
     "srcsetAvif": "/images/stories/gpt-6-1-terra-640.avif 640w, /images/stories/gpt-6-1-terra.avif 1280w"
   },
@@ -609,7 +596,6 @@
   "/images/stories/openai-science-claims.webp": {
     "width": 1280,
     "height": 720,
-    "pending": true,
     "srcsetWebp": "/images/stories/openai-science-claims-640.webp 640w, /images/stories/openai-science-claims.webp 1280w",
     "srcsetAvif": "/images/stories/openai-science-claims-640.avif 640w, /images/stories/openai-science-claims.avif 1280w"
   },
@@ -646,7 +632,6 @@
   "/images/stories/siri-ai-more-languages.webp": {
     "width": 1280,
     "height": 720,
-    "pending": true,
     "srcsetWebp": "/images/stories/siri-ai-more-languages-640.webp 640w, /images/stories/siri-ai-more-languages.webp 1280w",
     "srcsetAvif": "/images/stories/siri-ai-more-languages-640.avif 640w, /images/stories/siri-ai-more-languages.avif 1280w"
   },
