@@ -10,6 +10,7 @@ tags:
   - security
 author: AI Headline Hub
 draft: false
+status: HOLD_REVIEW
 image:
   src: /images/stories/anthropic-georgia-vote-counts.webp
   alt: An empty records room with closed file drawers, a dark monitor, and no people, seals, flags, or readable labels.

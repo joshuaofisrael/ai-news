@@ -21,6 +21,14 @@ import {
   thisYear,
 } from "./src/_lib/dates.js";
 
+import { readdirSync, readFileSync } from "node:fs";
+
+// Legal hold: slugs of posts with status HOLD_REVIEW. Links to them are stripped from every output.
+const heldSlugs = readdirSync("src/content/posts")
+  .filter((n) => n.endsWith(".md"))
+  .filter((n) => /^status:\s*["']?HOLD_REVIEW/m.test(readFileSync(`src/content/posts/${n}`, "utf8")))
+  .map((n) => n.replace(/\.md$/, "").replace(/^\d{4}-\d{2}-\d{2}-/, ""));
+
 const siteUrl = site.url;
 const pathPrefix = pathPrefixFromUrl(siteUrl);
 
@@ -178,19 +186,31 @@ export default function (eleventyConfig) {
   eleventyConfig.addCollection("posts", (api) => {
     return api
       .getFilteredByTag("post")
-      .filter((item) => item.data.draft !== true)
+      .filter((item) => item.data.draft !== true && item.data.status !== "HOLD_REVIEW")
       .sort((a, b) => b.date - a.date);
   });
 
   eleventyConfig.addCollection("tagList", (api) => {
     const tags = new Set();
     for (const post of api.getFilteredByTag("post")) {
-      if (post.data.draft === true) continue;
+      if (post.data.draft === true || post.data.status === "HOLD_REVIEW") continue;
       for (const tag of post.data.tags || []) {
         if (!["post", "page"].includes(tag)) tags.add(tag);
       }
     }
     return [...tags].sort((a, b) => a.localeCompare(b));
+  });
+
+  eleventyConfig.addTransform("legal-hold-unlink", function unlinkHeld(content) {
+    if (!heldSlugs.length || typeof content !== "string") return content;
+    let out = content;
+    for (const slug of heldSlugs) {
+      const re = new RegExp(`<a\\b[^>]*href="[^"]*/${slug}/"[^>]*>([\\s\\S]*?)</a>`, "g");
+      out = out.replace(re, "$1");
+      const reEsc = new RegExp(`&lt;a\\b[^&]*?href=(&quot;|")[^"&]*/${slug}/(&quot;|")[\\s\\S]*?&gt;([\\s\\S]*?)&lt;/a&gt;`, "g");
+      out = out.replace(reEsc, "$3");
+    }
+    return out;
   });
 
   eleventyConfig.addTransform("portable-urls", function portableUrls(content) {
