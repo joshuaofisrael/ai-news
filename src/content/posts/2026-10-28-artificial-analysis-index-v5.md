@@ -10,7 +10,7 @@ tags:
   - anthropic
   - openai
 author: AI Headline Hub
-draft: true
+draft: false
 image:
   src: /images/stories/artificial-analysis-index-v5.webp
   alt: An empty lab bench with two dark monitors, a closed laptop, and a blank notepad, and no people, logos, or readable screens.

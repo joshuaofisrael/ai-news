@@ -10,7 +10,7 @@ tags:
   - government
   - procurement
 author: AI Headline Hub
-draft: true
+draft: false
 image:
   src: /images/stories/gsa-claude-onegov-discount.webp
   alt: An empty office table with closed folders, a dark monitor, and a blank access card face-down, and no people, seals, flags, or readable text.

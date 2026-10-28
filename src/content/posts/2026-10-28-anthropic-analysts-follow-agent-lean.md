@@ -10,7 +10,7 @@ tags:
   - research
   - safety
 author: AI Headline Hub
-draft: true
+draft: false
 image:
   src: /images/stories/anthropic-analysts-follow-agent-lean.webp
   alt: An empty office desk with a closed laptop, two blank notebooks side by side, and a coin, and no people, logos, or readable pages.

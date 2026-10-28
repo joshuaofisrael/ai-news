@@ -9,7 +9,7 @@ tags:
   - agents
   - mathematics
 author: AI Headline Hub
-draft: true
+draft: false
 image:
   src: /images/stories/axiom-formalizes-enormous-theorem.webp
   alt: An empty reading room with a wiped chalkboard, closed books stacked spine-out of focus, and no people, logos, or readable titles.

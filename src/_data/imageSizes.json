@@ -62,14 +62,12 @@
   "/images/inline/anthropic-analysts-follow-agent-lean-1.webp": {
     "width": 1280,
     "height": 720,
-    "pending": true,
     "srcsetWebp": "/images/inline/anthropic-analysts-follow-agent-lean-1-640.webp 640w, /images/inline/anthropic-analysts-follow-agent-lean-1.webp 1280w",
     "srcsetAvif": "/images/inline/anthropic-analysts-follow-agent-lean-1-640.avif 640w, /images/inline/anthropic-analysts-follow-agent-lean-1.avif 1280w"
   },
   "/images/inline/anthropic-analysts-follow-agent-lean-2.webp": {
     "width": 1280,
     "height": 720,
-    "pending": true,
     "srcsetWebp": "/images/inline/anthropic-analysts-follow-agent-lean-2-640.webp 640w, /images/inline/anthropic-analysts-follow-agent-lean-2.webp 1280w",
     "srcsetAvif": "/images/inline/anthropic-analysts-follow-agent-lean-2-640.avif 640w, /images/inline/anthropic-analysts-follow-agent-lean-2.avif 1280w"
   },
@@ -100,28 +98,24 @@
   "/images/inline/artificial-analysis-index-v5-1.webp": {
     "width": 1280,
     "height": 720,
-    "pending": true,
     "srcsetWebp": "/images/inline/artificial-analysis-index-v5-1-640.webp 640w, /images/inline/artificial-analysis-index-v5-1.webp 1280w",
     "srcsetAvif": "/images/inline/artificial-analysis-index-v5-1-640.avif 640w, /images/inline/artificial-analysis-index-v5-1.avif 1280w"
   },
   "/images/inline/artificial-analysis-index-v5-2.webp": {
     "width": 1280,
     "height": 720,
-    "pending": true,
     "srcsetWebp": "/images/inline/artificial-analysis-index-v5-2-640.webp 640w, /images/inline/artificial-analysis-index-v5-2.webp 1280w",
     "srcsetAvif": "/images/inline/artificial-analysis-index-v5-2-640.avif 640w, /images/inline/artificial-analysis-index-v5-2.avif 1280w"
   },
   "/images/inline/axiom-formalizes-enormous-theorem-1.webp": {
     "width": 1280,
     "height": 720,
-    "pending": true,
     "srcsetWebp": "/images/inline/axiom-formalizes-enormous-theorem-1-640.webp 640w, /images/inline/axiom-formalizes-enormous-theorem-1.webp 1280w",
     "srcsetAvif": "/images/inline/axiom-formalizes-enormous-theorem-1-640.avif 640w, /images/inline/axiom-formalizes-enormous-theorem-1.avif 1280w"
   },
   "/images/inline/axiom-formalizes-enormous-theorem-2.webp": {
     "width": 1280,
     "height": 720,
-    "pending": true,
     "srcsetWebp": "/images/inline/axiom-formalizes-enormous-theorem-2-640.webp 640w, /images/inline/axiom-formalizes-enormous-theorem-2.webp 1280w",
     "srcsetAvif": "/images/inline/axiom-formalizes-enormous-theorem-2-640.avif 640w, /images/inline/axiom-formalizes-enormous-theorem-2.avif 1280w"
   },
@@ -236,14 +230,12 @@
   "/images/inline/gsa-claude-onegov-discount-1.webp": {
     "width": 1280,
     "height": 720,
-    "pending": true,
     "srcsetWebp": "/images/inline/gsa-claude-onegov-discount-1-640.webp 640w, /images/inline/gsa-claude-onegov-discount-1.webp 1280w",
     "srcsetAvif": "/images/inline/gsa-claude-onegov-discount-1-640.avif 640w, /images/inline/gsa-claude-onegov-discount-1.avif 1280w"
   },
   "/images/inline/gsa-claude-onegov-discount-2.webp": {
     "width": 1280,
     "height": 720,
-    "pending": true,
     "srcsetWebp": "/images/inline/gsa-claude-onegov-discount-2-640.webp 640w, /images/inline/gsa-claude-onegov-discount-2.webp 1280w",
     "srcsetAvif": "/images/inline/gsa-claude-onegov-discount-2-640.avif 640w, /images/inline/gsa-claude-onegov-discount-2.avif 1280w"
   },
@@ -466,14 +458,12 @@
   "/images/inline/super-intelligence-document-term-1.webp": {
     "width": 1280,
     "height": 720,
-    "pending": true,
     "srcsetWebp": "/images/inline/super-intelligence-document-term-1-640.webp 640w, /images/inline/super-intelligence-document-term-1.webp 1280w",
     "srcsetAvif": "/images/inline/super-intelligence-document-term-1-640.avif 640w, /images/inline/super-intelligence-document-term-1.avif 1280w"
   },
   "/images/inline/super-intelligence-document-term-2.webp": {
     "width": 1280,
     "height": 720,
-    "pending": true,
     "srcsetWebp": "/images/inline/super-intelligence-document-term-2-640.webp 640w, /images/inline/super-intelligence-document-term-2.webp 1280w",
     "srcsetAvif": "/images/inline/super-intelligence-document-term-2-640.avif 640w, /images/inline/super-intelligence-document-term-2.avif 1280w"
   },
@@ -540,7 +530,6 @@
   "/images/stories/anthropic-analysts-follow-agent-lean.webp": {
     "width": 1280,
     "height": 720,
-    "pending": true,
     "srcsetWebp": "/images/stories/anthropic-analysts-follow-agent-lean-640.webp 640w, /images/stories/anthropic-analysts-follow-agent-lean.webp 1280w",
     "srcsetAvif": "/images/stories/anthropic-analysts-follow-agent-lean-640.avif 640w, /images/stories/anthropic-analysts-follow-agent-lean.avif 1280w"
   },
@@ -559,14 +548,12 @@
   "/images/stories/artificial-analysis-index-v5.webp": {
     "width": 1280,
     "height": 720,
-    "pending": true,
     "srcsetWebp": "/images/stories/artificial-analysis-index-v5-640.webp 640w, /images/stories/artificial-analysis-index-v5.webp 1280w",
     "srcsetAvif": "/images/stories/artificial-analysis-index-v5-640.avif 640w, /images/stories/artificial-analysis-index-v5.avif 1280w"
   },
   "/images/stories/axiom-formalizes-enormous-theorem.webp": {
     "width": 1280,
     "height": 720,
-    "pending": true,
     "srcsetWebp": "/images/stories/axiom-formalizes-enormous-theorem-640.webp 640w, /images/stories/axiom-formalizes-enormous-theorem.webp 1280w",
     "srcsetAvif": "/images/stories/axiom-formalizes-enormous-theorem-640.avif 640w, /images/stories/axiom-formalizes-enormous-theorem.avif 1280w"
   },
@@ -627,7 +614,6 @@
   "/images/stories/gsa-claude-onegov-discount.webp": {
     "width": 1280,
     "height": 720,
-    "pending": true,
     "srcsetWebp": "/images/stories/gsa-claude-onegov-discount-640.webp 640w, /images/stories/gsa-claude-onegov-discount.webp 1280w",
     "srcsetAvif": "/images/stories/gsa-claude-onegov-discount-640.avif 640w, /images/stories/gsa-claude-onegov-discount.avif 1280w"
   },
@@ -754,7 +740,6 @@
   "/images/stories/super-intelligence-document-term.webp": {
     "width": 1280,
     "height": 720,
-    "pending": true,
     "srcsetWebp": "/images/stories/super-intelligence-document-term-640.webp 640w, /images/stories/super-intelligence-document-term.webp 1280w",
     "srcsetAvif": "/images/stories/super-intelligence-document-term-640.avif 640w, /images/stories/super-intelligence-document-term.avif 1280w"
   },

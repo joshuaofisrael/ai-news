@@ -9,7 +9,7 @@ tags:
   - regulation
   - government
 author: AI Headline Hub
-draft: true
+draft: false
 image:
   src: /images/stories/super-intelligence-document-term.webp
   alt: A closed bound volume and a face-down stack of papers on an empty wood desk, with no people, seals, flags, or readable text.
