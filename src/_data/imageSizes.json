@@ -215,6 +215,30 @@
     "srcsetWebp": "/images/inline/decisions-api-2-640.webp 640w, /images/inline/decisions-api-2.webp 1280w",
     "srcsetAvif": "/images/inline/decisions-api-2-640.avif 640w, /images/inline/decisions-api-2.avif 1280w"
   },
+  "/images/inline/gemini-4-carbon-1.webp": {
+    "width": 1280,
+    "height": 720,
+    "srcsetWebp": "/images/inline/gemini-4-carbon-1-640.webp 640w, /images/inline/gemini-4-carbon-1.webp 1280w",
+    "srcsetAvif": "/images/inline/gemini-4-carbon-1-640.avif 640w, /images/inline/gemini-4-carbon-1.avif 1280w"
+  },
+  "/images/inline/gemini-4-carbon-2.webp": {
+    "width": 1280,
+    "height": 720,
+    "srcsetWebp": "/images/inline/gemini-4-carbon-2-640.webp 640w, /images/inline/gemini-4-carbon-2.webp 1280w",
+    "srcsetAvif": "/images/inline/gemini-4-carbon-2-640.avif 640w, /images/inline/gemini-4-carbon-2.avif 1280w"
+  },
+  "/images/inline/genie-4-world-model-1.webp": {
+    "width": 1280,
+    "height": 720,
+    "srcsetWebp": "/images/inline/genie-4-world-model-1-640.webp 640w, /images/inline/genie-4-world-model-1.webp 1280w",
+    "srcsetAvif": "/images/inline/genie-4-world-model-1-640.avif 640w, /images/inline/genie-4-world-model-1.avif 1280w"
+  },
+  "/images/inline/genie-4-world-model-2.webp": {
+    "width": 1280,
+    "height": 720,
+    "srcsetWebp": "/images/inline/genie-4-world-model-2-640.webp 640w, /images/inline/genie-4-world-model-2.webp 1280w",
+    "srcsetAvif": "/images/inline/genie-4-world-model-2-640.avif 640w, /images/inline/genie-4-world-model-2.avif 1280w"
+  },
   "/images/inline/gpt-6-1-terra-1.webp": {
     "width": 1280,
     "height": 720,
@@ -310,6 +334,18 @@
     "height": 720,
     "srcsetWebp": "/images/inline/meta-95-billion-equity-plan-2-640.webp 640w, /images/inline/meta-95-billion-equity-plan-2.webp 1280w",
     "srcsetAvif": "/images/inline/meta-95-billion-equity-plan-2-640.avif 640w, /images/inline/meta-95-billion-equity-plan-2.avif 1280w"
+  },
+  "/images/inline/model-cards-2019-paper-1.webp": {
+    "width": 1280,
+    "height": 720,
+    "srcsetWebp": "/images/inline/model-cards-2019-paper-1-640.webp 640w, /images/inline/model-cards-2019-paper-1.webp 1280w",
+    "srcsetAvif": "/images/inline/model-cards-2019-paper-1-640.avif 640w, /images/inline/model-cards-2019-paper-1.avif 1280w"
+  },
+  "/images/inline/model-cards-2019-paper-2.webp": {
+    "width": 1280,
+    "height": 720,
+    "srcsetWebp": "/images/inline/model-cards-2019-paper-2-640.webp 640w, /images/inline/model-cards-2019-paper-2.webp 1280w",
+    "srcsetAvif": "/images/inline/model-cards-2019-paper-2-640.avif 640w, /images/inline/model-cards-2019-paper-2.avif 1280w"
   },
   "/images/inline/opal-optimizer-1.webp": {
     "width": 1280,
@@ -605,6 +641,18 @@
     "srcsetWebp": "/images/stories/decisions-api-640.webp 640w, /images/stories/decisions-api.webp 1280w",
     "srcsetAvif": "/images/stories/decisions-api-640.avif 640w, /images/stories/decisions-api.avif 1280w"
   },
+  "/images/stories/gemini-4-carbon.webp": {
+    "width": 1280,
+    "height": 720,
+    "srcsetWebp": "/images/stories/gemini-4-carbon-640.webp 640w, /images/stories/gemini-4-carbon.webp 1280w",
+    "srcsetAvif": "/images/stories/gemini-4-carbon-640.avif 640w, /images/stories/gemini-4-carbon.avif 1280w"
+  },
+  "/images/stories/genie-4-world-model.webp": {
+    "width": 1280,
+    "height": 720,
+    "srcsetWebp": "/images/stories/genie-4-world-model-640.webp 640w, /images/stories/genie-4-world-model.webp 1280w",
+    "srcsetAvif": "/images/stories/genie-4-world-model-640.avif 640w, /images/stories/genie-4-world-model.avif 1280w"
+  },
   "/images/stories/gpt-6-1-terra.webp": {
     "width": 1280,
     "height": 720,
@@ -652,6 +700,12 @@
     "height": 720,
     "srcsetWebp": "/images/stories/meta-95-billion-equity-plan-640.webp 640w, /images/stories/meta-95-billion-equity-plan.webp 1280w",
     "srcsetAvif": "/images/stories/meta-95-billion-equity-plan-640.avif 640w, /images/stories/meta-95-billion-equity-plan.avif 1280w"
+  },
+  "/images/stories/model-cards-2019-paper.webp": {
+    "width": 1280,
+    "height": 720,
+    "srcsetWebp": "/images/stories/model-cards-2019-paper-640.webp 640w, /images/stories/model-cards-2019-paper.webp 1280w",
+    "srcsetAvif": "/images/stories/model-cards-2019-paper-640.avif 640w, /images/stories/model-cards-2019-paper.avif 1280w"
   },
   "/images/stories/opal-optimizer.webp": {
     "width": 1280,

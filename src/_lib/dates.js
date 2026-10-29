@@ -55,3 +55,19 @@ export function thisYear() {
 export function plusDaysIso(days) {
   return DateTime.utc().plus({ days }).startOf("second").toISO({ suppressMilliseconds: false });
 }
+
+// Production builds omit a post until this instant. PUBLISH_AS_OF overrides the clock in tests.
+export function publishAsOfMs() {
+  const override = process.env.PUBLISH_AS_OF;
+  if (override) {
+    const parsed = new Date(override).getTime();
+    if (!Number.isNaN(parsed)) return parsed;
+  }
+  return Date.now();
+}
+
+export function isScheduledForLater(value) {
+  const date = toDate(value);
+  if (!date) return false;
+  return date.getTime() > publishAsOfMs();
+}

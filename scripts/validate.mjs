@@ -7,7 +7,7 @@ import site from "../src/_data/site.js";
 import categories from "../src/_data/categories.js";
 import topicHubs from "../src/_data/topicHubs.js";
 import explainerPages from "../src/_data/explainerPages.js";
-import { thisYear, utcPathDate } from "../src/_lib/dates.js";
+import { publishAsOfMs, thisYear, utcPathDate } from "../src/_lib/dates.js";
 import markdownIt from "markdown-it";
 import { runGate, checkPost, isHeld } from "./legal-hold.mjs";
 import { figureShortcode, installFigures } from "../src/_lib/figure.js";
@@ -435,6 +435,7 @@ if (postFiles.length < 3) fail(`Expected at least 3 articles, found ${postFiles.
 const recentUrls = [];
 const publishedTitles = [];
 let publishedCount = 0;
+const now = publishAsOfMs();
 for (const name of postFiles) {
   const raw = await readFile(path.join(postsDir, name), "utf8");
   const front = raw.match(/^---\r?\n([\s\S]*?)\r?\n---/);
@@ -464,14 +465,18 @@ for (const name of postFiles) {
   }
   const dateValue = (matter.match(/^date:\s*["']?([^"'\n]+)["']?\s*$/m) || [])[1];
   const date = dateValue ? new Date(dateValue) : null;
-  const isDraft = /^draft:\s*true\s*$/m.test(matter) || /^status:\s*["']?HOLD_REVIEW/m.test(matter);
+  const isScheduled = date && !Number.isNaN(date.getTime()) && date.getTime() > now;
+  const isDraft =
+    /^draft:\s*true\s*$/m.test(matter) ||
+    /^status:\s*["']?HOLD_REVIEW/m.test(matter) ||
+    isScheduled;
   if (!isDraft) {
     publishedCount += 1;
     const publishedTitle = (matter.match(/^title:\s*(.+)\s*$/m) || [])[1]?.replace(/^["']|["']$/g, "");
     if (publishedTitle) publishedTitles.push(publishedTitle);
   }
   if (!date || Number.isNaN(date.getTime())) fail(`${name} has an unreadable date`);
-  else if (!isDraft && Date.now() - date.getTime() <= site.newsSitemapHours * 60 * 60 * 1000) {
+  else if (!isDraft && now - date.getTime() <= site.newsSitemapHours * 60 * 60 * 1000) {
     const slug = name.replace(/\.md$/, "").replace(/^\d{4}-\d{2}-\d{2}-/, "");
     recentUrls.push(absoluteUrl(`/${utcPathDate(date)}/${slug}/`, site.url));
   }

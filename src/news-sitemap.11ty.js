@@ -1,5 +1,5 @@
 import { absoluteUrl } from "./_lib/urls.js";
-import { isoDate } from "./_lib/dates.js";
+import { isoDate, publishAsOfMs } from "./_lib/dates.js";
 import { xmlEscape } from "./_lib/xml.js";
 
 export const data = {
@@ -10,8 +10,11 @@ export const data = {
 export function render(data) {
   const site = data.site;
   const hours = site.newsSitemapHours || 48;
-  const cutoff = Date.now() - hours * 60 * 60 * 1000;
-  const posts = (data.collections.posts || []).filter((post) => post.date && post.date.getTime() >= cutoff);
+  const now = publishAsOfMs();
+  const cutoff = now - hours * 60 * 60 * 1000;
+  const posts = (data.collections.posts || []).filter(
+    (post) => post.date && post.date.getTime() >= cutoff && post.date.getTime() <= now,
+  );
   const entries = posts
     .map((post) => {
       return `  <url>

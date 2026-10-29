@@ -13,6 +13,7 @@ import {
 } from "./src/_lib/urls.js";
 import {
   isoDate,
+  isScheduledForLater,
   monthKey,
   monthLabel,
   plusDaysIso,
@@ -183,17 +184,24 @@ export default function (eleventyConfig) {
       .replaceAll(">", "&gt;"),
   );
 
+  const previewing = process.env.ELEVENTY_RUN_MODE === "serve";
+  const isPublicPost = (item) => {
+    if (item.data.draft === true || item.data.status === "HOLD_REVIEW") return false;
+    if (previewing) return true;
+    return !isScheduledForLater(item.date);
+  };
+
   eleventyConfig.addCollection("posts", (api) => {
     return api
       .getFilteredByTag("post")
-      .filter((item) => item.data.draft !== true && item.data.status !== "HOLD_REVIEW")
+      .filter((item) => isPublicPost(item))
       .sort((a, b) => b.date - a.date);
   });
 
   eleventyConfig.addCollection("tagList", (api) => {
     const tags = new Set();
     for (const post of api.getFilteredByTag("post")) {
-      if (post.data.draft === true || post.data.status === "HOLD_REVIEW") continue;
+      if (!isPublicPost(post)) continue;
       for (const tag of post.data.tags || []) {
         if (!["post", "page"].includes(tag)) tags.add(tag);
       }

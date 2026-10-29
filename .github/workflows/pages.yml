@@ -5,6 +5,13 @@ on:
     branches: ["main"]
   pull_request:
   workflow_dispatch:
+  schedule:
+    # 29 Oct 2026 is GMT (London UTC+0). Each run rebuilds Pages.
+    # A post whose date is still in the future stays out of that build.
+    # GitHub may start a scheduled run a few minutes after the cron time.
+    - cron: "0 11 29 10 *"
+    - cron: "0 15 29 10 *"
+    - cron: "0 19 29 10 *"
 
 permissions:
   contents: read
@@ -37,17 +44,17 @@ jobs:
         run: npm test
 
       - name: Configure GitHub Pages
-        if: github.ref == 'refs/heads/main' && github.event_name == 'push'
+        if: github.ref == 'refs/heads/main' && (github.event_name == 'push' || github.event_name == 'schedule' || github.event_name == 'workflow_dispatch')
         uses: actions/configure-pages@v5
 
       - name: Upload Pages artifact
-        if: github.ref == 'refs/heads/main' && github.event_name == 'push'
+        if: github.ref == 'refs/heads/main' && (github.event_name == 'push' || github.event_name == 'schedule' || github.event_name == 'workflow_dispatch')
         uses: actions/upload-pages-artifact@v3
         with:
           path: _site
 
   deploy:
-    if: github.ref == 'refs/heads/main' && github.event_name == 'push'
+    if: github.ref == 'refs/heads/main' && (github.event_name == 'push' || github.event_name == 'schedule' || github.event_name == 'workflow_dispatch')
     needs: build
     runs-on: ubuntu-latest
     permissions:

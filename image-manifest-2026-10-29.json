@@ -1,0 +1,81 @@
+{
+  "date": "2026-10-29",
+  "aspect_ratio": "16:9",
+  "credit": "Image: AI Headline Hub",
+  "licence": "AI Headline Hub",
+  "notes": "JPEG masters are 1280x720 photorealistic photographs generated for this site. No people, logos, or readable text. No AI-generated label in alt text or captions. House rule of 23 Oct: article HTML must not contain the phrase AI-generated image. Posts are dated 11:00, 15:00, and 19:00 UTC on 29 Oct 2026 and stay out of production builds until that time.",
+  "images": [
+    {
+      "article": "Google: Gemini 4 Carbon scores 59 on the new index",
+      "slug": "gemini-4-carbon",
+      "role": "hero",
+      "master_path": "src/assets/photos/stories/gemini-4-carbon.jpg",
+      "public_path": "/images/stories/gemini-4-carbon.webp",
+      "alt": "An empty server-room aisle lined with dark racks and small status lights, with no people, logos, or readable labels."
+    },
+    {
+      "article": "Google: Gemini 4 Carbon scores 59 on the new index",
+      "slug": "gemini-4-carbon",
+      "role": "inline",
+      "master_path": "src/assets/photos/inline/gemini-4-carbon-1.jpg",
+      "public_path": "/images/inline/gemini-4-carbon-1.webp",
+      "alt": "Black network cables plugged into an unlabeled metal panel in a rack, with no people, logos, or readable tags."
+    },
+    {
+      "article": "Google: Gemini 4 Carbon scores 59 on the new index",
+      "slug": "gemini-4-carbon",
+      "role": "inline",
+      "master_path": "src/assets/photos/inline/gemini-4-carbon-2.jpg",
+      "public_path": "/images/inline/gemini-4-carbon-2.webp",
+      "alt": "A powered-off monitor and a plain keyboard on an empty desk at night, with no people, logos, or readable screens."
+    },
+    {
+      "article": "DeepMind previews Genie 4, a world model with its own sound",
+      "slug": "genie-4-world-model",
+      "role": "hero",
+      "master_path": "src/assets/photos/stories/genie-4-world-model.jpg",
+      "public_path": "/images/stories/genie-4-world-model.webp",
+      "alt": "An empty sound stage with a blank dark screen, a camera on a tripod, and headphones on a stool, and no people, logos, or readable text."
+    },
+    {
+      "article": "DeepMind previews Genie 4, a world model with its own sound",
+      "slug": "genie-4-world-model",
+      "role": "inline",
+      "master_path": "src/assets/photos/inline/genie-4-world-model-1.jpg",
+      "public_path": "/images/inline/genie-4-world-model-1.webp",
+      "alt": "Closed headphones and a plain gray speaker on a wood table, with no people, logos, or readable marks."
+    },
+    {
+      "article": "DeepMind previews Genie 4, a world model with its own sound",
+      "slug": "genie-4-world-model",
+      "role": "inline",
+      "master_path": "src/assets/photos/inline/genie-4-world-model-2.jpg",
+      "public_path": "/images/inline/genie-4-world-model-2.webp",
+      "alt": "A small unbranded robot arm folded on a steel bench in an empty lab, with no people, logos, or readable screens."
+    },
+    {
+      "article": "Model cards: the short record a 2019 paper asked labs to ship",
+      "slug": "model-cards-2019-paper",
+      "role": "hero",
+      "master_path": "src/assets/photos/stories/model-cards-2019-paper.jpg",
+      "public_path": "/images/stories/model-cards-2019-paper.webp",
+      "alt": "A closed folder, a stack of blank cards, and a closed notebook on a wood desk, with no people, logos, or readable writing."
+    },
+    {
+      "article": "Model cards: the short record a 2019 paper asked labs to ship",
+      "slug": "model-cards-2019-paper",
+      "role": "inline",
+      "master_path": "src/assets/photos/inline/model-cards-2019-paper-1.jpg",
+      "public_path": "/images/inline/model-cards-2019-paper-1.webp",
+      "alt": "An open filing drawer of plain folders with the tabs turned away, in an empty archive room, with no people or readable labels."
+    },
+    {
+      "article": "Model cards: the short record a 2019 paper asked labs to ship",
+      "slug": "model-cards-2019-paper",
+      "role": "inline",
+      "master_path": "src/assets/photos/inline/model-cards-2019-paper-2.jpg",
+      "public_path": "/images/inline/model-cards-2019-paper-2.webp",
+      "alt": "A blank index card and a plain wooden pencil on an oak table, with no writing, people, or logos."
+    }
+  ]
+}

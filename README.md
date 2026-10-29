@@ -59,7 +59,7 @@ sources:
 | --- | --- | --- |
 | `title` | yes | Headline and `NewsArticle` title. Do not append the site name. |
 | `description` | yes | Unique summary. Also the meta description, social description, and standfirst. |
-| `date` | yes | ISO 8601. This is the published time. The permalink date is the UTC calendar date. |
+| `date` | yes | ISO 8601. This is the published time. The permalink date is the UTC calendar date. A time still in the future is omitted from production builds, the homepage, feeds, both sitemaps, and `llms.txt`. The next production build after that time includes it. `npm start` still shows it. |
 | `updated` | no | ISO 8601. Shown when it differs from `date`. |
 | `category` | yes | One of `models-research`, `industry-business`, `policy-regulation`, `tools-products`, `funding`. |
 | `tags` | yes | Lowercase slugs. Do not include `post`. |
@@ -208,7 +208,7 @@ Cloudflare Web Analytics loads from `cfBeaconToken` in [`src/_data/site.js`](src
 
 ## Deploy
 
-[`.github/workflows/pages.yml`](.github/workflows/pages.yml) builds on pull requests and on pushes to `main`. A push to `main` uploads the `_site` artifact and deploys it with GitHub’s Pages actions. The Pages source is GitHub Actions, not a branch.
+[`.github/workflows/pages.yml`](.github/workflows/pages.yml) builds on pull requests and on pushes to `main`. A push to `main` uploads the `_site` artifact and deploys it with GitHub’s Pages actions. The Pages source is GitHub Actions, not a branch. The same workflow also rebuilds and deploys `main` at 11:00, 15:00, and 19:00 UTC on 29 October, so a story dated for one of those times goes out on that run and not before. GitHub may start the job a few minutes late. `workflow_dispatch` can redeploy `main` the same way.
 
 The project URL is `https://joshuaofisrael.github.io/ai-news/`. After the custom domain is active, GitHub redirects that URL to `https://aiheadlinehub.com/`.
 
