@@ -39,7 +39,7 @@ On security, the post says the service uses Titanium, which Google calls an offl
 
 Those are design claims in a product blog. Google did not publish an outside security review with the post. Gautham Thambidorai, a Google fellow who works on Gemini, is quoted saying the microVMs supply the responsiveness, hardware isolation, and density needed to offer interactive sandboxes worldwide. That sentence describes Google’s own use.
 
-{% figure "/images/inline/agent-compute-engine-2.webp", "A Kubernetes-style cluster diagram drawn on a glass wall in a real office, photographed so the writing is out of focus.", "A separate open-source runtime, Agent Substrate, is aimed at teams that already run Kubernetes." %}
+{% figure "/images/inline/agent-compute-engine-2.webp", "Stacked network switches with green status lights on a shelf beside a frosted glass partition in a quiet office.", "A separate open-source runtime, Agent Substrate, is aimed at teams that already run Kubernetes." %}
 
 ## A Kubernetes path, with Google’s own benchmark
 
