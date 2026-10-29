@@ -45,7 +45,7 @@ Since the public beta, OpenAI says it has added a native GPT-Live integration, p
 
 OpenAI states the rate in the same post: $0.10 per million input tokens, and $0.01 per million for cached input. It says customers pay only for input tokens. There is no output-token charge. The post points to a pricing guide for 30-minute and 12-hour cached writes, and it says Zero Data Retention is available to eligible customers. Those rates are what the company published on October 22. They can change, and this is not a recommendation to buy the product.
 
-{% figure "/images/inline/decisions-api-2.webp", "A printed invoice and a calculator on a glass desk beside a dark monitor, with no readable company names.", "The listed price is input tokens only, including a lower rate for cached input." %}
+{% figure "/images/inline/decisions-api-2.webp", "A closed laptop, a calculator, a small stack of coins and a blank sheet on a glass desk by a window.", "The listed price is input tokens only, including a lower rate for cached input." %}
 
 ## What customers said in OpenAI’s post
 
