@@ -1,0 +1,49 @@
+{
+  "date": "2026-10-30",
+  "aspect_ratio": "16:9",
+  "credit": "Image: AI Headline Hub",
+  "licence": "AI Headline Hub",
+  "notes": "JPEG masters are 1280x720 photorealistic photographs generated for this site, replacing the reused heroes on the five 30 Oct 2026 posts. No people, logos, or readable text. No AI-generated label in alt text or captions. Hero only; no inline images.",
+  "images": [
+    {
+      "article": "OpenAI details four layers that watch its own agents",
+      "slug": "openai-misalignment-monitoring-layers",
+      "role": "hero",
+      "master_path": "src/assets/photos/stories/openai-misalignment-monitoring-layers.jpg",
+      "public_path": "/images/stories/openai-misalignment-monitoring-layers.webp",
+      "alt": "A row of dark monitors in a quiet operations room showing glowing node-and-link network graphs, with no people, logos, or readable text."
+    },
+    {
+      "article": "OpenAI rebuilds its Model Spec around five values",
+      "slug": "openai-model-spec-five-values",
+      "role": "hero",
+      "master_path": "src/assets/photos/stories/openai-model-spec-five-values.jpg",
+      "public_path": "/images/stories/openai-model-spec-five-values.webp",
+      "alt": "Five smooth stones lined up across the blank pages of an open leather notebook on a sunlit wooden desk, with no people, logos, or readable text."
+    },
+    {
+      "article": "Canada plans up to C$1.6 billion stake in Cohere",
+      "slug": "canada-cohere-equity-stake",
+      "role": "hero",
+      "master_path": "src/assets/photos/stories/canada-cohere-equity-stake.jpg",
+      "public_path": "/images/stories/canada-cohere-equity-stake.webp",
+      "alt": "A long data-centre hall of server racks beside tall windows looking out on snow-covered trees at dusk, with no people, flags, logos, or readable labels."
+    },
+    {
+      "article": "NVIDIA opens a speech model that names who spoke",
+      "slug": "nvidia-nemotron-transcribe",
+      "role": "hero",
+      "master_path": "src/assets/photos/stories/nvidia-nemotron-transcribe.jpg",
+      "public_path": "/images/stories/nvidia-nemotron-transcribe.webp",
+      "alt": "A studio microphone beside a laptop showing two coloured audio waveforms on a wooden desk, with no people, logos, or readable text."
+    },
+    {
+      "article": "Mistral releases the weights of Mistral Large 4",
+      "slug": "mistral-large-4-open-weights",
+      "role": "hero",
+      "master_path": "src/assets/photos/stories/mistral-large-4-open-weights.jpg",
+      "public_path": "/images/stories/mistral-large-4-open-weights.webp",
+      "alt": "Dense GPU server racks glowing with blue and amber lights in a dark, hazy compute hall, with no people, logos, or readable labels."
+    }
+  ]
+}

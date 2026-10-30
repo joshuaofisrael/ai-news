@@ -12,10 +12,10 @@ tags:
 author: AI Headline Hub
 draft: false
 image:
-  src: /images/stories/lula-brazil-ai-data-centers.webp
-  alt: An empty data-hall aisle with dark racks, a side window, and no people, flags, logos, or readable labels.
+  src: /images/stories/canada-cohere-equity-stake.webp
+  alt: A long data-centre hall of server racks beside tall windows looking out on snow-covered trees at dusk, with no people, flags, logos, or readable labels.
   credit: "Image: AI Headline Hub"
-  source_url: https://github.com/joshuaofisrael/ai-news/blob/main/src/assets/photos/stories/lula-brazil-ai-data-centers.jpg
+  source_url: https://github.com/joshuaofisrael/ai-news/blob/main/src/assets/photos/stories/canada-cohere-equity-stake.jpg
   licence: AI Headline Hub
   width: 1280
   height: 720

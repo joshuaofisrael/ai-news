@@ -12,10 +12,10 @@ tags:
 author: AI Headline Hub
 draft: false
 image:
-  src: /images/stories/openai-monitoring-report.webp
-  alt: An empty security-operations desk with dark monitors and a single amber indicator, and no people or readable screens.
+  src: /images/stories/openai-misalignment-monitoring-layers.webp
+  alt: A row of dark monitors in a quiet operations room showing glowing node-and-link network graphs, with no people, logos, or readable text.
   credit: "Image: AI Headline Hub"
-  source_url: https://github.com/joshuaofisrael/ai-news/blob/main/src/assets/photos/stories/openai-monitoring-report.jpg
+  source_url: https://github.com/joshuaofisrael/ai-news/blob/main/src/assets/photos/stories/openai-misalignment-monitoring-layers.jpg
   licence: AI Headline Hub
   width: 1280
   height: 720

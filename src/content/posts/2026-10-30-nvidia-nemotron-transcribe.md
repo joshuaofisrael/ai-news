@@ -12,10 +12,10 @@ tags:
 author: AI Headline Hub
 draft: false
 image:
-  src: /images/stories/block-dessa-speech.webp
-  alt: A wooden desk with a microphone, closed headphones, and a shut laptop, and no people, logos, or readable screens.
+  src: /images/stories/nvidia-nemotron-transcribe.webp
+  alt: A studio microphone beside a laptop showing two coloured audio waveforms on a wooden desk, with no people, logos, or readable text.
   credit: "Image: AI Headline Hub"
-  source_url: https://github.com/joshuaofisrael/ai-news/blob/main/src/assets/photos/stories/block-dessa-speech.jpg
+  source_url: https://github.com/joshuaofisrael/ai-news/blob/main/src/assets/photos/stories/nvidia-nemotron-transcribe.jpg
   licence: AI Headline Hub
   width: 1280
   height: 720
