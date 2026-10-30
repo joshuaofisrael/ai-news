@@ -12,10 +12,10 @@ tags:
 author: AI Headline Hub
 draft: false
 image:
-  src: /images/stories/openai-training-offline.webp
-  alt: An empty compute aisle with dense servers, dark status lamps, and no people, logos, or readable asset tags.
+  src: /images/stories/mistral-large-4-open-weights.webp
+  alt: Dense GPU server racks glowing with blue and amber lights in a dark, hazy compute hall, with no people, logos, or readable labels.
   credit: "Image: AI Headline Hub"
-  source_url: https://github.com/joshuaofisrael/ai-news/blob/main/src/assets/photos/stories/openai-training-offline.jpg
+  source_url: https://github.com/joshuaofisrael/ai-news/blob/main/src/assets/photos/stories/mistral-large-4-open-weights.jpg
   licence: AI Headline Hub
   width: 1280
   height: 720

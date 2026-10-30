@@ -611,6 +611,12 @@
     "srcsetWebp": "/images/stories/cadence-nvidia-maestro-chip-models-640.webp 640w, /images/stories/cadence-nvidia-maestro-chip-models.webp 1280w",
     "srcsetAvif": "/images/stories/cadence-nvidia-maestro-chip-models-640.avif 640w, /images/stories/cadence-nvidia-maestro-chip-models.avif 1280w"
   },
+  "/images/stories/canada-cohere-equity-stake.webp": {
+    "width": 1280,
+    "height": 720,
+    "srcsetWebp": "/images/stories/canada-cohere-equity-stake-640.webp 640w, /images/stories/canada-cohere-equity-stake.webp 1280w",
+    "srcsetAvif": "/images/stories/canada-cohere-equity-stake-640.avif 640w, /images/stories/canada-cohere-equity-stake.avif 1280w"
+  },
   "/images/stories/china-ai-employment.webp": {
     "width": 1280,
     "height": 720,
@@ -701,11 +707,23 @@
     "srcsetWebp": "/images/stories/meta-95-billion-equity-plan-640.webp 640w, /images/stories/meta-95-billion-equity-plan.webp 1280w",
     "srcsetAvif": "/images/stories/meta-95-billion-equity-plan-640.avif 640w, /images/stories/meta-95-billion-equity-plan.avif 1280w"
   },
+  "/images/stories/mistral-large-4-open-weights.webp": {
+    "width": 1280,
+    "height": 720,
+    "srcsetWebp": "/images/stories/mistral-large-4-open-weights-640.webp 640w, /images/stories/mistral-large-4-open-weights.webp 1280w",
+    "srcsetAvif": "/images/stories/mistral-large-4-open-weights-640.avif 640w, /images/stories/mistral-large-4-open-weights.avif 1280w"
+  },
   "/images/stories/model-cards-2019-paper.webp": {
     "width": 1280,
     "height": 720,
     "srcsetWebp": "/images/stories/model-cards-2019-paper-640.webp 640w, /images/stories/model-cards-2019-paper.webp 1280w",
     "srcsetAvif": "/images/stories/model-cards-2019-paper-640.avif 640w, /images/stories/model-cards-2019-paper.avif 1280w"
+  },
+  "/images/stories/nvidia-nemotron-transcribe.webp": {
+    "width": 1280,
+    "height": 720,
+    "srcsetWebp": "/images/stories/nvidia-nemotron-transcribe-640.webp 640w, /images/stories/nvidia-nemotron-transcribe.webp 1280w",
+    "srcsetAvif": "/images/stories/nvidia-nemotron-transcribe-640.avif 640w, /images/stories/nvidia-nemotron-transcribe.avif 1280w"
   },
   "/images/stories/opal-optimizer.webp": {
     "width": 1280,
@@ -718,6 +736,18 @@
     "height": 720,
     "srcsetWebp": "/images/stories/openai-google-cloud-640.webp 640w, /images/stories/openai-google-cloud.webp 1280w",
     "srcsetAvif": "/images/stories/openai-google-cloud-640.avif 640w, /images/stories/openai-google-cloud.avif 1280w"
+  },
+  "/images/stories/openai-misalignment-monitoring-layers.webp": {
+    "width": 1280,
+    "height": 720,
+    "srcsetWebp": "/images/stories/openai-misalignment-monitoring-layers-640.webp 640w, /images/stories/openai-misalignment-monitoring-layers.webp 1280w",
+    "srcsetAvif": "/images/stories/openai-misalignment-monitoring-layers-640.avif 640w, /images/stories/openai-misalignment-monitoring-layers.avif 1280w"
+  },
+  "/images/stories/openai-model-spec-five-values.webp": {
+    "width": 1280,
+    "height": 720,
+    "srcsetWebp": "/images/stories/openai-model-spec-five-values-640.webp 640w, /images/stories/openai-model-spec-five-values.webp 1280w",
+    "srcsetAvif": "/images/stories/openai-model-spec-five-values-640.avif 640w, /images/stories/openai-model-spec-five-values.avif 1280w"
   },
   "/images/stories/openai-monitoring-report.webp": {
     "width": 1280,

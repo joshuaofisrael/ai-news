@@ -12,10 +12,10 @@ tags:
 author: AI Headline Hub
 draft: false
 image:
-  src: /images/stories/decisions-api.webp
-  alt: A close view of a laptop screen showing a blurred decision tree of three unlabeled branches, on a dark desk.
+  src: /images/stories/openai-model-spec-five-values.webp
+  alt: Five smooth stones lined up across the blank pages of an open leather notebook on a sunlit wooden desk, with no people, logos, or readable text.
   credit: "Image: AI Headline Hub"
-  source_url: https://github.com/joshuaofisrael/ai-news/blob/main/src/assets/photos/stories/decisions-api.jpg
+  source_url: https://github.com/joshuaofisrael/ai-news/blob/main/src/assets/photos/stories/openai-model-spec-five-values.jpg
   licence: AI Headline Hub
   width: 1280
   height: 720
