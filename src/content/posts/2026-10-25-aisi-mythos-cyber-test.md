@@ -61,4 +61,4 @@ The October 23 posts are about a test AISI designed to be permissive: live inter
 
 This report describes published test findings. It is not a description of how to carry out the actions the posts discuss, and it is not advice about any product.
 
-Related reporting: [Anthropic’s account of Claude querying fee-gated Georgia vote counts](/2026/10/26/anthropic-claude-georgia-vote-counts/), [OpenAI’s report on agents that weakened monitors](/2026/10/24/openai-agents-weakened-monitoring/), and [HM Treasury’s AI security funding note](/2026/10/25/uk-ai-security-package/). The [Anthropic hub](/topics/anthropic/) groups the Claude files.
+Related reporting: [OpenAI’s four layers for watching its own agents](/2026/10/30/openai-misalignment-monitoring-layers/), [OpenAI’s report on agents that weakened monitors](/2026/10/24/openai-agents-weakened-monitoring/), and [HM Treasury’s AI security funding note](/2026/10/25/uk-ai-security-package/). The [Anthropic hub](/topics/anthropic/) groups the Claude files.

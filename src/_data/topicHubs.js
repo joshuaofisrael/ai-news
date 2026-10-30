@@ -9,7 +9,7 @@ const topicHubs = [
     explainers: ["what-is-a-large-language-model", "what-is-an-ai-agent", "what-agi-means"],
     intro: `This page groups AI Headline Hub’s stories about OpenAI. It is an index of that reporting. A claim is sourced on the story itself.
 
-The newest files are the [GPT-6.1 Terra release](/2026/10/27/gpt-6-1-terra/) and [three claimed proofs](/2026/10/27/openai-science-claims/) the company has asked outside specialists to check. Also here: the [account of frontier training without the live internet](/2026/10/25/openai-frontier-training-offline/) and the [report on two agents that weakened internal monitors](/2026/10/24/openai-agents-weakened-monitoring/).
+The newest files are [OpenAI’s rebuilt Model Spec, now grouped under five values](/2026/10/30/openai-model-spec-five-values/) and [its account of four layers that watch its own agents](/2026/10/30/openai-misalignment-monitoring-layers/). Earlier: the [GPT-6.1 Terra release](/2026/10/27/gpt-6-1-terra/) and [three claimed proofs](/2026/10/27/openai-science-claims/) the company has asked outside specialists to check. Also here: the [account of frontier training without the live internet](/2026/10/25/openai-frontier-training-offline/) and the [report on two agents that weakened internal monitors](/2026/10/24/openai-agents-weakened-monitoring/).
 
 [What is a large language model?](/explainers/what-is-a-large-language-model/), [What is an AI agent?](/explainers/what-is-an-ai-agent/), and [What does AGI mean?](/explainers/what-agi-means/) define three words that show up in that coverage, with the documents linked on those pages.`,
   },
@@ -17,13 +17,13 @@ The newest files are the [GPT-6.1 Terra release](/2026/10/27/gpt-6-1-terra/) and
     slug: "anthropic",
     title: "Anthropic reporting",
     description:
-      "AI Headline Hub’s reporting on Anthropic: the S-1 filing, Claude Duet, a UK AISI cyber test, and Georgia vote-count queries. Each story links its source.",
+      "AI Headline Hub’s reporting on Anthropic: the S-1 filing, a GSA deal, an analyst study, Claude Duet, and a UK AISI cyber test. Sources linked.",
     matchTags: ["anthropic"],
     extraSlugs: [],
     explainers: ["what-is-an-ai-agent", "what-is-a-large-language-model"],
     intro: `This page groups AI Headline Hub’s stories about Anthropic. It is an index. A claim is sourced on the story itself.
 
-The newest file is [Anthropic’s S-1](/2026/10/26/anthropic-files-s1-ipo/), the registration statement for a proposed Nasdaq listing. Also here: [Anthropic’s account, reported by Axios and Reuters, that Claude queried fee-gated Georgia vote counts](/2026/10/26/anthropic-claude-georgia-vote-counts/), the [UK AISI and Anthropic write-ups of a July cyber test](/2026/10/25/aisi-mythos-cyber-test/), and the [Claude Duet preview](/2026/10/21/anthropic-opens-claude-duet-research-preview/).
+The newest files are [an Anthropic study in which analysts using Claude Code followed an agent’s hidden lean](/2026/10/28/anthropic-analysts-follow-agent-lean/) and [GSA’s OneGov agreement that discounts Claude tokens by 40%](/2026/10/28/gsa-claude-onegov-discount/). Also here: [Anthropic’s S-1](/2026/10/26/anthropic-files-s1-ipo/), the registration statement for a proposed Nasdaq listing, the [UK AISI and Anthropic write-ups of a July cyber test](/2026/10/25/aisi-mythos-cyber-test/), and the [Claude Duet preview](/2026/10/21/anthropic-opens-claude-duet-research-preview/).
 
 [What is an AI agent?](/explainers/what-is-an-ai-agent/) and [What is a large language model?](/explainers/what-is-a-large-language-model/) define two labels that show up beside the Claude name. The documents those pages use are linked there.`,
   },
@@ -37,7 +37,7 @@ The newest file is [Anthropic’s S-1](/2026/10/26/anthropic-files-s1-ipo/), the
     explainers: ["what-agi-means", "what-is-an-ai-agent", "what-is-a-large-language-model"],
     intro: `This page groups AI Headline Hub’s stories about Google and DeepMind. It is an index. A claim is sourced on the story itself.
 
-The files are [Demis Hassabis’s interview estimate of two to three years for AGI](/2026/10/23/hassabis-moves-agi-estimate-closer/), [Google Cloud’s Agent Compute Engine preview](/2026/10/23/google-cloud-agent-compute-engine/), and the [plan to offer OpenAI frontier models and Codex on Google Cloud](/2026/10/21/openai-models-coming-to-google-cloud/).
+The newest files are [Google’s Gemini 4 Carbon score on Intelligence Index v5](/2026/10/29/gemini-4-carbon/) and [DeepMind’s Genie 4 world-model preview](/2026/10/29/genie-4-world-model/). Earlier files are [Demis Hassabis’s interview estimate of two to three years for AGI](/2026/10/23/hassabis-moves-agi-estimate-closer/), [Google Cloud’s Agent Compute Engine preview](/2026/10/23/google-cloud-agent-compute-engine/), and the [plan to offer OpenAI frontier models and Codex on Google Cloud](/2026/10/21/openai-models-coming-to-google-cloud/).
 
 [What does AGI mean?](/explainers/what-agi-means/) lines up published definitions, including a DeepMind paper. [What is an AI agent?](/explainers/what-is-an-ai-agent/) and [What is a large language model?](/explainers/what-is-a-large-language-model/) are the neighboring labels.`,
   },
@@ -51,7 +51,7 @@ The files are [Demis Hassabis’s interview estimate of two to three years for A
     explainers: ["what-is-an-ai-agent", "what-is-a-large-language-model"],
     intro: `Product posts do not use “agent” in only one way. [What is an AI agent?](/explainers/what-is-an-ai-agent/) compares a distinction Anthropic published with the way recent product announcements use the word. [What is a large language model?](/explainers/what-is-a-large-language-model/) is the neighboring label.
 
-Stories linked below include [Cadence and Nvidia’s Maestro models for chip-design agents](/2026/10/26/cadence-nvidia-maestro-chip-models/), [Oracle’s Deep Trust stack for database agents](/2026/10/26/oracle-deep-trust-ai-architecture/), [Anthropic’s account of Claude querying fee-gated Georgia vote counts](/2026/10/26/anthropic-claude-georgia-vote-counts/), the [Claude Duet preview](/2026/10/21/anthropic-opens-claude-duet-research-preview/), [Google Cloud’s Agent Compute Engine](/2026/10/23/google-cloud-agent-compute-engine/), and [OPAL](/2026/10/23/opal-agent-rewrites-optimizer-during-training/), which lets a coding agent edit optimizer code during a training run.`,
+Stories linked below include [Cadence and Nvidia’s Maestro models for chip-design agents](/2026/10/26/cadence-nvidia-maestro-chip-models/), [Oracle’s Deep Trust stack for database agents](/2026/10/26/oracle-deep-trust-ai-architecture/), [OpenAI’s four layers for watching its own agents](/2026/10/30/openai-misalignment-monitoring-layers/), the [Claude Duet preview](/2026/10/21/anthropic-opens-claude-duet-research-preview/), [Google Cloud’s Agent Compute Engine](/2026/10/23/google-cloud-agent-compute-engine/), and [OPAL](/2026/10/23/opal-agent-rewrites-optimizer-during-training/), which lets a coding agent edit optimizer code during a training run.`,
   },
   {
     slug: "ai-safety",
@@ -63,7 +63,7 @@ Stories linked below include [Cadence and Nvidia’s Maestro models for chip-des
     explainers: ["what-is-an-ai-agent", "what-is-an-open-weight-model"],
     intro: `This page groups two kinds of stories: lab write-ups about safety tests, and security funding or software patches this desk has covered. A company’s post is that company’s account unless another institution also publishes one.
 
-The newest file is [Cohere’s account of a Qwen model that tried a blocked upload in a sandbox](/2026/10/27/cohere-qwen-sandbox-report/). Cohere calls that model open-weight. [What is an open-weight model?](/explainers/what-is-an-open-weight-model/) says how two documents use the nearby words. Also here: [Anthropic’s October 25 account of a Georgia vote-count query](/2026/10/26/anthropic-claude-georgia-vote-counts/), the [UK AISI and Anthropic accounts of a July cyber test](/2026/10/25/aisi-mythos-cyber-test/), [OpenAI’s report on agents that weakened monitors](/2026/10/24/openai-agents-weakened-monitoring/), and [HM Treasury’s note on AI security funding](/2026/10/25/uk-ai-security-package/).`,
+The newest file is [Cohere’s account of a Qwen model that tried a blocked upload in a sandbox](/2026/10/27/cohere-qwen-sandbox-report/). Cohere calls that model open-weight. [What is an open-weight model?](/explainers/what-is-an-open-weight-model/) says how two documents use the nearby words. Also here: [OpenAI’s account of four layers that watch its own agents](/2026/10/30/openai-misalignment-monitoring-layers/), the [UK AISI and Anthropic accounts of a July cyber test](/2026/10/25/aisi-mythos-cyber-test/), [OpenAI’s report on agents that weakened monitors](/2026/10/24/openai-agents-weakened-monitoring/), and [HM Treasury’s note on AI security funding](/2026/10/25/uk-ai-security-package/).`,
   },
   {
     slug: "ai-policy",
@@ -75,7 +75,7 @@ The newest file is [Cohere’s account of a Qwen model that tried a blocked uplo
     explainers: [],
     intro: `This page groups rules, proposals, polls, and investment announcements. It does not offer legal or financial advice. The documents are linked from each story.
 
-The newest policy file is [a BBC News essay on AI tools in policing](/2026/10/27/bbc-ai-policing-feedback/). October 26 capital files include [Anthropic’s S-1](/2026/10/26/anthropic-files-s1-ipo/), [Meta’s stock sale](/2026/10/26/meta-95-billion-equity-plan/), and [Anwar’s account of a SoftBank plan for Malaysia](/2026/10/26/softbank-malaysia-ai-investment/). Also filed here: [Lula’s pledge on a Brazilian AI system and data centers](/2026/10/26/lula-brazil-ai-data-centers/), [China’s 18-task employment opinion](/2026/10/25/china-ai-employment-guidelines/), the [U.S. Treasury’s proposed outbound-investment rule](/2026/10/24/treasury-outbound-investment-ai-rule/), and a [Washington Post-ABC-Ipsos poll](/2026/10/23/americans-say-ai-bad-for-society-oppose-data-centers/) on AI and data centers.`,
+The newest policy files are [Canada’s plan for an equity stake of up to about C$1.6 billion in Cohere](/2026/10/30/canada-cohere-equity-stake/) and [GSA’s OneGov agreement for Claude](/2026/10/28/gsa-claude-onegov-discount/). October 26 capital files include [Anthropic’s S-1](/2026/10/26/anthropic-files-s1-ipo/), [Meta’s stock sale](/2026/10/26/meta-95-billion-equity-plan/), and [Anwar’s account of a SoftBank plan for Malaysia](/2026/10/26/softbank-malaysia-ai-investment/). Also filed here: [Lula’s pledge on a Brazilian AI system and data centers](/2026/10/26/lula-brazil-ai-data-centers/), [China’s 18-task employment opinion](/2026/10/25/china-ai-employment-guidelines/), the [U.S. Treasury’s proposed outbound-investment rule](/2026/10/24/treasury-outbound-investment-ai-rule/), and a [Washington Post-ABC-Ipsos poll](/2026/10/23/americans-say-ai-bad-for-society-oppose-data-centers/) on AI and data centers.`,
   },
   {
     slug: "ai-and-work",
@@ -105,13 +105,13 @@ The newest files are [Elon Musk’s statement, via Reuters, that SpaceX closed $
     slug: "open-models",
     title: "Open-weight and open-source AI",
     description:
-      "AI Headline Hub’s reporting on open-weight models and open-source software, including a Cohere note on Qwen and a Linux Foundation developer survey.",
+      "AI Headline Hub’s reporting on open-weight models and open-source software, including Mistral Large 4, NVIDIA’s Nemotron Transcribe, and a Cohere note on Qwen.",
     matchTags: ["open-source", "open-weight"],
     extraSlugs: [],
     explainers: ["what-is-an-open-weight-model", "what-is-a-large-language-model"],
     intro: `These files use “open” for different things. [What is an open-weight model?](/explainers/what-is-an-open-weight-model/) compares a 2024 NTIA report with the Open Source Initiative’s definition. [What is a large language model?](/explainers/what-is-a-large-language-model/) is the training term, not a release term.
 
-[Cohere’s October 26 post on a Qwen model](/2026/10/27/cohere-qwen-sandbox-report/) uses “open-weight” for the system it tested. The [Linux Foundation survey](/2026/10/23/linux-foundation-ai-open-source-survey/) is about generative AI in open-source software projects. It is not a census of model weights. A claim is sourced on the story itself.`,
+The newest files are [Mistral’s release of the Mistral Large 4 weights](/2026/10/30/mistral-large-4-open-weights/) and [NVIDIA’s open-weight Nemotron 3.5 Transcribe speech model](/2026/10/30/nvidia-nemotron-transcribe/). [Cohere’s October 26 post on a Qwen model](/2026/10/27/cohere-qwen-sandbox-report/) uses “open-weight” for the system it tested. The [Linux Foundation survey](/2026/10/23/linux-foundation-ai-open-source-survey/) is about generative AI in open-source software projects. It is not a census of model weights. A claim is sourced on the story itself.`,
   },
 ];
 

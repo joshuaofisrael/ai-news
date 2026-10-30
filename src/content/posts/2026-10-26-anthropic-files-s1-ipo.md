@@ -51,4 +51,4 @@ The BBC and The Guardian reported that the listing could value Anthropic at more
 
 The headline net loss will draw attention, but the operating line tells a different story: revenue grew about fourteenfold year on year in the first half while the operating loss narrowed sharply. For readers following [Anthropic](/topics/anthropic/) and [AI investment](/topics/ai-policy/), the questions to watch are the price range, how much depends on cloud partners, and how public shareholders view a board the trust controls. The filing arrives as rivals keep spending heavily on compute; see our report on [OpenAI moving frontier training offline](/2026/10/25/openai-frontier-training-offline/).
 
-Related reporting: [SpaceX, Musk and GPU debt](/2026/10/26/spacex-musk-gpu-debt/) · [Claude and the Georgia vote counts](/2026/10/26/anthropic-claude-georgia-vote-counts/)
+Related reporting: [SpaceX, Musk and GPU debt](/2026/10/26/spacex-musk-gpu-debt/) · [GSA’s 40% Claude token discount](/2026/10/28/gsa-claude-onegov-discount/)

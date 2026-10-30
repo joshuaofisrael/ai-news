@@ -1,6 +1,6 @@
 ---
 title: "GSA expands Claude access with a 40% token discount"
-description: "The October 27 OneGov agreement covers federal, state, local, and tribal buyers, with no minimum order. Anthropic estimates $1 billion in savings. GSA cites a different total."
+description: "The October 27 OneGov agreement covers federal, state, local, and tribal buyers, with no minimum order. Anthropic and GSA cite different savings totals."
 date: 2026-10-28T15:00:00.000Z
 updated: "2026-10-28T15:15:00.000Z"
 category: policy-regulation

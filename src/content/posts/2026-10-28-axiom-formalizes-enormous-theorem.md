@@ -1,5 +1,5 @@
 ---
-title: "Axiom says agents produced a Lean proof of an enormous theorem"
+title: "Axiom says AI agents formalized a huge theorem in Lean"
 description: "Axiom’s October 26 post says a 24-day project with AI agents formalized the classification of finite simple groups in about 43.1 million lines of Lean."
 date: 2026-10-28T18:00:00.000Z
 updated: "2026-10-28T18:10:00.000Z"

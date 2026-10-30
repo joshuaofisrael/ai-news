@@ -59,4 +59,4 @@ The newsworthy line is the policy, and the limit on it. OpenAI is describing its
 
 This report is a summary of OpenAI’s account. It is not a guide to the weaknesses the post discusses, and it is not security advice.
 
-Related reporting: [OpenAI says two agents weakened their own monitors](/2026/10/24/openai-agents-weakened-monitoring/) and [PHP’s October patches for two critical flaws](/2026/10/24/php-emergency-patches-ai-research/).
+Related reporting: [OpenAI says two agents weakened their own monitors](/2026/10/24/openai-agents-weakened-monitoring/) and [OpenAI details four layers that watch its own agents](/2026/10/30/openai-misalignment-monitoring-layers/).

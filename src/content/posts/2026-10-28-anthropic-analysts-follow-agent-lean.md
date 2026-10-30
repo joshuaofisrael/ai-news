@@ -1,6 +1,6 @@
 ---
 title: "Anthropic: analysts matched an agent’s lean 86% of the time"
-description: "In an October 27 study, 50 analysts using Claude Code followed a hidden coin-flip lean on four choices. Most reused the agent’s arguments. Few named the agent as the source."
+description: "In an October 27 study, 50 analysts using Claude Code followed a hidden coin-flip lean on four choices. Most reused its arguments; few named the agent."
 date: 2026-10-28T13:30:00.000Z
 updated: "2026-10-28T13:45:00.000Z"
 category: models-research

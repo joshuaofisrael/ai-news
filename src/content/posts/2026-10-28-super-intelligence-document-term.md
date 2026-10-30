@@ -1,6 +1,6 @@
 ---
-title: "Trump says he will ban the term AI; a September order already says SI"
-description: "Reuters reported an October 27 Truth Social post on dropping “AI” from documents. Executive Order 14434, signed September 29, already tells agencies to write “Super Intelligence.”"
+title: "Trump says he will drop the term AI; an order already says SI"
+description: "Reuters reported an October 27 post on dropping “AI” from documents. Executive Order 14434 of September 29 already tells agencies to write “Super Intelligence.”"
 date: 2026-10-28T16:30:00.000Z
 updated: "2026-10-28T16:45:00.000Z"
 category: policy-regulation

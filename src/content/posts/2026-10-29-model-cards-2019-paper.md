@@ -1,5 +1,5 @@
 ---
-title: "Model cards: the short record a 2019 paper asked labs to ship"
+title: "Model cards: the short model record a 2019 paper proposed"
 description: "Mitchell and coauthors proposed one- to two-page model cards in 2019. A Google course and Hugging Face’s Hub docs still point to that kind of record."
 date: 2026-10-29T19:00:00.000Z
 updated: "2026-10-29T19:00:00.000Z"
