@@ -1,0 +1,41 @@
+{
+  "date": "2026-10-31",
+  "aspect_ratio": "16:9",
+  "credit": "Image: AI Headline Hub",
+  "licence": "AI Headline Hub",
+  "notes": "1280x720 photorealistic photographs generated for this site. No people, logos, or readable text. Hero only.",
+  "images": [
+    {
+      "article": "AI firms back one robots.txt opt-out for AI training",
+      "slug": "ai-training-policy-token-robots-txt",
+      "role": "hero",
+      "master_path": "src/assets/photos/stories/ai-training-policy-token-robots-txt.jpg",
+      "public_path": "/images/stories/ai-training-policy-token-robots-txt.webp",
+      "alt": "A rack-mounted server in a dim data centre with blue status lights and a blank paper note taped to its front, with no people, logos, or readable text."
+    },
+    {
+      "article": "Google's Suncatcher satellite runs its first AI prompt in orbit",
+      "slug": "google-suncatcher-tpu-orbit",
+      "role": "hero",
+      "master_path": "src/assets/photos/stories/google-suncatcher-tpu-orbit.jpg",
+      "public_path": "/images/stories/google-suncatcher-tpu-orbit.webp",
+      "alt": "A small boxy satellite with solar panels orbiting above the curve of the Earth, with clouds below and black space above, with no logos or readable text."
+    },
+    {
+      "article": "OpenAI promises a safety report and tighter teen limits",
+      "slug": "openai-community-safety-report-teens",
+      "role": "hero",
+      "master_path": "src/assets/photos/stories/openai-community-safety-report-teens.jpg",
+      "public_path": "/images/stories/openai-community-safety-report-teens.webp",
+      "alt": "A smartphone showing a blurred chat screen on a wooden kitchen table beside a mug and a school backpack in morning light, with no people, logos, or readable text."
+    },
+    {
+      "article": "DeepMind economists say AI teamwork, not skill, drives change",
+      "slug": "deepmind-economics-of-intelligence",
+      "role": "hero",
+      "master_path": "src/assets/photos/stories/deepmind-economics-of-intelligence.jpg",
+      "public_path": "/images/stories/deepmind-economics-of-intelligence.webp",
+      "alt": "An empty open-plan office at dusk with rows of monitors showing abstract coloured network patterns and city lights beyond tall windows, with no people, logos, or readable text."
+    }
+  ]
+}
