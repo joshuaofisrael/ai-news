@@ -1,5 +1,5 @@
 ---
-title: "Google's Suncatcher satellite runs its first AI prompt in orbit"
+title: "Google's Suncatcher satellite runs first AI prompt in orbit"
 description: "Google says its Project Suncatcher prototype ran a Gemma 4 model on a data-centre-class TPU in space and returned a haiku to the ground."
 date: 2026-10-31T08:35:00.000Z
 updated: "2026-10-31T08:35:00.000Z"

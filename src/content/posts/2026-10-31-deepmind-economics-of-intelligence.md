@@ -1,5 +1,5 @@
 ---
-title: "DeepMind economists say AI teamwork, not skill, drives change"
+title: "DeepMind essay says AI coordination, not skill, drives change"
 description: "A Google DeepMind essay argues that AI agents' ability to coordinate, more than raw competence, decides when AI reshapes the economy."
 date: 2026-10-31T08:45:00.000Z
 updated: "2026-10-31T08:45:00.000Z"
