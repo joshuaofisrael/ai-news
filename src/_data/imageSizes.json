@@ -551,6 +551,12 @@
     "srcsetWebp": "/images/stories/ai-consciousness-comment-640.webp 640w, /images/stories/ai-consciousness-comment.webp 1280w",
     "srcsetAvif": "/images/stories/ai-consciousness-comment-640.avif 640w, /images/stories/ai-consciousness-comment.avif 1280w"
   },
+  "/images/stories/ai-training-policy-token-robots-txt.webp": {
+    "width": 1280,
+    "height": 720,
+    "srcsetWebp": "/images/stories/ai-training-policy-token-robots-txt-640.webp 640w, /images/stories/ai-training-policy-token-robots-txt.webp 1280w",
+    "srcsetAvif": "/images/stories/ai-training-policy-token-robots-txt-640.avif 640w, /images/stories/ai-training-policy-token-robots-txt.avif 1280w"
+  },
   "/images/stories/aisi-cyber-test.webp": {
     "width": 1280,
     "height": 720,
@@ -647,6 +653,12 @@
     "srcsetWebp": "/images/stories/decisions-api-640.webp 640w, /images/stories/decisions-api.webp 1280w",
     "srcsetAvif": "/images/stories/decisions-api-640.avif 640w, /images/stories/decisions-api.avif 1280w"
   },
+  "/images/stories/deepmind-economics-of-intelligence.webp": {
+    "width": 1280,
+    "height": 720,
+    "srcsetWebp": "/images/stories/deepmind-economics-of-intelligence-640.webp 640w, /images/stories/deepmind-economics-of-intelligence.webp 1280w",
+    "srcsetAvif": "/images/stories/deepmind-economics-of-intelligence-640.avif 640w, /images/stories/deepmind-economics-of-intelligence.avif 1280w"
+  },
   "/images/stories/gemini-4-carbon.webp": {
     "width": 1280,
     "height": 720,
@@ -658,6 +670,12 @@
     "height": 720,
     "srcsetWebp": "/images/stories/genie-4-world-model-640.webp 640w, /images/stories/genie-4-world-model.webp 1280w",
     "srcsetAvif": "/images/stories/genie-4-world-model-640.avif 640w, /images/stories/genie-4-world-model.avif 1280w"
+  },
+  "/images/stories/google-suncatcher-tpu-orbit.webp": {
+    "width": 1280,
+    "height": 720,
+    "srcsetWebp": "/images/stories/google-suncatcher-tpu-orbit-640.webp 640w, /images/stories/google-suncatcher-tpu-orbit.webp 1280w",
+    "srcsetAvif": "/images/stories/google-suncatcher-tpu-orbit-640.avif 640w, /images/stories/google-suncatcher-tpu-orbit.avif 1280w"
   },
   "/images/stories/gpt-6-1-terra.webp": {
     "width": 1280,
@@ -730,6 +748,12 @@
     "height": 720,
     "srcsetWebp": "/images/stories/opal-optimizer-640.webp 640w, /images/stories/opal-optimizer.webp 1280w",
     "srcsetAvif": "/images/stories/opal-optimizer-640.avif 640w, /images/stories/opal-optimizer.avif 1280w"
+  },
+  "/images/stories/openai-community-safety-report-teens.webp": {
+    "width": 1280,
+    "height": 720,
+    "srcsetWebp": "/images/stories/openai-community-safety-report-teens-640.webp 640w, /images/stories/openai-community-safety-report-teens.webp 1280w",
+    "srcsetAvif": "/images/stories/openai-community-safety-report-teens-640.avif 640w, /images/stories/openai-community-safety-report-teens.avif 1280w"
   },
   "/images/stories/openai-google-cloud.webp": {
     "width": 1280,
