@@ -1,8 +1,8 @@
 ---
 title: "Pika H3 Flex: open weights for a video model with sound"
 description: "Pika has published open weights for Pika H3 Flex, a video-and-audio model built on MiniMax-H3 that it says generates clips in six sampling steps."
-date: 2026-11-01T11:30:00.000Z
-updated: "2026-11-01T11:30:00.000Z"
+date: 2026-11-01T11:00:00.000Z
+updated: "2026-11-01T11:00:00.000Z"
 category: models-research
 tags:
   - pika
