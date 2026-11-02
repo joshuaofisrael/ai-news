@@ -12,10 +12,10 @@ tags:
 author: AI Headline Hub
 draft: false
 image:
-  src: /images/stories/genie-4-world-model.webp
-  alt: An empty sound stage with a blank dark screen, a camera on a tripod, and headphones on a stool, and no people, logos, or readable text.
+  src: /images/stories/what-is-a-world-model.webp
+  alt: A curved monitor on a lab desk showing a glowing wireframe terrain simulation next to a small robotic arm, with no people, logos, or readable text.
   credit: "Image: AI Headline Hub"
-  source_url: https://github.com/joshuaofisrael/ai-news/blob/main/src/assets/photos/stories/genie-4-world-model.jpg
+  source_url: https://github.com/joshuaofisrael/ai-news/blob/main/src/assets/photos/stories/what-is-a-world-model.jpg
   licence: AI Headline Hub
   width: 1280
   height: 720
@@ -47,6 +47,8 @@ A language model predicts the next word. A world model predicts the next state o
 - a compressed internal code, as in the 2018 paper
 - the next video frame, as in interactive generators such as Genie
 - an abstract representation that skips pixel detail, as Yann LeCun argues for in his [2022 position paper](https://openreview.net/forum?id=BZ5a1r-kVsf)
+
+{% figure "/images/inline/what-is-a-world-model-1.webp", "A dim home office at night with a monitor showing a glowing blue wireframe grid floor extending into the distance, representing a simulated environment.", "" %}
 
 LeCun's argument is that predicting every pixel wastes effort on details that do not matter, such as leaf movement, and that a useful model should predict in a simpler learned space. Video generators take the opposite bet and render the full scene.
 
