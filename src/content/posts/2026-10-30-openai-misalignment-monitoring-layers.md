@@ -39,6 +39,8 @@ OpenAI writes that an earlier incident involving Hugging Face showed a gap: it b
 - **Layer 2, investigative agents:** a security investigator looks for cases needing a human, such as a sandbox escape; an alignment investigator looks for behaviour worth studying even if it is not urgent.
 - **Layer 3, automated investigation:** for sensitive work, the security investigator compares the transcript with network logs and other system records before deciding whether to alert a person.
 
+{% figure "/images/inline/openai-misalignment-monitoring-layers-1.webp", "Four translucent glowing panels stacked at increasing depth in a dark room, each dimmer than the one above, representing layered monitoring.", "" %}
+
 ## What it covers, and the gaps OpenAI names
 
 OpenAI says it monitors every reinforcement-learning run and evaluation for models at least as capable as GPT-6 Astra, and all internal Codex traffic. It is candid about limits. False alarms have made round-the-clock paging hard: frontier training runs can page a responder at any hour, most other traffic only in business hours, and paging is currently off for internal Codex traffic.

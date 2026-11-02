@@ -42,6 +42,8 @@ NVIDIA's [research page](https://research.nvidia.com/labs/nemotron/NVIDIA-Nemotr
 
 On the Open ASR leaderboard for English, NVIDIA reports a word error rate of 5.33%, which it says ranks first among open-weight models. On Artificial Analysis's word-error test it reports 2.8%, tied for first among open models. For telling speakers apart, it reports a diarization error rate of 18.26% across 21 languages on a David AI test set. A lower number is better on each. These are the company's numbers; results on other recordings, accents, or noisy rooms may be different.
 
+{% figure "/images/inline/nvidia-nemotron-transcribe-1.webp", "Rows of glowing multicoloured audio-waveform panels arranged like shelves in a dim archive, representing a large multilingual speech dataset.", "" %}
+
 ## Granary v2, the dataset released with it
 
 NVIDIA also published Granary v2, a speech dataset manifest. Its [dataset page](https://research.nvidia.com/labs/nemotron/Granary-v2/) lists 463,062 hours of audio across 48 languages, drawn from 16 corpora. The first Granary covered 25 languages. NVIDIA notes that these figures describe the dataset release, not the full mix of data used to train Transcribe. NVIDIA presents the release as material others can use to train or adapt their own speech models.

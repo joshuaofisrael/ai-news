@@ -35,6 +35,8 @@ OpenAI says customers will be able to purchase the frontier models in Model Gard
 
 The same announcement says the models will soon be available in Google Antigravity and the Gemini Agent, which OpenAI presents as a way for enterprise customers to choose a model for a task. The post does not describe what those two products include beyond that.
 
+{% figure "/images/inline/openai-google-cloud-1.webp", "A translucent panel of blank app-tile icons floating in a data-center walkway, representing a model marketplace listing.", "Model Garden is a listing, not a description of specific model names or prices." %}
+
 General availability is planned in the coming weeks. The announcement does not give a calendar date. A separate [preview page](https://openai.com/form/openai-on-google-cloud/) says a limited preview is open by invitation. It lists two pieces: frontier models through the Responses API on Google Cloud, for supported development and internal testing, and Codex through the API in the Codex app, the command-line interface, and supported development environments. OpenAI’s wording is that the preview is invite-only and that registering is a request to be considered.
 
 Greg Brockman, OpenAI’s president and co-founder, says in the announcement that Google Cloud is “a leading platform for developers and businesses building AI agents,” and that the partnership is “an important step in making our most capable models and Codex available where customers are already building.” Thomas Kurian, Google Cloud’s chief executive, says the company wants “a broad selection of models, including those from OpenAI,” so customers can “choose the right model for any given job.”

@@ -34,6 +34,8 @@ Google launched the prototype on October 1. It says the following weeks went int
 
 After that first output, Google says it tested more space-themed prompts and prompts that reported the technical status of the payload.
 
+{% figure "/images/inline/google-suncatcher-tpu-orbit-1.webp", "A dim mission-control room with a wall of monitors showing an orbiting globe and abstract telemetry graphs.", "" %}
+
 ## What comes next
 
 According to Google, the next round of tests will look at how the TPUs hold up under heat stress and radiation in orbit. It says confirming that the chips can run workloads reliably in space is a step toward its next milestone, a pair of interconnected satellites planned for 2027.

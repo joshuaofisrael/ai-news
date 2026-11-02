@@ -39,6 +39,8 @@ The company says developers should be able to choose where they access a model a
 
 Those partners have to keep safeguards consistent with OpenAI’s, investigate possible violations, and take action when a concern is identified. That includes coordinating enforcement so a restriction stays effective if someone switches services.
 
+{% figure "/images/inline/partner-safeguards-1.webp", "A glowing checkpoint barrier standing in front of a dim server corridor, representing an access-control gate.", "" %}
+
 The updated usage policies add a gate for a specific kind of product. Services that provide direct access to OpenAI models, such as model routers or AI gateways, will need OpenAI’s review and approval before they offer that access. The post says the company will keep explaining what is allowed, what is restricted, and how a customer or partner can raise a compliance question.
 
 OpenAI describes two mechanisms in the same document. Private Safety Processing is given as an example of work with customers and partners on safeguards that still leave customers more control over sensitive data. SafetyIDs, which it says it is introducing with customers, would let a customer help OpenAI tell end users apart during an investigation without OpenAI learning those users’ identities. The stated aim is a more precise response to misuse, with less disruption to everyone else.

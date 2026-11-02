@@ -46,6 +46,8 @@ On the Artificial Analysis Coding Agent Index, Mistral reports a score of 48%, w
 
 For security, Mistral reports 51% on the Artificial Analysis Cyber Index, which tests finding, reproducing, and patching software flaws. It says the model refused malicious cyber requests 96.6% of the time on average across three public refusal tests. These are vendor-reported results; independent runs may differ.
 
+{% figure "/images/inline/mistral-large-4-open-weights-1.webp", "A partially open server rack revealing dense cable bundles, with a small padlock resting on the ledge, representing a licence condition.", "" %}
+
 ## Licence, price, and a guardrail change
 
 The weights come under what Mistral calls the Mistral Ecosystem Open-Weight licence, a modified MIT licence. Mistral says the model is free to use, change, and sell, with one condition: companies that run a model-as-a-service business need a separate commercial licence first. Through Mistral's own API the price is $0.70 per million input tokens, $0.07 per million cached input tokens, and $2.10 per million output tokens. Mistral says the model is also offered through Microsoft Foundry and as an NVIDIA NIM container.

@@ -38,6 +38,8 @@ OpenAI says ChatGPT will now give less detailed information about past mass atta
 
 The company also says ChatGPT will respond more conservatively when recent chats show warning signs of possible violence, and that it will be able to end a chat automatically when a conversation shows signs of someone fixating on harming another person. If that happens repeatedly, OpenAI says it may temporarily pause the account.
 
+{% figure "/images/inline/openai-community-safety-report-teens-1.webp", "A stack of plain report covers next to an open laptop showing an abstract bar chart, on a bright office table.", "" %}
+
 ## Changes for teens
 
 For users it predicts are under 18, OpenAI says it will restrict practical information about weapons and security systems that could be misused, even when there is no sign of violent intent. It says its age-prediction system now keeps checking new signals as people use ChatGPT, and that adults placed in the teen experience by mistake can confirm their age through its verification partner, Persona. OpenAI adds that it is working on alerts for parents with linked accounts when a teen's account is paused for repeatedly discussing violence.
