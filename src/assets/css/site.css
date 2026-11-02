@@ -443,6 +443,35 @@ figcaption,
 .latest-list li + li,
 .archive-list li + li { margin-top: 0.85rem; }
 
+.latest-item {
+  display: flex;
+  gap: 0.75rem;
+  align-items: flex-start;
+}
+
+.latest-thumb {
+  flex: none;
+  display: block;
+  width: 5.5rem;
+  border-radius: 8px;
+  overflow: hidden;
+  background: #0d1218;
+}
+
+.latest-thumb img {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+}
+
+.latest-body { min-width: 0; flex: 1 1 auto; }
+
+@media (min-width: 26rem) {
+  .latest-thumb { width: 7rem; }
+}
+
 .page,
 .article-page { padding: 1.2rem 0 2rem; }
 

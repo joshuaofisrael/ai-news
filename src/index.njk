@@ -36,10 +36,20 @@
             {% for post in collections.posts | head(site.postsOnHome) %}
               {% if not loop.first %}
                 {% set cat = categories | categoryBySlug(post.data.category) %}
-                <li class="reveal">
-                  <p class="kicker"><a href="/category/{{ cat.slug }}/">{{ cat.title }}</a></p>
-                  <h3><a href="{{ post.url }}">{{ post.data.title }}</a></h3>
-                  <p class="byline"><time datetime="{{ post.date | isoDate }}">{{ post.date | readableDate }}</time></p>
+                {% set thumb = post.data.image | storyImage %}
+                <li class="reveal latest-item">
+                  <a class="latest-thumb" href="{{ post.url }}">
+                    <picture>
+                      <source type="image/avif" srcset="{{ thumb.smallAvif }}">
+                      <source type="image/webp" srcset="{{ thumb.small }}">
+                      <img src="{{ thumb.small }}" alt="{{ thumb.alt }}" width="640" height="360" loading="lazy" decoding="async">
+                    </picture>
+                  </a>
+                  <div class="latest-body">
+                    <p class="kicker"><a href="/category/{{ cat.slug }}/">{{ cat.title }}</a></p>
+                    <h3><a href="{{ post.url }}">{{ post.data.title }}</a></h3>
+                    <p class="byline"><time datetime="{{ post.date | isoDate }}">{{ post.date | readableDate }}</time></p>
+                  </div>
                 </li>
               {% endif %}
             {% endfor %}
