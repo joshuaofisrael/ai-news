@@ -11,10 +11,10 @@ tags:
 author: AI Headline Hub
 draft: false
 image:
-  src: /images/stories/mistral-large-4-open-weights.webp
-  alt: Dense GPU server racks glowing with blue and amber lights in a dark, hazy compute hall, with no people, logos, or readable labels.
+  src: /images/stories/pika-h3-flex.webp
+  alt: A monitor showing an abstract audio waveform and a strip of video-frame thumbnails in a dark data-center aisle lined with glowing server racks, with no people, logos, or readable text.
   credit: "Image: AI Headline Hub"
-  source_url: https://github.com/joshuaofisrael/ai-news/blob/main/src/assets/photos/stories/mistral-large-4-open-weights.jpg
+  source_url: https://github.com/joshuaofisrael/ai-news/blob/main/src/assets/photos/stories/pika-h3-flex.jpg
   licence: AI Headline Hub
   width: 1280
   height: 720
@@ -35,6 +35,8 @@ Video startup Pika has put the weights of Pika H3 Flex on Hugging Face, letting 
 According to the model card, H3 Flex is one model family with two adapters. One, called FL2VA, handles text prompts and optional first or last frames. The other, Ref2VA, takes up to 12 reference files, including up to 9 images, 3 videos and 3 audio clips, to keep characters, objects and style consistent.
 
 Run locally, the model outputs 480p or 768p video at 24 frames per second, in clips of 5 to 15 seconds and 11 aspect ratios, with 32 kHz stereo audio mixed in. Higher resolutions of 1080p, 2K and 4K, separate audio stems and prompt enhancement are offered only through Pika's paid hosted API, the card says. Pika also describes the model on [its own site](https://pika.art/pika-h3-flex).
+
+{% figure "/images/inline/pika-h3-flex-1.webp", "A dark video-editing desk with a monitor showing a strip of glowing abstract video-frame thumbnails, with studio headphones resting beside the keyboard.", "" %}
 
 ## Hardware and licence
 

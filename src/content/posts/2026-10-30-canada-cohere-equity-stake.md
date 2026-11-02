@@ -43,6 +43,8 @@ According to the government release, Cohere commits to:
 
 The release says that staging the payments against those commitments is meant to "hold the company accountable." It does not publish the size of each stage, the valuation, or the stake Canada will end up holding.
 
+{% figure "/images/inline/canada-cohere-equity-stake-1.webp", "Server racks under scaffolding inside a bright data centre being installed, with snow visible through tall windows.", "Part of Cohere's commitment is new computing infrastructure in Canada." %}
+
 ## What the government and Cohere said
 
 Prime Minister Mark Carney framed the deal around control of data. "Canada's investment in Cohere is an investment in choice, in security, and in our ability to live our lives as we choose," he said in the release. Evan Solomon, the minister for AI and digital innovation, said the message is that founders "should not have to leave Canada to build a company that succeeds around the world." Cohere co-founder and chief executive Aidan Gomez said the money would help the company "attract world-class talent, build frontier AI systems, and develop secure, sovereign technology."

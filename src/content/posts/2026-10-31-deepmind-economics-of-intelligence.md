@@ -32,6 +32,8 @@ Researchers at Google DeepMind argue that the big economic shift from AI will de
 
 The authors split AI capability into two parts. Competence is skill at individual tasks such as maths, writing or coding. Coordination is the ability of AI agents to work together inside a firm. In their model, gains in competence shift wages, prices and the mix of people and AI agents in a company gradually, while leaving the structure of industries largely intact. Gains in coordination change how organisations scale, and once coordination passes a critical threshold, the essay says, it can cause large, abrupt jumps in market concentration, employment and wages.
 
+{% figure "/images/inline/deepmind-economics-of-intelligence-1.webp", "Several desk lamps on a conference table all tilted to focus their light on the same point, representing coordinated agents working together.", "" %}
+
 ## Four regimes
 
 Mapping AI along both dimensions, the essay names four regimes: minimal AGI, supercompetent AI, supercooperative AI, and artificial superintelligence. The authors argue that the most visible transformation may come from better coordination, a capability they say most current benchmarks do not measure.

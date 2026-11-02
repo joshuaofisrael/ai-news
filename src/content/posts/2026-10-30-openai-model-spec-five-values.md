@@ -45,6 +45,8 @@ OpenAI calls faithfulness to human intent the foundation. It says this means und
 
 The post says most of the Spec remains defaults that users and developers can override, with firm boundaries only where needed.
 
+{% figure "/images/inline/openai-model-spec-five-values-1.webp", "An open notebook with blank pages and a small compass resting on it, on a wooden desk, representing a guiding document rather than a finished result.", "" %}
+
 ## What was added, and what was dropped
 
 The [full Spec](https://model-spec.openai.com/2026-10-29.html) folds an updated "chain of command", which sets out whose instructions apply when they conflict, into the new faithfulness section. A new subsection, "consider context carefully", covers how conversations, memories, and other context should shape the model's reading of what a person wants. OpenAI also added defaults on supporting human agency and following social norms, and expanded its guidance on controlling and explaining side effects of the model's actions. The [changelog](https://github.com/openai/model_spec/blob/main/CHANGELOG.md) on GitHub lists the revisions.

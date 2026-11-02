@@ -35,6 +35,12 @@
     "srcsetWebp": "/images/inline/ai-consciousness-comment-2-640.webp 640w, /images/inline/ai-consciousness-comment-2.webp 1280w",
     "srcsetAvif": "/images/inline/ai-consciousness-comment-2-640.avif 640w, /images/inline/ai-consciousness-comment-2.avif 1280w"
   },
+  "/images/inline/ai-training-policy-token-robots-txt-1.webp": {
+    "width": 1280,
+    "height": 720,
+    "srcsetWebp": "/images/inline/ai-training-policy-token-robots-txt-1-640.webp 640w, /images/inline/ai-training-policy-token-robots-txt-1.webp 1280w",
+    "srcsetAvif": "/images/inline/ai-training-policy-token-robots-txt-1-640.avif 640w, /images/inline/ai-training-policy-token-robots-txt-1.avif 1280w"
+  },
   "/images/inline/aisi-cyber-test-1.webp": {
     "width": 1280,
     "height": 720,
@@ -155,6 +161,12 @@
     "srcsetWebp": "/images/inline/cadence-nvidia-maestro-chip-models-2-640.webp 640w, /images/inline/cadence-nvidia-maestro-chip-models-2.webp 1280w",
     "srcsetAvif": "/images/inline/cadence-nvidia-maestro-chip-models-2-640.avif 640w, /images/inline/cadence-nvidia-maestro-chip-models-2.avif 1280w"
   },
+  "/images/inline/canada-cohere-equity-stake-1.webp": {
+    "width": 1280,
+    "height": 720,
+    "srcsetWebp": "/images/inline/canada-cohere-equity-stake-1-640.webp 640w, /images/inline/canada-cohere-equity-stake-1.webp 1280w",
+    "srcsetAvif": "/images/inline/canada-cohere-equity-stake-1-640.avif 640w, /images/inline/canada-cohere-equity-stake-1.avif 1280w"
+  },
   "/images/inline/china-ai-employment-1.webp": {
     "width": 1280,
     "height": 720,
@@ -215,6 +227,12 @@
     "srcsetWebp": "/images/inline/decisions-api-2-640.webp 640w, /images/inline/decisions-api-2.webp 1280w",
     "srcsetAvif": "/images/inline/decisions-api-2-640.avif 640w, /images/inline/decisions-api-2.avif 1280w"
   },
+  "/images/inline/deepmind-economics-of-intelligence-1.webp": {
+    "width": 1280,
+    "height": 720,
+    "srcsetWebp": "/images/inline/deepmind-economics-of-intelligence-1-640.webp 640w, /images/inline/deepmind-economics-of-intelligence-1.webp 1280w",
+    "srcsetAvif": "/images/inline/deepmind-economics-of-intelligence-1-640.avif 640w, /images/inline/deepmind-economics-of-intelligence-1.avif 1280w"
+  },
   "/images/inline/gemini-4-carbon-1.webp": {
     "width": 1280,
     "height": 720,
@@ -238,6 +256,12 @@
     "height": 720,
     "srcsetWebp": "/images/inline/genie-4-world-model-2-640.webp 640w, /images/inline/genie-4-world-model-2.webp 1280w",
     "srcsetAvif": "/images/inline/genie-4-world-model-2-640.avif 640w, /images/inline/genie-4-world-model-2.avif 1280w"
+  },
+  "/images/inline/google-suncatcher-tpu-orbit-1.webp": {
+    "width": 1280,
+    "height": 720,
+    "srcsetWebp": "/images/inline/google-suncatcher-tpu-orbit-1-640.webp 640w, /images/inline/google-suncatcher-tpu-orbit-1.webp 1280w",
+    "srcsetAvif": "/images/inline/google-suncatcher-tpu-orbit-1-640.avif 640w, /images/inline/google-suncatcher-tpu-orbit-1.avif 1280w"
   },
   "/images/inline/gpt-6-1-terra-1.webp": {
     "width": 1280,
@@ -335,6 +359,12 @@
     "srcsetWebp": "/images/inline/meta-95-billion-equity-plan-2-640.webp 640w, /images/inline/meta-95-billion-equity-plan-2.webp 1280w",
     "srcsetAvif": "/images/inline/meta-95-billion-equity-plan-2-640.avif 640w, /images/inline/meta-95-billion-equity-plan-2.avif 1280w"
   },
+  "/images/inline/mistral-large-4-open-weights-1.webp": {
+    "width": 1280,
+    "height": 720,
+    "srcsetWebp": "/images/inline/mistral-large-4-open-weights-1-640.webp 640w, /images/inline/mistral-large-4-open-weights-1.webp 1280w",
+    "srcsetAvif": "/images/inline/mistral-large-4-open-weights-1-640.avif 640w, /images/inline/mistral-large-4-open-weights-1.avif 1280w"
+  },
   "/images/inline/model-cards-2019-paper-1.webp": {
     "width": 1280,
     "height": 720,
@@ -347,6 +377,12 @@
     "srcsetWebp": "/images/inline/model-cards-2019-paper-2-640.webp 640w, /images/inline/model-cards-2019-paper-2.webp 1280w",
     "srcsetAvif": "/images/inline/model-cards-2019-paper-2-640.avif 640w, /images/inline/model-cards-2019-paper-2.avif 1280w"
   },
+  "/images/inline/nvidia-nemotron-transcribe-1.webp": {
+    "width": 1280,
+    "height": 720,
+    "srcsetWebp": "/images/inline/nvidia-nemotron-transcribe-1-640.webp 640w, /images/inline/nvidia-nemotron-transcribe-1.webp 1280w",
+    "srcsetAvif": "/images/inline/nvidia-nemotron-transcribe-1-640.avif 640w, /images/inline/nvidia-nemotron-transcribe-1.avif 1280w"
+  },
   "/images/inline/opal-optimizer-1.webp": {
     "width": 1280,
     "height": 720,
@@ -358,6 +394,30 @@
     "height": 720,
     "srcsetWebp": "/images/inline/opal-optimizer-2-640.webp 640w, /images/inline/opal-optimizer-2.webp 1280w",
     "srcsetAvif": "/images/inline/opal-optimizer-2-640.avif 640w, /images/inline/opal-optimizer-2.avif 1280w"
+  },
+  "/images/inline/openai-community-safety-report-teens-1.webp": {
+    "width": 1280,
+    "height": 720,
+    "srcsetWebp": "/images/inline/openai-community-safety-report-teens-1-640.webp 640w, /images/inline/openai-community-safety-report-teens-1.webp 1280w",
+    "srcsetAvif": "/images/inline/openai-community-safety-report-teens-1-640.avif 640w, /images/inline/openai-community-safety-report-teens-1.avif 1280w"
+  },
+  "/images/inline/openai-google-cloud-1.webp": {
+    "width": 1280,
+    "height": 720,
+    "srcsetWebp": "/images/inline/openai-google-cloud-1-640.webp 640w, /images/inline/openai-google-cloud-1.webp 1280w",
+    "srcsetAvif": "/images/inline/openai-google-cloud-1-640.avif 640w, /images/inline/openai-google-cloud-1.avif 1280w"
+  },
+  "/images/inline/openai-misalignment-monitoring-layers-1.webp": {
+    "width": 1280,
+    "height": 720,
+    "srcsetWebp": "/images/inline/openai-misalignment-monitoring-layers-1-640.webp 640w, /images/inline/openai-misalignment-monitoring-layers-1.webp 1280w",
+    "srcsetAvif": "/images/inline/openai-misalignment-monitoring-layers-1-640.avif 640w, /images/inline/openai-misalignment-monitoring-layers-1.avif 1280w"
+  },
+  "/images/inline/openai-model-spec-five-values-1.webp": {
+    "width": 1280,
+    "height": 720,
+    "srcsetWebp": "/images/inline/openai-model-spec-five-values-1-640.webp 640w, /images/inline/openai-model-spec-five-values-1.webp 1280w",
+    "srcsetAvif": "/images/inline/openai-model-spec-five-values-1-640.avif 640w, /images/inline/openai-model-spec-five-values-1.avif 1280w"
   },
   "/images/inline/openai-monitoring-report-1.webp": {
     "width": 1280,
@@ -419,6 +479,12 @@
     "srcsetWebp": "/images/inline/oracle-deep-trust-ai-architecture-2-640.webp 640w, /images/inline/oracle-deep-trust-ai-architecture-2.webp 1280w",
     "srcsetAvif": "/images/inline/oracle-deep-trust-ai-architecture-2-640.avif 640w, /images/inline/oracle-deep-trust-ai-architecture-2.avif 1280w"
   },
+  "/images/inline/partner-safeguards-1.webp": {
+    "width": 1280,
+    "height": 720,
+    "srcsetWebp": "/images/inline/partner-safeguards-1-640.webp 640w, /images/inline/partner-safeguards-1.webp 1280w",
+    "srcsetAvif": "/images/inline/partner-safeguards-1-640.avif 640w, /images/inline/partner-safeguards-1.avif 1280w"
+  },
   "/images/inline/php-security-release-1.webp": {
     "width": 1280,
     "height": 720,
@@ -430,6 +496,12 @@
     "height": 720,
     "srcsetWebp": "/images/inline/php-security-release-2-640.webp 640w, /images/inline/php-security-release-2.webp 1280w",
     "srcsetAvif": "/images/inline/php-security-release-2-640.avif 640w, /images/inline/php-security-release-2.avif 1280w"
+  },
+  "/images/inline/pika-h3-flex-1.webp": {
+    "width": 1280,
+    "height": 720,
+    "srcsetWebp": "/images/inline/pika-h3-flex-1-640.webp 640w, /images/inline/pika-h3-flex-1.webp 1280w",
+    "srcsetAvif": "/images/inline/pika-h3-flex-1-640.avif 640w, /images/inline/pika-h3-flex-1.avif 1280w"
   },
   "/images/inline/sagemaker-training-sessions-1.webp": {
     "width": 1280,
@@ -538,6 +610,12 @@
     "height": 720,
     "srcsetWebp": "/images/inline/uk-ai-security-package-2-640.webp 640w, /images/inline/uk-ai-security-package-2.webp 1280w",
     "srcsetAvif": "/images/inline/uk-ai-security-package-2-640.avif 640w, /images/inline/uk-ai-security-package-2.avif 1280w"
+  },
+  "/images/inline/what-is-a-world-model-1.webp": {
+    "width": 1280,
+    "height": 720,
+    "srcsetWebp": "/images/inline/what-is-a-world-model-1-640.webp 640w, /images/inline/what-is-a-world-model-1.webp 1280w",
+    "srcsetAvif": "/images/inline/what-is-a-world-model-1-640.avif 640w, /images/inline/what-is-a-world-model-1.avif 1280w"
   },
   "/images/stories/agent-compute-engine.webp": {
     "width": 1280,
@@ -815,6 +893,12 @@
     "srcsetWebp": "/images/stories/php-security-release-640.webp 640w, /images/stories/php-security-release.webp 1280w",
     "srcsetAvif": "/images/stories/php-security-release-640.avif 640w, /images/stories/php-security-release.avif 1280w"
   },
+  "/images/stories/pika-h3-flex.webp": {
+    "width": 1280,
+    "height": 720,
+    "srcsetWebp": "/images/stories/pika-h3-flex-640.webp 640w, /images/stories/pika-h3-flex.webp 1280w",
+    "srcsetAvif": "/images/stories/pika-h3-flex-640.avif 640w, /images/stories/pika-h3-flex.avif 1280w"
+  },
   "/images/stories/sagemaker-training-sessions.webp": {
     "width": 1280,
     "height": 720,
@@ -868,5 +952,11 @@
     "height": 720,
     "srcsetWebp": "/images/stories/uk-ai-security-package-640.webp 640w, /images/stories/uk-ai-security-package.webp 1280w",
     "srcsetAvif": "/images/stories/uk-ai-security-package-640.avif 640w, /images/stories/uk-ai-security-package.avif 1280w"
+  },
+  "/images/stories/what-is-a-world-model.webp": {
+    "width": 1280,
+    "height": 720,
+    "srcsetWebp": "/images/stories/what-is-a-world-model-640.webp 640w, /images/stories/what-is-a-world-model.webp 1280w",
+    "srcsetAvif": "/images/stories/what-is-a-world-model-640.avif 640w, /images/stories/what-is-a-world-model.avif 1280w"
   }
 }

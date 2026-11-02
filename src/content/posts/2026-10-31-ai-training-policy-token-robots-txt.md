@@ -44,6 +44,8 @@ Today, a site that wants to keep its pages out of AI training has to name each c
 
 Both companies say their existing controls stay in place. OpenAI says the new signal "will not replace" its current crawler rules, and Google says company-specific instructions will keep working alongside the shared one, so a site can opt out broadly and still make exceptions for individual providers.
 
+{% figure "/images/inline/ai-training-policy-token-robots-txt-1.webp", "A half-open wooden gate on a gravel path leading toward a dim server building at dusk, representing an opt-out control.", "" %}
+
 ## When it takes effect
 
 The timing differs by company. OpenAI says it aims to implement the signal "in the coming months". Google says it aims to support it, along with other providers, in 2027. According to The Verge, Anthropic has already adopted the signal, Microsoft plans to support it next year, and the proposal came from an Anthropic standards lead within the IETF process. The Verge also reports that Meta voiced support without saying whether it will honour the token.
