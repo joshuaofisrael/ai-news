@@ -1,0 +1,25 @@
+{
+  "date": "2026-11-03",
+  "aspect_ratio": "16:9",
+  "credit": "Image: AI Headline Hub",
+  "licence": "AI Headline Hub",
+  "notes": "1280x720 photorealistic images derived (mirrored and recropped) from this site's own earlier AI-generated images because no image generator was available on 3 Nov. No people, logos, or readable text. Replace with fresh generations when possible.",
+  "images": [
+    {
+      "article": "OpenAI's Sottiaux: dots will add GPT-6.1 Terra and more models",
+      "slug": "openai-dots-gpt-6-1-terra",
+      "role": "hero",
+      "master_path": "src/assets/photos/stories/openai-dots-gpt-6-1-terra.jpg",
+      "public_path": "/images/stories/openai-dots-gpt-6-1-terra.webp",
+      "derived_from": "src/assets/photos/stories/decisions-api.jpg"
+    },
+    {
+      "article": "OpenAI's Sottiaux: dots will add GPT-6.1 Terra and more models",
+      "slug": "openai-dots-gpt-6-1-terra-1",
+      "role": "inline",
+      "master_path": "src/assets/photos/inline/openai-dots-gpt-6-1-terra-1.jpg",
+      "public_path": "/images/inline/openai-dots-gpt-6-1-terra-1.webp",
+      "derived_from": "src/assets/photos/stories/agent-compute-engine.jpg"
+    }
+  ]
+}

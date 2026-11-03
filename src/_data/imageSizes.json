@@ -401,6 +401,12 @@
     "srcsetWebp": "/images/inline/openai-community-safety-report-teens-1-640.webp 640w, /images/inline/openai-community-safety-report-teens-1.webp 1280w",
     "srcsetAvif": "/images/inline/openai-community-safety-report-teens-1-640.avif 640w, /images/inline/openai-community-safety-report-teens-1.avif 1280w"
   },
+  "/images/inline/openai-dots-gpt-6-1-terra-1.webp": {
+    "width": 1280,
+    "height": 720,
+    "srcsetWebp": "/images/inline/openai-dots-gpt-6-1-terra-1-640.webp 640w, /images/inline/openai-dots-gpt-6-1-terra-1.webp 1280w",
+    "srcsetAvif": "/images/inline/openai-dots-gpt-6-1-terra-1-640.avif 640w, /images/inline/openai-dots-gpt-6-1-terra-1.avif 1280w"
+  },
   "/images/inline/openai-google-cloud-1.webp": {
     "width": 1280,
     "height": 720,
@@ -832,6 +838,12 @@
     "height": 720,
     "srcsetWebp": "/images/stories/openai-community-safety-report-teens-640.webp 640w, /images/stories/openai-community-safety-report-teens.webp 1280w",
     "srcsetAvif": "/images/stories/openai-community-safety-report-teens-640.avif 640w, /images/stories/openai-community-safety-report-teens.avif 1280w"
+  },
+  "/images/stories/openai-dots-gpt-6-1-terra.webp": {
+    "width": 1280,
+    "height": 720,
+    "srcsetWebp": "/images/stories/openai-dots-gpt-6-1-terra-640.webp 640w, /images/stories/openai-dots-gpt-6-1-terra.webp 1280w",
+    "srcsetAvif": "/images/stories/openai-dots-gpt-6-1-terra-640.avif 640w, /images/stories/openai-dots-gpt-6-1-terra.avif 1280w"
   },
   "/images/stories/openai-google-cloud.webp": {
     "width": 1280,
