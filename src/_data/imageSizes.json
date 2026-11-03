@@ -970,5 +970,23 @@
     "height": 720,
     "srcsetWebp": "/images/stories/what-is-a-world-model-640.webp 640w, /images/stories/what-is-a-world-model.webp 1280w",
     "srcsetAvif": "/images/stories/what-is-a-world-model-640.avif 640w, /images/stories/what-is-a-world-model.avif 1280w"
+  },
+  "/images/stories/eu-court-adviser-google-gemini-copyright.webp": {
+    "width": 1280,
+    "height": 720,
+    "srcsetWebp": "/images/stories/eu-court-adviser-google-gemini-copyright-640.webp 640w, /images/stories/eu-court-adviser-google-gemini-copyright.webp 1280w",
+    "srcsetAvif": "/images/stories/eu-court-adviser-google-gemini-copyright-640.avif 640w, /images/stories/eu-court-adviser-google-gemini-copyright.avif 1280w"
+  },
+  "/images/stories/openai-security-warnings-research-access.webp": {
+    "width": 1280,
+    "height": 720,
+    "srcsetWebp": "/images/stories/openai-security-warnings-research-access-640.webp 640w, /images/stories/openai-security-warnings-research-access.webp 1280w",
+    "srcsetAvif": "/images/stories/openai-security-warnings-research-access-640.avif 640w, /images/stories/openai-security-warnings-research-access.avif 1280w"
+  },
+  "/images/stories/anthropic-claude-enterprise-smart-reports.webp": {
+    "width": 1280,
+    "height": 720,
+    "srcsetWebp": "/images/stories/anthropic-claude-enterprise-smart-reports-640.webp 640w, /images/stories/anthropic-claude-enterprise-smart-reports.webp 1280w",
+    "srcsetAvif": "/images/stories/anthropic-claude-enterprise-smart-reports-640.avif 640w, /images/stories/anthropic-claude-enterprise-smart-reports.avif 1280w"
   }
 }
