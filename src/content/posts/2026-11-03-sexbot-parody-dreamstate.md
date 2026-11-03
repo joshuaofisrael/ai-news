@@ -1,8 +1,8 @@
 ---
 title: "Viral 'Sexbot' Launch on X Is a Parody, Its Own Website Says"
 description: "Dreamstate founder Luis Vale's 'Sexbot' announcement drew hundreds of thousands of views. The product site says there is no robot and calls it a parody."
-date: 2026-11-03T21:00:00.000Z
-updated: "2026-11-03T21:00:00.000Z"
+date: 2026-11-03T20:50:00.000Z
+updated: "2026-11-03T20:50:00.000Z"
 category: industry-business
 tags:
   - ai-companions
