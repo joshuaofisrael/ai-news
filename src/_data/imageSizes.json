@@ -994,5 +994,11 @@
     "height": 720,
     "srcsetWebp": "/images/stories/sexbot-parody-dreamstate-640.webp 640w, /images/stories/sexbot-parody-dreamstate.webp 1280w",
     "srcsetAvif": "/images/stories/sexbot-parody-dreamstate-640.avif 640w, /images/stories/sexbot-parody-dreamstate.avif 1280w"
+  },
+  "/images/stories/anthropic-flashprove-provable-inference.webp": {
+    "width": 1280,
+    "height": 720,
+    "srcsetWebp": "/images/stories/anthropic-flashprove-provable-inference-640.webp 640w, /images/stories/anthropic-flashprove-provable-inference.webp 1280w",
+    "srcsetAvif": "/images/stories/anthropic-flashprove-provable-inference-640.avif 640w, /images/stories/anthropic-flashprove-provable-inference.avif 1280w"
   }
 }
