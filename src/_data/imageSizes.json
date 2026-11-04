@@ -1000,5 +1000,11 @@
     "height": 720,
     "srcsetWebp": "/images/stories/anthropic-flashprove-provable-inference-640.webp 640w, /images/stories/anthropic-flashprove-provable-inference.webp 1280w",
     "srcsetAvif": "/images/stories/anthropic-flashprove-provable-inference-640.avif 640w, /images/stories/anthropic-flashprove-provable-inference.avif 1280w"
+  },
+  "/images/stories/tencent-hy4-vision-computer-use-release.webp": {
+    "width": 1280,
+    "height": 720,
+    "srcsetWebp": "/images/stories/tencent-hy4-vision-computer-use-release-640.webp 640w, /images/stories/tencent-hy4-vision-computer-use-release.webp 1280w",
+    "srcsetAvif": "/images/stories/tencent-hy4-vision-computer-use-release-640.avif 640w, /images/stories/tencent-hy4-vision-computer-use-release.avif 1280w"
   }
 }
