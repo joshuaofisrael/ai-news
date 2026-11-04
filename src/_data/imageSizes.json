@@ -1006,5 +1006,11 @@
     "height": 720,
     "srcsetWebp": "/images/stories/tencent-hy4-vision-computer-use-release-640.webp 640w, /images/stories/tencent-hy4-vision-computer-use-release.webp 1280w",
     "srcsetAvif": "/images/stories/tencent-hy4-vision-computer-use-release-640.avif 640w, /images/stories/tencent-hy4-vision-computer-use-release.avif 1280w"
+  },
+  "/images/stories/kimi-k3-1-pro-open-weights-nebius.webp": {
+    "width": 1280,
+    "height": 720,
+    "srcsetWebp": "/images/stories/kimi-k3-1-pro-open-weights-nebius-640.webp 640w, /images/stories/kimi-k3-1-pro-open-weights-nebius.webp 1280w",
+    "srcsetAvif": "/images/stories/kimi-k3-1-pro-open-weights-nebius-640.avif 640w, /images/stories/kimi-k3-1-pro-open-weights-nebius.avif 1280w"
   }
 }
