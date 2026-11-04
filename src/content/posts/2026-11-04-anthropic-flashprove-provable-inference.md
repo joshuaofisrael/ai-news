@@ -1,8 +1,8 @@
 ---
 title: "Anthropic's FlashProve aims to prove which AI model answered"
 description: "Anthropic has released FlashProve, an open-source prototype that uses zero-knowledge proofs to show a reply came from a committed model without revealing its weights."
-date: 2026-11-04T08:45:00.000Z
-updated: "2026-11-04T08:45:00.000Z"
+date: 2026-11-04T08:05:00.000Z
+updated: "2026-11-04T08:05:00.000Z"
 category: models-research
 tags:
   - anthropic
