@@ -20,6 +20,14 @@
       "master_path": "src/assets/photos/stories/tencent-hy4-vision-computer-use-release.jpg",
       "public_path": "/images/stories/tencent-hy4-vision-computer-use-release.webp",
       "generator": "Grok Bot GenerateImage"
+    },
+    {
+      "article": "Moonshot AI releases Kimi K3.1 Pro open weights",
+      "slug": "kimi-k3-1-pro-open-weights-nebius",
+      "role": "hero",
+      "master_path": "src/assets/photos/stories/kimi-k3-1-pro-open-weights-nebius.jpg",
+      "public_path": "/images/stories/kimi-k3-1-pro-open-weights-nebius.webp",
+      "generator": "Grok Bot GenerateImage"
     }
   ]
 }
