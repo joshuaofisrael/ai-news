@@ -1,6 +1,6 @@
 ---
 title: "Anthropic: Claude helps map first vault particle from prokaryotic life"
-description: "Anthropic’s biology lab says Claude helped find and solve the first 3D vault structure from bacterial/phage life — 96 copies of phage protein L05, cryo-EM at ~3.2 Å — in a 4 Nov 2026 research post; preprint submitted to bioRxiv."
+description: "Anthropic says Claude helped map the first 3D vault from bacterial/phage life (L05, 96 copies, ~3.2 Å) in a 4 Nov 2026 research post; preprint submitted to bioRxiv."
 date: 2026-11-05T16:30:00.000Z
 updated: "2026-11-05T16:30:00.000Z"
 category: models-research
