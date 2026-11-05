@@ -1,7 +1,7 @@
 ---
 title: "Cat Wu and Austin Lau leave Anthropic for OpenAI"
 description: "Claude Code product lead Cat Wu is joining OpenAI to run Core Products PM, and growth marketer Austin Lau says he has also moved to OpenAI, both announcing on X."
-date: 2026-11-05T12:05:00.000Z
+date: 2026-11-05T12:06:00.000Z
 updated: "2026-11-05T13:30:00.000Z"
 category: industry-business
 tags:
