@@ -28,6 +28,14 @@
       "master_path": "src/assets/photos/stories/kimi-k3-1-pro-open-weights-nebius.jpg",
       "public_path": "/images/stories/kimi-k3-1-pro-open-weights-nebius.webp",
       "generator": "Grok Bot GenerateImage"
+    },
+    {
+      "article": "Factory acquires HumanLayer and will open-source it",
+      "slug": "factory-acquires-humanlayer-open-source",
+      "role": "hero",
+      "master_path": "src/assets/photos/stories/factory-acquires-humanlayer-open-source.jpg",
+      "public_path": "/images/stories/factory-acquires-humanlayer-open-source.webp",
+      "generator": "Grok Bot GenerateImage"
     }
   ]
 }
