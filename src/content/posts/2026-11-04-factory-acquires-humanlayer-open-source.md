@@ -1,8 +1,8 @@
 ---
 title: "Factory acquires HumanLayer and will open-source it"
 description: "Coding agent company Factory is acquiring HumanLayer, whose founders Dex Horthy and Kyle Mistele join Factory. HumanLayer will be open-sourced."
-date: 2026-11-05T01:40:00.000Z
-updated: "2026-11-05T01:40:00.000Z"
+date: 2026-11-05T01:20:00.000Z
+updated: "2026-11-05T01:20:00.000Z"
 category: industry-business
 tags:
   - factory
