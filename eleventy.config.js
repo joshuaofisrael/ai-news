@@ -20,6 +20,7 @@ import {
   readableDate,
   rfc822,
   thisYear,
+  toDate,
 } from "./src/_lib/dates.js";
 
 import { readdirSync, readFileSync } from "node:fs";
@@ -32,6 +33,21 @@ const heldSlugs = readdirSync("src/content/posts")
 
 const siteUrl = site.url;
 const pathPrefix = pathPrefixFromUrl(siteUrl);
+
+
+function publishMs(post) {
+  const raw = post?.data?.publishAt || post?.data?.date || post?.date;
+  const when = toDate(raw);
+  return when ? when.getTime() : 0;
+}
+
+function byNewestPublish(a, b) {
+  const delta = publishMs(b) - publishMs(a);
+  if (delta) return delta;
+  return String(b.page?.inputPath || b.inputPath || "").localeCompare(
+    String(a.page?.inputPath || a.inputPath || ""),
+  );
+}
 
 export default function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy({ "src/public": "." });
@@ -150,7 +166,7 @@ export default function (eleventyConfig) {
         return { post, score };
       })
       .filter((item) => item.score > 0)
-      .sort((a, b) => b.score - a.score || b.post.date - a.post.date)
+      .sort((a, b) => b.score - a.score || publishMs(b.post) - publishMs(a.post))
       .slice(0, 3)
       .map((item) => item.post);
   });
@@ -169,7 +185,7 @@ export default function (eleventyConfig) {
             return { post, score };
           })
           .filter((item) => item.score > 0)
-          .sort((a, b) => b.score - a.score || b.post.date - a.post.date)
+          .sort((a, b) => b.score - a.score || publishMs(b.post) - publishMs(a.post))
           .map((item) => item.post)
       : [];
     const seen = new Set(related.map((post) => post.url));
@@ -195,7 +211,7 @@ export default function (eleventyConfig) {
     return api
       .getFilteredByTag("post")
       .filter((item) => isPublicPost(item))
-      .sort((a, b) => b.date - a.date);
+      .sort(byNewestPublish);
   });
 
   eleventyConfig.addCollection("tagList", (api) => {
