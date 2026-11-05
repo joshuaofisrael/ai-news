@@ -797,6 +797,12 @@
     "srcsetWebp": "/images/stories/genie-4-world-model-640.webp 640w, /images/stories/genie-4-world-model.webp 1280w",
     "srcsetAvif": "/images/stories/genie-4-world-model-640.avif 640w, /images/stories/genie-4-world-model.avif 1280w"
   },
+  "/images/stories/google-gemini-omni-1-2-flash-15s-price-cut.webp": {
+    "width": 1280,
+    "height": 720,
+    "srcsetWebp": "/images/stories/google-gemini-omni-1-2-flash-15s-price-cut-640.webp 640w, /images/stories/google-gemini-omni-1-2-flash-15s-price-cut.webp 1280w",
+    "srcsetAvif": "/images/stories/google-gemini-omni-1-2-flash-15s-price-cut-640.avif 640w, /images/stories/google-gemini-omni-1-2-flash-15s-price-cut.avif 1280w"
+  },
   "/images/stories/google-suncatcher-tpu-orbit.webp": {
     "width": 1280,
     "height": 720,
