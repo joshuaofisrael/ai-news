@@ -11,6 +11,14 @@
       "role": "hero",
       "master_path": "src/assets/photos/stories/openai-chatgpt-images-2-6-gifs-flare-sunburst.jpg",
       "public_path": "/images/stories/openai-chatgpt-images-2-6-gifs-flare-sunburst.webp"
+    },
+    {
+      "article": "Cat Wu and Austin Lau leave Anthropic for OpenAI",
+      "slug": "cat-wu-austin-lau-leave-anthropic-join-openai",
+      "role": "hero",
+      "master_path": "src/assets/photos/stories/cat-wu-austin-lau-leave-anthropic-join-openai.jpg",
+      "public_path": "/images/stories/cat-wu-austin-lau-leave-anthropic-join-openai.webp",
+      "generator": "Grok Bot GenerateImage"
     }
   ]
 }
