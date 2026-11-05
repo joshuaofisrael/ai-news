@@ -1018,5 +1018,11 @@
     "height": 720,
     "srcsetWebp": "/images/stories/factory-acquires-humanlayer-open-source-640.webp 640w, /images/stories/factory-acquires-humanlayer-open-source.webp 1280w",
     "srcsetAvif": "/images/stories/factory-acquires-humanlayer-open-source-640.avif 640w, /images/stories/factory-acquires-humanlayer-open-source.avif 1280w"
+  },
+  "/images/stories/cat-wu-austin-lau-leave-anthropic-join-openai.webp": {
+    "width": 1280,
+    "height": 720,
+    "srcsetWebp": "/images/stories/cat-wu-austin-lau-leave-anthropic-join-openai-640.webp 640w, /images/stories/cat-wu-austin-lau-leave-anthropic-join-openai.webp 1280w",
+    "srcsetAvif": "/images/stories/cat-wu-austin-lau-leave-anthropic-join-openai-640.avif 640w, /images/stories/cat-wu-austin-lau-leave-anthropic-join-openai.avif 1280w"
   }
 }
