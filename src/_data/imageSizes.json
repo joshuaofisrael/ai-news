@@ -1012,5 +1012,11 @@
     "height": 720,
     "srcsetWebp": "/images/stories/kimi-k3-1-pro-open-weights-nebius-640.webp 640w, /images/stories/kimi-k3-1-pro-open-weights-nebius.webp 1280w",
     "srcsetAvif": "/images/stories/kimi-k3-1-pro-open-weights-nebius-640.avif 640w, /images/stories/kimi-k3-1-pro-open-weights-nebius.avif 1280w"
+  },
+  "/images/stories/factory-acquires-humanlayer-open-source.webp": {
+    "width": 1280,
+    "height": 720,
+    "srcsetWebp": "/images/stories/factory-acquires-humanlayer-open-source-640.webp 640w, /images/stories/factory-acquires-humanlayer-open-source.webp 1280w",
+    "srcsetAvif": "/images/stories/factory-acquires-humanlayer-open-source-640.avif 640w, /images/stories/factory-acquires-humanlayer-open-source.avif 1280w"
   }
 }
