@@ -581,6 +581,12 @@
     "srcsetWebp": "/images/inline/super-intelligence-document-term-2-640.webp 640w, /images/inline/super-intelligence-document-term-2.webp 1280w",
     "srcsetAvif": "/images/inline/super-intelligence-document-term-2-640.avif 640w, /images/inline/super-intelligence-document-term-2.avif 1280w"
   },
+  "/images/inline/terawulf-google-anthropic-justified-kentucky-1.webp": {
+    "width": 1280,
+    "height": 720,
+    "srcsetWebp": "/images/inline/terawulf-google-anthropic-justified-kentucky-1-640.webp 640w, /images/inline/terawulf-google-anthropic-justified-kentucky-1.webp 1280w",
+    "srcsetAvif": "/images/inline/terawulf-google-anthropic-justified-kentucky-1-640.avif 640w, /images/inline/terawulf-google-anthropic-justified-kentucky-1.avif 1280w"
+  },
   "/images/inline/treasury-outbound-investment-1.webp": {
     "width": 1280,
     "height": 720,
@@ -659,11 +665,23 @@
     "srcsetWebp": "/images/stories/anthropic-analysts-follow-agent-lean-640.webp 640w, /images/stories/anthropic-analysts-follow-agent-lean.webp 1280w",
     "srcsetAvif": "/images/stories/anthropic-analysts-follow-agent-lean-640.avif 640w, /images/stories/anthropic-analysts-follow-agent-lean.avif 1280w"
   },
+  "/images/stories/anthropic-claude-enterprise-smart-reports.webp": {
+    "width": 1280,
+    "height": 720,
+    "srcsetWebp": "/images/stories/anthropic-claude-enterprise-smart-reports-640.webp 640w, /images/stories/anthropic-claude-enterprise-smart-reports.webp 1280w",
+    "srcsetAvif": "/images/stories/anthropic-claude-enterprise-smart-reports-640.avif 640w, /images/stories/anthropic-claude-enterprise-smart-reports.avif 1280w"
+  },
   "/images/stories/anthropic-files-s1-ipo.webp": {
     "width": 1280,
     "height": 720,
     "srcsetWebp": "/images/stories/anthropic-files-s1-ipo-640.webp 640w, /images/stories/anthropic-files-s1-ipo.webp 1280w",
     "srcsetAvif": "/images/stories/anthropic-files-s1-ipo-640.avif 640w, /images/stories/anthropic-files-s1-ipo.avif 1280w"
+  },
+  "/images/stories/anthropic-flashprove-provable-inference.webp": {
+    "width": 1280,
+    "height": 720,
+    "srcsetWebp": "/images/stories/anthropic-flashprove-provable-inference-640.webp 640w, /images/stories/anthropic-flashprove-provable-inference.webp 1280w",
+    "srcsetAvif": "/images/stories/anthropic-flashprove-provable-inference-640.avif 640w, /images/stories/anthropic-flashprove-provable-inference.avif 1280w"
   },
   "/images/stories/anthropic-georgia-vote-counts.webp": {
     "width": 1280,
@@ -707,6 +725,12 @@
     "srcsetWebp": "/images/stories/canada-cohere-equity-stake-640.webp 640w, /images/stories/canada-cohere-equity-stake.webp 1280w",
     "srcsetAvif": "/images/stories/canada-cohere-equity-stake-640.avif 640w, /images/stories/canada-cohere-equity-stake.avif 1280w"
   },
+  "/images/stories/cat-wu-austin-lau-leave-anthropic-join-openai.webp": {
+    "width": 1280,
+    "height": 720,
+    "srcsetWebp": "/images/stories/cat-wu-austin-lau-leave-anthropic-join-openai-640.webp 640w, /images/stories/cat-wu-austin-lau-leave-anthropic-join-openai.webp 1280w",
+    "srcsetAvif": "/images/stories/cat-wu-austin-lau-leave-anthropic-join-openai-640.avif 640w, /images/stories/cat-wu-austin-lau-leave-anthropic-join-openai.avif 1280w"
+  },
   "/images/stories/china-ai-employment.webp": {
     "width": 1280,
     "height": 720,
@@ -742,6 +766,18 @@
     "height": 720,
     "srcsetWebp": "/images/stories/deepmind-economics-of-intelligence-640.webp 640w, /images/stories/deepmind-economics-of-intelligence.webp 1280w",
     "srcsetAvif": "/images/stories/deepmind-economics-of-intelligence-640.avif 640w, /images/stories/deepmind-economics-of-intelligence.avif 1280w"
+  },
+  "/images/stories/eu-court-adviser-google-gemini-copyright.webp": {
+    "width": 1280,
+    "height": 720,
+    "srcsetWebp": "/images/stories/eu-court-adviser-google-gemini-copyright-640.webp 640w, /images/stories/eu-court-adviser-google-gemini-copyright.webp 1280w",
+    "srcsetAvif": "/images/stories/eu-court-adviser-google-gemini-copyright-640.avif 640w, /images/stories/eu-court-adviser-google-gemini-copyright.avif 1280w"
+  },
+  "/images/stories/factory-acquires-humanlayer-open-source.webp": {
+    "width": 1280,
+    "height": 720,
+    "srcsetWebp": "/images/stories/factory-acquires-humanlayer-open-source-640.webp 640w, /images/stories/factory-acquires-humanlayer-open-source.webp 1280w",
+    "srcsetAvif": "/images/stories/factory-acquires-humanlayer-open-source-640.avif 640w, /images/stories/factory-acquires-humanlayer-open-source.avif 1280w"
   },
   "/images/stories/gemini-4-carbon.webp": {
     "width": 1280,
@@ -791,6 +827,12 @@
     "srcsetWebp": "/images/stories/kaml-protein-electrostatics-640.webp 640w, /images/stories/kaml-protein-electrostatics.webp 1280w",
     "srcsetAvif": "/images/stories/kaml-protein-electrostatics-640.avif 640w, /images/stories/kaml-protein-electrostatics.avif 1280w"
   },
+  "/images/stories/kimi-k3-1-pro-open-weights-nebius.webp": {
+    "width": 1280,
+    "height": 720,
+    "srcsetWebp": "/images/stories/kimi-k3-1-pro-open-weights-nebius-640.webp 640w, /images/stories/kimi-k3-1-pro-open-weights-nebius.webp 1280w",
+    "srcsetAvif": "/images/stories/kimi-k3-1-pro-open-weights-nebius-640.avif 640w, /images/stories/kimi-k3-1-pro-open-weights-nebius.avif 1280w"
+  },
   "/images/stories/linux-foundation-ai-survey.webp": {
     "width": 1280,
     "height": 720,
@@ -832,6 +874,12 @@
     "height": 720,
     "srcsetWebp": "/images/stories/opal-optimizer-640.webp 640w, /images/stories/opal-optimizer.webp 1280w",
     "srcsetAvif": "/images/stories/opal-optimizer-640.avif 640w, /images/stories/opal-optimizer.avif 1280w"
+  },
+  "/images/stories/openai-chatgpt-images-2-6-gifs-flare-sunburst.webp": {
+    "width": 1280,
+    "height": 720,
+    "srcsetWebp": "/images/stories/openai-chatgpt-images-2-6-gifs-flare-sunburst-640.webp 640w, /images/stories/openai-chatgpt-images-2-6-gifs-flare-sunburst.webp 1280w",
+    "srcsetAvif": "/images/stories/openai-chatgpt-images-2-6-gifs-flare-sunburst-640.avif 640w, /images/stories/openai-chatgpt-images-2-6-gifs-flare-sunburst.avif 1280w"
   },
   "/images/stories/openai-community-safety-report-teens.webp": {
     "width": 1280,
@@ -881,6 +929,12 @@
     "srcsetWebp": "/images/stories/openai-science-claims-640.webp 640w, /images/stories/openai-science-claims.webp 1280w",
     "srcsetAvif": "/images/stories/openai-science-claims-640.avif 640w, /images/stories/openai-science-claims.avif 1280w"
   },
+  "/images/stories/openai-security-warnings-research-access.webp": {
+    "width": 1280,
+    "height": 720,
+    "srcsetWebp": "/images/stories/openai-security-warnings-research-access-640.webp 640w, /images/stories/openai-security-warnings-research-access.webp 1280w",
+    "srcsetAvif": "/images/stories/openai-security-warnings-research-access-640.avif 640w, /images/stories/openai-security-warnings-research-access.avif 1280w"
+  },
   "/images/stories/openai-training-offline.webp": {
     "width": 1280,
     "height": 720,
@@ -917,6 +971,12 @@
     "srcsetWebp": "/images/stories/sagemaker-training-sessions-640.webp 640w, /images/stories/sagemaker-training-sessions.webp 1280w",
     "srcsetAvif": "/images/stories/sagemaker-training-sessions-640.avif 640w, /images/stories/sagemaker-training-sessions.avif 1280w"
   },
+  "/images/stories/sexbot-parody-dreamstate.webp": {
+    "width": 1280,
+    "height": 720,
+    "srcsetWebp": "/images/stories/sexbot-parody-dreamstate-640.webp 640w, /images/stories/sexbot-parody-dreamstate.webp 1280w",
+    "srcsetAvif": "/images/stories/sexbot-parody-dreamstate-640.avif 640w, /images/stories/sexbot-parody-dreamstate.avif 1280w"
+  },
   "/images/stories/siri-ai-more-languages.webp": {
     "width": 1280,
     "height": 720,
@@ -947,6 +1007,18 @@
     "srcsetWebp": "/images/stories/super-intelligence-document-term-640.webp 640w, /images/stories/super-intelligence-document-term.webp 1280w",
     "srcsetAvif": "/images/stories/super-intelligence-document-term-640.avif 640w, /images/stories/super-intelligence-document-term.avif 1280w"
   },
+  "/images/stories/tencent-hy4-vision-computer-use-release.webp": {
+    "width": 1280,
+    "height": 720,
+    "srcsetWebp": "/images/stories/tencent-hy4-vision-computer-use-release-640.webp 640w, /images/stories/tencent-hy4-vision-computer-use-release.webp 1280w",
+    "srcsetAvif": "/images/stories/tencent-hy4-vision-computer-use-release-640.avif 640w, /images/stories/tencent-hy4-vision-computer-use-release.avif 1280w"
+  },
+  "/images/stories/terawulf-google-anthropic-justified-kentucky.webp": {
+    "width": 1280,
+    "height": 720,
+    "srcsetWebp": "/images/stories/terawulf-google-anthropic-justified-kentucky-640.webp 640w, /images/stories/terawulf-google-anthropic-justified-kentucky.webp 1280w",
+    "srcsetAvif": "/images/stories/terawulf-google-anthropic-justified-kentucky-640.avif 640w, /images/stories/terawulf-google-anthropic-justified-kentucky.avif 1280w"
+  },
   "/images/stories/treasury-outbound-investment.webp": {
     "width": 1280,
     "height": 720,
@@ -970,65 +1042,5 @@
     "height": 720,
     "srcsetWebp": "/images/stories/what-is-a-world-model-640.webp 640w, /images/stories/what-is-a-world-model.webp 1280w",
     "srcsetAvif": "/images/stories/what-is-a-world-model-640.avif 640w, /images/stories/what-is-a-world-model.avif 1280w"
-  },
-  "/images/stories/eu-court-adviser-google-gemini-copyright.webp": {
-    "width": 1280,
-    "height": 720,
-    "srcsetWebp": "/images/stories/eu-court-adviser-google-gemini-copyright-640.webp 640w, /images/stories/eu-court-adviser-google-gemini-copyright.webp 1280w",
-    "srcsetAvif": "/images/stories/eu-court-adviser-google-gemini-copyright-640.avif 640w, /images/stories/eu-court-adviser-google-gemini-copyright.avif 1280w"
-  },
-  "/images/stories/openai-security-warnings-research-access.webp": {
-    "width": 1280,
-    "height": 720,
-    "srcsetWebp": "/images/stories/openai-security-warnings-research-access-640.webp 640w, /images/stories/openai-security-warnings-research-access.webp 1280w",
-    "srcsetAvif": "/images/stories/openai-security-warnings-research-access-640.avif 640w, /images/stories/openai-security-warnings-research-access.avif 1280w"
-  },
-  "/images/stories/anthropic-claude-enterprise-smart-reports.webp": {
-    "width": 1280,
-    "height": 720,
-    "srcsetWebp": "/images/stories/anthropic-claude-enterprise-smart-reports-640.webp 640w, /images/stories/anthropic-claude-enterprise-smart-reports.webp 1280w",
-    "srcsetAvif": "/images/stories/anthropic-claude-enterprise-smart-reports-640.avif 640w, /images/stories/anthropic-claude-enterprise-smart-reports.avif 1280w"
-  },
-  "/images/stories/sexbot-parody-dreamstate.webp": {
-    "width": 1280,
-    "height": 720,
-    "srcsetWebp": "/images/stories/sexbot-parody-dreamstate-640.webp 640w, /images/stories/sexbot-parody-dreamstate.webp 1280w",
-    "srcsetAvif": "/images/stories/sexbot-parody-dreamstate-640.avif 640w, /images/stories/sexbot-parody-dreamstate.avif 1280w"
-  },
-  "/images/stories/anthropic-flashprove-provable-inference.webp": {
-    "width": 1280,
-    "height": 720,
-    "srcsetWebp": "/images/stories/anthropic-flashprove-provable-inference-640.webp 640w, /images/stories/anthropic-flashprove-provable-inference.webp 1280w",
-    "srcsetAvif": "/images/stories/anthropic-flashprove-provable-inference-640.avif 640w, /images/stories/anthropic-flashprove-provable-inference.avif 1280w"
-  },
-  "/images/stories/tencent-hy4-vision-computer-use-release.webp": {
-    "width": 1280,
-    "height": 720,
-    "srcsetWebp": "/images/stories/tencent-hy4-vision-computer-use-release-640.webp 640w, /images/stories/tencent-hy4-vision-computer-use-release.webp 1280w",
-    "srcsetAvif": "/images/stories/tencent-hy4-vision-computer-use-release-640.avif 640w, /images/stories/tencent-hy4-vision-computer-use-release.avif 1280w"
-  },
-  "/images/stories/kimi-k3-1-pro-open-weights-nebius.webp": {
-    "width": 1280,
-    "height": 720,
-    "srcsetWebp": "/images/stories/kimi-k3-1-pro-open-weights-nebius-640.webp 640w, /images/stories/kimi-k3-1-pro-open-weights-nebius.webp 1280w",
-    "srcsetAvif": "/images/stories/kimi-k3-1-pro-open-weights-nebius-640.avif 640w, /images/stories/kimi-k3-1-pro-open-weights-nebius.avif 1280w"
-  },
-  "/images/stories/factory-acquires-humanlayer-open-source.webp": {
-    "width": 1280,
-    "height": 720,
-    "srcsetWebp": "/images/stories/factory-acquires-humanlayer-open-source-640.webp 640w, /images/stories/factory-acquires-humanlayer-open-source.webp 1280w",
-    "srcsetAvif": "/images/stories/factory-acquires-humanlayer-open-source-640.avif 640w, /images/stories/factory-acquires-humanlayer-open-source.avif 1280w"
-  },
-  "/images/stories/openai-chatgpt-images-2-6-gifs-flare-sunburst.webp": {
-    "width": 1280,
-    "height": 720,
-    "srcsetWebp": "/images/stories/openai-chatgpt-images-2-6-gifs-flare-sunburst-640.webp 640w, /images/stories/openai-chatgpt-images-2-6-gifs-flare-sunburst.webp 1280w",
-    "srcsetAvif": "/images/stories/openai-chatgpt-images-2-6-gifs-flare-sunburst-640.avif 640w, /images/stories/openai-chatgpt-images-2-6-gifs-flare-sunburst.avif 1280w"
-  },
-  "/images/stories/cat-wu-austin-lau-leave-anthropic-join-openai.webp": {
-    "width": 1280,
-    "height": 720,
-    "srcsetWebp": "/images/stories/cat-wu-austin-lau-leave-anthropic-join-openai-640.webp 640w, /images/stories/cat-wu-austin-lau-leave-anthropic-join-openai.webp 1280w",
-    "srcsetAvif": "/images/stories/cat-wu-austin-lau-leave-anthropic-join-openai-640.avif 640w, /images/stories/cat-wu-austin-lau-leave-anthropic-join-openai.avif 1280w"
   }
 }
