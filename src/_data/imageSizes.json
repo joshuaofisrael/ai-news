@@ -671,6 +671,12 @@
     "srcsetWebp": "/images/stories/anthropic-claude-enterprise-smart-reports-640.webp 640w, /images/stories/anthropic-claude-enterprise-smart-reports.webp 1280w",
     "srcsetAvif": "/images/stories/anthropic-claude-enterprise-smart-reports-640.avif 640w, /images/stories/anthropic-claude-enterprise-smart-reports.avif 1280w"
   },
+  "/images/stories/anthropic-claude-vault-particle-prokaryotes.webp": {
+    "width": 1280,
+    "height": 720,
+    "srcsetWebp": "/images/stories/anthropic-claude-vault-particle-prokaryotes-640.webp 640w, /images/stories/anthropic-claude-vault-particle-prokaryotes.webp 1280w",
+    "srcsetAvif": "/images/stories/anthropic-claude-vault-particle-prokaryotes-640.avif 640w, /images/stories/anthropic-claude-vault-particle-prokaryotes.avif 1280w"
+  },
   "/images/stories/anthropic-files-s1-ipo.webp": {
     "width": 1280,
     "height": 720,
