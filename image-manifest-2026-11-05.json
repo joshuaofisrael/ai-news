@@ -1,0 +1,16 @@
+{
+  "date": "2026-11-05",
+  "aspect_ratio": "16:9",
+  "credit": "Image: AI Headline Hub",
+  "licence": "AI Headline Hub",
+  "notes": "1280x720 photorealistic hero. No people, logos, or readable text.",
+  "images": [
+    {
+      "article": "OpenAI launches ChatGPT Images 2.6 with GIFs, reference images and faster API models",
+      "slug": "openai-chatgpt-images-2-6-gifs-flare-sunburst",
+      "role": "hero",
+      "master_path": "src/assets/photos/stories/openai-chatgpt-images-2-6-gifs-flare-sunburst.jpg",
+      "public_path": "/images/stories/openai-chatgpt-images-2-6-gifs-flare-sunburst.webp"
+    }
+  ]
+}

@@ -1018,5 +1018,11 @@
     "height": 720,
     "srcsetWebp": "/images/stories/factory-acquires-humanlayer-open-source-640.webp 640w, /images/stories/factory-acquires-humanlayer-open-source.webp 1280w",
     "srcsetAvif": "/images/stories/factory-acquires-humanlayer-open-source-640.avif 640w, /images/stories/factory-acquires-humanlayer-open-source.avif 1280w"
+  },
+  "/images/stories/openai-chatgpt-images-2-6-gifs-flare-sunburst.webp": {
+    "width": 1280,
+    "height": 720,
+    "srcsetWebp": "/images/stories/openai-chatgpt-images-2-6-gifs-flare-sunburst-640.webp 640w, /images/stories/openai-chatgpt-images-2-6-gifs-flare-sunburst.webp 1280w",
+    "srcsetAvif": "/images/stories/openai-chatgpt-images-2-6-gifs-flare-sunburst-640.avif 640w, /images/stories/openai-chatgpt-images-2-6-gifs-flare-sunburst.avif 1280w"
   }
 }
