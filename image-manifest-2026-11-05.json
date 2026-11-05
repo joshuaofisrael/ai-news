@@ -19,6 +19,14 @@
       "master_path": "src/assets/photos/stories/cat-wu-austin-lau-leave-anthropic-join-openai.jpg",
       "public_path": "/images/stories/cat-wu-austin-lau-leave-anthropic-join-openai.webp",
       "generator": "Grok Bot GenerateImage"
+    },
+    {
+      "article": "Google ships Gemini Omni 1.2 Flash with 15-second video and a 30% price cut",
+      "slug": "google-gemini-omni-1-2-flash-15s-price-cut",
+      "role": "hero",
+      "master_path": "src/assets/photos/stories/google-gemini-omni-1-2-flash-15s-price-cut.jpg",
+      "public_path": "/images/stories/google-gemini-omni-1-2-flash-15s-price-cut.webp",
+      "generator": "Grok Bot GenerateImage"
     }
   ]
 }
