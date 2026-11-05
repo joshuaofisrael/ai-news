@@ -1,9 +1,9 @@
 ---
 title: "TeraWulf secures Google credit backstop for ~$19B Anthropic lease at Kentucky Justified campus"
-description: "TeraWulf said Google will provide credit support for project debt behind Anthropic's roughly $19 billion Justified leases in Hawesville, Kentucky, and that it signed a definitive Fluor EPC for three buildings with phased ready-for-service from late 2027 through Q2 2028."
+description: "TeraWulf said Google will credit-support project debt for Anthropic's ~$19B Justified leases in Kentucky and signed a Fluor EPC for three buildings, ready from late 2027 through Q2 2028."
 date: 2026-11-05T14:30:00.000Z
 updated: "2026-11-05T14:30:00.000Z"
-category: industry-policy
+category: industry-business
 tags:
   - anthropic
   - google
