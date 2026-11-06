@@ -1,8 +1,8 @@
 ---
 title: "OpenAI introduces GPT-6 Cyber for aligned security research"
 description: "OpenAI launched GPT-6 Cyber on 5 November 2026, saying the model pairs stronger cybersecurity capabilities with tighter scope alignment for approved Daybreak Red customers."
-date: 2026-11-06T15:00:00.000Z
-updated: "2026-11-06T15:00:00.000Z"
+date: 2026-11-06T12:30:00.000Z
+updated: "2026-11-06T12:30:00.000Z"
 category: models-research
 tags:
   - openai

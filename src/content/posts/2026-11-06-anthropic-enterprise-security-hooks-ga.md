@@ -1,8 +1,8 @@
 ---
 title: "Anthropic makes inference hooks generally available for Claude Enterprise"
 description: "Anthropic says Claude Enterprise now offers generally available inference hooks alongside new security and administration controls for enterprise customers."
-date: 2026-11-06T14:00:00.000Z
-updated: "2026-11-06T14:00:00.000Z"
+date: 2026-11-06T12:00:00.000Z
+updated: "2026-11-06T12:00:00.000Z"
 category: tools-products
 tags:
   - anthropic
