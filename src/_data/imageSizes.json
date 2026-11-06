@@ -875,6 +875,12 @@
     "srcsetWebp": "/images/stories/meta-acquires-conductor-ai-coding-640.webp 640w, /images/stories/meta-acquires-conductor-ai-coding.webp 1280w",
     "srcsetAvif": "/images/stories/meta-acquires-conductor-ai-coding-640.avif 640w, /images/stories/meta-acquires-conductor-ai-coding.avif 1280w"
   },
+  "/images/stories/metr-anthropic-ai-rd-acceleration.webp": {
+    "width": 1280,
+    "height": 720,
+    "srcsetWebp": "/images/stories/metr-anthropic-ai-rd-acceleration-640.webp 640w, /images/stories/metr-anthropic-ai-rd-acceleration.webp 1280w",
+    "srcsetAvif": "/images/stories/metr-anthropic-ai-rd-acceleration-640.avif 640w, /images/stories/metr-anthropic-ai-rd-acceleration.avif 1280w"
+  },
   "/images/stories/mistral-large-4-open-weights.webp": {
     "width": 1280,
     "height": 720,
@@ -1048,6 +1054,12 @@
     "height": 720,
     "srcsetWebp": "/images/stories/terawulf-google-anthropic-justified-kentucky-640.webp 640w, /images/stories/terawulf-google-anthropic-justified-kentucky.webp 1280w",
     "srcsetAvif": "/images/stories/terawulf-google-anthropic-justified-kentucky-640.avif 640w, /images/stories/terawulf-google-anthropic-justified-kentucky.avif 1280w"
+  },
+  "/images/stories/thinking-machines-inkling-2-small.webp": {
+    "width": 1280,
+    "height": 720,
+    "srcsetWebp": "/images/stories/thinking-machines-inkling-2-small-640.webp 640w, /images/stories/thinking-machines-inkling-2-small.webp 1280w",
+    "srcsetAvif": "/images/stories/thinking-machines-inkling-2-small-640.avif 640w, /images/stories/thinking-machines-inkling-2-small.avif 1280w"
   },
   "/images/stories/treasury-outbound-investment.webp": {
     "width": 1280,
