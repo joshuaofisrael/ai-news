@@ -677,6 +677,12 @@
     "srcsetWebp": "/images/stories/anthropic-claude-vault-particle-prokaryotes-640.webp 640w, /images/stories/anthropic-claude-vault-particle-prokaryotes.webp 1280w",
     "srcsetAvif": "/images/stories/anthropic-claude-vault-particle-prokaryotes-640.avif 640w, /images/stories/anthropic-claude-vault-particle-prokaryotes.avif 1280w"
   },
+  "/images/stories/anthropic-enterprise-security-hooks-ga.webp": {
+    "width": 1280,
+    "height": 720,
+    "srcsetWebp": "/images/stories/anthropic-enterprise-security-hooks-ga-640.webp 640w, /images/stories/anthropic-enterprise-security-hooks-ga.webp 1280w",
+    "srcsetAvif": "/images/stories/anthropic-enterprise-security-hooks-ga-640.avif 640w, /images/stories/anthropic-enterprise-security-hooks-ga.avif 1280w"
+  },
   "/images/stories/anthropic-files-s1-ipo.webp": {
     "width": 1280,
     "height": 720,
@@ -863,6 +869,12 @@
     "srcsetWebp": "/images/stories/meta-95-billion-equity-plan-640.webp 640w, /images/stories/meta-95-billion-equity-plan.webp 1280w",
     "srcsetAvif": "/images/stories/meta-95-billion-equity-plan-640.avif 640w, /images/stories/meta-95-billion-equity-plan.avif 1280w"
   },
+  "/images/stories/meta-acquires-conductor-ai-coding.webp": {
+    "width": 1280,
+    "height": 720,
+    "srcsetWebp": "/images/stories/meta-acquires-conductor-ai-coding-640.webp 640w, /images/stories/meta-acquires-conductor-ai-coding.webp 1280w",
+    "srcsetAvif": "/images/stories/meta-acquires-conductor-ai-coding-640.avif 640w, /images/stories/meta-acquires-conductor-ai-coding.avif 1280w"
+  },
   "/images/stories/mistral-large-4-open-weights.webp": {
     "width": 1280,
     "height": 720,
@@ -910,6 +922,12 @@
     "height": 720,
     "srcsetWebp": "/images/stories/openai-google-cloud-640.webp 640w, /images/stories/openai-google-cloud.webp 1280w",
     "srcsetAvif": "/images/stories/openai-google-cloud-640.avif 640w, /images/stories/openai-google-cloud.avif 1280w"
+  },
+  "/images/stories/openai-gpt-6-cyber-security-research.webp": {
+    "width": 1280,
+    "height": 720,
+    "srcsetWebp": "/images/stories/openai-gpt-6-cyber-security-research-640.webp 640w, /images/stories/openai-gpt-6-cyber-security-research.webp 1280w",
+    "srcsetAvif": "/images/stories/openai-gpt-6-cyber-security-research-640.avif 640w, /images/stories/openai-gpt-6-cyber-security-research.avif 1280w"
   },
   "/images/stories/openai-misalignment-monitoring-layers.webp": {
     "width": 1280,
