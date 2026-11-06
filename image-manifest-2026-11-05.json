@@ -27,6 +27,13 @@
       "master_path": "src/assets/photos/stories/google-gemini-omni-1-2-flash-15s-price-cut.jpg",
       "public_path": "/images/stories/google-gemini-omni-1-2-flash-15s-price-cut.webp",
       "generator": "Grok Bot GenerateImage"
+    },
+    {
+      "article": "OpenAI launches GPT-6 Cyber after Linux run finds 948 privilege-escalation paths",
+      "slug": "openai-gpt-6-cyber-linux-948-lpe",
+      "role": "hero",
+      "master_path": "src/assets/photos/stories/openai-gpt-6-cyber-linux-948-lpe.jpg",
+      "public_path": "/images/stories/openai-gpt-6-cyber-linux-948-lpe.webp"
     }
   ]
 }

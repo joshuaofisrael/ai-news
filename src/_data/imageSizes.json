@@ -911,6 +911,12 @@
     "srcsetWebp": "/images/stories/openai-google-cloud-640.webp 640w, /images/stories/openai-google-cloud.webp 1280w",
     "srcsetAvif": "/images/stories/openai-google-cloud-640.avif 640w, /images/stories/openai-google-cloud.avif 1280w"
   },
+  "/images/stories/openai-gpt-6-cyber-linux-948-lpe.webp": {
+    "width": 1280,
+    "height": 720,
+    "srcsetWebp": "/images/stories/openai-gpt-6-cyber-linux-948-lpe-640.webp 640w, /images/stories/openai-gpt-6-cyber-linux-948-lpe.webp 1280w",
+    "srcsetAvif": "/images/stories/openai-gpt-6-cyber-linux-948-lpe-640.avif 640w, /images/stories/openai-gpt-6-cyber-linux-948-lpe.avif 1280w"
+  },
   "/images/stories/openai-misalignment-monitoring-layers.webp": {
     "width": 1280,
     "height": 720,
