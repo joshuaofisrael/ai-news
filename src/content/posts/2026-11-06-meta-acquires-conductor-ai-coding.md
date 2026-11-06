@@ -1,8 +1,8 @@
 ---
 title: "Meta acquires Conductor, an AI coding startup for multi agent workflows"
 description: "Meta has acquired Conductor, whose product helps developers run and coordinate multiple coding agents. Terms were not disclosed. Conductor Cloud shuts on 20 November 2026."
-date: 2026-11-06T16:00:00.000Z
-updated: "2026-11-06T16:00:00.000Z"
+date: 2026-11-06T13:00:00.000Z
+updated: "2026-11-06T13:00:00.000Z"
 category: industry-business
 tags:
   - meta
