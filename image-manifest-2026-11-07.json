@@ -28,6 +28,14 @@
       "master_path": "src/assets/photos/stories/openai-11b-raise-1-25t-valuation.jpg",
       "bank_source": "/workspace/image-bank/ai-news/keynote-blank-screen.png",
       "alt": "Keynote stage with a blank glowing screen and audience silhouettes"
+    },
+    {
+      "article": "chatgpt-business-hub-mentions-clicks-analytics",
+      "slug": "chatgpt-business-hub-mentions-clicks-analytics",
+      "role": "hero",
+      "master_path": "src/assets/photos/stories/chatgpt-business-hub-mentions-clicks-analytics.jpg",
+      "bank_source": "/workspace/image-bank/ai-news/headset-chat-monitor.png",
+      "alt": "Office desk with a headset and a monitor showing abstract chat bubble graphics"
     }
   ]
 }
