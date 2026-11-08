@@ -1,0 +1,33 @@
+{
+  "date": "2026-11-08",
+  "aspect_ratio": "16:9",
+  "credit": "Image: AI Headline Hub",
+  "licence": "AI Headline Hub",
+  "notes": "1280x720 photorealistic hero from image-bank.",
+  "images": [
+    {
+      "article": "into-the-unknown-ai-agents-research-benchmark",
+      "slug": "into-the-unknown-ai-agents-research-benchmark",
+      "role": "hero",
+      "master_path": "src/assets/photos/stories/into-the-unknown-ai-agents-research-benchmark.jpg",
+      "bank_source": "/workspace/image-bank/ai-news/whiteboard-team.png",
+      "alt": "Researchers seen from behind at a whiteboard of abstract diagrams"
+    },
+    {
+      "article": "meta-muse-spaces-custom-mini-apps",
+      "slug": "meta-muse-spaces-custom-mini-apps",
+      "role": "hero",
+      "master_path": "src/assets/photos/stories/meta-muse-spaces-custom-mini-apps.jpg",
+      "bank_source": "/workspace/image-bank/ai-news/park-bench-voice-assistant.png",
+      "alt": "Person seen from behind on a spring park bench holding up a phone"
+    },
+    {
+      "article": "perplexity-teammates-automation-runs-3-7x",
+      "slug": "perplexity-teammates-automation-runs-3-7x",
+      "role": "hero",
+      "master_path": "src/assets/photos/stories/perplexity-teammates-automation-runs-3-7x.jpg",
+      "bank_source": "/workspace/image-bank/ai-news/developer-night-monitors.png",
+      "alt": "Developer seen from behind at multiple monitors at night"
+    }
+  ]
+}
