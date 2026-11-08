@@ -6,36 +6,12 @@
   "notes": "1280x720 photorealistic hero from image-bank.",
   "images": [
     {
-      "article": "anthropic-agent-memory-dreaming",
-      "slug": "anthropic-agent-memory-dreaming",
+      "article": "anthropic-ipo-investors-push-back-valuation",
+      "slug": "anthropic-ipo-investors-push-back-valuation",
       "role": "hero",
-      "master_path": "src/assets/photos/stories/anthropic-agent-memory-dreaming.jpg",
-      "bank_source": "/workspace/image-bank/ai-news/chatbot-laptop-night.png",
-      "alt": "Person seen from behind using a chatbot on a laptop at night"
-    },
-    {
-      "article": "openai-fmf-jailbreak-rating-framework",
-      "slug": "openai-fmf-jailbreak-rating-framework",
-      "role": "hero",
-      "master_path": "src/assets/photos/stories/openai-fmf-jailbreak-rating-framework.jpg",
-      "bank_source": "/workspace/image-bank/ai-news/glowing-padlock-circuit.png",
-      "alt": "Glowing padlock resting on a circuit board with soft studio light"
-    },
-    {
-      "article": "openai-11b-raise-1-25t-valuation",
-      "slug": "openai-11b-raise-1-25t-valuation",
-      "role": "hero",
-      "master_path": "src/assets/photos/stories/openai-11b-raise-1-25t-valuation.jpg",
-      "bank_source": "/workspace/image-bank/ai-news/keynote-blank-screen.png",
-      "alt": "Keynote stage with a blank glowing screen and audience silhouettes"
-    },
-    {
-      "article": "chatgpt-business-hub-mentions-clicks-analytics",
-      "slug": "chatgpt-business-hub-mentions-clicks-analytics",
-      "role": "hero",
-      "master_path": "src/assets/photos/stories/chatgpt-business-hub-mentions-clicks-analytics.jpg",
-      "bank_source": "/workspace/image-bank/ai-news/headset-chat-monitor.png",
-      "alt": "Office desk with a headset and a monitor showing abstract chat bubble graphics"
+      "master_path": "src/assets/photos/stories/anthropic-ipo-investors-push-back-valuation.jpg",
+      "bank_source": "/workspace/image-bank/ai-news/lit-floor-tower-night.png",
+      "alt": "Glass office tower at night with one brightly lit floor"
     }
   ]
 }
