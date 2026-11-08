@@ -69,7 +69,7 @@ assert.match(
   figureHtml,
   /<img src="\/images\/hero\/datacenter\.webp" alt="Server racks glowing blue in a data-center corridor\." width="1280" height="720" loading="lazy" decoding="async">/,
 );
-assert.match(figureHtml, /<figcaption>A corridor of racks\.<\/figcaption>/);
+assert.match(figureHtml, /<figcaption><a class="figure-source" href="\/image-policy\/">Source<\/a><\/figcaption>/);
 assert.doesNotMatch(figureHtml, /AI-generated image/);
 assert.doesNotMatch(figureHtml, /loading="eager"/);
 assert.doesNotMatch(figureHtml, /&lt;figure/);
