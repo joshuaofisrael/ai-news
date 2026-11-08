@@ -17,13 +17,5 @@
       {% if fetchpriority %}fetchpriority="{{ fetchpriority }}"{% endif %}
     >
   </picture>
-  {% if img.credit %}
-    <figcaption>
-      {% if img.credit %}
-      <span class="figure-credit">
-        {{ img.credit }}
-      </span>
-      {% endif %}
-    </figcaption>
-  {% endif %}
+    <figcaption><a class="figure-source" href="/image-policy/">Source</a></figcaption>
 </figure>
