@@ -36,6 +36,14 @@
       "master_path": "src/assets/photos/stories/chatgpt-business-hub-mentions-clicks-analytics.jpg",
       "bank_source": "/workspace/image-bank/ai-news/headset-chat-monitor.png",
       "alt": "Office desk with a headset and a monitor showing abstract chat bubble graphics"
+    },
+    {
+      "article": "anthropic-ipo-investors-push-back-valuation",
+      "slug": "anthropic-ipo-investors-push-back-valuation",
+      "role": "hero",
+      "master_path": "src/assets/photos/stories/anthropic-ipo-investors-push-back-valuation.jpg",
+      "bank_source": "/workspace/image-bank/ai-news/lit-floor-tower-night.png",
+      "alt": "Glass office tower at night with one brightly lit floor"
     }
   ]
 }
