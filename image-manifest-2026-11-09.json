@@ -1,0 +1,33 @@
+{
+  "date": "2026-11-09",
+  "aspect_ratio": "16:9",
+  "credit": "Image: AI Headline Hub",
+  "licence": "AI Headline Hub",
+  "notes": "1280x720 photorealistic hero from image-bank.",
+  "images": [
+    {
+      "article": "nvidia-rebellions-sk-telecom-sovereign-ai",
+      "slug": "nvidia-rebellions-sk-telecom-sovereign-ai",
+      "role": "hero",
+      "master_path": "src/assets/photos/stories/nvidia-rebellions-sk-telecom-sovereign-ai.jpg",
+      "bank_source": "/workspace/image-bank/ai-news/server-hall-blue.png",
+      "alt": "Long corridor of server racks glowing blue in a dark data center"
+    },
+    {
+      "article": "npci-launches-ai-blockchain-technology-subsidiary",
+      "slug": "npci-launches-ai-blockchain-technology-subsidiary",
+      "role": "hero",
+      "master_path": "src/assets/photos/stories/npci-launches-ai-blockchain-technology-subsidiary.jpg",
+      "bank_source": "/workspace/image-bank/ai-news/patch-cables-switch.png",
+      "alt": "Colorful network patch cables plugged into a switch with green status lights"
+    },
+    {
+      "article": "mit-flex-robots-interpret-natural-language",
+      "slug": "mit-flex-robots-interpret-natural-language",
+      "role": "hero",
+      "master_path": "src/assets/photos/stories/mit-flex-robots-interpret-natural-language.jpg",
+      "bank_source": "/workspace/image-bank/ai-news/robot-arm-lab.png",
+      "alt": "White robotic arm working at a bright laboratory bench"
+    }
+  ]
+}
