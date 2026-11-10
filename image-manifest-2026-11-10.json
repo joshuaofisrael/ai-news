@@ -1,0 +1,25 @@
+{
+  "date": "2026-11-10",
+  "aspect_ratio": "16:9",
+  "credit": "Image: AI Headline Hub",
+  "licence": "AI Headline Hub",
+  "notes": "1280x720 photorealistic hero from image-bank.",
+  "images": [
+    {
+      "article": "google-tpu-8tx-8i-max",
+      "slug": "google-tpu-8tx-8i-max",
+      "role": "hero",
+      "master_path": "src/assets/photos/stories/google-tpu-8tx-8i-max.jpg",
+      "bank_source": "/workspace/image-bank/ai-news/processor-chip-macro.png",
+      "alt": "Macro view of an unbranded processor chip on a green circuit board"
+    },
+    {
+      "article": "anthropic-fable-mythos-5-2-models",
+      "slug": "anthropic-fable-mythos-5-2-models",
+      "role": "hero",
+      "master_path": "src/assets/photos/stories/anthropic-fable-mythos-5-2-models.jpg",
+      "bank_source": "/workspace/image-bank/ai-news/neural-network-abstract.png",
+      "alt": "Abstract glowing neural network nodes floating in dark space"
+    }
+  ]
+}
