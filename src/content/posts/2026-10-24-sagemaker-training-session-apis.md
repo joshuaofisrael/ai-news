@@ -2,7 +2,7 @@
 title: "SageMaker AI: write a training loop without managing GPUs"
 description: "AWS said on October 22 that SageMaker AI training-session APIs are generally available in three regions for custom post-training, billed per token processed."
 date: 2026-10-24T14:00:00.000Z
-updated: "2026-10-25T20:30:00.000Z"
+updated: '2026-11-11T19:15:00.000Z'
 category: tools-products
 tags:
   - aws
@@ -47,4 +47,4 @@ The product claim is a split of labor, not a benchmark. AWS is saying the resear
 
 This report is not purchasing advice and not a guide to choosing a training method.
 
-Related reporting: [OPAL, which lets an agent edit optimizer code during training](/2026/10/23/opal-agent-rewrites-optimizer-during-training/) and [Google Cloud’s agent microVM preview](/2026/10/23/google-cloud-agent-compute-engine/).
+Related reporting: [OPAL, which lets an agent edit optimizer code during training](/2026/10/23/opal-agent-rewrites-optimizer-during-training/), [Google Cloud’s agent microVM preview](/2026/10/23/google-cloud-agent-compute-engine/), and [AWS Emulator, a local service emulator AWS says was written entirely by autonomous agents](/2026/11/11/aws-emulator-built-by-autonomous-agents/).

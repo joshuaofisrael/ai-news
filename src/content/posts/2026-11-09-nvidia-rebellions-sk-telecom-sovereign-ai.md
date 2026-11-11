@@ -2,7 +2,7 @@
 title: NVIDIA, Rebellions and SK Telecom team up on Korean sovereign AI inference racks
 description: Rebellions will connect its R200 NPUs to NVIDIA's platform through NVLink Fusion, and SK Telecom plans to deploy the systems in its AI data center, with R200 systems expected in 2028.
 date: '2026-11-09T12:00:00.000Z'
-updated: '2026-11-09T12:00:00.000Z'
+updated: '2026-11-11T19:15:00.000Z'
 category: industry-business
 tags:
   - nvidia
@@ -53,3 +53,5 @@ Bae Kyung-hoon, Korea's Deputy Prime Minister and Minister of Science and ICT, s
 ## Timing
 
 According to the release, Rebellions' R200 systems are expected to be ready for deployment in 2028. The companies did not give deployment volumes or performance figures.
+
+NVIDIA has also described a separate open-source project: it is [contributing OpenShell to the CNCF as a Sandbox project](/2026/11/11/nvidia-openshell-cncf-sandbox/) to help govern autonomous agents.
