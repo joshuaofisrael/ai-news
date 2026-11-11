@@ -1,6 +1,6 @@
 ---
 title: AWS says autonomous AI agents wrote every line of its new local AWS Emulator
-description: In a 11 November post, AWS senior principal engineer Matthew Goldberg said AWS Emulator, a local emulator of AWS services now available to download, was written entirely by autonomous agents and released on GitHub under a CC0 licence.
+description: AWS said on 11 November that AWS Emulator, a local emulator of AWS services, was written entirely by autonomous agents and released on GitHub under a CC0 licence.
 date: '2026-11-11T18:00:00.000Z'
 updated: '2026-11-11T18:00:00.000Z'
 category: industry-business
