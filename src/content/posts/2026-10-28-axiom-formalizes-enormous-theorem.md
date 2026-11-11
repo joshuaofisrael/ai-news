@@ -2,7 +2,7 @@
 title: "Axiom says AI agents formalized a huge theorem in Lean"
 description: "Axiom’s October 26 post says a 24-day project with AI agents formalized the classification of finite simple groups in about 43.1 million lines of Lean."
 date: 2026-10-28T18:00:00.000Z
-updated: "2026-10-28T18:10:00.000Z"
+updated: '2026-11-11T19:15:00.000Z'
 category: models-research
 tags:
   - research
@@ -59,4 +59,4 @@ The post says the work started from a proof map and from Lean already written, i
 
 Axiom’s account is a scale claim and a repair claim together: a first-generation proof, long enough that specialists have spent decades checking it, now has a Lean development Axiom says a machine can check, plus a list of places the published route needed a patch. The check the machine performs is the check Lean performs on the files Axiom published. Whether the formal statement is the theorem mathematicians mean, and whether a fresh build matches the readme, are questions this desk did not run. The post’s own sentence is the useful split: people inspect the statement, and Lean inspects the deductions.
 
-[OpenAI’s October 26 manuscripts](/2026/10/27/openai-science-claims/) are a different kind of claim, proofs the company asked outsiders to review, not a Lean library of a known classification. [What is an AI agent?](/explainers/what-is-an-ai-agent/) is the term for the workers Axiom says it directed. The agent files are grouped on the [AI agent](/topics/ai-agents/) page.
+[OpenAI’s October 26 manuscripts](/2026/10/27/openai-science-claims/) are a different kind of claim, proofs the company asked outsiders to review, not a Lean library of a known classification. A later formal-verification story from this desk covers [DeepMind’s AlphaProof Code work on the Signal protocol](/2026/11/11/alphaproof-code-verifies-signal-protocol/). [What is an AI agent?](/explainers/what-is-an-ai-agent/) is the term for the workers Axiom says it directed. The agent files are grouped on the [AI agent](/topics/ai-agents/) page.
