@@ -1,0 +1,25 @@
+{
+  "date": "2026-11-11",
+  "aspect_ratio": "16:9",
+  "credit": "Image: AI Headline Hub",
+  "licence": "AI Headline Hub",
+  "notes": "1280x720 photorealistic hero from image-bank.",
+  "images": [
+    {
+      "article": "what-is-prompt-injection",
+      "slug": "what-is-prompt-injection",
+      "role": "hero",
+      "master_path": "src/assets/photos/stories/what-is-prompt-injection.jpg",
+      "bank_source": "/workspace/image-bank/ai-news/glowing-padlock-circuit.png",
+      "alt": "Glowing padlock over dark circuit lines"
+    },
+    {
+      "article": "what-is-a-token-in-llms",
+      "slug": "what-is-a-token-in-llms",
+      "role": "hero",
+      "master_path": "src/assets/photos/stories/what-is-a-token-in-llms.jpg",
+      "bank_source": "/workspace/image-bank/ai-news/chatbot-laptop-night.png",
+      "alt": "Person seen from behind using a chatbot on a laptop at night"
+    }
+  ]
+}
