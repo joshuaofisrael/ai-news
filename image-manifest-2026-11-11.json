@@ -44,6 +44,14 @@
       "master_path": "src/assets/photos/stories/aws-emulator-built-by-autonomous-agents.jpg",
       "bank_source": "/workspace/image-bank/ai-news/engineer-flashlight-racks.png",
       "alt": "Engineer seen from behind inspecting server racks with a flashlight, no logos or faces"
+    },
+    {
+      "article": "nvidia-openshell-cncf-sandbox",
+      "slug": "nvidia-openshell-cncf-sandbox",
+      "role": "hero",
+      "master_path": "src/assets/photos/stories/nvidia-openshell-cncf-sandbox.jpg",
+      "bank_source": "/workspace/image-bank/ai-news/data-centre-campus-aerial.png",
+      "alt": "Aerial view of a data centre campus with a power substation, no logos or faces"
     }
   ]
 }
