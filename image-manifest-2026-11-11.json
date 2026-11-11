@@ -20,6 +20,22 @@
       "master_path": "src/assets/photos/stories/what-is-a-token-in-llms.jpg",
       "bank_source": "/workspace/image-bank/ai-news/chatbot-laptop-night.png",
       "alt": "Person seen from behind using a chatbot on a laptop at night"
+    },
+    {
+      "article": "alphaproof-code-verifies-signal-protocol",
+      "slug": "alphaproof-code-verifies-signal-protocol",
+      "role": "hero",
+      "master_path": "src/assets/photos/stories/alphaproof-code-verifies-signal-protocol.jpg",
+      "bank_source": "/workspace/image-bank/ai-news/fiber-optic-glow.png",
+      "alt": "Glowing purple and cyan fiber-optic strands in close-up, no logos or text"
+    },
+    {
+      "article": "gemini-4-carbon-now-available",
+      "slug": "gemini-4-carbon-now-available",
+      "role": "hero",
+      "master_path": "src/assets/photos/stories/gemini-4-carbon-now-available.jpg",
+      "bank_source": "/workspace/image-bank/ai-news/gpu-liquid-cooling.png",
+      "alt": "Gloved hands fitting liquid cooling tubes to GPU server boards, no logos or text"
     }
   ]
 }
