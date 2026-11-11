@@ -36,6 +36,14 @@
       "master_path": "src/assets/photos/stories/gemini-4-carbon-now-available.jpg",
       "bank_source": "/workspace/image-bank/ai-news/gpu-liquid-cooling.png",
       "alt": "Gloved hands fitting liquid cooling tubes to GPU server boards, no logos or text"
+    },
+    {
+      "article": "aws-emulator-built-by-autonomous-agents",
+      "slug": "aws-emulator-built-by-autonomous-agents",
+      "role": "hero",
+      "master_path": "src/assets/photos/stories/aws-emulator-built-by-autonomous-agents.jpg",
+      "bank_source": "/workspace/image-bank/ai-news/engineer-flashlight-racks.png",
+      "alt": "Engineer seen from behind inspecting server racks with a flashlight, no logos or faces"
     }
   ]
 }
