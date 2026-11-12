@@ -1,0 +1,57 @@
+{
+  "date": "2026-11-12",
+  "aspect_ratio": "16:9",
+  "credit": "Image: AI Headline Hub",
+  "licence": "AI Headline Hub",
+  "notes": "1280x720 photorealistic hero from image-bank.",
+  "images": [
+    {
+      "article": "gemini-decisions-api-gemini-decision-1",
+      "slug": "gemini-decisions-api-gemini-decision-1",
+      "role": "hero",
+      "master_path": "src/assets/photos/stories/gemini-decisions-api-gemini-decision-1.jpg",
+      "bank_source": "/workspace/image-bank/ai-news/developer-night-monitors.png",
+      "alt": "Developer seen from behind at several monitors at night, no logos or readable text"
+    },
+    {
+      "article": "alphagenome-2-cell-type-dna-variant-model",
+      "slug": "alphagenome-2-cell-type-dna-variant-model",
+      "role": "hero",
+      "master_path": "src/assets/photos/stories/alphagenome-2-cell-type-dna-variant-model.jpg",
+      "bank_source": "/workspace/image-bank/ai-news/scientist-protein-monitor.png",
+      "alt": "Scientist seen from behind at a microscope beside a molecular structure on a monitor, no logos or readable text"
+    },
+    {
+      "article": "qwen4-max-preview-token-plan",
+      "slug": "qwen4-max-preview-token-plan",
+      "role": "hero",
+      "master_path": "src/assets/photos/stories/qwen4-max-preview-token-plan.jpg",
+      "bank_source": "/workspace/image-bank/ai-news/server-hall-blue.png",
+      "alt": "Long data centre aisle of server racks under blue lighting, no logos or readable text"
+    },
+    {
+      "article": "databricks-always-on-genie-ontology-ga",
+      "slug": "databricks-always-on-genie-ontology-ga",
+      "role": "hero",
+      "master_path": "src/assets/photos/stories/databricks-always-on-genie-ontology-ga.jpg",
+      "bank_source": "/workspace/image-bank/ai-news/startup-office-rain-night.png",
+      "alt": "Empty office at night with glowing monitors and rain on the windows, no logos or readable text"
+    },
+    {
+      "article": "runway-praxis-1-open-weights-robotics",
+      "slug": "runway-praxis-1-open-weights-robotics",
+      "role": "hero",
+      "master_path": "src/assets/photos/stories/runway-praxis-1-open-weights-robotics.jpg",
+      "bank_source": "/workspace/image-bank/ai-news/robot-arm-lab.png",
+      "alt": "White robotic arm handling a vial in a bright research lab, no logos or readable text"
+    },
+    {
+      "article": "minimax-h3-image-open-weights",
+      "slug": "minimax-h3-image-open-weights",
+      "role": "hero",
+      "master_path": "src/assets/photos/stories/minimax-h3-image-open-weights.jpg",
+      "bank_source": "/workspace/image-bank/ai-news/stylus-drawing-tablet.png",
+      "alt": "Hands with a stylus on a drawing tablet showing abstract colour swirls, no logos or readable text"
+    }
+  ]
+}
