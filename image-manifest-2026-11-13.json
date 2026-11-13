@@ -1,0 +1,25 @@
+{
+  "date": "2026-11-13",
+  "aspect_ratio": "16:9",
+  "credit": "Image: AI Headline Hub",
+  "licence": "AI Headline Hub",
+  "notes": "1280x720 photorealistic hero from image-bank.",
+  "images": [
+    {
+      "article": "gemini-4-hydrogen-fast-model-launch",
+      "slug": "gemini-4-hydrogen-fast-model-launch",
+      "role": "hero",
+      "master_path": "src/assets/photos/stories/gemini-4-hydrogen-fast-model-launch.jpg",
+      "bank_source": "/workspace/image-bank/ai-news/neural-network-glow.png",
+      "alt": "Abstract glowing network of light nodes in dark space, no logos or readable text"
+    },
+    {
+      "article": "deepl-aure-voice-translation-model",
+      "slug": "deepl-aure-voice-translation-model",
+      "role": "hero",
+      "master_path": "src/assets/photos/stories/deepl-aure-voice-translation-model.jpg",
+      "bank_source": "/workspace/image-bank/ai-news/podcast-mic-waveform.png",
+      "alt": "Studio microphone and headphones with a glowing waveform on a monitor, no logos or readable text"
+    }
+  ]
+}
