@@ -1,0 +1,25 @@
+{
+  "date": "2026-11-14",
+  "aspect_ratio": "16:9",
+  "credit": "Image: AI Headline Hub",
+  "licence": "AI Headline Hub",
+  "notes": "1280x720 photorealistic hero from image-bank.",
+  "images": [
+    {
+      "article": "chatgpt-wallet-dots-amex-mastercard-visa",
+      "slug": "chatgpt-wallet-dots-amex-mastercard-visa",
+      "role": "hero",
+      "master_path": "src/assets/photos/stories/chatgpt-wallet-dots-amex-mastercard-visa.jpg",
+      "bank_source": "/workspace/image-bank/ai-news/park-bench-voice-assistant.png",
+      "alt": "Person seen from behind on a park bench holding up a phone, no logos or readable text"
+    },
+    {
+      "article": "llama-cpp-ggml-v1-0-0-release",
+      "slug": "llama-cpp-ggml-v1-0-0-release",
+      "role": "hero",
+      "master_path": "src/assets/photos/stories/llama-cpp-ggml-v1-0-0-release.jpg",
+      "bank_source": "/workspace/image-bank/ai-news/developer-night-monitors.png",
+      "alt": "Developer seen from behind at several monitors at night, no logos or readable text"
+    }
+  ]
+}
