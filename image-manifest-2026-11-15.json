@@ -1,0 +1,33 @@
+{
+  "date": "2026-11-15",
+  "aspect_ratio": "16:9",
+  "credit": "Image: AI Headline Hub",
+  "licence": "AI Headline Hub",
+  "notes": "1280x720 photorealistic hero from image-bank.",
+  "images": [
+    {
+      "article": "perplexity-teammate-11x-agent-hours-srinivas",
+      "slug": "perplexity-teammate-11x-agent-hours-srinivas",
+      "role": "hero",
+      "master_path": "src/assets/photos/stories/perplexity-teammate-11x-agent-hours-srinivas.jpg",
+      "bank_source": "/workspace/image-bank/ai-news/smart-city-light-streams.png",
+      "alt": "Aerial night city with glowing data streams connecting buildings, no logos or readable text"
+    },
+    {
+      "article": "gemini-google-wallet-personal-intelligence-us",
+      "slug": "gemini-google-wallet-personal-intelligence-us",
+      "role": "hero",
+      "master_path": "src/assets/photos/stories/gemini-google-wallet-personal-intelligence-us.jpg",
+      "bank_source": "/workspace/image-bank/fiscalhour/couple-bills-night.png",
+      "alt": "Couple seen from behind reviewing bills at a dining table at night, no logos or readable text"
+    },
+    {
+      "article": "anthropic-safety-evaluation-design-recommendations",
+      "slug": "anthropic-safety-evaluation-design-recommendations",
+      "role": "hero",
+      "master_path": "src/assets/photos/stories/anthropic-safety-evaluation-design-recommendations.jpg",
+      "bank_source": "/workspace/image-bank/ai-news/particle-head-profile.png",
+      "alt": "Digital head made of blue particles in profile, no logos or readable text"
+    }
+  ]
+}
