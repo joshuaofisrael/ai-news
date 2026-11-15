@@ -1,6 +1,6 @@
 ---
 title: Perplexity CEO says Teammate agents now add 11 times more work hours a week than in September
-description: Aravind Srinivas posted on 14 November that agent hours from Perplexity's Teammate rose to 11 times the September level, up from 7 times a week earlier. The figures are his own and have not been published by Perplexity elsewhere.
+description: Aravind Srinivas says agent hours from Perplexity Teammate are now 11 times the September level, up from 7 times a week earlier. The figures are his own claims.
 date: '2026-11-15T14:00:00.000Z'
 updated: '2026-11-15T14:00:00.000Z'
 category: industry-business
