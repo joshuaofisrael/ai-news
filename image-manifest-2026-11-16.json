@@ -1,0 +1,25 @@
+{
+  "date": "2026-11-16",
+  "aspect_ratio": "16:9",
+  "credit": "Image: AI Headline Hub",
+  "licence": "AI Headline Hub",
+  "notes": "1280x720 photorealistic hero from image-bank.",
+  "images": [
+    {
+      "article": "openai-science-blog-gpt-6-astra-standard-model-lattice",
+      "slug": "openai-science-blog-gpt-6-astra-standard-model-lattice",
+      "role": "hero",
+      "master_path": "src/assets/photos/stories/openai-science-blog-gpt-6-astra-standard-model-lattice.jpg",
+      "bank_source": "/workspace/image-bank/ai-news/ai-lab-office.png",
+      "alt": "Open-plan research lab with whiteboards and laptops, no people, logos or readable text"
+    },
+    {
+      "article": "apple-openevidence-health-ai-study-app",
+      "slug": "apple-openevidence-health-ai-study-app",
+      "role": "hero",
+      "master_path": "src/assets/photos/stories/apple-openevidence-health-ai-study-app.jpg",
+      "bank_source": "/workspace/image-bank/ai-news/medical-scan-tablet.png",
+      "alt": "Gloved hands reviewing a highlighted scan on a tablet, no faces, logos or readable text"
+    }
+  ]
+}
