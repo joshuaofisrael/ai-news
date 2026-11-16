@@ -43,11 +43,11 @@ The Standard Model describes the known elementary particles and three of the fou
 
 ## What the model did
 
-Craig says he had a strategy based on representing the force fields on a series of ever finer grids, but could not prove it worked in every case. He writes that GPT-6 Astra suggested how to carry the fields onto finer grids, showed the comparisons would converge and "took the lead in developing the detailed proof". He credits lattice theorists Maarten Golterman, Andreas Kronfeld and Yigal Shamir with checking the proof and asking probing questions.
+Craig says he had a strategy based on representing the force fields on a series of ever finer grids, but could not prove it worked in every case. He writes that GPT-6 Astra suggested how to carry the fields onto finer grids, showed the comparisons would converge and then led the work on the detailed proof. He credits lattice theorists Maarten Golterman, Andreas Kronfeld and Yigal Shamir with checking the proof and asking probing questions.
 
 ## The caveats
 
-Craig calls the result a candidate definition and says it is "much more a beginning than an end". He writes that experts still need to decide whether it has all the properties physicists want, that it is an answer in principle rather than a practical tool for simulations, and that he is still examining a property called reflection positivity.
+Craig calls the result a candidate definition and says it is more a starting point than a finished answer. He writes that experts still need to decide whether it has all the properties physicists want, that it is an answer in principle rather than a practical tool for simulations, and that he is still examining a property called reflection positivity.
 
 ## Our read
 
