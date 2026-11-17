@@ -1,0 +1,25 @@
+{
+  "date": "2026-11-17",
+  "aspect_ratio": "16:9",
+  "credit": "Image: AI Headline Hub",
+  "licence": "AI Headline Hub",
+  "notes": "1280x720 photorealistic hero from image-bank.",
+  "images": [
+    {
+      "article": "isomorphic-labs-5-billion-series-c-greenoaks-sequoia",
+      "slug": "isomorphic-labs-5-billion-series-c-greenoaks-sequoia",
+      "role": "hero",
+      "master_path": "src/assets/photos/stories/isomorphic-labs-5-billion-series-c-greenoaks-sequoia.jpg",
+      "bank_source": "/workspace/image-bank/ai-news/scientist-protein-monitor.png",
+      "alt": "Scientist seen from behind at a microscope beside an abstract protein structure on a monitor, no faces, logos or readable text"
+    },
+    {
+      "article": "hugging-face-inference-providers-switch-to-openrouter-routing",
+      "slug": "hugging-face-inference-providers-switch-to-openrouter-routing",
+      "role": "hero",
+      "master_path": "src/assets/photos/stories/hugging-face-inference-providers-switch-to-openrouter-routing.jpg",
+      "bank_source": "/workspace/image-bank/ai-news/patch-cables-switch.png",
+      "alt": "Colourful network patch cables plugged into a switch, macro, no logos or readable text"
+    }
+  ]
+}
