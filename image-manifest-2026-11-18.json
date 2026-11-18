@@ -1,0 +1,25 @@
+{
+  "date": "2026-11-18",
+  "aspect_ratio": "16:9",
+  "credit": "Image: AI Headline Hub",
+  "licence": "AI Headline Hub",
+  "notes": "1280x720 photorealistic hero from image-bank.",
+  "images": [
+    {
+      "article": "openai-gpt-6-2-astra-sol-launch-altman-ultrafast",
+      "slug": "openai-gpt-6-2-astra-sol-launch-altman-ultrafast",
+      "role": "hero",
+      "master_path": "src/assets/photos/stories/openai-gpt-6-2-astra-sol-launch-altman-ultrafast.jpg",
+      "bank_source": "/workspace/image-bank/ai-news/chatbot-laptop-night.png",
+      "alt": "Person seen from behind using a chat assistant on a laptop at night, no faces, logos or readable text"
+    },
+    {
+      "article": "microsoft-mai-licensed-weights-azure-ignite-2026",
+      "slug": "microsoft-mai-licensed-weights-azure-ignite-2026",
+      "role": "hero",
+      "master_path": "src/assets/photos/stories/microsoft-mai-licensed-weights-azure-ignite-2026.jpg",
+      "bank_source": "/workspace/image-bank/ai-news/foggy-datacenter-campus.png",
+      "alt": "Foggy hyperscale data centre campus beside a river, no people, logos or readable text"
+    }
+  ]
+}
