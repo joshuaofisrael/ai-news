@@ -28,6 +28,14 @@
       "master_path": "src/assets/photos/stories/openai-models-amd-gpu-14-percent-ppa-jalapeno-chip-design.jpg",
       "bank_source": "/workspace/image-bank/ai-news/processor-chip-macro.png",
       "alt": "Macro photo of a processor chip on a circuit board, no logos or readable text"
+    },
+    {
+      "article": "openai-agents-finish-half-of-research-tasks-researchers-spend-2400-a-day",
+      "slug": "openai-agents-finish-half-of-research-tasks-researchers-spend-2400-a-day",
+      "role": "hero",
+      "master_path": "src/assets/photos/stories/openai-agents-finish-half-of-research-tasks-researchers-spend-2400-a-day.jpg",
+      "bank_source": "/workspace/image-bank/ai-news/whiteboard-team.png",
+      "alt": "Researchers seen from behind at a whiteboard covered in abstract diagrams, no readable text"
     }
   ]
 }
