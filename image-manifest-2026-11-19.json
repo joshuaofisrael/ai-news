@@ -20,6 +20,14 @@
       "master_path": "src/assets/photos/stories/openai-embedded-safety-assessors-critics-access.jpg",
       "bank_source": "/workspace/image-bank/ai-news/engineer-flashlight-racks.png",
       "alt": "Engineer seen from behind inspecting server racks with a flashlight, no faces, logos or readable text"
+    },
+    {
+      "article": "openai-models-amd-gpu-14-percent-ppa-jalapeno-chip-design",
+      "slug": "openai-models-amd-gpu-14-percent-ppa-jalapeno-chip-design",
+      "role": "hero",
+      "master_path": "src/assets/photos/stories/openai-models-amd-gpu-14-percent-ppa-jalapeno-chip-design.jpg",
+      "bank_source": "/workspace/image-bank/ai-news/processor-chip-macro.png",
+      "alt": "Macro photo of a processor chip on a circuit board, no logos or readable text"
     }
   ]
 }
