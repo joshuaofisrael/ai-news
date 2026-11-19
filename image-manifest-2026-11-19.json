@@ -1,0 +1,25 @@
+{
+  "date": "2026-11-19",
+  "aspect_ratio": "16:9",
+  "credit": "Image: AI Headline Hub",
+  "licence": "AI Headline Hub",
+  "notes": "1280x720 photorealistic hero from image-bank.",
+  "images": [
+    {
+      "article": "google-gemini-4-neon-launch-price-benchmarks",
+      "slug": "google-gemini-4-neon-launch-price-benchmarks",
+      "role": "hero",
+      "master_path": "src/assets/photos/stories/google-gemini-4-neon-launch-price-benchmarks.jpg",
+      "bank_source": "/workspace/image-bank/ai-news/startup-office-rain-night.png",
+      "alt": "Empty office at night with glowing monitors and rain on the windows, no people, logos or readable text"
+    },
+    {
+      "article": "openai-embedded-safety-assessors-critics-access",
+      "slug": "openai-embedded-safety-assessors-critics-access",
+      "role": "hero",
+      "master_path": "src/assets/photos/stories/openai-embedded-safety-assessors-critics-access.jpg",
+      "bank_source": "/workspace/image-bank/ai-news/engineer-flashlight-racks.png",
+      "alt": "Engineer seen from behind inspecting server racks with a flashlight, no faces, logos or readable text"
+    }
+  ]
+}
