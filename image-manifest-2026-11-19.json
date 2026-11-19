@@ -36,6 +36,14 @@
       "master_path": "src/assets/photos/stories/openai-agents-finish-half-of-research-tasks-researchers-spend-2400-a-day.jpg",
       "bank_source": "/workspace/image-bank/ai-news/whiteboard-team.png",
       "alt": "Researchers seen from behind at a whiteboard covered in abstract diagrams, no readable text"
+    },
+    {
+      "article": "perplexity-brain-writes-its-own-agent-skills-80000-personal-skills",
+      "slug": "perplexity-brain-writes-its-own-agent-skills-80000-personal-skills",
+      "role": "hero",
+      "master_path": "src/assets/photos/stories/perplexity-brain-writes-its-own-agent-skills-80000-personal-skills.jpg",
+      "bank_source": "/workspace/image-bank/ai-news/headset-chat-monitor.png",
+      "alt": "Desk with an empty headset and abstract chat bubble graphics on a monitor, no people, logos or readable text"
     }
   ]
 }
