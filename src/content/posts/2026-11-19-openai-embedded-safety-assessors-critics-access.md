@@ -1,8 +1,8 @@
 ---
 title: OpenAI lets outside safety assessors inside, but critics say it is far from 'employee-like access'
 description: Staff from four safety groups will work as embedded assessors. Researchers say their access is narrow, with no internal Slack and limits on which OpenAI employees they can talk to.
-date: '2026-11-19T14:20:00.000Z'
-updated: '2026-11-19T14:20:00.000Z'
+date: '2026-11-19T14:10:00.000Z'
+updated: '2026-11-19T14:10:00.000Z'
 category: policy-regulation
 tags:
   - openai

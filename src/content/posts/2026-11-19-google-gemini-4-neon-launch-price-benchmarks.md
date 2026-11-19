@@ -1,8 +1,8 @@
 ---
 title: Google's Gemini 4 Neon lands between Carbon and Hydrogen, at $3 per million input tokens
 description: Sundar Pichai announced the model on X. Google says Neon ranks third on the Artificial Analysis Intelligence Index and costs 32% less per task than Carbon at its default setting.
-date: '2026-11-19T14:30:00.000Z'
-updated: '2026-11-19T14:30:00.000Z'
+date: '2026-11-19T14:15:00.000Z'
+updated: '2026-11-19T14:15:00.000Z'
 category: models-research
 tags:
   - google
