@@ -1,0 +1,33 @@
+{
+  "date": "2026-11-20",
+  "aspect_ratio": "16:9",
+  "credit": "Image: AI Headline Hub",
+  "licence": "AI Headline Hub",
+  "notes": "1280x720 photorealistic hero from image-bank.",
+  "images": [
+    {
+      "article": "genie-4-gemini-api-developers-build-playable-worlds-720p-native-audio",
+      "slug": "genie-4-gemini-api-developers-build-playable-worlds-720p-native-audio",
+      "role": "hero",
+      "master_path": "src/assets/photos/stories/genie-4-gemini-api-developers-build-playable-worlds-720p-native-audio.jpg",
+      "bank_source": "/workspace/image-bank/ai-news/vr-headset-silhouette.png",
+      "alt": "Silhouette of a person wearing a VR headset by a window, face not visible, no logos or readable text"
+    },
+    {
+      "article": "openai-gpt-live-1-1-voice-api-standby-price-cut-accents",
+      "slug": "openai-gpt-live-1-1-voice-api-standby-price-cut-accents",
+      "role": "hero",
+      "master_path": "src/assets/photos/stories/openai-gpt-live-1-1-voice-api-standby-price-cut-accents.jpg",
+      "bank_source": "/workspace/image-bank/ai-news/podcast-mic-waveform.png",
+      "alt": "Studio microphone in front of a screen showing an abstract audio waveform, no people, logos or readable text"
+    },
+    {
+      "article": "meta-muse-chrome-extension-200000-users-sidebar-agent-email",
+      "slug": "meta-muse-chrome-extension-200000-users-sidebar-agent-email",
+      "role": "hero",
+      "master_path": "src/assets/photos/stories/meta-muse-chrome-extension-200000-users-sidebar-agent-email.jpg",
+      "bank_source": "/workspace/image-bank/ai-news/startup-office-rain-night.png",
+      "alt": "Empty startup office at night with rain on the windows and glowing monitors, no people, logos or readable text"
+    }
+  ]
+}
