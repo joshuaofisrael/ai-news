@@ -2,13 +2,14 @@
 title: Meta introduces Spaces, custom mini-experiences built by describing them in Muse
 description: Meta launched spaces in its Muse app on 6 November, letting users describe an idea such as a gift tracker or word game and have Muse build it as a reusable custom experience.
 date: '2026-11-08T12:20:00.000Z'
-updated: '2026-11-08T12:20:00.000Z'
+updated: '2026-11-20T16:30:00.000Z'
 category: tools-products
 tags:
   - meta
   - muse
   - ai-agents
   - consumer-ai
+  - agents
 author: AI Headline Hub
 draft: false
 image:
@@ -41,3 +42,5 @@ Meta says spaces are available from launch everywhere Muse is available. It is a
 ## What remains to be tested
 
 The announcement is Meta's own description of the feature. It does not give usage figures, and how reliably a described idea turns into a working tool will only become clear as people use it. The shift it signals is that Meta is putting app-like customisation in front of ordinary users, rather than keeping it to developer tools.
+
+On 20 November 2026 Meta's chief AI officer said a Muse extension for Chrome was already in use. This desk's [later story](/2026/11/20/meta-muse-chrome-extension-200000-users-sidebar-agent-email/) reports that post, which put the number at 200,000. Spaces, above, are custom tools inside the Muse app. The extension is a sidebar in the browser. [What is an AI agent?](/explainers/what-is-an-ai-agent/) is the definition page for the word. Both Muse files are in [tools and products](/category/tools-products/).

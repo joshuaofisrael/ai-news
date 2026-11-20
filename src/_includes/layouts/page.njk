@@ -7,7 +7,42 @@ layout: layouts/base.njk
   {% if dek %}
     <p class="deck">{{ dek }}</p>
   {% endif %}
-  <div class="{{ "page-body" if wide else "prose" }}">
-    {{ content | safe }}
-  </div>
+  {% if midReads and midReads.length %}
+    {% set parts = content | splitProse %}
+    <div class="{{ "page-body" if wide else "prose" }}">
+      {{ parts.before | safe }}
+    </div>
+    <section class="thread" aria-labelledby="mid-reads-heading">
+      <h2 id="mid-reads-heading">Related reporting</h2>
+      {% set cards = collections.posts | postsBySlug(midReads) %}
+      {% include "partials/story-cards.njk" %}
+    </section>
+    {% if parts.after %}
+      <div class="{{ "page-body" if wide else "prose" }}">
+        {{ parts.after | safe }}
+      </div>
+    {% endif %}
+  {% else %}
+    <div class="{{ "page-body" if wide else "prose" }}">
+      {{ content | safe }}
+    </div>
+  {% endif %}
+  {% if nextReads and nextReads.length %}
+    <section class="thread" aria-labelledby="next-reads-heading">
+      <h2 id="next-reads-heading">Newest related stories</h2>
+      {% set cards = collections.posts | postsBySlug(nextReads) %}
+      {% include "partials/story-cards.njk" %}
+    </section>
+  {% endif %}
+  {% if compare and compare.links %}
+    <aside class="compare-box">
+      <h2>{{ compare.heading or "Check another" }}</h2>
+      {% if compare.note %}<p>{{ compare.note }}</p>{% endif %}
+      <ul>
+        {% for item in compare.links %}
+          <li><a href="{{ item.href }}">{{ item.label }}</a></li>
+        {% endfor %}
+      </ul>
+    </aside>
+  {% endif %}
 </div>
