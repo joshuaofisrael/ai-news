@@ -25,8 +25,16 @@ layout: layouts/base.njk
       <p><strong>Correction.</strong> {{ correction }}</p>
     </aside>
   {% endif %}
+  {% set parts = content | splitProse %}
+  {% set paths = collections.posts | readingPaths(page.url) %}
+  {% set hubs = topicHubs | hubsFor(tags, page.url) %}
+  {% set guides = explainerPages | explainersFor(tags) %}
   <div class="prose">
-    {{ content | safe }}
+    {{ parts.before | safe }}
+  </div>
+  {% include "partials/thread.njk" %}
+  <div class="prose">
+    {% if parts.after %}{{ parts.after | safe }}{% endif %}
     <p class="report-note">This report is not legal, financial, or health advice. See the <a href="/disclaimer/">disclaimer</a>.</p>
   </div>
   {% if sources and sources.length %}
@@ -53,37 +61,11 @@ layout: layouts/base.njk
       {% endfor %}
     </ul>
   </section>
-  {% set hubs = topicHubs | hubsFor(tags, page.url) %}
-  {% set guides = explainerPages | explainersFor(tags) %}
-  {% if hubs.length or guides.length %}
-    <section class="related" aria-labelledby="topic-pages-heading">
-      <h2 id="topic-pages-heading">Topics and explainers</h2>
-      <ul class="tag-list">
-        {% for hub in hubs %}
-          <li><a href="/topics/{{ hub.slug }}/">{{ hub.title }}</a></li>
-        {% endfor %}
-        {% for guide in guides %}
-          <li><a href="{{ guide.href }}">{{ guide.title }}</a></li>
-        {% endfor %}
-      </ul>
-    </section>
-  {% endif %}
-  {% set more = collections.posts | moreStories(page.url) %}
-  {% if more.length %}
+  {% if paths.more.length %}
     <section class="related" aria-labelledby="more-heading">
       <h2 id="more-heading">More stories</h2>
-      <ul class="story-list">
-        {% for post in more %}
-          <li>
-            {% set level = 3 %}
-            {% set showDeck = false %}
-            {% set showImage = true %}
-            {% set loading = "lazy" %}
-            {% set fetchpriority = false %}
-            {% include "partials/story.njk" %}
-          </li>
-        {% endfor %}
-      </ul>
+      {% set cards = paths.more %}
+      {% include "partials/story-cards.njk" %}
     </section>
   {% endif %}
 </article>

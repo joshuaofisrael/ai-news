@@ -7,7 +7,25 @@ schemaKind: Article
 tags:
   - page
 date: 2026-10-25T20:30:00.000Z
-updated: 2026-10-27T14:15:00.000Z
+updated: 2026-11-20T16:30:00.000Z
+midReads:
+  - hassabis-moves-agi-estimate-closer
+  - nature-comment-ai-not-conscious
+  - deepmind-economics-of-intelligence
+nextReads:
+  - genie-4-world-model
+  - isomorphic-labs-5-billion-series-c-greenoaks-sequoia
+  - genie-4-gemini-api-developers-build-playable-worlds-720p-native-audio
+compare:
+  heading: Check another definition
+  note: A language model is a training description. An agent is a way of letting a model take steps. Neither is the charter's test for AGI.
+  links:
+    - label: What is a large language model?
+      href: /explainers/what-is-a-large-language-model/
+    - label: What is an AI agent?
+      href: /explainers/what-is-an-ai-agent/
+    - label: Google and DeepMind reporting
+      href: /topics/google-deepmind/
 dek: Three published meanings of AGI. They are not interchangeable, and none of them is a statute.
 breadcrumbs:
   - name: Home
@@ -36,6 +54,8 @@ sources:
 
 AGI is short for artificial general intelligence. Labs and researchers publish different definitions, and a sentence that uses the word often leaves out which one. This page lines up three written meanings and links them. It does not pick a winner, and it does not predict a date.
 
+The OpenAI charter, the DeepMind paper, and the Mint page carrying the Wall Street Journal profile were re-read on 20 November 2026. The sentences quoted below still match those pages. A later product launch is not treated here as a new definition.
+
 {% figure "/images/stories/hassabis-agi-timeline.webp", "A dim study at night with an empty chair, a chessboard, and a notebook, lit by a single desk lamp.", "An empty study. The picture does not depict a real person, a real interview, or a scheduled launch." %}
 
 ## OpenAI’s charter: most economically valuable work
@@ -60,6 +80,16 @@ Demis Hassabis, in a Wall Street Journal Magazine profile by Ben Cohen published
 
 In that interview he says he now expects AGI in two to three years, closer than the three-to-five-year range he was using earlier in 2026. He tells Cohen, “It’s soon. I’m updating nearer and nearer.” Cohen also describes a test Hassabis uses: a system trained only on what humans knew up to 1901, asked to produce Einstein’s 1905 work. Those lines are his forecast and his illustration, not a Google ship date. The profile does not present a benchmark table or a roadmap entry.
 
+## Later files, not new definitions
+
+Three stories filed after this page first went up use the same words. None of them replaces the three documents above.
+
+On 29 October 2026, DeepMind researchers Alex Imas, Andrew Koh, and Shane Legg posted an essay that sorts AI into four economic regimes, one of them named minimal AGI. This desk's [story](/2026/10/31/deepmind-economics-of-intelligence/) stays inside that essay. The regime is their model of coordination and skill. It is not the charter's test, and it is not the 2024 paper's grid.
+
+The same week, this desk filed a [Genie 4 preview](/2026/10/29/genie-4-world-model/). That file is about a world-model demo. It is not a new definition of AGI. On 19 November 2026 Google made Genie 4 available to developers through the Gemini API, which this desk [reported the next day](/2026/11/20/genie-4-gemini-api-developers-build-playable-worlds-720p-native-audio/). Availability is not a claim that the model meets any definition on this page.
+
+On 17 November 2026 Hassabis announced funding for Isomorphic Labs. The [story](/2026/11/17/isomorphic-labs-5-billion-series-c-greenoaks-sequoia/) is a $5 billion Series C for biology models and programmes heading toward trials. It does not revise the two-to-three-year forecast in the October profile.
+
 ## A nearby word that is not this one
 
 A [Nature comment](https://www.nature.com/articles/d41586-026-03313-7) by Anil Seth, Ned Block, and Giulio Tononi argues that today’s AI is not conscious. The [story on that comment](/2026/10/23/nature-comment-ai-not-conscious/) treats it as an argument, not a new experiment. Consciousness is not the charter’s economic test, not the DeepMind paper’s performance grid, and not Hassabis’s 1905 illustration. A system could be called AGI under one of those three meanings without anyone having settled whether it is conscious. This page does not take up that argument.
@@ -68,7 +98,7 @@ A [Nature comment](https://www.nature.com/articles/d41586-026-03313-7) by Anil S
 
 Opinion: the three meanings above ask different questions. OpenAI’s charter asks whether a highly autonomous system beats humans at most valuable work. The DeepMind paper asks where a system sits on a grid of skill and breadth, and it refused a single finish line. Hassabis, in one interview, is offering a brain-wide cognitive bar, a personal test, and a shortened forecast. A headline that says AGI is “two to three years away” is reporting his forecast. It is not reporting that the charter’s bar has been met, and it is not a result from the 2024 paper.
 
-Related pages: [OpenAI reporting](/topics/openai/), [Google and DeepMind reporting](/topics/google-deepmind/), [What is a large language model?](/explainers/what-is-a-large-language-model/), [What is an AI agent?](/explainers/what-is-an-ai-agent/), and the [Hassabis story](/2026/10/23/hassabis-moves-agi-estimate-closer/). A large language model, on that page, is a training description. An agent, in the product posts on this site, is a way of letting a model take steps. Neither is the same claim as AGI.
+Related pages: [OpenAI reporting](/topics/openai/), [Google and DeepMind reporting](/topics/google-deepmind/), [What is a large language model?](/explainers/what-is-a-large-language-model/), [What is an AI agent?](/explainers/what-is-an-ai-agent/), the [Hassabis story](/2026/10/23/hassabis-moves-agi-estimate-closer/), the [economics essay](/2026/10/31/deepmind-economics-of-intelligence/), and the [Genie 4 preview](/2026/10/29/genie-4-world-model/). A large language model, on that page, is a training description. An agent, in the product posts on this site, is a way of letting a model take steps. Neither is the same claim as AGI.
 
 This page is general information, not a forecast and not investment or research advice. See the [disclaimer](/disclaimer/).
 

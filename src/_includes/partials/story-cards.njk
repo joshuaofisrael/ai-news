@@ -1,0 +1,14 @@
+{% if cards and cards.length %}
+<ul class="story-list">
+  {% for post in cards %}
+    <li>
+      {% set level = 3 %}
+      {% set showDeck = false %}
+      {% set showImage = true %}
+      {% set loading = "lazy" %}
+      {% set fetchpriority = false %}
+      {% include "partials/story.njk" %}
+    </li>
+  {% endfor %}
+</ul>
+{% endif %}

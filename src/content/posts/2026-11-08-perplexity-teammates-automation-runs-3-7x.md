@@ -2,7 +2,7 @@
 title: Perplexity CEO says Teammates automation runs grew 3.7x on day two
 description: Aravind Srinivas said on 7 November 2026 that automation runs on Perplexity Teammates, the personal work agents launched on 5 November, grew 3.7 times from launch day to day two.
 date: '2026-11-08T13:30:00.000Z'
-updated: '2026-11-08T13:30:00.000Z'
+updated: '2026-11-20T16:30:00.000Z'
 category: tools-products
 tags:
   - perplexity
@@ -51,3 +51,5 @@ In a [separate post on 7 November](https://x.com/AravSrinivas/status/21191163782
 The 3.7x figure is Perplexity's own usage metric, shared by its CEO. It compares only the first two days, and Perplexity has not published the absolute number of runs or users. A rise from a small launch-day base is common for any new feature, so the figure says more about early momentum than about long-term adoption.
 
 What it does show is where Perplexity is steering: from answering questions towards agents that carry out ongoing work. The primary record is Srinivas's [usage post](https://x.com/AravSrinivas/status/2119211310424654034) and his [launch announcement](https://x.com/AravSrinivas/status/2118388400730591469).
+
+A later post from Srinivas, reported here on [15 November](/2026/11/15/perplexity-teammate-11x-agent-hours-srinivas/), uses a different yardstick. He said Teammate agent hours per week were 11 times a September baseline, up from 7 times the week before, and he was describing Perplexity's own staff. That story treats both figures as his claims, not as a published dataset. Perplexity calls the product an agent. [What is an AI agent?](/explainers/what-is-an-ai-agent/) is how labs use that word, and both Teammates files are on the [AI agent hub](/topics/ai-agents/).

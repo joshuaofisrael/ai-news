@@ -1,0 +1,32 @@
+<section class="thread" aria-labelledby="background-heading">
+  <h2 id="background-heading">Background</h2>
+  {% if paths.background.length %}
+    <p class="section-note">Earlier stories on this thread.</p>
+    {% set cards = paths.background %}
+    {% include "partials/story-cards.njk" %}
+  {% else %}
+    <p class="section-note">No earlier story on this site shares this thread.</p>
+  {% endif %}
+  {% if hubs.length or guides.length %}
+    <ul class="tag-list">
+      {% for hub in hubs %}
+        <li><a href="/topics/{{ hub.slug }}/">{{ hub.title }}</a></li>
+      {% endfor %}
+      {% for guide in guides %}
+        <li><a href="{{ guide.href }}">{{ guide.title }}</a></li>
+      {% endfor %}
+    </ul>
+  {% endif %}
+</section>
+<section class="thread" aria-labelledby="follow-up-heading">
+  <h2 id="follow-up-heading">What happened next</h2>
+  {% if paths.followUp.length %}
+    <p class="section-note">Later stories on this thread.</p>
+    {% set cards = paths.followUp %}
+    {% include "partials/story-cards.njk" %}
+  {% elif hubs.length %}
+    <p class="section-note">No later story on this thread is on the site yet. New files are listed on <a href="/topics/{{ hubs[0].slug }}/">{{ hubs[0].title }}</a>.</p>
+  {% else %}
+    <p class="section-note">No later story on this thread is on the site yet. The <a href="/archive/">archive</a> is where later files land.</p>
+  {% endif %}
+</section>

@@ -41,6 +41,24 @@ function publishMs(post) {
   return when ? when.getTime() : 0;
 }
 
+const VOID_TAGS = new Set(["area", "base", "br", "col", "embed", "hr", "img", "input", "link", "meta", "source", "track", "wbr"]);
+
+function balancedHtml(html) {
+  const stack = [];
+  const re = /<\/?([a-zA-Z][\w:-]*)\b[^>]*>/g;
+  let match;
+  while ((match = re.exec(html))) {
+    const tag = match[1].toLowerCase();
+    if (VOID_TAGS.has(tag) || /\/>$/.test(match[0])) continue;
+    if (match[0].startsWith("</")) {
+      if (!stack.length || stack.pop() !== tag) return false;
+    } else {
+      stack.push(tag);
+    }
+  }
+  return stack.length === 0;
+}
+
 function byNewestPublish(a, b) {
   const delta = publishMs(b) - publishMs(a);
   if (delta) return delta;
@@ -170,28 +188,69 @@ export default function (eleventyConfig) {
       .slice(0, 3)
       .map((item) => item.post);
   });
-  eleventyConfig.addFilter("moreStories", (posts, url) => {
+  function tagScore(current, post) {
+    const tags = new Set((current.data.tags || []).filter((tag) => tag !== "post" && tag !== "page"));
+    let score = 0;
+    for (const tag of post.data.tags || []) {
+      if (tags.has(tag)) score += 1;
+    }
+    return score;
+  }
+
+  // Background = earlier stories on the same tags. Follow-up = later ones.
+  // Caps stay at 3–4 cards so the mid-article block does not become a second homepage.
+  eleventyConfig.addFilter("readingPaths", (posts, url) => {
     const list = posts || [];
     const current = list.find((post) => post.url === url);
-    const related = current
-      ? list
-          .filter((post) => post.url !== url)
-          .map((post) => {
-            const tags = new Set((current.data.tags || []).filter((tag) => tag !== "post"));
-            let score = post.data.category === current.data.category ? 2 : 0;
-            for (const tag of post.data.tags || []) {
-              if (tags.has(tag)) score += 1;
-            }
-            return { post, score };
-          })
-          .filter((item) => item.score > 0)
-          .sort((a, b) => b.score - a.score || publishMs(b.post) - publishMs(a.post))
-          .map((item) => item.post)
-      : [];
-    const seen = new Set(related.map((post) => post.url));
-    seen.add(url);
-    const filler = list.filter((post) => !seen.has(post.url));
-    return [...related, ...filler].slice(0, 3);
+    if (!current) return { background: [], followUp: [], more: [] };
+    const now = publishMs(current);
+    const ranked = list
+      .filter((post) => post.url !== url)
+      .map((post) => ({ post, score: tagScore(current, post) }));
+    const related = ranked.filter((item) => item.score >= 1);
+    let background = related
+      .filter((item) => publishMs(item.post) < now)
+      .sort((a, b) => b.score - a.score || publishMs(b.post) - publishMs(a.post))
+      .map((item) => item.post);
+    let followUp = related
+      .filter((item) => publishMs(item.post) > now)
+      .sort((a, b) => b.score - a.score || publishMs(a.post) - publishMs(b.post))
+      .map((item) => item.post);
+    if (background.length && followUp.length) {
+      background = background.slice(0, 2);
+      followUp = followUp.slice(0, 2);
+    } else {
+      background = background.slice(0, 3);
+      followUp = followUp.slice(0, 3);
+    }
+    const used = new Set([url, ...background.map((post) => post.url), ...followUp.map((post) => post.url)]);
+    const more = ranked
+      .filter((item) => !used.has(item.post.url))
+      .sort((a, b) => b.score - a.score || publishMs(b.post) - publishMs(a.post))
+      .slice(0, 4)
+      .map((item) => item.post);
+    return { background, followUp, more };
+  });
+  eleventyConfig.addFilter("postsBySlug", (posts, slugs) => {
+    const list = posts || [];
+    return (slugs || [])
+      .map((slug) => list.find((post) => String(post.url || "").endsWith(`/${slug}/`)))
+      .filter(Boolean);
+  });
+  eleventyConfig.addFilter("splitProse", (html) => {
+    const source = String(html || "");
+    const marks = [...source.matchAll(/<\/p>/gi)];
+    if (marks.length < 4) return { before: source, after: "" };
+    const target = Math.min(marks.length - 2, Math.max(1, Math.floor(marks.length * 0.4) - 1));
+    const order = [];
+    for (let index = target; index >= 1; index -= 1) order.push(index);
+    for (let index = target + 1; index <= marks.length - 2; index += 1) order.push(index);
+    for (const index of order) {
+      const cut = marks[index].index + marks[index][0].length;
+      const before = source.slice(0, cut);
+      if (balancedHtml(before)) return { before, after: source.slice(cut) };
+    }
+    return { before: source, after: "" };
   });
   eleventyConfig.addFilter("xmlEscapeText", (value) =>
     String(value || "")
