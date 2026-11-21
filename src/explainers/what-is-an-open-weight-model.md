@@ -7,7 +7,27 @@ schemaKind: Article
 tags:
   - page
 date: 2026-10-27T14:15:00.000Z
-updated: 2026-10-27T14:15:00.000Z
+updated: 2026-11-21T16:00:00.000Z
+midReads:
+  - mistral-large-4-open-weights
+  - kimi-k3-1-pro-open-weights-nebius
+  - runway-praxis-1-open-weights-robotics
+  - minimax-h3-image-open-weights
+nextReads:
+  - qwen4-max-preview-token-plan
+  - tencent-hy4-vision-computer-use-release
+  - pika-h3-flex-open-weight-video-model
+  - microsoft-mai-licensed-weights-azure-ignite-2026
+compare:
+  heading: Check another page
+  note: This page is the definition. The tracker is the dated table of named releases. Neither one scores a model.
+  links:
+    - label: AI model release tracker
+      href: /model-releases/
+    - label: What is a large language model?
+      href: /explainers/what-is-a-large-language-model/
+    - label: Open-weight and open-source reporting
+      href: /topics/open-models/
 dek: Two published meanings. Widely available weights are not the same checklist as the Open Source Initiative’s definition of open-source AI.
 breadcrumbs:
   - name: Home
@@ -37,7 +57,9 @@ sources:
     publisher: The Linux Foundation
 ---
 
-“Open-weight” and “open source” are not interchangeable labels for an AI model. One is about whether the public can obtain the numbers the model learned. The other, in the Open Source Initiative’s definition, is a longer checklist. This page lines up a 2024 U.S. Commerce Department report and that definition, then shows how two recent stories on this site use the nearby words. It does not grade a named product.
+“Open-weight” and “open source” are not interchangeable labels for an AI model. One is about whether the public can obtain the numbers the model learned. The other, in the Open Source Initiative’s definition, is a longer checklist. This page lines up a 2024 U.S. Commerce Department report and that definition, then shows how stories on this site use the nearby words. It does not grade a named product.
+
+The NTIA glossary, the report’s background section, the report summary, and the Open Source Initiative’s version 1.0 were re-read on 21 November 2026. The definitions below still match those pages. The Cohere post and the Linux Foundation press release linked further down still resolve. Newer releases are listed after the definitions. They are not scored against either checklist.
 
 {% figure "/images/stories/linux-foundation-ai-survey.webp", "A wooden desk with two monitors showing blurred code, a stack of sticky notes, and an empty chair.", "A desk with blurred code. The picture illustrates this page. It does not show a model release, a lab, or a real event." %}
 
@@ -51,9 +73,9 @@ That short name is narrower than everyday speech. In this report, “foundation 
 
 The report’s [background section](https://www.ntia.gov/programs-and-initiatives/artificial-intelligence/open-model-weights-report/background) says the weights are what training sets. An input goes in, and those numbers shape the output. It then contrasts a public weight release with a system that people can use only through a website or an API. In the API case, the report says, the user sends an input and receives an output and does not hold the weights.
 
-The same section states three consequences of a wide release, as the authors see them. People can change the weights outside the developer’s original plan, including by fine-tuning, and the report says that can include removing safeguards and passing the result on. The developer, the report says, gives up the ability to take the weights back from someone who already has a copy, and gives up a direct view of what that copy is used for. People can also run the model on computers they control, so a prompt need not be sent to the company that trained it. The report treats that last point as both a confidentiality benefit and a limit on monitoring. This page does not add a risk finding of its own. The report’s conclusion, on the summary page, is that the evidence it had in July 2024 was not enough to say that restrictions on such releases were warranted, and not enough to say restrictions would never be appropriate.
+The same section states three consequences of a wide release, as the authors see them. People can change the weights outside the developer’s original plan, including by fine-tuning, and the report says that can include removing safeguards and passing the result on. The developer, the report says, gives up the ability to rescind access once someone already has a copy, and gives up a direct view of what that copy is used for. The third consequence is that people can run inference on computing they provide. The report says that computing may be a local machine or computing bought from a cloud service. The same passage treats local inference as a confidentiality benefit, because a prompt need not go to the company, and as a limit on monitoring, compared with a model that only answers through an API or a website. This page does not add a risk finding of its own. The report’s conclusion, on the summary page, is that the evidence it had in July 2024 was not enough to say that restrictions on such releases were warranted, and not enough to say restrictions would never be appropriate.
 
-The background section also says openness is not one switch. Weights, code, training data, and documentation can each be shared or withheld, and a license can add rules that are hard to enforce. It names model cards as one way to describe a model even when the weights stay closed. A downloadable weight file is one point on that range. It is not, in the report’s own telling, the whole range.
+The background section, under the heading “The Spectrum of Model Openness,” says developers can release models with varying levels of openness. Weights, code, training or fine-tuning data, and documentation can each be shared through more than one channel, and a licence can add use and redistribution rules that the report says can be hard to enforce. It names model cards as one way to describe a model even when the weights stay closed. A downloadable weight file is one point on that range. It is not, in the report’s own telling, the whole range.
 
 ## What the Open Source Initiative requires
 
@@ -75,11 +97,17 @@ The Linux Foundation’s survey, announced in an [October 20, 2026 press release
 
 [What is a large language model?](/explainers/what-is-a-large-language-model/) is the training description those product names often sit on. Releasing, or withholding, the weights does not change that description.
 
+## Releases filed since the last check
+
+The [AI model release tracker](/model-releases/) is the dated table of maker, date, context window and licence, taken from each lab’s own page and checked on 21 November 2026. That page is where a named release belongs. This one stays on the two definitions.
+
+Stories filed since 27 October 2026 that use these words include [Mistral’s release of the Mistral Large 4 weights](/2026/10/30/mistral-large-4-open-weights/), [Moonshot’s Kimi K3.1 Pro weights](/2026/11/04/kimi-k3-1-pro-open-weights-nebius/), [Runway’s Praxis-1 weights](/2026/11/12/runway-praxis-1-open-weights-robotics/), [MiniMax’s H3-Image weights](/2026/11/12/minimax-h3-image-open-weights/), [Alibaba’s Qwen4-Max preview](/2026/11/12/qwen4-max-preview-token-plan/), and [Tencent’s Hy4 announcement](/2026/11/04/tencent-hy4-vision-computer-use-release/). [Pika’s H3 Flex](/2026/11/01/pika-h3-flex-open-weight-video-model/) is a video model with published weights. [Microsoft’s MAI plan](/2026/11/18/microsoft-mai-licensed-weights-azure-ignite-2026/) is a proposal to license weights inside a customer’s own Azure tenant, which is a different arrangement from a public download. The [open-weight hub](/topics/open-models/) lists the files. None of those links is a score against the NTIA glossary or against OSI’s version 1.0.
+
 ## This desk’s reading
 
 Opinion: in the NTIA report, the open-weight question is whether the parameters are public. In OSI’s version 1.0, “open source” is a further list: freedoms to use, study, modify, and share, plus data information and code as well as weights. A headline can use one phrase and satisfy neither document. This page does not score Qwen, or any other named model, against either checklist.
 
-Related pages: the [open-weight and open-source hub](/topics/open-models/), the [AI safety hub](/topics/ai-safety/), the [Cohere story](/2026/10/27/cohere-qwen-sandbox-report/), the [Linux Foundation story](/2026/10/23/linux-foundation-ai-open-source-survey/), and [What is a large language model?](/explainers/what-is-a-large-language-model/).
+Related pages: the [AI model release tracker](/model-releases/), the [open-weight and open-source hub](/topics/open-models/), the [AI safety hub](/topics/ai-safety/), the [Cohere story](/2026/10/27/cohere-qwen-sandbox-report/), the [Linux Foundation story](/2026/10/23/linux-foundation-ai-open-source-survey/), and [What is a large language model?](/explainers/what-is-a-large-language-model/).
 
 This page is general information, not legal, purchasing, or security advice. See the [disclaimer](/disclaimer/).
 

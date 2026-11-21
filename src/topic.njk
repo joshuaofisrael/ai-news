@@ -13,6 +13,7 @@ permalink: "/topics/{{ topic.slug }}/"
   <p class="deck">{{ topic.description }}</p>
   <div class="prose">
     {{ topic.intro | markdown | safe }}
+    <p>Release dates, context windows and licence wording for major models are in the <a href="/model-releases/">AI model release tracker</a>. The same rows are in a <a href="/data/ai-model-releases.csv">CSV</a>.</p>
   </div>
   {% if stories.length %}
     <h2 class="section-title">Stories</h2>
