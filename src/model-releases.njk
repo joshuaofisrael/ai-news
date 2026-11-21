@@ -1,0 +1,147 @@
+---
+layout: layouts/page.njk
+title: "AI model release tracker: date, context window and licence"
+description: "Which major AI models launched, and on what licence? A sourced table of dates and context windows, checked 21 Nov 2026."
+permalink: /model-releases/
+schemaKind: Article
+tags:
+  - page
+date: 2026-11-21T16:00:00.000Z
+updated: 2026-11-21T16:00:00.000Z
+author: AI Headline Hub
+dek: Twelve releases re-read on 21 November 2026. A blank means the lab’s own page did not say it.
+midReads:
+  - google-gemini-4-neon-launch-price-benchmarks
+  - openai-gpt-6-2-astra-sol-launch-altman-ultrafast
+  - gemini-4-hydrogen-fast-model-launch
+  - anthropic-fable-mythos-5-2-models
+nextReads:
+  - kimi-k3-1-pro-open-weights-nebius
+  - mistral-large-4-open-weights
+  - runway-praxis-1-open-weights-robotics
+  - gpt-6-1-terra
+compare:
+  heading: Check another page
+  note: The tracker is a dated table. The explainers define the words the table uses. Neither page ranks a model or tells you which one to buy.
+  links:
+    - label: What is an open-weight model?
+      href: /explainers/what-is-an-open-weight-model/
+    - label: What is a large language model?
+      href: /explainers/what-is-a-large-language-model/
+    - label: Open-weight and open-source reporting
+      href: /topics/open-models/
+    - label: OpenAI reporting
+      href: /topics/openai/
+breadcrumbs:
+  - name: Home
+    url: /
+  - name: Model releases
+    url: /model-releases/
+sources:
+  - title: Introducing Gemini 4 Neon
+    url: https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/
+    publisher: Google
+  - title: Introducing GPT-6.2 Astra and Sol
+    url: https://openai.com/index/introducing-gpt-6-2-astra-sol/
+    publisher: OpenAI
+  - title: GPT-6.2 system card
+    url: https://deploymentsafety.openai.com/gpt-6-2-astra-sol
+    publisher: OpenAI
+  - title: Introducing Gemini 4 Hydrogen
+    url: https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/
+    publisher: Google
+  - title: qwen4-max-preview
+    url: https://www.alibabacloud.com/help/en/model-studio/qwen4-max-preview
+    publisher: Alibaba Cloud
+  - title: Praxis-1 Is Now Available
+    url: https://runway.com/news/company-news/praxis-1-is-now-available
+    publisher: Runway
+  - title: Introducing Claude Fable 5.2 and Claude Mythos 5.2
+    url: https://www.anthropic.com/claude-fable-and-mythos-5-2
+    publisher: Anthropic
+  - title: GPT-6 Cyber
+    url: https://openai.com/index/introducing-gpt-6-cyber
+    publisher: OpenAI
+  - title: Kimi K3.1 Pro model card
+    url: https://huggingface.co/moonshotai/Kimi-K3.1-Pro
+    publisher: Moonshot AI
+  - title: Tencent launches Hy4
+    url: https://www.tencent.com/tencent-launches-hy4-joining-the-ranks-of-the-worlds-leading-open-source-ai-models/
+    publisher: Tencent
+  - title: Mistral Large 4 is now open weight
+    url: https://mistral.ai/news/mistral-large-4-oss/
+    publisher: Mistral
+  - title: Mistral Large 4 model page
+    url: https://docs.mistral.ai/models/mistral-large-4
+    publisher: Mistral
+  - title: Introducing Gemini 4 Carbon
+    url: https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/
+    publisher: Google
+  - title: Introducing GPT-6.1 Terra
+    url: https://openai.com/index/introducing-gpt-6-1-terra
+    publisher: OpenAI
+  - title: GPT-6.1 Terra system card
+    url: https://deploymentsafety.openai.com/gpt-6-1-terra
+    publisher: OpenAI
+---
+<p>This is a lookup table, not a ranking and not a buying guide. It records twelve major model releases whose own announcements were re-read on 21 November 2026. Each row keeps four fields that a citation actually needs: who released the model, the date on the lab’s page, the context window if that page states one, and the licence if that page names one. Prices and benchmark scores are left out on purpose. Both move, and a number copied from a launch post goes stale faster than the licence does.</p>
+<p>A cell that says “Not stated” is not a zero and it is not a guess. It means the page linked from that row did not give the field when it was read. A second page is linked only when the date or the context window comes from somewhere other than the announcement, and that second page is named in the note. The wording in the licence column is the lab’s description. It is not this desk’s reading of whether the terms meet the <a href="/explainers/what-is-an-open-weight-model/">Open Source Initiative’s definition of open-source AI</a>, and it is not legal advice.</p>
+<p>The rows sit next to the reporting that already quotes these posts. <a href="/topics/openai/">OpenAI</a>, <a href="/topics/anthropic/">Anthropic</a>, <a href="/topics/google-deepmind/">Google and DeepMind</a>, and the <a href="/topics/open-models/">open-weight hub</a> collect the stories. <a href="/explainers/what-is-a-large-language-model/">What is a large language model?</a> is the training term behind most of the product names. A world model, a speech model, or a weights file this desk has covered but did not re-open on 21 November is not in the table. Absence from the table is not a judgment that the release was small.</p>
+<p>The same twelve rows are in a <a href="/data/ai-model-releases.csv">CSV download</a>. On a phone the table scrolls sideways. The short citation is under the table.</p>
+<div class="table-scroll">
+  <table class="release-table">
+    <caption>Major AI model releases re-read on 21 November 2026, newest first. Context window and licence are quoted from the linked lab page.</caption>
+    <thead>
+      <tr>
+        <th scope="col">Model</th>
+        <th scope="col">Maker</th>
+        <th scope="col">Date</th>
+        <th scope="col">Context window</th>
+        <th scope="col">Licence</th>
+        <th scope="col">Announcement</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for row in modelReleases.rows %}
+      <tr>
+        <th scope="row">{{ row.model }}</th>
+        <td>{{ row.maker }}</td>
+        <td>
+          <time datetime="{{ row.date }}">{{ row.dateLabel }}</time>
+          <span class="cell-note">{{ row.dateNote }}</span>
+        </td>
+        <td>
+          {{ row.context }}
+          <span class="cell-note">{{ row.contextNote }}</span>
+        </td>
+        <td>
+          {{ row.licence }}
+          <span class="cell-note">{{ row.licenceNote }}</span>
+        </td>
+        <td>
+          <a href="{{ row.announcementUrl }}" rel="noopener noreferrer">{{ row.announcementTitle }}</a>
+          {% if row.extraUrl %}
+          <span class="cell-note"><a href="{{ row.extraUrl }}" rel="noopener noreferrer">{{ row.extraTitle }}</a></span>
+          {% endif %}
+          <span class="cell-note"><a href="{{ row.storyPath }}">{{ row.storyTitle }}</a></span>
+        </td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+</div>
+<h2>What the blanks show</h2>
+<p>The useful comparison is not which model scored higher. It is which labs published the two fields a reader needs in order to cite the release, and which left them off the page.</p>
+<p>Google’s Hydrogen post of 12 November and Neon post of 18 November each state a 1 million token window. Hydrogen also states an output cap of up to 1 million tokens. Carbon’s announcement of 28 October does not, and the later post that says Carbon is available does not add one. None of the three Google posts names a licence or says the weights can be downloaded.</p>
+<p>OpenAI’s Terra, Cyber, and GPT-6.2 posts likewise do not state a context window or a licence name. Two of the dates are not on the product post at all. Terra’s system card says it was published on 26 October 2026. The GPT-6.2 system card says it was published on 17 November 2026. The Cyber announcement itself is dated 5 November 2026, and it limits first access to approved Daybreak Red customers. Those are access facts from OpenAI’s pages, not a finding about what the model can do.</p>
+<p>Anthropic’s 9 November announcement says Claude Fable 5.2 and Claude Mythos 5.2 are the same underlying model, with Fable on general sale and Mythos behind verification programs. It names the API id <code>claude-fable-5-2</code>. It does not state a context window or a licence, and it does not say the weights are released.</p>
+<p>The rows that do name a licence are the ones that also hand out a file. Mistral’s 29 October weights post calls the terms a modified MIT licence, the Mistral Ecosystem Open-Weight licence, and it adds one condition: a business that offers the model as a service needs a separate commercial licence. Moonshot’s model card says Kimi K3.1 Pro is under the Kimi K3.1 Pro License and lists a context length of 1,048,576 tokens. Runway’s 11 November post says Praxis-1’s weights and the code to run and fine-tune them are under Apache 2.0, including commercial use. The page does not give a text context window. It describes a 27-billion-parameter action model, which is a different specification.</p>
+<p>Two rows are easy to misread from the headline alone. Tencent’s 4 November Hy4 post uses “open-source” in the headline and then says the weights and system cards are planned for the coming days. It does not name a licence and it does not give a token count. Alibaba’s Qwen4-Max-Preview page, last updated 16 November, lists a context length of 1 million tokens and does not name a licence. It dates the preview from 11 November through 25 November 2026 (UTC+8), and the same page says a production Qwen4-Max is available and recommended. This table does not turn that sentence into a second row, because the page does not give the production model its own date, context window, or licence.</p>
+<h2>Cite this</h2>
+<div class="cite-box">
+  <p>AI Headline Hub, “AI model release tracker: date, context window and licence,” 21 November 2026, <a href="/model-releases/">https://aiheadlinehub.com/model-releases/</a>. Context windows and licences are the labs’ own statements on the linked pages, checked that day. The desk did not re-run the models. The <a href="/data/ai-model-releases.csv">CSV</a> has the same rows.</p>
+</div>
+<h2>What was left out</h2>
+<p>A launch price is not in the table even when the lab printed one. The <a href="/editorial-policy/">editorial policy</a> on this site is to label a vendor figure as the vendor’s, and prices on these pages have already been revised inside a single product family. A score on someone else’s index is left out for the same reason. Where a story on this site reports one, the link in the last column goes to that story and to the lab post it cites.</p>
+<p>The table is also not a census. It stops at releases whose primary page was open on 21 November 2026 and whose maker, date, and announcement could be tied to that page. Genie 4, NVIDIA’s Nemotron Transcribe, Pika H3 Flex, MiniMax H3-Image, and Microsoft’s MAI weights plan are covered as stories and are not rows here. The next edit should add a row only when a new lab page has been read, and it should change a cell only when that page has changed. The date at the top of this page moves when that happens, not when the site is rebuilt.</p>
+<p>Maintained by AI Headline Hub. General information, not purchasing, security, or legal advice. See the <a href="/disclaimer/">disclaimer</a>.</p>

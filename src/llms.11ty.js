@@ -36,6 +36,14 @@ export function render(data) {
     lines.push(`- [${topic.title}](${absoluteUrl(`/topics/${topic.slug}/`, site.url)}): ${topic.description}`);
   }
   lines.push("");
+  lines.push("## Data", "");
+  lines.push(
+    `- [AI model release tracker](${absoluteUrl("/model-releases/", site.url)}): Dated table of major AI model releases. Maker, date, context window and licence, each cell taken from the lab's own page.`,
+  );
+  lines.push(
+    `- [AI model releases CSV](${absoluteUrl("/data/ai-model-releases.csv", site.url)}): The same rows as a CSV download.`,
+  );
+  lines.push("");
   lines.push("## Explainers", "");
   lines.push(`- [Explainers](${absoluteUrl("/explainers/", site.url)}): Evergreen definitions with named sources.`);
   for (const guide of data.explainerPages || []) {
