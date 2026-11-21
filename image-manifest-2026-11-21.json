@@ -1,0 +1,25 @@
+{
+  "date": "2026-11-21",
+  "aspect_ratio": "16:9",
+  "credit": "Image: AI Headline Hub",
+  "licence": "AI Headline Hub",
+  "notes": "1280x720 photorealistic hero from image-bank.",
+  "images": [
+    {
+      "article": "openai-adversarial-distillation-defenses-reasoning-extraction-54-to-0-2-percent",
+      "slug": "openai-adversarial-distillation-defenses-reasoning-extraction-54-to-0-2-percent",
+      "role": "hero",
+      "master_path": "src/assets/photos/stories/openai-adversarial-distillation-defenses-reasoning-extraction-54-to-0-2-percent.jpg",
+      "bank_source": "/workspace/image-bank/ai-news/glowing-key.png",
+      "alt": "Single glowing key on a dark keyboard with soft bokeh, no people, logos or readable text"
+    },
+    {
+      "article": "trump-xi-agree-humans-must-stay-in-military-ai-decisions-bessent",
+      "slug": "trump-xi-agree-humans-must-stay-in-military-ai-decisions-bessent",
+      "role": "hero",
+      "master_path": "src/assets/photos/stories/trump-xi-agree-humans-must-stay-in-military-ai-decisions-bessent.jpg",
+      "bank_source": "/workspace/image-bank/ai-news/rooftop-dishes-dawn.png",
+      "alt": "Rooftop satellite dishes and antennas over a city at dawn, no people, logos or readable text"
+    }
+  ]
+}
