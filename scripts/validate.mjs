@@ -240,7 +240,8 @@ for (const file of htmlFiles) {
   if (/<script[^>]+googletagmanager\.com/i.test(html)) fail(`${rel} loads gtag.js directly instead of after consent`);
   if (!/gtag\('consent','default',\{ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied',analytics_storage:'denied'/.test(html)) fail(`${rel} is missing Consent Mode v2 default-denied`);
   if (!html.includes('consent.js" data-ga="G-V3LFT40PLN"')) fail(`${rel} is missing the GA4 consent loader`);
-  if (!html.includes("adsbygoogle.js?client=ca-pub-5681559774142917")) fail(`${rel} lost the AdSense tag`);
+  // AdSense detached 21 Nov 2026 until the account is approved (see seo-central/site-seo-rules.md). Do not re-add.
+  if (html.includes("adsbygoogle.js") || html.includes("google-adsense-account")) fail(`${rel} has the AdSense tag; it stays off until this site is active in seo-central/adsense-queue.md`);
 
   const allBlocks = [...html.matchAll(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/g)];
   const faqBlocks = allBlocks.filter((b) => /"@type":"FAQPage"/.test(b[1]));
